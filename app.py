@@ -21,7 +21,10 @@ with open('prediction_output.json', 'r') as f:
 
 # --- Prepare the DataFrame ---
 df = pd.DataFrame(data['predictions'])
-
+df = df.reset_index(drop=True)  # Reset old index
+df['Rank'] = df.index + 1
+df = df[['Rank', 'Gene', 'Score']]
+'''
 # --- Page setup ---
 st.set_page_config(page_title="Predictions Dashboard", layout="centered")
 
@@ -45,6 +48,26 @@ st.text_input("Search by gene:", key="search_query", on_change=filter_df)
 # --- Display dataframe ---
 st.dataframe(
     st.session_state.display_df.style.format({
+        "Score": "{:.2f}"
+    })
+)
+'''
+
+# --- Page setup ---
+st.set_page_config(page_title="Dynamic Search Example", layout="centered")
+
+# --- Search input ---
+search_query = st.text_input("Search by gene:")
+
+# --- Filter based on input live ---
+if search_query:
+    filtered_df = df[df['Gene'].str.contains(search_query, case=False, na=False)]
+else:
+    filtered_df = df
+
+# --- Show filtered DataFrame ---
+st.dataframe(
+    filtered_df.style.format({
         "Score": "{:.2f}"
     })
 )
