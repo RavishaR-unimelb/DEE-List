@@ -29,7 +29,7 @@ else:
 
 # --- Display the table ---
 st.dataframe(
-    df.style.format({
+    filtered_df.style.format({
         "Score": "{:.2f}"
     })
 )
