@@ -13,14 +13,23 @@ df = pd.DataFrame(data['predictions'])
 st.set_page_config(page_title="Predictions Dashboard", layout="centered")
 
 # --- Header ---
-st.title("Predictions Overview")
+st.title("Top DEE Gene Predictions")
 
 # --- Show last updated time ---
 st.caption(f"**Last Updated:** {data['updated']}")
 
+# --- Search bar ---
+search_query = st.text_input("Search by gene:")
+
+# --- Filter DataFrame based on search ---
+if search_query:
+    filtered_df = df[df['Gene'].str.contains(search_query, case=False, na=False)]
+else:
+    filtered_df = df
+
 # --- Display the table ---
 st.dataframe(
     df.style.format({
-        "confidence": "{:.2f}"
-    }).background_gradient(subset=['confidence'], cmap='Greens')
+        "Score": "{:.2f}"
+    })
 )

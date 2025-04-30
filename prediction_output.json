@@ -1,7 +1,15 @@
 {
-    "predictions": [
-      {"label": "cat", "confidence": 0.93},
-      {"label": "dog", "confidence": 0.89}
-    ],
-    "updated": "2025-04-14 12:00:00"
-  }
+  "predictions": [
+    {"Gene": "Gene A", "Score": 0.93},
+    {"Gene": "Gene B", "Score": 0.89},
+    {"Gene": "Gene C", "Score": 0.87},
+    {"Gene": "Gene D", "Score": 0.85},
+    {"Gene": "Gene E", "Score": 0.82},
+    {"Gene": "Gene F", "Score": 0.80},
+    {"Gene": "Gene G", "Score": 0.78},
+    {"Gene": "Gene H", "Score": 0.76},
+    {"Gene": "Gene I", "Score": 0.74},
+    {"Gene": "Gene J", "Score": 0.72}
+  ],
+  "updated": "2025-05-30 12:00:00"
+}
