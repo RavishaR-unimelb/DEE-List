@@ -19,7 +19,7 @@ st.title("Top DEE Gene Predictions")
 st.caption(f"**Last Updated:** {data['updated']}")
 
 # --- Search bar ---
-search_query = st.text_input("Search by gene:")
+search_query = st.text_input("Search by gene:", key="search")
 
 # --- Filter DataFrame based on search ---
 if search_query:
