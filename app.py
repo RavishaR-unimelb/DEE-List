@@ -1,18 +1,26 @@
 import streamlit as st
-import requests
+import pandas as pd
+import json
 
-RAW_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/prediction-streamlit-app/main/prediction_output.json"
+# --- Load JSON data ---
+with open('prediction_output.json', 'r') as f:
+    data = json.load(f)
 
-st.title("ML Prediction Viewer")
+# --- Prepare the DataFrame ---
+df = pd.DataFrame(data['predictions'])
 
-try:
-    response = requests.get(RAW_URL)
-    response.raise_for_status()
-    data = response.json()
-    
-    st.markdown(f"**Last Updated:** `{data['updated']}`")
-    st.write("### Predictions")
-    st.json(data['predictions'])
+# --- Page setup ---
+st.set_page_config(page_title="Predictions Dashboard", layout="centered")
 
-except Exception as e:
-    st.error(f"Failed to fetch predictions: {e}")
+# --- Header ---
+st.title("Predictions Overview")
+
+# --- Show last updated time ---
+st.caption(f"**Last Updated:** {data['updated']}")
+
+# --- Display the table ---
+st.dataframe(
+    df.style.format({
+        "confidence": "{:.2f}"
+    }).background_gradient(subset=['confidence'], cmap='Greens')
+)
