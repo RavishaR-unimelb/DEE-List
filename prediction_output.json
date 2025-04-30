@@ -1,0 +1,7 @@
+{
+    "predictions": [
+      {"label": "cat", "confidence": 0.93},
+      {"label": "dog", "confidence": 0.89}
+    ],
+    "updated": "2025-04-14 12:00:00"
+  }
