@@ -24,34 +24,6 @@ df = pd.DataFrame(data['predictions'])
 df = df.reset_index(drop=True)  # Reset old index
 df['Rank'] = df.index + 1
 df = df[['Rank', 'Gene', 'Score']]
-'''
-# --- Page setup ---
-st.set_page_config(page_title="Predictions Dashboard", layout="centered")
-
-# --- Header ---
-st.title("Top DEE Gene Predictions")
-
-# --- Show last updated time ---
-st.caption(f"**Last Updated:** {data['updated']}")
-
-##################################
-
-# --- Initialize session state ---
-if 'search_query' not in st.session_state:
-    st.session_state.search_query = ''
-if 'display_df' not in st.session_state:
-    st.session_state.display_df = df
-
-# --- Search bar with on_change callback ---
-st.text_input("Search by gene:", key="search_query", on_change=filter_df)
-
-# --- Display dataframe ---
-st.dataframe(
-    st.session_state.display_df.style.format({
-        "Score": "{:.2f}"
-    })
-)
-'''
 
 # --- Page setup ---
 st.set_page_config(page_title="Dynamic Search Example", layout="centered")
