@@ -31,6 +31,13 @@ st.set_page_config(page_title="Predictions Dashboard", layout="centered")
 # --- Header ---
 st.title("Top DEE Gene Predictions")
 
+st.markdown(
+    "This dashboard displays the top predicted DEE genes based on the "
+    "latest model outputs. The displayed list of genes are obtained by training "
+    "the model for both AD and AR DEE genes. For the ranked list obtained for "
+    "using only AR DEE and only AD DEE genes: [Only AR DEE](), [Only AD DEE]()"
+)
+
 # --- Show last updated time ---
 st.caption(f"**Last Updated:** {data['updated']}")
 
