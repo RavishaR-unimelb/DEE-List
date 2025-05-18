@@ -25,6 +25,11 @@ df = df.reset_index(drop=True)  # Reset old index
 df['Rank'] = df.index + 1
 df = df[['Rank', 'Gene', 'Score']]
 
+def make_gene_link(gene_name):
+    return f"[{gene_name}](/Gene_Explanation?gene={gene_name.replace(' ', '_')})"
+
+df['Gene'] = df['Gene'].apply(make_gene_link)
+
 # --- Page setup ---
 st.set_page_config(page_title="Predictions Dashboard", layout="centered")
 
@@ -59,4 +64,9 @@ st.dataframe(
         "Score": "{:.2f}"
     })
     .hide(axis="index")
+)
+
+st.markdown(
+    st.session_state.display_df.to_html(escape=False, index=False),
+    unsafe_allow_html=True
 )
