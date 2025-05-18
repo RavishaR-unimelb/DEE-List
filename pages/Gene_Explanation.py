@@ -18,7 +18,7 @@ if gene_name:
         col1, col2 = st.columns([3, 1])  # Wider graph, narrower legend
 
         with col1:
-            st.components.v1.html(open(f"imgaes/{display_name}.html", "r").read(), height=800, scrolling=True)
+            st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=800, scrolling=True)
 
         with col2:
             st.image(image_path, caption="Edge Type Legend")
