@@ -27,7 +27,9 @@ df = df[['Rank', 'Gene', 'Score']]
 
 # --- Convert gene names to clickable links ---
 def make_gene_link(gene_name):
-    return f"[{gene_name}](/Gene_Explanation?gene={gene_name.replace(' ', '_')})"
+    url_safe_name = gene_name.replace(' ', '_')
+    return f'<a href="/Gene_Explanation?gene={url_safe_name}">{gene_name}</a>'
+
 
 df['Gene'] = df['Gene'].apply(make_gene_link)
 

@@ -3,7 +3,7 @@ from urllib.parse import parse_qs
 import os
 
 # Get query parameters
-query_params = st.experimental_get_query_params()
+query_params = st.query_params()
 gene_name = query_params.get("gene", [None])[0]
 
 if gene_name:
