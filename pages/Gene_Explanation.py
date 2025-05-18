@@ -15,7 +15,7 @@ if gene_name:
     if os.path.exists(image_path):
         #st.image(image_path, caption=f"Explanation for {display_name}")
         # --- Layout with two columns ---
-        col1, col2 = st.columns([3, 2])  # Wider graph, narrower legend
+        col1, col2 = st.columns([3, 3])  
 
         with col1:
             st.image(image_path)
