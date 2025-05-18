@@ -21,10 +21,11 @@ with open('prediction_output.json', 'r') as f:
 
 # --- Prepare the DataFrame ---
 df = pd.DataFrame(data['predictions'])
-df = df.reset_index(drop=True)  # Reset old index
+df = df.reset_index(drop=True)
 df['Rank'] = df.index + 1
 df = df[['Rank', 'Gene', 'Score']]
 
+# --- Convert gene names to clickable links ---
 def make_gene_link(gene_name):
     return f"[{gene_name}](/Gene_Explanation?gene={gene_name.replace(' ', '_')})"
 
@@ -32,8 +33,6 @@ df['Gene'] = df['Gene'].apply(make_gene_link)
 
 # --- Page setup ---
 st.set_page_config(page_title="Predictions Dashboard", layout="centered")
-
-# --- Header ---
 st.title("Top DEE Gene Predictions")
 
 st.markdown(
@@ -43,7 +42,6 @@ st.markdown(
     "using only AR DEE and only AD DEE genes: [Only AR DEE](/only_ar_dee), [Only AD DEE](/only_ad_dee)"
 )
 
-# --- Show last updated time ---
 st.caption(f"**Last Updated:** {data['updated']}")
 
 ##################################
@@ -57,16 +55,12 @@ if 'display_df' not in st.session_state:
 # --- Search bar with on_change callback ---
 st.text_input("Search by gene:", key="search_query", on_change=filter_df)
 
-# --- Display dataframe ---
-st.dataframe(
-    st.session_state.display_df.style
-    .format({
-        "Score": "{:.2f}"
-    })
-    .hide(axis="index")
-)
+# --- Format score values ---
+styled_df = st.session_state.display_df.copy()
+styled_df["Score"] = styled_df["Score"].map("{:.2f}".format)
 
+# --- Display HTML table with clickable gene links ---
 st.markdown(
-    st.session_state.display_df.to_html(escape=False, index=False),
+    styled_df.to_html(escape=False, index=False),
     unsafe_allow_html=True
 )
