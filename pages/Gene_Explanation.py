@@ -6,6 +6,8 @@ import os
 query_params = st.query_params
 gene_name = query_params.get("gene", None)
 
+st.set_page_config(page_title="Explanations Dashboard", layout="centered", initial_sidebar_state="collapsed", menu_items={'Home': None})
+
 if gene_name:
     #display_name = gene_name.replace('_', ' ')
     display_name = gene_name
