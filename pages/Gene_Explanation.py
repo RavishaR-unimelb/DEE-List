@@ -18,16 +18,27 @@ if gene_name:
         col1, col2 = st.columns([3, 3])  
 
         with col1:
+            st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
             st.image(image_path)
+            st.markdown("</div>", unsafe_allow_html=True)
 
         with col2:
+            st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
             st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=800, scrolling=True)
+            st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("No image found for this gene.")
 else:
     st.error("No gene specified in the URL.")
 
 
-
+hide_sidebar_style = """
+    <style>
+        [data-testid="stSidebar"] {
+            display: none;
+        }
+    </style>
+"""
+st.markdown(hide_sidebar_style, unsafe_allow_html=True)
 
 
