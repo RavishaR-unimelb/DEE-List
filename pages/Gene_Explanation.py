@@ -21,7 +21,7 @@ if gene_name:
 
         with st.container():
             st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
-            st.image(image_path)
+            st.image(image_path, width=300)
             st.markdown("</div>", unsafe_allow_html=True)
 
         with st.container():
