@@ -17,14 +17,14 @@ if gene_name:
     if os.path.exists(image_path):
         #st.image(image_path, caption=f"Explanation for {display_name}")
         # --- Layout with two columns ---
-        col1, col2 = st.columns([3, 3])  
+        #col1, col2 = st.columns([3, 3])  
 
-        with col1:
+        with st.container():
             st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
             st.image(image_path)
             st.markdown("</div>", unsafe_allow_html=True)
 
-        with col2:
+        with st.container():
             st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
             st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=800, scrolling=True)
             st.markdown("</div>", unsafe_allow_html=True)
