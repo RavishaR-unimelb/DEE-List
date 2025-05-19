@@ -34,7 +34,7 @@ def make_gene_link(gene_name):
 df['Gene'] = df['Gene'].apply(make_gene_link)
 
 # --- Page setup ---
-st.set_page_config(page_title="Explanations Dashboard", layout="centered", initial_sidebar_state="collapsed", menu_items={'Home': None})
+st.set_page_config(page_title="Explanations Dashboard", layout="centered", initial_sidebar_state="collapsed")
 st.title("Top DEE Gene Predictions")
 
 st.markdown(
