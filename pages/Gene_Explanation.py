@@ -32,7 +32,7 @@ if gene_name:
 
         with st.container():
             st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.image(image_path)
+            st.image(image_path, width=400)
             st.markdown("</div>", unsafe_allow_html=True)
 
         with st.container():
