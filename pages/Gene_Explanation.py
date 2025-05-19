@@ -7,6 +7,17 @@ query_params = st.query_params
 gene_name = query_params.get("gene", None)
 
 st.set_page_config(page_title="Explanations Dashboard", layout="centered", initial_sidebar_state="collapsed")
+st.markdown("""
+    <style>
+        .block-container {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .element-container {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 if gene_name:
     #display_name = gene_name.replace('_', ' ')
@@ -20,13 +31,13 @@ if gene_name:
         #col1, col2 = st.columns([3, 3])  
 
         with st.container():
-            st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
-            st.image(image_path, width=300)
+            st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
+            st.image(image_path)
             st.markdown("</div>", unsafe_allow_html=True)
 
         with st.container():
-            st.markdown("<div style='display: flex; flex-direction: column; justify-content: flex-start;'>", unsafe_allow_html=True)
-            st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=800, scrolling=True)
+            st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
+            st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=400, scrolling=True)
             st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("No image found for this gene.")
