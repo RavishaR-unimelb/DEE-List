@@ -23,6 +23,9 @@ if gene_name:
     #display_name = gene_name.replace('_', ' ')
     display_name = gene_name
     st.title(f"Explanation for {display_name.replace('_', ' ')}")
+    st.markdown("""
+    This network graph highlights the interactions between genes, with edge types and interaction strengths clearly marked.
+    """)
 
     image_path = f"images/{display_name}_legend.png"
     if os.path.exists(image_path):
@@ -32,12 +35,12 @@ if gene_name:
 
         with st.container():
             st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.image(image_path, width=400)
+            st.image(image_path, width=350)
             st.markdown("</div>", unsafe_allow_html=True)
 
         with st.container():
             st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=400, scrolling=True)
+            st.components.v1.html(open(f"images/{display_name}.html", "r").read(), height=420, scrolling=True)
             st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("No image found for this gene.")
