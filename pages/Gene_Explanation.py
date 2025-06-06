@@ -24,7 +24,11 @@ if gene_name:
     display_name = gene_name
     st.title(f"Explanation for {display_name.replace('_', ' ')}")
     st.markdown("""
-    This network graph highlights the interactions between genes, with edge types and interaction strengths clearly marked.
+    This network visualization illustrates the local interaction landscape of the gene. 
+    Each node represents a gene, with color indicating its annotation (e.g., DEE or Unknown). 
+    Edges denote biological interactions, with distinct colors for edge types (type1, type2, type3), 
+    and numerical labels indicating the strength or importance of each connection. 
+    This graph provides insight into the most influential genes and interactions contributing to the gene's classification.
     """)
 
     image_path = f"images/{display_name}_legend.png"
