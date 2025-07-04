@@ -56,7 +56,7 @@ if gene_name:
             """
         with st.container():
             #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.components.v1.html(styled_html, height=1000, scrolling=False)
+            st.components.v1.html(styled_html, height=1200, scrolling=False)
             st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("No image found for this gene.")
