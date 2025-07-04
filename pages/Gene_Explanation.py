@@ -7,7 +7,7 @@ import base64
 query_params = st.query_params
 gene_name = query_params.get("gene", None)
 
-st.set_page_config(page_title="Explanations Dashboard", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Explanations Dashboard", layout="wide", initial_sidebar_state="collapsed")
 st.markdown("""
     <style>
         .block-container {
