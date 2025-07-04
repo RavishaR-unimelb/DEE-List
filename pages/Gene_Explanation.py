@@ -54,7 +54,7 @@ if gene_name:
             """
         with st.container():
             st.markdown("<div style='display: flex; align-items: left; justify-content: left;'>", unsafe_allow_html=True)
-            st.image(image_path, width=300)
+            st.image(image_path, width=400)
 
             #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
             st.components.v1.html(styled_html, height=1200, width=1200, scrolling=False)
