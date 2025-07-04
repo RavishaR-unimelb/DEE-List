@@ -89,38 +89,6 @@ if gene_name:
         st.components.v1.html(styled_html, height=1200, width=1200, scrolling=False)
 
 
-        
-        #Previous
-        '''
-        styled_html = f"""
-            <style>
-                .border-box {{
-                    border: 2px solid #cccccc;
-                    padding: 10px;
-                    border-radius: 10px;
-                    margin-top: 0px;
-                }}
-            </style>
-            <div class="border-box">
-                {open(f"images/{display_name}.html", "r").read()}
-            </div>
-            """
-       
-        with st.container():
-            st.markdown("<div style='display: flex; align-items: left; justify-content: left;'>", unsafe_allow_html=True)
-            st.image(image_path, width=400)
-
-            #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.components.v1.html(styled_html, height=1200, width=1200, scrolling=False)
-            st.markdown("</div>", unsafe_allow_html=True)
-            
-        
-        '''
-        #with st.container():
-            #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            #st.image(image_path, width=500)
-
-
     else:
         st.warning("No image found for this gene.")
 else:
