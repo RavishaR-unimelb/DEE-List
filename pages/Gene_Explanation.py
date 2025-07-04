@@ -86,7 +86,7 @@ if gene_name:
         """
 
         # Step 4: Render everything
-        st.components.v1.html(styled_html, height=1200, width=1300, scrolling=False)
+        st.components.v1.html(styled_html, height=1300, width=1200, scrolling=False)
 
 
     else:
