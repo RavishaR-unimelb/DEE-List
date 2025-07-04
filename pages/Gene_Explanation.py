@@ -61,12 +61,12 @@ if gene_name:
             st.markdown("</div>", unsafe_allow_html=True)
             
         
-        '''
-        with st.container():
-            st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.image(image_path, width=500)
-            #st.markdown("</div>", unsafe_allow_html=True)
-        '''
+
+        #with st.container():
+            #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
+            #st.image(image_path, width=500)
+
+
     else:
         st.warning("No image found for this gene.")
 else:
