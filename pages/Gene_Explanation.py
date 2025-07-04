@@ -46,8 +46,9 @@ if gene_name:
             <style>
                 .border-box {{
                     border: 2px solid #cccccc;
-                    padding: 2px;
+                    padding: 20px;
                     border-radius: 10px;
+                    margin-top: 0px;
                 }}
             </style>
             <div class="border-box">
@@ -56,7 +57,7 @@ if gene_name:
             """
         with st.container():
             #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
-            st.components.v1.html(styled_html, height=1000, width=1000, scrolling=True)
+            st.components.v1.html(styled_html, height=1200, width=1200, scrolling=False)
             st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("No image found for this gene.")
