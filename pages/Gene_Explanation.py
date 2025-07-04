@@ -1,6 +1,7 @@
 import streamlit as st
 from urllib.parse import parse_qs
 import os
+import base64
 
 # Get query parameters
 query_params = st.query_params
@@ -37,8 +38,60 @@ if gene_name:
         # --- Layout with two columns ---
         #col1, col2 = st.columns([3, 3])  
 
-        
 
+
+        # Step 1: Encode legend image as base64
+        with open(image_path, "rb") as img_file:
+            legend_base64 = base64.b64encode(img_file.read()).decode()
+
+        # Step 2: Read HTML content and inject styles
+        with open(f"images/{display_name}.html", "r") as f:
+            html_content = f.read()
+
+        # Optional: Ensure no extra margin/padding inside embedded HTML
+        html_content = html_content.replace(
+            "<head>",
+            """<head><style>
+                body, html {
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    overflow: hidden !important;
+                }
+                svg {
+                    display: block;
+                    margin: 0 auto;
+                }
+            </style>"""
+        )
+
+        # Step 3: Combine legend image and HTML in one styled container
+        styled_html = f"""
+            <style>
+                .border-box {{
+                    border: 2px solid #cccccc;
+                    padding: 10px;
+                    border-radius: 10px;
+                    margin-top: 0px;
+                    text-align: center;
+                }}
+                .legend-img {{
+                    max-width: 400px;
+                    margin-bottom: 10px;
+                }}
+            </style>
+            <div class="border-box">
+                <img class="legend-img" src="data:image/png;base64,{legend_base64}" alt="Legend">
+                {html_content}
+            </div>
+        """
+
+        # Step 4: Render everything
+        st.components.v1.html(styled_html, height=1200, width=1200, scrolling=False)
+
+
+        
+        #Previous
+        '''
         styled_html = f"""
             <style>
                 .border-box {{
@@ -62,7 +115,7 @@ if gene_name:
             st.markdown("</div>", unsafe_allow_html=True)
             
         
-
+        '''
         #with st.container():
             #st.markdown("<div style='display: flex; align-items: center; justify-content: center;'>", unsafe_allow_html=True)
             #st.image(image_path, width=500)
