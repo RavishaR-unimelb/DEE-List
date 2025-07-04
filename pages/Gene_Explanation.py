@@ -37,21 +37,32 @@ if gene_name:
         # --- Layout with two columns ---
         #col1, col2 = st.columns([3, 3])  
 
+        with open(f"images/{display_name}.html", "r") as f:
+            raw_html = f.read()
+
+        # Inject minimal styling
+        raw_html = raw_html.replace(
+            "<head>",
+            "<head><style>body {{ margin: 0; padding: 0; }}</style>"
+)
+
         
 
         styled_html = f"""
             <style>
                 .border-box {{
                     border: 2px solid #cccccc;
-                    padding: 20px;
+                    padding: 0px;
                     border-radius: 10px;
                     margin-top: 0px;
                 }}
             </style>
             <div class="border-box">
-                {open(f"images/{display_name}.html", "r").read()}
+                {raw_html}
             </div>
-            """
+        """
+       
+       
         with st.container():
             st.markdown("<div style='display: flex; align-items: left; justify-content: left;'>", unsafe_allow_html=True)
             st.image(image_path, width=400)
