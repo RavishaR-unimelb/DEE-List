@@ -1,15 +1,15 @@
 {
   "predictions": [
-    {"Gene": "Gene A", "Score": 0.93},
-    {"Gene": "Gene B", "Score": 0.89},
-    {"Gene": "Gene C", "Score": 0.87},
-    {"Gene": "Gene D", "Score": 0.85},
-    {"Gene": "Gene E", "Score": 0.82},
-    {"Gene": "Gene F", "Score": 0.80},
-    {"Gene": "Gene G", "Score": 0.78},
-    {"Gene": "Gene H", "Score": 0.76},
-    {"Gene": "Gene I", "Score": 0.74},
-    {"Gene": "Gene J", "Score": 0.72}
+    {"Gene": "GABBR1", "Score": 0.938},
+    {"Gene": "NDUFA8", "Score": 0.937},
+    {"Gene": "RAB3A", "Score": 0.932},
+    {"Gene": "CHAMP1", "Score": 0.931},
+    {"Gene": "NDUFA9", "Score": 0.929},
+    {"Gene": "NDUFA12", "Score": 0.927},
+    {"Gene": "TUBA1A", "Score": 0.924},
+    {"Gene": "AIMP2", "Score": 0.923},
+    {"Gene": "THOC6", "Score": 0.920},
+    {"Gene": "TRAPPC2L", "Score": 0.919}
   ],
-  "updated": "2025-05-30 12:00:00"
+  "updated": "2025-07-04 12:00:00"
 }
