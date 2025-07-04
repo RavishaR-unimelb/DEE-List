@@ -46,7 +46,7 @@ if gene_name:
             <style>
                 .border-box {{
                     border: 2px solid #cccccc;
-                    padding: 20px;
+                    padding: 2px;
                     border-radius: 10px;
                 }}
             </style>
