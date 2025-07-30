@@ -75,7 +75,7 @@ if gene_name:
                     text-align: center;
                 }}
                 .legend-img {{
-                    max-width: 900px;
+                    max-width: 600px;
                     margin-bottom: 2px;
                 }}
             </style>
