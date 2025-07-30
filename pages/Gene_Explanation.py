@@ -76,7 +76,7 @@ if gene_name:
                 }}
                 .legend-img {{
                     max-width: 800px;
-                    margin-bottom: 2px;
+                    margin-bottom: 0px;
                 }}
             </style>
             <div class="border-box">
