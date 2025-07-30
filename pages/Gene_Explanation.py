@@ -32,7 +32,7 @@ if gene_name:
     st.markdown(description_text)
 
 
-    image_path = f"images/{display_name}_legend.png"
+    image_path = f"images/{display_name}_legend_v2.png"
     if os.path.exists(image_path):
         #st.image(image_path, caption=f"Explanation for {display_name}")
         # --- Layout with two columns ---
@@ -45,7 +45,7 @@ if gene_name:
             legend_base64 = base64.b64encode(img_file.read()).decode()
 
         # Step 2: Read HTML content and inject styles
-        with open(f"images/{display_name}.html", "r") as f:
+        with open(f"images/{display_name}_v2.html", "r") as f:
             html_content = f.read()
 
         # Optional: Ensure no extra margin/padding inside embedded HTML
