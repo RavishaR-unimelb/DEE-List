@@ -75,7 +75,7 @@ if gene_name:
                     text-align: center;
                 }}
                 .legend-img {{
-                    max-width: 600px;
+                    max-width: 800px;
                     margin-bottom: 2px;
                 }}
             </style>
@@ -86,7 +86,7 @@ if gene_name:
         """
 
         # Step 4: Render everything
-        st.components.v1.html(styled_html, height=1300, width=900, scrolling=False)
+        st.components.v1.html(styled_html, height=1500, width=900, scrolling=False)
 
 
     else:
