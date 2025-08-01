@@ -31,7 +31,7 @@ if gene_name:
         with open(f"descriptions/dee_summary_{display_name}.txt", "r") as f:
             description_text = f.read()
     except FileNotFoundError:
-        description_text = "The gene has no connections to other genes in the data used for the predictive model."
+        description_text = "This gene has no connections to other genes in the data used for the predictive model."
 
     st.markdown(description_text)
 
