@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+AIMP2,0,EIF2B3,1,0.73,Pathway,Gene Expression
+AIMP2,0,EIF2B2,1,0.729,Pathway,Gene Expression
+AIMP2,0,NARS2,1,0.724,Pathway,"tRNA Aminoacylation, Gene Expression"
+AIMP2,0,GATAD2B,1,0.723,Pathway,Gene Expression
+AIMP2,0,EIF2B5,1,0.721,Pathway,Gene Expression
+AIMP2,0,EARS2,1,0.719,Pathway,"tRNA Aminoacylation, Gene Expression"
+AIMP2,0,FARS2,1,0.712,Pathway,"tRNA Aminoacylation, Gene Expression"
+AIMP2,0,RARS2,1,0.709,Pathway,"tRNA Aminoacylation, Gene Expression"
+AIMP2,0,POLR3B,1,0.705,Pathway,Gene Expression
+AIMP2,0,EIF2S3,1,0.705,Pathway,Gene Expression
+AIMP2,0,EFTUD2,1,0.7,Pathway,Gene Expression
+AIMP2,0,HNRNPU,1,0.698,Pathway,Gene Expression
+AIMP2,0,DDX6,0,0.693,Pathway,Gene Expression
+AIMP2,0,AARS2,1,0.688,Pathway,"tRNA Aminoacylation, Gene Expression"
+AIMP2,0,CHD4,1,0.687,Pathway,Gene Expression
+AIMP2,0,NFIX,0,0.685,Pathway,Gene Expression
+AIMP2,0,ADARB1,1,0.684,Pathway,Gene Expression
+AIMP2,0,CREBBP,1,0.684,Pathway,Gene Expression
+AIMP2,0,POLR3A,0,0.681,Pathway,Gene Expression
+AIMP2,0,CARS2,1,0.68,Pathway,"tRNA Aminoacylation, Gene Expression"

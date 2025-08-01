@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBA1A,0,GMPPA,1,0.943,Pathway,Metabolism of proteins
+TUBA1A,0,EIF2B3,1,0.941,Pathway,Metabolism of proteins
+TUBA1A,0,EIF2S3,1,0.94,Pathway,Metabolism of proteins
+TUBA1A,0,EIF2B4,1,0.938,Pathway,Metabolism of proteins
+TUBA1A,0,TBCD,1,0.938,Pathway,"Metabolism of proteins, Post-chaperonin tubulin folding pathway, Protein folding"
+TUBA1A,0,EXOSC3,1,0.935,Pathway,Metabolism of proteins
+TUBA1A,0,DHDDS,1,0.934,Pathway,Metabolism of proteins
+TUBA1A,0,EIF2B2,1,0.934,Pathway,Metabolism of proteins
+TUBA1A,0,RFT1,1,0.932,Pathway,Metabolism of proteins
+TUBA1A,0,PMM2,1,0.932,Pathway,Metabolism of proteins
+TUBA1A,0,PIGP,1,0.932,Pathway,Metabolism of proteins
+TUBA1A,0,HDAC8,1,0.932,Pathway,"Cell Cycle, Cell Cycle, Mitotic"
+TUBA1A,0,CASK,1,0.931,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBA1A,0,DYRK1A,1,0.93,Pathway,"Cell Cycle, Cell Cycle, Mitotic"
+TUBA1A,0,TK2,1,0.93,Pathway,"Cell Cycle, Cell Cycle, Mitotic"
+TUBA1A,0,ALG13,1,0.93,Pathway,Metabolism of proteins
+TUBA1A,0,ALG5,0,0.929,Pathway,Metabolism of proteins
+TUBA1A,0,PIGT,1,0.929,Pathway,Metabolism of proteins
+TUBA1A,0,PIGC,1,0.928,Pathway,Metabolism of proteins
+TUBA1A,0,PIGH,1,0.927,Pathway,Metabolism of proteins

@@ -2,6 +2,7 @@ import streamlit as st
 from urllib.parse import parse_qs
 import os
 import base64
+import pandas as pd
 
 # Get query parameters
 query_params = st.query_params
@@ -87,6 +88,9 @@ if gene_name:
 
         # Step 4: Render everything
         st.components.v1.html(styled_html, height=1500, width=900, scrolling=False)
+
+        df = pd.read_csv(f"tabular/tabular_{display_name}.csv")
+        st.dataframe(df)
 
 
     else:

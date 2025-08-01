@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3A,0,CDKL5,1,0.898,Pathway,BDNF signaling pathway
+RAB3A,0,STXBP1,1,0.897,Pathway,"Acetylcholine Neurotransmitter Release Cycle, Dopamine Neurotransmitter Release Cycle, GABA synthesis, release, reuptake and degradation, Glutamate Neurotransmitter Release Cycle, Neuronal System, Neurotransmitter Release Cycle, Norepinephrine Neurotransmitter Release Cycle, Transmission across Chemical Synapses, Synaptic Vesicle Pathway"
+RAB3A,0,KCNQ2,1,0.892,Pathway,Neuronal System
+RAB3A,0,MEF2C,1,0.891,Pathway,BDNF signaling pathway
+RAB3A,0,GABRA1,1,0.89,Pathway,"Neuronal System, Transmission across Chemical Synapses"
+RAB3A,0,KCNQ5,1,0.89,Pathway,Neuronal System
+RAB3A,0,GABRG2,1,0.886,Pathway,"Neuronal System, Transmission across Chemical Synapses"
+RAB3A,0,GRIA2,1,0.886,Pathway,"Neuronal System, Transmission across Chemical Synapses, BDNF signaling pathway"
+RAB3A,0,SNAP25,1,0.886,Pathway,"Acetylcholine Neurotransmitter Release Cycle, Dopamine Neurotransmitter Release Cycle, GABA synthesis, release, reuptake and degradation, Glutamate Neurotransmitter Release Cycle, Neuronal System, Neurotransmitter Release Cycle, Norepinephrine Neurotransmitter Release Cycle, Transmission across Chemical Synapses, Synaptic Vesicle Pathway"
+RAB3A,0,CACNA1A,1,0.886,Pathway,"Neuronal System, Transmission across Chemical Synapses, Synaptic Vesicle Pathway"
+RAB3A,0,CACNA1E,1,0.883,Pathway,"Neuronal System, Transmission across Chemical Synapses"
+RAB3A,0,KCNQ3,1,0.882,Pathway,Neuronal System
+RAB3A,0,GRIA3,1,0.882,Pathway,"Neuronal System, Transmission across Chemical Synapses, BDNF signaling pathway"
+RAB3A,0,GRIN2B,1,0.88,Pathway,"Neuronal System, Transmission across Chemical Synapses, BDNF signaling pathway"
+RAB3A,0,GRIK2,1,0.88,Pathway,"Neuronal System, Transmission across Chemical Synapses"
+RAB3A,0,IKBKG,1,0.88,Pathway,BDNF signaling pathway
+RAB3A,0,KCNJ2,0,0.879,Pathway,"Neuronal System, Transmission across Chemical Synapses"
+RAB3A,0,KCNH1,1,0.879,Pathway,Neuronal System
+RAB3A,0,CPLX2,0,0.879,Pathway,Synaptic Vesicle Pathway
+RAB3A,0,NAPA,0,0.878,Pathway,Synaptic Vesicle Pathway

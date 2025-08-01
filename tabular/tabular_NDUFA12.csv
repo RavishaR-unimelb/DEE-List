@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NDUFA12,0,MED20,0,0.931,Pathway,Metabolism
+NDUFA12,0,SNAP25,1,0.925,Pathway,Metabolism
+NDUFA12,0,D2HGDH,1,0.917,Pathway,"Metabolism, The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA12,0,IDH1,0,0.917,Pathway,Metabolism
+NDUFA12,0,GCDH,1,0.917,Pathway,Metabolism
+NDUFA12,0,TACO1,0,0.916,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA12,0,CACNA1A,1,0.916,Pathway,Metabolism
+NDUFA12,0,HLCS,1,0.916,Pathway,Metabolism
+NDUFA12,0,SLC22A3,0,0.914,Pathway,Metabolism
+NDUFA12,0,BTD,1,0.914,Pathway,Metabolism
+NDUFA12,0,GPT2,1,0.912,Pathway,Metabolism
+NDUFA12,0,HEXA,1,0.912,Pathway,Metabolism
+NDUFA12,0,MMACHC,1,0.911,Pathway,Metabolism
+NDUFA12,0,NDUFV1,1,0.911,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport, Electron Transport Chain"
+NDUFA12,0,CACNA1E,1,0.91,Pathway,Metabolism
+NDUFA12,0,NSDHL,1,0.909,Pathway,Metabolism
+NDUFA12,0,PCCB,1,0.909,Pathway,Metabolism
+NDUFA12,0,SUCLG1,1,0.909,Pathway,"Metabolism, The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA12,0,MOCS1,1,0.908,Pathway,Metabolism
+NDUFA12,0,NDUFS1,1,0.907,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport, Electron Transport Chain"

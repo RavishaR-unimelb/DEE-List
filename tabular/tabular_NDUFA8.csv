@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NDUFA8,0,STXBP1,1,0.772,Pathway,Metabolism
+NDUFA8,0,ALDH6A1,0,0.763,Pathway,Metabolism
+NDUFA8,0,NDUFV1,1,0.75,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport, Electron Transport Chain, Oxidative phosphorylation"
+NDUFA8,0,SUCLG1,1,0.729,Pathway,"Metabolism, The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA8,0,HLCS,1,0.728,Pathway,Metabolism
+NDUFA8,0,CACNA1E,1,0.725,Pathway,Metabolism
+NDUFA8,0,SNAP25,1,0.725,Pathway,Metabolism
+NDUFA8,0,CACNA1A,1,0.719,Pathway,Metabolism
+NDUFA8,0,PCCB,1,0.717,Pathway,Metabolism
+NDUFA8,0,MOCS1,1,0.716,Pathway,Metabolism
+NDUFA8,0,MED20,0,0.715,Pathway,Metabolism
+NDUFA8,0,GLUL,1,0.704,Pathway,Metabolism
+NDUFA8,0,NDUFS1,1,0.699,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport, Electron Transport Chain, Oxidative phosphorylation"
+NDUFA8,0,NDUFS6,1,0.698,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport, Electron Transport Chain, Oxidative phosphorylation"
+NDUFA8,0,SCO2,1,0.698,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA8,0,GCDH,1,0.694,Pathway,Metabolism
+NDUFA8,0,MMACHC,1,0.69,Pathway,Metabolism
+NDUFA8,0,D2HGDH,1,0.687,Pathway,"Metabolism, The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA8,0,SUCLA2,1,0.686,Pathway,"Metabolism, The citric acid (TCA) cycle and respiratory electron transport"
+NDUFA8,0,TACO1,0,0.682,Pathway,"Metabolism, Respiratory electron transport, Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins., The citric acid (TCA) cycle and respiratory electron transport"
