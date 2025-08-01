@@ -65,7 +65,25 @@ if gene_name:
                     display: block;
                     margin: 0 auto;
                 }
-            </style>"""
+            </style>
+            <script type="text/javascript">
+                document.addEventListener("DOMContentLoaded", function() {
+                    if (window.network) {
+                        // Lock zoom thresholds
+                        const minZoom = 0.5;
+                        const maxZoom = 10;
+                        network.on("zoom", function(params) {
+                            if (params.scale < minZoom) {
+                                network.moveTo({scale: minZoom});
+                            }
+                            if (params.scale > maxZoom) {
+                                network.moveTo({scale: maxZoom});
+                            }
+                        });
+                    }
+                });
+            </script>
+            """
         )
 
         # Step 3: Combine legend image and HTML in one styled container
