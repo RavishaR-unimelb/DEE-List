@@ -92,9 +92,9 @@ if gene_name:
         df = pd.read_csv(f"tabular/tabular_{display_name}.csv")
         df = df.rename(columns={
             "Sender": "Source Gene",
-            "Sender Label": "DEE or Not (Source Gene)",
+            "Sender Label": "Known DEE Gene or Not (Source Gene)",
             "Receiver": "Target Gene",
-            "Receiver Label": "DEE or Not (Target Gene)",
+            "Receiver Label": "Known DEE Gene or Not (Target Gene)",
             "Importance": "Connection Importance",
             "Edge Type": "Connection Type",
             "Pathways": "Pathway Type(s)"
