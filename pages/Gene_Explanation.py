@@ -69,16 +69,12 @@ if gene_name:
             <script type="text/javascript">
                 document.addEventListener("DOMContentLoaded", function() {
                     if (window.network) {
-                        // Lock zoom thresholds
-                        const minZoom = 0.5;
-                        const maxZoom = 10;
-                        network.on("zoom", function(params) {
-                            if (params.scale < minZoom) {
-                                network.moveTo({scale: minZoom});
-                            }
-                            if (params.scale > maxZoom) {
-                                network.moveTo({scale: maxZoom});
-                            }
+                        network.setOptions({
+                            interaction: { zoomView: true },
+                            physics: { enabled: true },
+                            layout: { improvedLayout: true },
+                            // Hard stop zoom limits
+                            view: { minZoom: 0.5, maxZoom: 10 }
                         });
                     }
                 });
