@@ -90,6 +90,15 @@ if gene_name:
         st.components.v1.html(styled_html, height=1500, width=900, scrolling=False)
 
         df = pd.read_csv(f"tabular/tabular_{display_name}.csv")
+        df = df.rename(columns={
+            "Sender": "Source Gene",
+            "Sender Label": "DEE or Not (Source Gene)",
+            "Receiver": "Target Gene",
+            "Receiver Label": "DEE or Not (Target Gene)",
+            "Importance": "Connection Importance",
+            "Edge Type": "Connection Type",
+            "Pathways": "Pathway Type(s)"
+        })
         st.dataframe(df)
 
 
