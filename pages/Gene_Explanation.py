@@ -99,7 +99,8 @@ if gene_name:
             "Edge Type": "Connection Type",
             "Pathways": "Pathway Type(s)"
         })
-        st.dataframe(df)
+        #st.dataframe(df)
+        st.data_editor(df, use_container_width=True, height=600)
 
 
     else:
