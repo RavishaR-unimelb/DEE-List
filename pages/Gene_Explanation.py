@@ -69,12 +69,18 @@ if gene_name:
             <script type="text/javascript">
                 document.addEventListener("DOMContentLoaded", function() {
                     if (window.network) {
-                        network.setOptions({
-                            interaction: { zoomView: true },
-                            physics: { enabled: true },
-                            layout: { improvedLayout: true },
-                            // Hard stop zoom limits
-                            view: { minZoom: 1, maxZoom: 10 }
+                        const MIN_ZOOM = 0.5;
+                        const MAX_ZOOM = 10;
+
+                        // Intercept zoom events and block beyond thresholds
+                        network.on("zoom", function(params) {
+                            if (params.scale < MIN_ZOOM) {
+                                params.scale = MIN_ZOOM;
+                                network.moveTo({ scale: MIN_ZOOM });
+                            } else if (params.scale > MAX_ZOOM) {
+                                params.scale = MAX_ZOOM;
+                                network.moveTo({ scale: MAX_ZOOM });
+                            }
                         });
                     }
                 });
