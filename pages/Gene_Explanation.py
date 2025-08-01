@@ -27,8 +27,11 @@ if gene_name:
     st.title(f"Explanation for {display_name.replace('_', ' ')}")
 
     # Summary
-    with open(f"descriptions/dee_summary_{display_name}.txt", "r") as f:
-        description_text = f.read()
+    try:
+        with open(f"descriptions/dee_summary_{display_name}.txt", "r") as f:
+            description_text = f.read()
+    except:
+        description_text = "The gene has no connections to other genes in the data used for the predictive model."
 
     st.markdown(description_text)
 
