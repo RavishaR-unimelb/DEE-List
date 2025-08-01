@@ -74,7 +74,7 @@ if gene_name:
                             physics: { enabled: true },
                             layout: { improvedLayout: true },
                             // Hard stop zoom limits
-                            view: { minZoom: 0.5, maxZoom: 10 }
+                            view: { minZoom: 1, maxZoom: 10 }
                         });
                     }
                 });
