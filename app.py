@@ -59,7 +59,7 @@ st.text_input("Search by gene:", key="search_query", on_change=filter_df)
 
 # --- Format score values ---
 styled_df = st.session_state.display_df.copy()
-styled_df["Score"] = styled_df["Score"].map("{:.2f}".format)
+styled_df["Score"] = styled_df["Score"].map("{:.3f}".format)
 
 # --- Display HTML table with clickable gene links ---
 st.markdown(
