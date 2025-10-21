@@ -1,15 +1,405 @@
 {
   "predictions": [
-    {"Gene": "GABBR1", "Score": 0.938},
-    {"Gene": "NDUFA8", "Score": 0.937},
-    {"Gene": "RAB3A", "Score": 0.932},
-    {"Gene": "CHAMP1", "Score": 0.931},
-    {"Gene": "NDUFA9", "Score": 0.929},
-    {"Gene": "NDUFA12", "Score": 0.927},
-    {"Gene": "TUBA1A", "Score": 0.924},
-    {"Gene": "AIMP2", "Score": 0.923},
-    {"Gene": "THOC6", "Score": 0.920},
-    {"Gene": "TRAPPC2L", "Score": 0.919}
+    {
+      "Gene": "GABBR1",
+      "Score": "0.939"
+    },
+    {
+      "Gene": "NDUFA8",
+      "Score": "0.937"
+    },
+    {
+      "Gene": "RAB3A",
+      "Score": "0.932"
+    },
+    {
+      "Gene": "CHAMP1",
+      "Score": "0.931"
+    },
+    {
+      "Gene": "NDUFA9",
+      "Score": "0.929"
+    },
+    {
+      "Gene": "NDUFA12",
+      "Score": "0.927"
+    },
+    {
+      "Gene": "TUBA1A",
+      "Score": "0.925"
+    },
+    {
+      "Gene": "AIMP2",
+      "Score": "0.924"
+    },
+    {
+      "Gene": "THOC6",
+      "Score": "0.921"
+    },
+    {
+      "Gene": "TRAPPC2L",
+      "Score": "0.920"
+    },
+    {
+      "Gene": "ATP8A2",
+      "Score": "0.905"
+    },
+    {
+      "Gene": "IDH1",
+      "Score": "0.893"
+    },
+    {
+      "Gene": "TRAPPC11",
+      "Score": "0.882"
+    },
+    {
+      "Gene": "TACO1",
+      "Score": "0.881"
+    },
+    {
+      "Gene": "SV2A",
+      "Score": "0.880"
+    },
+    {
+      "Gene": "ETFDH",
+      "Score": "0.878"
+    },
+    {
+      "Gene": "TUBB2B",
+      "Score": "0.876"
+    },
+    {
+      "Gene": "CSNK1A1",
+      "Score": "0.872"
+    },
+    {
+      "Gene": "TRNT1",
+      "Score": "0.871"
+    },
+    {
+      "Gene": "TCF20",
+      "Score": "0.860"
+    },
+    {
+      "Gene": "CACNB4",
+      "Score": "0.859"
+    },
+    {
+      "Gene": "QRICH1",
+      "Score": "0.856"
+    },
+    {
+      "Gene": "SMARCD1",
+      "Score": "0.850"
+    },
+    {
+      "Gene": "ATP2B2",
+      "Score": "0.846"
+    },
+    {
+      "Gene": "PTCHD1",
+      "Score": "0.841"
+    },
+    {
+      "Gene": "KDM5B",
+      "Score": "0.839"
+    },
+    {
+      "Gene": "RIN2",
+      "Score": "0.837"
+    },
+    {
+      "Gene": "BRD2",
+      "Score": "0.823"
+    },
+    {
+      "Gene": "COASY",
+      "Score": "0.823"
+    },
+    {
+      "Gene": "SETD2",
+      "Score": "0.823"
+    },
+    {
+      "Gene": "ABHD12",
+      "Score": "0.821"
+    },
+    {
+      "Gene": "NSUN3",
+      "Score": "0.820"
+    },
+    {
+      "Gene": "DLG3",
+      "Score": "0.818"
+    },
+    {
+      "Gene": "DARS2",
+      "Score": "0.816"
+    },
+    {
+      "Gene": "STX1A",
+      "Score": "0.815"
+    },
+    {
+      "Gene": "AK2",
+      "Score": "0.813"
+    },
+    {
+      "Gene": "TUBB4A",
+      "Score": "0.812"
+    },
+    {
+      "Gene": "MTRR",
+      "Score": "0.810"
+    },
+    {
+      "Gene": "NFIX",
+      "Score": "0.805"
+    },
+    {
+      "Gene": "EIF2AK3",
+      "Score": "0.804"
+    },
+    {
+      "Gene": "AHDC1",
+      "Score": "0.801"
+    },
+    {
+      "Gene": "TRAPPC9",
+      "Score": "0.796"
+    },
+    {
+      "Gene": "NDUFB8",
+      "Score": "0.796"
+    },
+    {
+      "Gene": "DOCK3",
+      "Score": "0.794"
+    },
+    {
+      "Gene": "RAB7A",
+      "Score": "0.789"
+    },
+    {
+      "Gene": "DDX23",
+      "Score": "0.789"
+    },
+    {
+      "Gene": "PEX11B",
+      "Score": "0.789"
+    },
+    {
+      "Gene": "RAF1",
+      "Score": "0.788"
+    },
+    {
+      "Gene": "HIBCH",
+      "Score": "0.776"
+    },
+    {
+      "Gene": "NDUFS3",
+      "Score": "0.775"
+    },
+    {
+      "Gene": "PIKFYVE",
+      "Score": "0.774"
+    },
+    {
+      "Gene": "FPGS",
+      "Score": "0.765"
+    },
+    {
+      "Gene": "TSC1",
+      "Score": "0.759"
+    },
+    {
+      "Gene": "MCCC1",
+      "Score": "0.758"
+    },
+    {
+      "Gene": "NDUFAF6",
+      "Score": "0.757"
+    },
+    {
+      "Gene": "BRWD3",
+      "Score": "0.755"
+    },
+    {
+      "Gene": "PGAP1",
+      "Score": "0.754"
+    },
+    {
+      "Gene": "POLR3A",
+      "Score": "0.749"
+    },
+    {
+      "Gene": "COG5",
+      "Score": "0.744"
+    },
+    {
+      "Gene": "TTC37",
+      "Score": "0.743"
+    },
+    {
+      "Gene": "NADSYN1",
+      "Score": "0.739"
+    },
+    {
+      "Gene": "CSNK1D",
+      "Score": "0.722"
+    },
+    {
+      "Gene": "CACNA2D3",
+      "Score": "0.717"
+    },
+    {
+      "Gene": "OGDH",
+      "Score": "0.717"
+    },
+    {
+      "Gene": "CTSA",
+      "Score": "0.717"
+    },
+    {
+      "Gene": "ALDH1L1",
+      "Score": "0.711"
+    },
+    {
+      "Gene": "DLD",
+      "Score": "0.708"
+    },
+    {
+      "Gene": "SLC19A2",
+      "Score": "0.707"
+    },
+    {
+      "Gene": "TAF13",
+      "Score": "0.700"
+    },
+    {
+      "Gene": "MED23",
+      "Score": "0.699"
+    },
+    {
+      "Gene": "GNAL",
+      "Score": "0.695"
+    },
+    {
+      "Gene": "CBS",
+      "Score": "0.695"
+    },
+    {
+      "Gene": "SYT1",
+      "Score": "0.692"
+    },
+    {
+      "Gene": "CCM2",
+      "Score": "0.692"
+    },
+    {
+      "Gene": "EPM2A",
+      "Score": "0.691"
+    },
+    {
+      "Gene": "ALDH18A1",
+      "Score": "0.691"
+    },
+    {
+      "Gene": "GALE",
+      "Score": "0.690"
+    },
+    {
+      "Gene": "SYN2",
+      "Score": "0.686"
+    },
+    {
+      "Gene": "MTFMT",
+      "Score": "0.683"
+    },
+    {
+      "Gene": "RAB6A",
+      "Score": "0.676"
+    },
+    {
+      "Gene": "CWC27",
+      "Score": "0.674"
+    },
+    {
+      "Gene": "ATP1B2",
+      "Score": "0.671"
+    },
+    {
+      "Gene": "NAPA",
+      "Score": "0.665"
+    },
+    {
+      "Gene": "DGUOK",
+      "Score": "0.663"
+    },
+    {
+      "Gene": "DICER1",
+      "Score": "0.654"
+    },
+    {
+      "Gene": "CDK5RAP2",
+      "Score": "0.650"
+    },
+    {
+      "Gene": "RNPC3",
+      "Score": "0.649"
+    },
+    {
+      "Gene": "NDUFA7",
+      "Score": "0.646"
+    },
+    {
+      "Gene": "RALGAPB",
+      "Score": "0.645"
+    },
+    {
+      "Gene": "PDHB",
+      "Score": "0.642"
+    },
+    {
+      "Gene": "NDUFB11",
+      "Score": "0.635"
+    },
+    {
+      "Gene": "PREPL",
+      "Score": "0.634"
+    },
+    {
+      "Gene": "HK1",
+      "Score": "0.634"
+    },
+    {
+      "Gene": "FTSJ1",
+      "Score": "0.634"
+    },
+    {
+      "Gene": "LGI1",
+      "Score": "0.633"
+    },
+    {
+      "Gene": "ROBO1",
+      "Score": "0.629"
+    },
+    {
+      "Gene": "NDEL1",
+      "Score": "0.629"
+    },
+    {
+      "Gene": "CSNK2A2",
+      "Score": "0.627"
+    },
+    {
+      "Gene": "GRM5",
+      "Score": "0.626"
+    },
+    {
+      "Gene": "DHODH",
+      "Score": "0.626"
+    }
   ],
-  "updated": "2025-07-04 12:00:00"
+  "updated": "2025-10-21 00:10:25"
 }
