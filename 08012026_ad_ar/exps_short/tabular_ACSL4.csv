@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ACSL4,0,SLC23A2,0,0.827,Pathway,Metabolism
+ACSL4,0,RANBP2,1,0.823,Pathway,Metabolism
+ACSL4,0,STXBP1,1,0.822,Pathway,Metabolism
+ACSL4,0,MED18,0,0.82,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+ACSL4,0,MED18,0,0.82,Pathway,Metabolism
+ACSL4,0,MED18,0,0.82,Pathway,Metabolism of lipids and lipoproteins
+ACSL4,0,PNPO,1,0.82,Pathway,Metabolism
+ACSL4,0,SLC25A21,0,0.814,Pathway,Metabolism
+ACSL4,0,TPK1,1,0.813,Pathway,Metabolism
+ACSL4,0,GNAS,0,0.813,Pathway,Metabolism
+ACSL4,0,GPT,0,0.812,Pathway,Metabolism
+ACSL4,0,MOCS1,1,0.806,Pathway,Metabolism
+ACSL4,0,HADHA,0,0.805,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+ACSL4,0,HADHA,0,0.805,Pathway,Metabolism
+ACSL4,0,HADHA,0,0.805,Pathway,Metabolism of lipids and lipoproteins
+ACSL4,0,HADHA,0,0.805,Pathway,Fatty Acid Beta Oxidation
+ACSL4,0,HADHA,0,0.805,Pathway,Mitochondrial LC-Fatty Acid Beta-Oxidation
+ACSL4,0,SUCLA2,1,0.801,Pathway,Metabolism
+ACSL4,0,NMNAT2,0,0.8,Pathway,Metabolism
+ACSL4,0,HADHB,0,0.798,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+ACSL4,0,HADHB,0,0.798,Pathway,Metabolism
+ACSL4,0,HADHB,0,0.798,Pathway,Metabolism of lipids and lipoproteins
+ACSL4,0,HADHB,0,0.798,Pathway,Fatty Acid Beta Oxidation
+ACSL4,0,TBL1XR1,1,0.793,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+ACSL4,0,TBL1XR1,1,0.793,Pathway,Metabolism
+ACSL4,0,TBL1XR1,1,0.793,Pathway,Metabolism of lipids and lipoproteins
+ACSL4,0,SUCLG1,1,0.792,Pathway,Metabolism
+ACSL4,0,PRPS1,0,0.791,Pathway,Metabolism
+ACSL4,0,PCCB,1,0.79,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+ACSL4,0,PCCB,1,0.79,Pathway,Metabolism
+ACSL4,0,PCCB,1,0.79,Pathway,Metabolism of lipids and lipoproteins
+ACSL4,0,HSD3B1,0,0.79,Pathway,Metabolism
+ACSL4,0,HSD3B1,0,0.79,Pathway,Metabolism of lipids and lipoproteins
+ACSL4,0,TALDO1,0,0.79,Pathway,Metabolism

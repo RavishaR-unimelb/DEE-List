@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+AUH,0,GPT,0,0.907,Pathway,Amino acid and derivative metabolism
+AUH,0,GPT,0,0.907,Pathway,Metabolism
+AUH,0,PNPO,1,0.905,Pathway,Metabolism
+AUH,0,GNAS,0,0.904,Pathway,Metabolism
+AUH,0,STXBP1,1,0.903,Pathway,Metabolism
+AUH,0,SUCLA2,1,0.902,Pathway,Metabolism
+AUH,0,MED18,0,0.902,Pathway,Metabolism
+AUH,0,HADHB,0,0.901,Pathway,Metabolism
+AUH,0,GMPS,0,0.9,Pathway,Metabolism
+AUH,0,SLC23A2,0,0.9,Pathway,Metabolism
+AUH,0,RANBP2,1,0.898,Pathway,Metabolism
+AUH,0,SUCLG1,1,0.898,Pathway,Metabolism
+AUH,0,PRPS1,0,0.896,Pathway,Metabolism
+AUH,0,TPK1,1,0.896,Pathway,Metabolism
+AUH,0,TBL1XR1,1,0.896,Pathway,Metabolism
+AUH,0,SLC25A21,0,0.895,Pathway,Amino acid and derivative metabolism
+AUH,0,SLC25A21,0,0.895,Pathway,Metabolism
+AUH,0,GBA,0,0.895,Pathway,Metabolism
+AUH,0,NDUFA4,0,0.894,Pathway,Metabolism
+AUH,0,NDUFS1,1,0.894,Pathway,Metabolism
+AUH,0,PPP2R5D,1,0.894,Pathway,Metabolism
+AUH,0,HEXA,1,0.894,Pathway,Metabolism

@@ -1,0 +1,34 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+EIF1AX,0,PIGO,1,0.831,Pathway,Metabolism of proteins
+EIF1AX,0,RANBP2,1,0.819,Pathway,Gene Expression
+EIF1AX,0,EXOSC3,1,0.819,Pathway,Gene Expression
+EIF1AX,0,EXOSC3,1,0.819,Pathway,Metabolism of proteins
+EIF1AX,0,SMC1A,1,0.815,Pathway,Gene Expression
+EIF1AX,0,HNRNPH2,1,0.814,Pathway,Gene Expression
+EIF1AX,0,DARS2,0,0.812,Pathway,Gene Expression
+EIF1AX,0,EIF2B2,1,0.812,Pathway,Cap-dependent Translation Initiation
+EIF1AX,0,EIF2B2,1,0.812,Pathway,Gene Expression
+EIF1AX,0,EIF2B2,1,0.812,Pathway,Metabolism of proteins
+EIF1AX,0,EIF2B2,1,0.812,Pathway,Translation
+EIF1AX,0,EIF2B2,1,0.812,Pathway,Translation Factors
+EIF1AX,0,ALG2,1,0.809,Pathway,Metabolism of proteins
+EIF1AX,0,PIGT,1,0.807,Pathway,Metabolism of proteins
+EIF1AX,0,EIF2B4,1,0.806,Pathway,Cap-dependent Translation Initiation
+EIF1AX,0,EIF2B4,1,0.806,Pathway,Gene Expression
+EIF1AX,0,EIF2B4,1,0.806,Pathway,Metabolism of proteins
+EIF1AX,0,EIF2B4,1,0.806,Pathway,Translation
+EIF1AX,0,EIF2B4,1,0.806,Pathway,Translation Factors
+EIF1AX,0,BCS1L,1,0.806,Pathway,Metabolism of proteins
+EIF1AX,0,FARS2,1,0.805,Pathway,Gene Expression
+EIF1AX,0,GMPPA,1,0.804,Pathway,Metabolism of proteins
+EIF1AX,0,ALG9,1,0.804,Pathway,Metabolism of proteins
+EIF1AX,0,MOGS,1,0.804,Pathway,Metabolism of proteins
+EIF1AX,0,PIGN,1,0.802,Pathway,Metabolism of proteins
+EIF1AX,0,EIF2B3,1,0.802,Pathway,Cap-dependent Translation Initiation
+EIF1AX,0,EIF2B3,1,0.802,Pathway,Gene Expression
+EIF1AX,0,EIF2B3,1,0.802,Pathway,Metabolism of proteins
+EIF1AX,0,EIF2B3,1,0.802,Pathway,Translation
+EIF1AX,0,EIF2B3,1,0.802,Pathway,Translation Factors
+EIF1AX,0,CHD3,1,0.802,Pathway,Gene Expression
+EIF1AX,0,TUBA1A,0,0.802,Pathway,Metabolism of proteins
+EIF1AX,0,PMPCA,0,0.801,Pathway,Metabolism of proteins

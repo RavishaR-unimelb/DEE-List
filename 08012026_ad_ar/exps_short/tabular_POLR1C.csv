@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+POLR1C,0,SMC1A,1,0.891,Pathway,Gene Expression
+POLR1C,0,UBA5,1,0.889,Pathway,Immune System
+POLR1C,0,EXOSC3,1,0.889,Pathway,Gene Expression
+POLR1C,0,UPF3B,1,0.887,Pathway,Gene Expression
+POLR1C,0,UPF3B,1,0.887,Pathway,Transcription
+POLR1C,0,AP1S2,0,0.886,Pathway,Immune System
+POLR1C,0,DARS2,0,0.886,Pathway,Gene Expression
+POLR1C,0,TSC2,0,0.885,Pathway,Immune System
+POLR1C,0,TSC2,0,0.885,Pathway,Innate Immune System
+POLR1C,0,FARS2,1,0.885,Pathway,Gene Expression
+POLR1C,0,UBE2A,1,0.883,Pathway,Immune System
+POLR1C,0,EIF2B4,1,0.883,Pathway,Gene Expression
+POLR1C,0,EXOSC2,0,0.883,Pathway,Gene Expression
+POLR1C,0,PARS2,1,0.882,Pathway,Gene Expression
+POLR1C,0,NARS2,1,0.88,Pathway,Gene Expression
+POLR1C,0,EFTUD2,1,0.88,Pathway,Gene Expression
+POLR1C,0,TBL1XR1,1,0.88,Pathway,Gene Expression
+POLR1C,0,SPTBN2,0,0.88,Pathway,Immune System
+POLR1C,0,EIF2B2,1,0.879,Pathway,Gene Expression
+POLR1C,0,RANBP2,1,0.879,Pathway,Gene Expression
+POLR1C,0,RANBP2,1,0.879,Pathway,Immune System
+POLR1C,0,GATAD2B,1,0.879,Pathway,Gene Expression
+POLR1C,0,GATAD2B,1,0.879,Pathway,RNA Polymerase I Promoter Clearance
+POLR1C,0,GATAD2B,1,0.879,Pathway,RNA Polymerase I Transcription
+POLR1C,0,GATAD2B,1,0.879,Pathway,RNA Polymerase I Transcription Initiation
+POLR1C,0,GATAD2B,1,0.879,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+POLR1C,0,GATAD2B,1,0.879,Pathway,Transcription
+POLR1C,0,NFIX,0,0.879,Pathway,Gene Expression
+POLR1C,0,NFIX,0,0.879,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+POLR1C,0,NFIX,0,0.879,Pathway,RNA Polymerase III Abortive And Retractive Initiation
+POLR1C,0,NFIX,0,0.879,Pathway,RNA Polymerase III Transcription Termination
+POLR1C,0,NFIX,0,0.879,Pathway,Transcription

@@ -1,0 +1,36 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+MTFMT,0,GFM1,1,0.912,Pathway,Mitochondrial translation
+MTFMT,0,GFM1,1,0.912,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MTHFD2,0,0.906,Pathway,One Carbon Metabolism
+MTFMT,0,TBL1XR1,1,0.904,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,TSFM,1,0.901,Pathway,Mitochondrial translation
+MTFMT,0,TSFM,1,0.901,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MTHFD1L,0,0.896,Pathway,One Carbon Metabolism
+MTFMT,0,MEF2C,1,0.894,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,ALDH1L1,0,0.893,Pathway,One Carbon Metabolism
+MTFMT,0,MRPL45,0,0.892,Pathway,Mitochondrial translation
+MTFMT,0,MRPL45,0,0.892,Pathway,Mitochondrial translation initiation
+MTFMT,0,MRPL45,0,0.892,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,AMT,1,0.891,Pathway,One Carbon Metabolism
+MTFMT,0,MRPL23,0,0.889,Pathway,Mitochondrial translation
+MTFMT,0,MRPL23,0,0.889,Pathway,Mitochondrial translation initiation
+MTFMT,0,MRPL23,0,0.889,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MTHFS,1,0.888,Pathway,One Carbon Metabolism
+MTFMT,0,SHMT2,0,0.887,Pathway,One Carbon Metabolism
+MTFMT,0,GFM2,0,0.886,Pathway,Mitochondrial translation
+MTFMT,0,GFM2,0,0.886,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MRPS25,0,0.885,Pathway,Mitochondrial translation
+MTFMT,0,MRPS25,0,0.885,Pathway,Mitochondrial translation initiation
+MTFMT,0,MRPS25,0,0.885,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MRPS11,0,0.884,Pathway,Mitochondrial translation
+MTFMT,0,MRPS11,0,0.884,Pathway,Mitochondrial translation initiation
+MTFMT,0,MRPS11,0,0.884,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MRPS18A,0,0.882,Pathway,Mitochondrial translation
+MTFMT,0,MRPS18A,0,0.882,Pathway,Mitochondrial translation initiation
+MTFMT,0,MRPS18A,0,0.882,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,CREBBP,1,0.882,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,POLG2,1,0.881,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,MRPL54,0,0.879,Pathway,Mitochondrial translation
+MTFMT,0,MRPL54,0,0.879,Pathway,Mitochondrial translation initiation
+MTFMT,0,MRPL54,0,0.879,Pathway,Organelle biogenesis and maintenance
+MTFMT,0,HCFC1,1,0.879,Pathway,Organelle biogenesis and maintenance

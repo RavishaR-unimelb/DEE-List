@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GNA11,0,PNPO,1,0.91,Pathway,Metabolism
+GNA11,0,TPK1,1,0.907,Pathway,Metabolism
+GNA11,0,PCCB,1,0.906,Pathway,Metabolism
+GNA11,0,GPT,0,0.906,Pathway,Metabolism
+GNA11,0,IDUA,0,0.904,Pathway,Metabolism
+GNA11,0,SETX,0,0.903,Pathway,Circadian rythm related genes
+GNA11,0,MED18,0,0.903,Pathway,Metabolism
+GNA11,0,ATP6V0A1,1,0.903,Pathway,Signaling Pathways
+GNA11,0,PHF21A,1,0.902,Pathway,Hemostasis
+GNA11,0,ATP6AP1,0,0.901,Pathway,Signaling Pathways
+GNA11,0,RANBP2,1,0.9,Pathway,Metabolism
+GNA11,0,SUCLG1,1,0.9,Pathway,Metabolism
+GNA11,0,SLC2A4,0,0.899,Pathway,Metabolism
+GNA11,0,QDPR,1,0.899,Pathway,Metabolism
+GNA11,0,SLC25A1,1,0.899,Pathway,Metabolism
+GNA11,0,HADHB,0,0.898,Pathway,Metabolism
+GNA11,0,GNAZ,0,0.898,Pathway,Endothelins
+GNA11,0,GNAZ,0,0.898,Pathway,GPCR downstream signaling
+GNA11,0,GNAZ,0,0.898,Pathway,LPA receptor mediated events
+GNA11,0,GNAZ,0,0.898,Pathway,PAR1-mediated thrombin signaling events
+GNA11,0,GNAZ,0,0.898,Pathway,Plasma membrane estrogen receptor signaling
+GNA11,0,GNAZ,0,0.898,Pathway,S1P2 pathway
+GNA11,0,GNAZ,0,0.898,Pathway,S1P3 pathway
+GNA11,0,GNAZ,0,0.898,Pathway,Signaling Pathways
+GNA11,0,GNAZ,0,0.898,Pathway,Signaling by GPCR
+GNA11,0,GNAZ,0,0.898,Pathway,Sphingosine 1-phosphate (S1P) pathway
+GNA11,0,GNAZ,0,0.898,Pathway,Corticotropin-releasing hormone
+GNA11,0,GNAZ,0,0.898,Pathway,G Protein Signaling Pathways
+GNA11,0,GNAZ,0,0.898,Pathway,Calcium Regulation in the Cardiac Cell
+GNA11,0,TSC1,0,0.897,Pathway,Signaling Pathways
+GNA11,0,STXBP1,1,0.897,Pathway,Integration of energy metabolism
+GNA11,0,STXBP1,1,0.897,Pathway,Metabolism
+GNA11,0,STXBP1,1,0.897,Pathway,Regulation of insulin secretion
+GNA11,0,PRODH,1,0.897,Pathway,Metabolism

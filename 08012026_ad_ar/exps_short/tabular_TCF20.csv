@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TCF20,0,MMP9,0,0.857,Pathway,Matrix Metalloproteinases
+TCF20,0,TIMP2,0,0.851,Pathway,Matrix Metalloproteinases
+TCF20,0,TIMP3,0,0.851,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP21,0,0.85,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP26,0,0.848,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP20,0,0.845,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP15,0,0.842,Pathway,Matrix Metalloproteinases
+TCF20,0,BSG,0,0.84,Pathway,Matrix Metalloproteinases
+TCF20,0,TIMP4,0,0.837,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP16,0,0.835,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP24,0,0.834,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP3,0,0.834,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP8,0,0.834,Pathway,Matrix Metalloproteinases
+TCF20,0,TIMP1,0,0.833,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP7,0,0.831,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP28,0,0.828,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP23B,0,0.827,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP2,0,0.826,Pathway,Matrix Metalloproteinases
+TCF20,0,MMP10,0,0.822,Pathway,Matrix Metalloproteinases
+TCF20,0,TNF,0,0.822,Pathway,Matrix Metalloproteinases

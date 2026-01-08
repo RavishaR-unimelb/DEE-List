@@ -1,0 +1,32 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DCPS,0,SMC1A,1,0.852,Pathway,Gene Expression
+DCPS,0,DARS2,0,0.849,Pathway,Gene Expression
+DCPS,0,EXOSC3,1,0.84,Pathway,mRNA decay by 3' to 5' exoribonuclease
+DCPS,0,EXOSC3,1,0.84,Pathway,Deadenylation-dependent mRNA decay
+DCPS,0,EXOSC3,1,0.84,Pathway,Gene Expression
+DCPS,0,EXOSC3,1,0.84,Pathway,Metabolism of RNA
+DCPS,0,EXOSC3,1,0.84,Pathway,Metabolism of mRNA
+DCPS,0,FARS2,1,0.836,Pathway,Gene Expression
+DCPS,0,EIF2B3,1,0.836,Pathway,Gene Expression
+DCPS,0,EIF2B2,1,0.834,Pathway,Gene Expression
+DCPS,0,EIF2B4,1,0.834,Pathway,Gene Expression
+DCPS,0,HNRNPH2,1,0.833,Pathway,Gene Expression
+DCPS,0,RANBP2,1,0.833,Pathway,Gene Expression
+DCPS,0,RANBP2,1,0.833,Pathway,Metabolism of RNA
+DCPS,0,UPF3B,1,0.831,Pathway,Gene Expression
+DCPS,0,UPF3B,1,0.831,Pathway,Metabolism of RNA
+DCPS,0,UPF3B,1,0.831,Pathway,Metabolism of mRNA
+DCPS,0,RARS2,1,0.83,Pathway,Gene Expression
+DCPS,0,POLR3A,0,0.826,Pathway,Gene Expression
+DCPS,0,PARS2,1,0.821,Pathway,Gene Expression
+DCPS,0,EXOSC2,0,0.818,Pathway,mRNA decay by 3' to 5' exoribonuclease
+DCPS,0,EXOSC2,0,0.818,Pathway,Deadenylation-dependent mRNA decay
+DCPS,0,EXOSC2,0,0.818,Pathway,Gene Expression
+DCPS,0,EXOSC2,0,0.818,Pathway,Metabolism of RNA
+DCPS,0,EXOSC2,0,0.818,Pathway,Metabolism of mRNA
+DCPS,0,GATAD2B,1,0.817,Pathway,Gene Expression
+DCPS,0,IARS2,1,0.817,Pathway,Gene Expression
+DCPS,0,NARS2,1,0.816,Pathway,Gene Expression
+DCPS,0,TBL1XR1,1,0.816,Pathway,Gene Expression
+DCPS,0,HNRNPU,1,0.816,Pathway,Gene Expression
+DCPS,0,NFIX,0,0.816,Pathway,Gene Expression

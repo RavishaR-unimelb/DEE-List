@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+VAC14,0,STXBP1,1,0.861,Pathway,Metabolism
+VAC14,0,SLC23A2,0,0.86,Pathway,Metabolism
+VAC14,0,PNPO,1,0.857,Pathway,Metabolism
+VAC14,0,GNAS,0,0.844,Pathway,Metabolism
+VAC14,0,RANBP2,1,0.839,Pathway,Metabolism
+VAC14,0,MED18,0,0.838,Pathway,Metabolism
+VAC14,0,MED18,0,0.838,Pathway,Metabolism of lipids and lipoproteins
+VAC14,0,HADHB,0,0.837,Pathway,Metabolism
+VAC14,0,HADHB,0,0.837,Pathway,Metabolism of lipids and lipoproteins
+VAC14,0,HADHB,0,0.837,Pathway,Phospholipid metabolism
+VAC14,0,TPK1,1,0.835,Pathway,Metabolism
+VAC14,0,GPT,0,0.829,Pathway,Metabolism
+VAC14,0,CACNA1A,1,0.824,Pathway,Metabolism
+VAC14,0,TBL1XR1,1,0.822,Pathway,Metabolism
+VAC14,0,TBL1XR1,1,0.822,Pathway,Metabolism of lipids and lipoproteins
+VAC14,0,PRPS1,0,0.822,Pathway,Metabolism
+VAC14,0,PPP2R5D,1,0.821,Pathway,Metabolism
+VAC14,0,TALDO1,0,0.821,Pathway,Metabolism
+VAC14,0,SLC25A21,0,0.818,Pathway,Metabolism
+VAC14,0,PCCB,1,0.818,Pathway,Metabolism
+VAC14,0,PCCB,1,0.818,Pathway,Metabolism of lipids and lipoproteins
+VAC14,0,HSD3B1,0,0.818,Pathway,Metabolism
+VAC14,0,HSD3B1,0,0.818,Pathway,Metabolism of lipids and lipoproteins
+VAC14,0,PRODH,1,0.817,Pathway,Metabolism
+VAC14,0,SUCLG1,1,0.817,Pathway,Metabolism
+VAC14,0,HADHA,0,0.814,Pathway,Metabolism
+VAC14,0,HADHA,0,0.814,Pathway,Metabolism of lipids and lipoproteins
+VAC14,0,HADHA,0,0.814,Pathway,Phospholipid metabolism

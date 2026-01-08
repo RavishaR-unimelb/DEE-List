@@ -1,0 +1,40 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ANO10,0,ATP6V1G1,0,0.893,Pathway,Transmembrane transport of small molecules
+ANO10,0,UNC80,1,0.893,Pathway,Ion channel transport
+ANO10,0,UNC80,1,0.893,Pathway,Stimuli-sensing channels
+ANO10,0,UNC80,1,0.893,Pathway,Transmembrane transport of small molecules
+ANO10,0,GNB1,1,0.889,Pathway,Transmembrane transport of small molecules
+ANO10,0,ATP10D,0,0.887,Pathway,Ion channel transport
+ANO10,0,ATP10D,0,0.887,Pathway,Transmembrane transport of small molecules
+ANO10,0,UNC79,1,0.886,Pathway,Ion channel transport
+ANO10,0,UNC79,1,0.886,Pathway,Stimuli-sensing channels
+ANO10,0,UNC79,1,0.886,Pathway,Transmembrane transport of small molecules
+ANO10,0,ABCA12,0,0.884,Pathway,Transmembrane transport of small molecules
+ANO10,0,ATP1B3,0,0.882,Pathway,Ion channel transport
+ANO10,0,ATP1B3,0,0.882,Pathway,Transmembrane transport of small molecules
+ANO10,0,RANBP2,1,0.882,Pathway,Transmembrane transport of small molecules
+ANO10,0,GABRG2,1,0.881,Pathway,Ion channel transport
+ANO10,0,GABRG2,1,0.881,Pathway,Orphan transporters
+ANO10,0,GABRG2,1,0.881,Pathway,Transmembrane transport of small molecules
+ANO10,0,ATP2A2,0,0.88,Pathway,Ion channel transport
+ANO10,0,ATP2A2,0,0.88,Pathway,Transmembrane transport of small molecules
+ANO10,0,ATP2B4,0,0.876,Pathway,Ion channel transport
+ANO10,0,ATP2B4,0,0.876,Pathway,Transmembrane transport of small molecules
+ANO10,0,GABRB3,1,0.875,Pathway,Ion channel transport
+ANO10,0,GABRB3,1,0.875,Pathway,Orphan transporters
+ANO10,0,GABRB3,1,0.875,Pathway,Transmembrane transport of small molecules
+ANO10,0,GLRB,0,0.874,Pathway,Ion channel transport
+ANO10,0,GLRB,0,0.874,Pathway,Transmembrane transport of small molecules
+ANO10,0,ATP2B3,0,0.873,Pathway,Ion channel transport
+ANO10,0,ATP2B3,0,0.873,Pathway,Transmembrane transport of small molecules
+ANO10,0,SLC27A1,0,0.872,Pathway,Transmembrane transport of small molecules
+ANO10,0,WNK1,0,0.872,Pathway,Ion channel transport
+ANO10,0,WNK1,0,0.872,Pathway,Stimuli-sensing channels
+ANO10,0,WNK1,0,0.872,Pathway,Transmembrane transport of small molecules
+ANO10,0,SLC11A2,0,0.868,Pathway,Transmembrane transport of small molecules
+ANO10,0,ATP10B,0,0.867,Pathway,Ion channel transport
+ANO10,0,ATP10B,0,0.867,Pathway,Transmembrane transport of small molecules
+ANO10,0,GABRA1,1,0.866,Pathway,Ion channel transport
+ANO10,0,GABRA1,1,0.866,Pathway,Orphan transporters
+ANO10,0,GABRA1,1,0.866,Pathway,Transmembrane transport of small molecules
+ANO10,0,SLC2A2,0,0.864,Pathway,Transmembrane transport of small molecules

@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3GAP2,1,CHRNA1,0,0.446,Pathway,Effects of Botulinum toxin
+PNKP,1,XRCC6,0,0.376,Pathway,DNA-PK pathway in nonhomologous end joining
+PNKP,1,POLM,0,0.375,Pathway,DNA-PK pathway in nonhomologous end joining
+KANSL1,1,CCND1,0,0.364,Pathway,Chromatin modifying enzymes
+ARX,1,BMP4,0,0.357,Pathway,Ectoderm Differentiation
+ARX,1,TNFRSF11B,0,0.356,Pathway,Ectoderm Differentiation
+KANSL1,1,ING5,0,0.354,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.354,Pathway,HATs acetylate histones
+ARX,1,ARHGAP10,0,0.353,Pathway,Ectoderm Differentiation
+KANSL1,1,KDM4D,0,0.352,Pathway,Chromatin modifying enzymes
+SYNGAP1,1,RASAL1,0,0.351,Pathway,Regulation of Ras family activation
+ARX,1,EDA2R,0,0.349,Pathway,Ectoderm Differentiation
+ARX,1,RHPN1,0,0.347,Pathway,Ectoderm Differentiation
+ARX,1,ARHGAP15,0,0.346,Pathway,Ectoderm Differentiation
+KANSL1,1,BRMS1,0,0.346,Pathway,Chromatin modifying enzymes
+ARX,1,PTPRB,0,0.343,Pathway,Ectoderm Differentiation
+ARX,1,PPFIBP2,0,0.342,Pathway,Ectoderm Differentiation
+PON1,0,PON3,0,0.341,Pathway,"Phase I biotransformations, non P450"
+KANSL1,1,BRD8,0,0.34,Pathway,Chromatin modifying enzymes
+KANSL1,1,BRD8,0,0.34,Pathway,HATs acetylate histones
+ARX,1,ROR2,0,0.34,Pathway,Ectoderm Differentiation
+ARX,1,STC1,0,0.339,Pathway,Ectoderm Differentiation

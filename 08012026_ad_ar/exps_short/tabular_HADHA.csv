@@ -1,0 +1,43 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+HADHA,0,STXBP1,1,0.885,Pathway,Metabolism
+HADHA,0,SUCLA2,1,0.872,Pathway,Metabolism
+HADHA,0,RANBP2,1,0.872,Pathway,Metabolism
+HADHA,0,GNAS,0,0.871,Pathway,Metabolism
+HADHA,0,ATP1A3,1,0.871,Pathway,SIDS Susceptibility Pathways
+HADHA,0,PCCB,1,0.871,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+HADHA,0,PCCB,1,0.871,Pathway,Metabolism
+HADHA,0,PCCB,1,0.871,Pathway,Metabolism of lipids and lipoproteins
+HADHA,0,PCCB,1,0.871,Pathway,Mitochondrial Fatty Acid Beta-Oxidation
+HADHA,0,PNPO,1,0.87,Pathway,Metabolism
+HADHA,0,SLC25A1,1,0.87,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+HADHA,0,SLC25A1,1,0.87,Pathway,Metabolism
+HADHA,0,SLC25A1,1,0.87,Pathway,Metabolism of lipids and lipoproteins
+HADHA,0,PDHX,1,0.869,Pathway,Metabolism
+HADHA,0,GPT,0,0.869,Pathway,Metabolism
+HADHA,0,HADHB,0,0.868,Pathway,mitochondrial fatty acid beta-oxidation of saturated fatty acids
+HADHA,0,HADHB,0,0.868,Pathway,mitochondrial fatty acid beta-oxidation of unsaturated fatty acids
+HADHA,0,HADHB,0,0.868,Pathway,Acyl chain remodeling of CL
+HADHA,0,HADHB,0,0.868,Pathway,Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA
+HADHA,0,HADHB,0,0.868,Pathway,Beta oxidation of hexanoyl-CoA to butanoyl-CoA
+HADHA,0,HADHB,0,0.868,Pathway,Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA
+HADHA,0,HADHB,0,0.868,Pathway,Beta oxidation of myristoyl-CoA to lauroyl-CoA
+HADHA,0,HADHB,0,0.868,Pathway,Beta oxidation of palmitoyl-CoA to myristoyl-CoA
+HADHA,0,HADHB,0,0.868,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+HADHA,0,HADHB,0,0.868,Pathway,Glycerophospholipid biosynthesis
+HADHA,0,HADHB,0,0.868,Pathway,Metabolism
+HADHA,0,HADHB,0,0.868,Pathway,Metabolism of lipids and lipoproteins
+HADHA,0,HADHB,0,0.868,Pathway,Mitochondrial Fatty Acid Beta-Oxidation
+HADHA,0,HADHB,0,0.868,Pathway,Phospholipid metabolism
+HADHA,0,HADHB,0,0.868,Pathway,Fatty Acid Beta Oxidation
+HADHA,0,HADHB,0,0.868,Pathway,SIDS Susceptibility Pathways
+HADHA,0,GMPS,0,0.868,Pathway,Metabolism
+HADHA,0,MED18,0,0.867,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+HADHA,0,MED18,0,0.867,Pathway,Metabolism
+HADHA,0,MED18,0,0.867,Pathway,Metabolism of lipids and lipoproteins
+HADHA,0,PDHA1,1,0.867,Pathway,Metabolism
+HADHA,0,PRODH,1,0.866,Pathway,Metabolism
+HADHA,0,SUCLG1,1,0.866,Pathway,Metabolism
+HADHA,0,SLC25A32,0,0.865,Pathway,Metabolism
+HADHA,0,TPK1,1,0.865,Pathway,Metabolism
+HADHA,0,SDHA,1,0.864,Pathway,Metabolism
+HADHA,0,CACNA1A,1,0.863,Pathway,Metabolism

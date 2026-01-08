@@ -1,0 +1,49 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SYN2,0,SYP,0,0.894,Pathway,Synaptic Vesicle Pathway
+SYN2,0,KCNC1,1,0.89,Pathway,Neuronal System
+SYN2,0,KCNQ3,1,0.889,Pathway,Neuronal System
+SYN2,0,KCNQ2,1,0.889,Pathway,Neuronal System
+SYN2,0,CPLX2,0,0.888,Pathway,Synaptic Vesicle Pathway
+SYN2,0,SYN1,1,0.887,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,SYN1,1,0.887,Pathway,Neuronal System
+SYN2,0,SYN1,1,0.887,Pathway,Neurotransmitter Release Cycle
+SYN2,0,SYN1,1,0.887,Pathway,Transmission across Chemical Synapses
+SYN2,0,SYN1,1,0.887,Pathway,Synaptic Vesicle Pathway
+SYN2,0,CPLX1,1,0.887,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,CPLX1,1,0.887,Pathway,Neuronal System
+SYN2,0,CPLX1,1,0.887,Pathway,Neurotransmitter Release Cycle
+SYN2,0,CPLX1,1,0.887,Pathway,Transmission across Chemical Synapses
+SYN2,0,CPLX1,1,0.887,Pathway,Synaptic Vesicle Pathway
+SYN2,0,CACNA1A,1,0.887,Pathway,Neuronal System
+SYN2,0,CACNA1A,1,0.887,Pathway,Transmission across Chemical Synapses
+SYN2,0,CACNA1A,1,0.887,Pathway,Synaptic Vesicle Pathway
+SYN2,0,KCNQ5,1,0.887,Pathway,Neuronal System
+SYN2,0,GRIA3,1,0.886,Pathway,Neuronal System
+SYN2,0,GRIA3,1,0.886,Pathway,Transmission across Chemical Synapses
+SYN2,0,KCNA1,1,0.886,Pathway,Neuronal System
+SYN2,0,KCNA10,0,0.885,Pathway,Neuronal System
+SYN2,0,ALDH5A1,1,0.885,Pathway,Neuronal System
+SYN2,0,ALDH5A1,1,0.885,Pathway,Neurotransmitter Release Cycle
+SYN2,0,ALDH5A1,1,0.885,Pathway,Transmission across Chemical Synapses
+SYN2,0,RAB3A,0,0.884,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,RAB3A,0,0.884,Pathway,Neuronal System
+SYN2,0,RAB3A,0,0.884,Pathway,Neurotransmitter Release Cycle
+SYN2,0,RAB3A,0,0.884,Pathway,Transmission across Chemical Synapses
+SYN2,0,RAB3A,0,0.884,Pathway,Synaptic Vesicle Pathway
+SYN2,0,STXBP1,1,0.884,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,STXBP1,1,0.884,Pathway,Neuronal System
+SYN2,0,STXBP1,1,0.884,Pathway,Neurotransmitter Release Cycle
+SYN2,0,STXBP1,1,0.884,Pathway,Transmission across Chemical Synapses
+SYN2,0,STXBP1,1,0.884,Pathway,Synaptic Vesicle Pathway
+SYN2,0,GABRG2,1,0.884,Pathway,Neuronal System
+SYN2,0,GABRG2,1,0.884,Pathway,Transmission across Chemical Synapses
+SYN2,0,GABRB3,1,0.883,Pathway,Neuronal System
+SYN2,0,GABRB3,1,0.883,Pathway,Transmission across Chemical Synapses
+SYN2,0,DLG3,0,0.882,Pathway,Neuronal System
+SYN2,0,DLG3,0,0.882,Pathway,Transmission across Chemical Synapses
+SYN2,0,RIMS1,0,0.88,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,RIMS1,0,0.88,Pathway,Neuronal System
+SYN2,0,RIMS1,0,0.88,Pathway,Neurotransmitter Release Cycle
+SYN2,0,RIMS1,0,0.88,Pathway,Transmission across Chemical Synapses
+SYN2,0,RIMS1,0,0.88,Pathway,Synaptic Vesicle Pathway
+SYN2,0,STX1B,1,0.88,Pathway,Synaptic Vesicle Pathway

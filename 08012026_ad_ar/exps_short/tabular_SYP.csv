@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SYP,0,STXBP1,1,0.896,Pathway,Synaptic Vesicle Pathway
+SYP,0,CPLX2,0,0.872,Pathway,Synaptic Vesicle Pathway
+SYP,0,CACNA1A,1,0.868,Pathway,Synaptic Vesicle Pathway
+SYP,0,RAB3A,0,0.86,Pathway,Synaptic Vesicle Pathway
+SYP,0,STX1B,1,0.859,Pathway,Synaptic Vesicle Pathway
+SYP,0,ATP1A2,1,0.849,Pathway,Synaptic Vesicle Pathway
+SYP,0,SNAP25,1,0.847,Pathway,Synaptic Vesicle Pathway
+SYP,0,SYN1,1,0.847,Pathway,Synaptic Vesicle Pathway
+SYP,0,NAPA,0,0.845,Pathway,Synaptic Vesicle Pathway
+SYP,0,CPLX1,1,0.84,Pathway,Synaptic Vesicle Pathway
+SYP,0,RIMS1,0,0.835,Pathway,Synaptic Vesicle Pathway
+SYP,0,UNC13B,0,0.823,Pathway,Synaptic Vesicle Pathway
+SYP,0,SYN2,0,0.812,Pathway,Synaptic Vesicle Pathway
+SYP,0,CLN8,0,0.807,Pathway,Synaptic Vesicle Pathway
+SYP,0,DNM1L,1,0.806,Pathway,Synaptic Vesicle Pathway
+SYP,0,SLC17A6,0,0.803,Pathway,Synaptic Vesicle Pathway
+SYP,0,CACNA1B,1,0.803,Pathway,Synaptic Vesicle Pathway
+SYP,0,SLC38A1,0,0.801,Pathway,Synaptic Vesicle Pathway
+SYP,0,SLC17A8,0,0.8,Pathway,Synaptic Vesicle Pathway
+SYP,0,NSF,1,0.797,Pathway,Synaptic Vesicle Pathway

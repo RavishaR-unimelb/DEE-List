@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NDUFB8,0,TPK1,1,0.797,Pathway,Metabolism
+NDUFB8,0,STXBP1,1,0.795,Pathway,Metabolism
+NDUFB8,0,PNPO,1,0.791,Pathway,Metabolism
+NDUFB8,0,PRODH,1,0.79,Pathway,Metabolism
+NDUFB8,0,SLC23A2,0,0.782,Pathway,Metabolism
+NDUFB8,0,GPT,0,0.781,Pathway,Metabolism
+NDUFB8,0,HADHB,0,0.781,Pathway,Metabolism
+NDUFB8,0,SLC25A20,0,0.777,Pathway,Metabolism
+NDUFB8,0,L2HGDH,1,0.776,Pathway,Metabolism
+NDUFB8,0,L2HGDH,1,0.776,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+NDUFB8,0,SUCLG1,1,0.773,Pathway,Metabolism
+NDUFB8,0,SUCLG1,1,0.773,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+NDUFB8,0,RANBP2,1,0.771,Pathway,Metabolism
+NDUFB8,0,TBL1XR1,1,0.77,Pathway,Metabolism
+NDUFB8,0,GNAS,0,0.77,Pathway,Metabolism
+NDUFB8,0,MED18,0,0.769,Pathway,Metabolism
+NDUFB8,0,PCCB,1,0.768,Pathway,Metabolism
+NDUFB8,0,GC,0,0.767,Pathway,Metabolism
+NDUFB8,0,SUCLA2,1,0.767,Pathway,Metabolism
+NDUFB8,0,SUCLA2,1,0.767,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+NDUFB8,0,PDHA1,1,0.766,Pathway,Metabolism
+NDUFB8,0,PDHA1,1,0.766,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+NDUFB8,0,CACNA1A,1,0.765,Pathway,Metabolism
+NDUFB8,0,GMPS,0,0.765,Pathway,Metabolism

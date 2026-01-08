@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SRGAP3,0,KCNQ2,1,0.884,Pathway,Axon guidance
+SRGAP3,0,KCNQ2,1,0.884,Pathway,Developmental Biology
+SRGAP3,0,GNA11,0,0.884,Pathway,Signaling Pathways
+SRGAP3,0,GFRA2,0,0.884,Pathway,Axon guidance
+SRGAP3,0,GFRA2,0,0.884,Pathway,Developmental Biology
+SRGAP3,0,KCNQ3,1,0.884,Pathway,Axon guidance
+SRGAP3,0,KCNQ3,1,0.884,Pathway,Developmental Biology
+SRGAP3,0,TBL1XR1,1,0.883,Pathway,Developmental Biology
+SRGAP3,0,TBL1XR1,1,0.883,Pathway,Signaling Pathways
+SRGAP3,0,GNB1,1,0.883,Pathway,Signaling Pathways
+SRGAP3,0,PPP2R5D,1,0.883,Pathway,Signaling Pathways
+SRGAP3,0,DLG3,0,0.882,Pathway,Axon guidance
+SRGAP3,0,DLG3,0,0.882,Pathway,Developmental Biology
+SRGAP3,0,ATP6V0A1,1,0.881,Pathway,Signaling Pathways
+SRGAP3,0,MED18,0,0.881,Pathway,Developmental Biology
+SRGAP3,0,TSC2,0,0.881,Pathway,Signaling Pathways
+SRGAP3,0,SCN1A,1,0.881,Pathway,Axon guidance
+SRGAP3,0,SCN1A,1,0.881,Pathway,Developmental Biology
+SRGAP3,0,STRADA,1,0.881,Pathway,Signaling Pathways
+SRGAP3,0,SCN5A,0,0.88,Pathway,Axon guidance
+SRGAP3,0,SCN5A,0,0.88,Pathway,Developmental Biology
+SRGAP3,0,GRM5,0,0.88,Pathway,Signaling Pathways
+SRGAP3,0,GRIN1,1,0.88,Pathway,Axon guidance
+SRGAP3,0,GRIN1,1,0.88,Pathway,Developmental Biology
+SRGAP3,0,MEF2C,1,0.88,Pathway,Developmental Biology
+SRGAP3,0,MEF2C,1,0.88,Pathway,Signaling Pathways
+SRGAP3,0,SPTBN2,0,0.879,Pathway,Axon guidance
+SRGAP3,0,SPTBN2,0,0.879,Pathway,Developmental Biology
+SRGAP3,0,GDI1,0,0.879,Pathway,Rho GTPase cycle
+SRGAP3,0,GDI1,0,0.879,Pathway,Signaling Pathways
+SRGAP3,0,SPTAN1,1,0.879,Pathway,Axon guidance
+SRGAP3,0,SPTAN1,1,0.879,Pathway,Developmental Biology

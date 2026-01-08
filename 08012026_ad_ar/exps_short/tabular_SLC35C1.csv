@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SLC35C1,0,ATP6V1G1,0,0.801,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,UNC80,1,0.795,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,GNB1,1,0.791,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ATP10D,0,0.789,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,UNC79,1,0.789,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ATP2B3,0,0.789,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ATP2B4,0,0.788,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,RANBP2,1,0.786,Pathway,SLC-mediated transmembrane transport
+SLC35C1,0,RANBP2,1,0.786,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ABCA12,0,0.784,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,WNK1,0,0.783,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ATP2A2,0,0.782,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,SLC27A1,0,0.781,Pathway,SLC-mediated transmembrane transport
+SLC35C1,0,SLC27A1,0,0.781,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,SLC27A1,0,0.781,Pathway,"Transport of vitamins, nucleosides, and related molecules"
+SLC35C1,0,ATP1B3,0,0.781,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,GABRG2,1,0.778,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,TBL1XR1,1,0.778,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,GABRB3,1,0.777,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,SLC11A2,0,0.775,Pathway,SLC-mediated transmembrane transport
+SLC35C1,0,SLC11A2,0,0.775,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ATP1B2,0,0.774,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ANO7,0,0.771,Pathway,Transmembrane transport of small molecules
+SLC35C1,0,ATP10B,0,0.77,Pathway,Transmembrane transport of small molecules

@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CTNND2,0,ARX,1,0.857,Pathway,Ectoderm Differentiation
+CTNND2,0,NARS2,1,0.848,Pathway,Ectoderm Differentiation
+CTNND2,0,MECP2,1,0.839,Pathway,Ectoderm Differentiation
+CTNND2,0,AHI1,0,0.835,Pathway,Ectoderm Differentiation
+CTNND2,0,RAB8B,0,0.835,Pathway,Ectoderm Differentiation
+CTNND2,0,NF2,0,0.832,Pathway,Ectoderm Differentiation
+CTNND2,0,SCHIP1,0,0.828,Pathway,Ectoderm Differentiation
+CTNND2,0,BCAS3,1,0.826,Pathway,Ectoderm Differentiation
+CTNND2,0,PHF8,0,0.823,Pathway,Ectoderm Differentiation
+CTNND2,0,NLGN1,0,0.82,Pathway,Ectoderm Differentiation
+CTNND2,0,CCDC88C,1,0.818,Pathway,Ectoderm Differentiation
+CTNND2,0,CDH8,0,0.815,Pathway,Ectoderm Differentiation
+CTNND2,0,ASTN1,1,0.812,Pathway,Ectoderm Differentiation
+CTNND2,0,GRAMD1B,0,0.812,Pathway,Ectoderm Differentiation
+CTNND2,0,MAFB,0,0.806,Pathway,Ectoderm Differentiation
+CTNND2,0,ELOVL4,1,0.803,Pathway,Ectoderm Differentiation
+CTNND2,0,ANKS1B,0,0.802,Pathway,Ectoderm Differentiation
+CTNND2,0,TSKU,0,0.802,Pathway,Ectoderm Differentiation
+CTNND2,0,CTNNA2,1,0.801,Pathway,Ectoderm Differentiation
+CTNND2,0,GLB1,1,0.799,Pathway,Ectoderm Differentiation

@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+HTT,0,TSC2,0,0.916,Pathway,Direct p53 effectors
+HTT,0,BAX,0,0.912,Pathway,Direct p53 effectors
+HTT,0,DGCR8,0,0.912,Pathway,Direct p53 effectors
+HTT,0,SETD2,0,0.911,Pathway,Mesodermal Commitment Pathway
+HTT,0,KDM6A,1,0.91,Pathway,Mesodermal Commitment Pathway
+HTT,0,FZD4,0,0.909,Pathway,Mesodermal Commitment Pathway
+HTT,0,PPP1R13B,0,0.906,Pathway,Direct p53 effectors
+HTT,0,CSE1L,0,0.904,Pathway,Direct p53 effectors
+HTT,0,CREBBP,1,0.902,Pathway,Direct p53 effectors
+HTT,0,RB1,0,0.9,Pathway,Direct p53 effectors
+HTT,0,TRRAP,1,0.899,Pathway,Direct p53 effectors
+HTT,0,MSH2,0,0.897,Pathway,Direct p53 effectors
+HTT,0,TWSG1,0,0.897,Pathway,Mesodermal Commitment Pathway
+HTT,0,SCN3B,0,0.892,Pathway,Direct p53 effectors
+HTT,0,MLH1,0,0.892,Pathway,Direct p53 effectors
+HTT,0,SMARCA4,1,0.891,Pathway,Direct p53 effectors
+HTT,0,PMS2,0,0.891,Pathway,Direct p53 effectors
+HTT,0,APC,0,0.89,Pathway,Direct p53 effectors
+HTT,0,MACF1,1,0.889,Pathway,Mesodermal Commitment Pathway
+HTT,0,PRKAR1A,0,0.889,Pathway,Mesodermal Commitment Pathway

@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SLC1A3,0,UNC80,1,0.906,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,ATP1B3,0,0.906,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,KCNQ2,1,0.904,Pathway,Neuronal System
+SLC1A3,0,ABCA12,0,0.904,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,ATP10D,0,0.903,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,ATP2B3,0,0.902,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,KCNA10,0,0.902,Pathway,Neuronal System
+SLC1A3,0,HADHA,0,0.902,Pathway,SIDS Susceptibility Pathways
+SLC1A3,0,ATP2B4,0,0.902,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,SLC6A11,0,0.901,Pathway,Neuronal System
+SLC1A3,0,SLC6A11,0,0.901,Pathway,SLC-mediated transmembrane transport
+SLC1A3,0,SLC6A11,0,0.901,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,SLC6A11,0,0.901,Pathway,Transmission across Chemical Synapses
+SLC1A3,0,DLG3,0,0.899,Pathway,Neuronal System
+SLC1A3,0,DLG3,0,0.899,Pathway,Transmission across Chemical Synapses
+SLC1A3,0,HADHB,0,0.899,Pathway,SIDS Susceptibility Pathways
+SLC1A3,0,GLRB,0,0.898,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,STXBP1,1,0.898,Pathway,Neuronal System
+SLC1A3,0,STXBP1,1,0.898,Pathway,Transmission across Chemical Synapses
+SLC1A3,0,STXBP1,1,0.898,Pathway,Synaptic Vesicle Pathway
+SLC1A3,0,ATP2A2,0,0.898,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,SLC2A13,0,0.898,Pathway,SLC-mediated transmembrane transport
+SLC1A3,0,SLC2A13,0,0.898,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,KCNQ3,1,0.898,Pathway,Neuronal System
+SLC1A3,0,KCNQ5,1,0.897,Pathway,Neuronal System
+SLC1A3,0,ATP6V1G1,0,0.897,Pathway,Transmembrane transport of small molecules
+SLC1A3,0,RANBP2,1,0.896,Pathway,SLC-mediated transmembrane transport
+SLC1A3,0,RANBP2,1,0.896,Pathway,Transmembrane transport of small molecules

@@ -1,0 +1,22 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SETX,0,GFPT1,0,0.882,Pathway,Circadian rythm related genes
+SETX,0,MORC3,0,0.88,Pathway,Interactome of polycomb repressive complex 2 (PRC2) 
+SETX,0,EZH1,0,0.877,Pathway,Interactome of polycomb repressive complex 2 (PRC2) 
+SETX,0,HNRNPU,1,0.875,Pathway,Circadian rythm related genes
+SETX,0,RAI1,1,0.874,Pathway,Circadian rythm related genes
+SETX,0,DYRK1A,1,0.873,Pathway,Circadian rythm related genes
+SETX,0,BCLAF1,0,0.871,Pathway,Interactome of polycomb repressive complex 2 (PRC2) 
+SETX,0,GNA11,0,0.87,Pathway,Circadian rythm related genes
+SETX,0,PSPC1,0,0.867,Pathway,Circadian rythm related genes
+SETX,0,BTBD9,0,0.865,Pathway,Circadian rythm related genes
+SETX,0,KCNH7,1,0.864,Pathway,Circadian rythm related genes
+SETX,0,ARNT2,0,0.861,Pathway,Circadian rythm related genes
+SETX,0,STK38,0,0.858,Pathway,Interactome of polycomb repressive complex 2 (PRC2) 
+SETX,0,THRAP3,0,0.855,Pathway,Interactome of polycomb repressive complex 2 (PRC2) 
+SETX,0,THRAP3,0,0.855,Pathway,Circadian rythm related genes
+SETX,0,SFPQ,0,0.853,Pathway,Circadian rythm related genes
+SETX,0,RBM4B,0,0.853,Pathway,Circadian rythm related genes
+SETX,0,NONO,0,0.853,Pathway,Circadian rythm related genes
+SETX,0,RBM4,0,0.852,Pathway,Circadian rythm related genes
+SETX,0,TRIM35,0,0.851,Pathway,Interactome of polycomb repressive complex 2 (PRC2) 
+SETX,0,USP2,0,0.851,Pathway,Circadian rythm related genes

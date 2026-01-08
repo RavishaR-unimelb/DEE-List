@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+POLR3A,0,UBA5,1,0.874,Pathway,Immune System
+POLR3A,0,UBE2A,1,0.872,Pathway,Immune System
+POLR3A,0,FARS2,1,0.871,Pathway,Gene Expression
+POLR3A,0,EXOSC3,1,0.87,Pathway,Gene Expression
+POLR3A,0,NFIX,0,0.87,Pathway,Gene Expression
+POLR3A,0,NFIX,0,0.87,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+POLR3A,0,NFIX,0,0.87,Pathway,RNA Polymerase III Abortive And Retractive Initiation
+POLR3A,0,NFIX,0,0.87,Pathway,RNA Polymerase III Transcription Termination
+POLR3A,0,NFIX,0,0.87,Pathway,Transcription
+POLR3A,0,SPTBN2,0,0.87,Pathway,Immune System
+POLR3A,0,HNRNPH2,1,0.87,Pathway,Gene Expression
+POLR3A,0,RARS2,1,0.869,Pathway,Gene Expression
+POLR3A,0,RANBP2,1,0.868,Pathway,Gene Expression
+POLR3A,0,RANBP2,1,0.868,Pathway,Immune System
+POLR3A,0,EIF2B2,1,0.868,Pathway,Gene Expression
+POLR3A,0,DARS2,0,0.867,Pathway,Gene Expression
+POLR3A,0,EIF2B4,1,0.866,Pathway,Gene Expression
+POLR3A,0,PPP2R5D,1,0.866,Pathway,Immune System
+POLR3A,0,PPP2R5D,1,0.866,Pathway,Innate Immune System
+POLR3A,0,AP1S2,0,0.866,Pathway,Immune System
+POLR3A,0,NARS2,1,0.866,Pathway,Gene Expression
+POLR3A,0,CHD3,1,0.864,Pathway,Gene Expression
+POLR3A,0,CHD3,1,0.864,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+POLR3A,0,CHD3,1,0.864,Pathway,Transcription
+POLR3A,0,EXOSC2,0,0.864,Pathway,Gene Expression
+POLR3A,0,UBE3B,0,0.863,Pathway,Immune System
+POLR3A,0,EIF2B3,1,0.863,Pathway,Gene Expression
+POLR3A,0,TRIP12,1,0.863,Pathway,Immune System

@@ -1,0 +1,39 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GFPT1,0,PIGO,1,0.865,Pathway,Metabolism of proteins
+GFPT1,0,PIGO,1,0.865,Pathway,Post-translational protein modification
+GFPT1,0,EXOSC3,1,0.864,Pathway,Metabolism of proteins
+GFPT1,0,EXOSC3,1,0.864,Pathway,Unfolded Protein Response (UPR)
+GFPT1,0,PIGT,1,0.862,Pathway,Metabolism of proteins
+GFPT1,0,PIGT,1,0.862,Pathway,Post-translational protein modification
+GFPT1,0,BCS1L,1,0.851,Pathway,Metabolism of proteins
+GFPT1,0,EIF2B4,1,0.849,Pathway,Metabolism of proteins
+GFPT1,0,EIF2B2,1,0.849,Pathway,Metabolism of proteins
+GFPT1,0,SETX,0,0.846,Pathway,Circadian rythm related genes
+GFPT1,0,PMPCA,0,0.844,Pathway,Metabolism of proteins
+GFPT1,0,ALG8,1,0.844,Pathway,Asparagine N-linked glycosylation
+GFPT1,0,ALG8,1,0.844,Pathway,"Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein"
+GFPT1,0,ALG8,1,0.844,Pathway,Metabolism of proteins
+GFPT1,0,ALG8,1,0.844,Pathway,Post-translational protein modification
+GFPT1,0,TUBA1A,0,0.843,Pathway,Metabolism of proteins
+GFPT1,0,GMPPA,1,0.839,Pathway,Asparagine N-linked glycosylation
+GFPT1,0,GMPPA,1,0.839,Pathway,"Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein"
+GFPT1,0,GMPPA,1,0.839,Pathway,Metabolism of proteins
+GFPT1,0,GMPPA,1,0.839,Pathway,Post-translational protein modification
+GFPT1,0,GMPPA,1,0.839,Pathway,Synthesis of substrates in N-glycan biosythesis
+GFPT1,0,MOGS,1,0.838,Pathway,Asparagine N-linked glycosylation
+GFPT1,0,MOGS,1,0.838,Pathway,Metabolism of proteins
+GFPT1,0,MOGS,1,0.838,Pathway,Post-translational protein modification
+GFPT1,0,PIGN,1,0.835,Pathway,Metabolism of proteins
+GFPT1,0,PIGN,1,0.835,Pathway,Post-translational protein modification
+GFPT1,0,PIGS,1,0.834,Pathway,Metabolism of proteins
+GFPT1,0,PIGS,1,0.834,Pathway,Post-translational protein modification
+GFPT1,0,TIMM9,0,0.834,Pathway,Metabolism of proteins
+GFPT1,0,PIGV,1,0.832,Pathway,Metabolism of proteins
+GFPT1,0,PIGV,1,0.832,Pathway,Post-translational protein modification
+GFPT1,0,GNA11,0,0.826,Pathway,Circadian rythm related genes
+GFPT1,0,ALG2,1,0.826,Pathway,Asparagine N-linked glycosylation
+GFPT1,0,ALG2,1,0.826,Pathway,"Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein"
+GFPT1,0,ALG2,1,0.826,Pathway,Metabolism of proteins
+GFPT1,0,ALG2,1,0.826,Pathway,Post-translational protein modification
+GFPT1,0,KIF13A,0,0.826,Pathway,Metabolism of proteins
+GFPT1,0,HNRNPU,1,0.825,Pathway,Circadian rythm related genes

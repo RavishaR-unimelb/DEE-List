@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3GAP2,1,CHRNA1,0,0.432,Pathway,Effects of Botulinum toxin
+SYNGAP1,1,RASAL1,0,0.344,Pathway,Regulation of Ras family activation
+SYNGAP1,1,RASGRP4,0,0.343,Pathway,Regulation of Ras family activation
+SYNGAP1,1,RIN1,0,0.336,Pathway,Regulation of Ras family activation
+KANSL1,1,CCND1,0,0.334,Pathway,Chromatin modifying enzymes
+KANSL1,1,SUDS3,0,0.326,Pathway,Chromatin modifying enzymes
+KANSL1,1,BRMS1,0,0.325,Pathway,Chromatin modifying enzymes
+KANSL1,1,WDR77,0,0.322,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.318,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.318,Pathway,HATs acetylate histones
+KANSL1,1,HMG20B,0,0.317,Pathway,Chromatin modifying enzymes
+KANSL1,1,MCRS1,0,0.317,Pathway,Chromatin modifying enzymes
+KANSL1,1,MCRS1,0,0.317,Pathway,HATs acetylate histones
+KANSL1,1,PRMT6,0,0.316,Pathway,Chromatin modifying enzymes
+KANSL1,1,SMARCD2,0,0.315,Pathway,Chromatin modifying enzymes
+SYNGAP1,1,RRAS,0,0.313,Pathway,Regulation of Ras family activation
+PURA,1,RBPMS,0,0.312,Pathway,Diurnally Regulated Genes with Circadian Orthologs
+KANSL1,1,KDM4D,0,0.311,Pathway,Chromatin modifying enzymes
+KANSL1,1,BRD8,0,0.31,Pathway,Chromatin modifying enzymes
+KANSL1,1,BRD8,0,0.31,Pathway,HATs acetylate histones
+PNKP,1,XRCC6,0,0.309,Pathway,DNA-PK pathway in nonhomologous end joining
+KANSL1,1,ING3,0,0.308,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING3,0,0.308,Pathway,HATs acetylate histones
+KANSL1,1,SMARCD3,0,0.307,Pathway,Chromatin modifying enzymes

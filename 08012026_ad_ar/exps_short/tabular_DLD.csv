@@ -1,0 +1,37 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DLD,0,HADHB,0,0.895,Pathway,Metabolism
+DLD,0,HADHB,0,0.895,Pathway,Fatty Acid Beta Oxidation
+DLD,0,PNPO,1,0.894,Pathway,Metabolism
+DLD,0,TPK1,1,0.893,Pathway,Metabolism
+DLD,0,SLC25A21,0,0.893,Pathway,Amino acid and derivative metabolism
+DLD,0,SLC25A21,0,0.893,Pathway,Lysine catabolism
+DLD,0,SLC25A21,0,0.893,Pathway,Metabolism
+DLD,0,SLC23A2,0,0.892,Pathway,Metabolism
+DLD,0,GNAS,0,0.892,Pathway,Metabolism
+DLD,0,STXBP1,1,0.892,Pathway,Metabolism
+DLD,0,GPT,0,0.889,Pathway,Amino acid and derivative metabolism
+DLD,0,GPT,0,0.889,Pathway,Metabolism
+DLD,0,PDHA1,1,0.888,Pathway,Metabolism
+DLD,0,PDHA1,1,0.888,Pathway,Pyruvate metabolism
+DLD,0,PDHA1,1,0.888,Pathway,Pyruvate metabolism and Citric Acid (TCA) cycle
+DLD,0,PDHA1,1,0.888,Pathway,Regulation of pyruvate dehydrogenase (PDH) complex
+DLD,0,PDHA1,1,0.888,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+DLD,0,PDHA1,1,0.888,Pathway,TCA Cycle and PDHc
+DLD,0,PDHA1,1,0.888,Pathway,Glycolysis and Gluconeogenesis
+DLD,0,RANBP2,1,0.886,Pathway,Metabolism
+DLD,0,NMNAT2,0,0.885,Pathway,Metabolism
+DLD,0,TBL1XR1,1,0.885,Pathway,Metabolism
+DLD,0,SUCLA2,1,0.884,Pathway,Citric acid cycle (TCA cycle)
+DLD,0,SUCLA2,1,0.884,Pathway,Metabolism
+DLD,0,SUCLA2,1,0.884,Pathway,Pyruvate metabolism and Citric Acid (TCA) cycle
+DLD,0,SUCLA2,1,0.884,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+DLD,0,PCCB,1,0.883,Pathway,Metabolism
+DLD,0,PRPS1,0,0.882,Pathway,Metabolism
+DLD,0,HADHA,0,0.881,Pathway,Metabolism
+DLD,0,HADHA,0,0.881,Pathway,Fatty Acid Beta Oxidation
+DLD,0,MOCS1,1,0.881,Pathway,Metabolism
+DLD,0,NDUFA4,0,0.88,Pathway,Metabolism
+DLD,0,NDUFA4,0,0.88,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+DLD,0,MED18,0,0.879,Pathway,Metabolism
+DLD,0,PRODH,1,0.879,Pathway,Amino acid and derivative metabolism
+DLD,0,PRODH,1,0.879,Pathway,Metabolism

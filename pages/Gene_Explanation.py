@@ -7,6 +7,7 @@ import pandas as pd
 # Get query parameters
 query_params = st.query_params
 gene_name = query_params.get("gene", None)
+main_dir = f'08012026_ad_ar/exps_short/'
 
 st.set_page_config(page_title="Explanations Dashboard", layout="wide", initial_sidebar_state="collapsed")
 st.markdown("""
@@ -28,7 +29,7 @@ if gene_name:
 
     # Summary
     try:
-        with open(f"descriptions/dee_summary_{display_name}.txt", "r") as f:
+        with open(main_dir+f"dee_summary_{display_name}_v2.txt", "r") as f:
             description_text = f.read()
     except FileNotFoundError:
         description_text = "This gene has no connections to other genes in the data used for the predictive model."
@@ -36,7 +37,7 @@ if gene_name:
     st.markdown(description_text)
 
 
-    image_path = f"images/{display_name}_legend_v2.png"
+    image_path = main_dir+f"{display_name}_legend_v2.png"
     if os.path.exists(image_path):
         #st.image(image_path, caption=f"Explanation for {display_name}")
         # --- Layout with two columns ---
@@ -49,7 +50,7 @@ if gene_name:
             legend_base64 = base64.b64encode(img_file.read()).decode()
 
         # Step 2: Read HTML content and inject styles
-        with open(f"images/{display_name}_v2.html", "r") as f:
+        with open(main_dir+f"{display_name}_v2.html", "r") as f:
             html_content = f.read()
 
         # Optional: Ensure no extra margin/padding inside embedded HTML
@@ -112,7 +113,7 @@ if gene_name:
         # Step 4: Render everything
         st.components.v1.html(styled_html, height=1500, width=900, scrolling=False)
 
-        df = pd.read_csv(f"tabular/tabular_{display_name}.csv")
+        df = pd.read_csv(main_dir+f"tabular_{display_name}.csv")
         df = df.rename(columns={
             "Sender": "Source Gene",
             "Sender Label": "Known DEE Gene or Not (Source Gene)",

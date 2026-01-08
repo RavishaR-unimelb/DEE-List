@@ -1,0 +1,37 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNA2D3,0,GRIA3,1,0.931,Pathway,Neuronal System
+CACNA2D3,0,GRIA3,1,0.931,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,KCNQ2,1,0.93,Pathway,Neuronal System
+CACNA2D3,0,KCNQ3,1,0.929,Pathway,Neuronal System
+CACNA2D3,0,KCNC1,1,0.928,Pathway,Neuronal System
+CACNA2D3,0,CPLX1,1,0.928,Pathway,Neuronal System
+CACNA2D3,0,CPLX1,1,0.928,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,STXBP1,1,0.928,Pathway,Neuronal System
+CACNA2D3,0,STXBP1,1,0.928,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,KCNQ5,1,0.928,Pathway,Neuronal System
+CACNA2D3,0,DLG3,0,0.926,Pathway,Neuronal System
+CACNA2D3,0,DLG3,0,0.926,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,RAB3A,0,0.926,Pathway,Neuronal System
+CACNA2D3,0,RAB3A,0,0.926,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,GRIA4,1,0.926,Pathway,Neuronal System
+CACNA2D3,0,GRIA4,1,0.926,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,CACNA1A,1,0.925,Pathway,Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels
+CACNA2D3,0,CACNA1A,1,0.925,Pathway,Neuronal System
+CACNA2D3,0,CACNA1A,1,0.925,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,GNB1,1,0.925,Pathway,Neuronal System
+CACNA2D3,0,GNB1,1,0.925,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,GABRG2,1,0.925,Pathway,Neuronal System
+CACNA2D3,0,GABRG2,1,0.925,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,KCNA10,0,0.924,Pathway,Neuronal System
+CACNA2D3,0,RIMS1,0,0.924,Pathway,Neuronal System
+CACNA2D3,0,RIMS1,0,0.924,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,SYN1,1,0.924,Pathway,Neuronal System
+CACNA2D3,0,SYN1,1,0.924,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,SNAP25,1,0.923,Pathway,Neuronal System
+CACNA2D3,0,SNAP25,1,0.923,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,ALDH5A1,1,0.922,Pathway,Neuronal System
+CACNA2D3,0,ALDH5A1,1,0.922,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,GABRA1,1,0.921,Pathway,Neuronal System
+CACNA2D3,0,GABRA1,1,0.921,Pathway,Transmission across Chemical Synapses
+CACNA2D3,0,SYN2,0,0.92,Pathway,Neuronal System
+CACNA2D3,0,SYN2,0,0.92,Pathway,Transmission across Chemical Synapses

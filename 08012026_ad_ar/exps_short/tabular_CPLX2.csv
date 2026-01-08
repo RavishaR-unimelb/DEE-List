@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CPLX2,0,CPLX1,1,0.896,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SYP,0,0.894,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,RAB3A,0,0.892,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,STXBP1,1,0.891,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,DNM1L,1,0.891,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,CLN8,0,0.89,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SYN2,0,0.89,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,RIMS1,0,0.889,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,STX1B,1,0.885,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SLC6A4,0,0.885,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,NSF,1,0.884,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,CACNA1A,1,0.883,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SYN3,0,0.881,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SYN1,1,0.88,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,ATP1A2,1,0.88,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,NAPA,0,0.879,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SYT1,1,0.879,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SLC17A6,0,0.877,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SLC17A8,0,0.876,Pathway,Synaptic Vesicle Pathway
+CPLX2,0,SNAP25,1,0.876,Pathway,Synaptic Vesicle Pathway

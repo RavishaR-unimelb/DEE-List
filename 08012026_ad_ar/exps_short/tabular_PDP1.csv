@@ -1,0 +1,32 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PDP1,0,RANBP2,1,0.888,Pathway,Metabolism
+PDP1,0,GNAS,0,0.887,Pathway,Metabolism
+PDP1,0,TBL1XR1,1,0.886,Pathway,Metabolism
+PDP1,0,PRODH,1,0.886,Pathway,Metabolism
+PDP1,0,SDHA,1,0.886,Pathway,Metabolism
+PDP1,0,SDHA,1,0.886,Pathway,Pyruvate metabolism and Citric Acid (TCA) cycle
+PDP1,0,SDHA,1,0.886,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+PDP1,0,STXBP1,1,0.885,Pathway,Metabolism
+PDP1,0,PDHA1,1,0.885,Pathway,Metabolism
+PDP1,0,PDHA1,1,0.885,Pathway,Pyruvate metabolism
+PDP1,0,PDHA1,1,0.885,Pathway,Pyruvate metabolism and Citric Acid (TCA) cycle
+PDP1,0,PDHA1,1,0.885,Pathway,Regulation of pyruvate dehydrogenase (PDH) complex
+PDP1,0,PDHA1,1,0.885,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+PDP1,0,NMNAT2,0,0.884,Pathway,Metabolism
+PDP1,0,HADHB,0,0.883,Pathway,Metabolism
+PDP1,0,TALDO1,0,0.883,Pathway,Metabolism
+PDP1,0,SLC25A21,0,0.883,Pathway,Metabolism
+PDP1,0,HADHA,0,0.883,Pathway,Metabolism
+PDP1,0,NDUFS6,1,0.883,Pathway,Metabolism
+PDP1,0,NDUFS6,1,0.883,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+PDP1,0,HSD3B1,0,0.883,Pathway,Metabolism
+PDP1,0,SUCLG1,1,0.882,Pathway,Metabolism
+PDP1,0,SUCLG1,1,0.882,Pathway,Pyruvate metabolism and Citric Acid (TCA) cycle
+PDP1,0,SUCLG1,1,0.882,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+PDP1,0,SLC23A2,0,0.882,Pathway,Metabolism
+PDP1,0,SUCLA2,1,0.881,Pathway,Metabolism
+PDP1,0,SUCLA2,1,0.881,Pathway,Pyruvate metabolism and Citric Acid (TCA) cycle
+PDP1,0,SUCLA2,1,0.881,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+PDP1,0,MED18,0,0.881,Pathway,Metabolism
+PDP1,0,CACNA1A,1,0.881,Pathway,Metabolism
+PDP1,0,GMPS,0,0.881,Pathway,Metabolism

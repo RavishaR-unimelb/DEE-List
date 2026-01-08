@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3GAP2,1,CHRNA1,0,0.407,Pathway,Effects of Botulinum toxin
+PNKP,1,POLM,0,0.345,Pathway,DNA-PK pathway in nonhomologous end joining
+SYNGAP1,1,RASAL1,0,0.342,Pathway,Regulation of Ras family activation
+PNKP,1,XRCC6,0,0.339,Pathway,DNA-PK pathway in nonhomologous end joining
+KANSL1,1,CCND1,0,0.334,Pathway,Chromatin modifying enzymes
+PON1,0,PON3,0,0.327,Pathway,"Phase I biotransformations, non P450"
+KANSL1,1,BRMS1,0,0.327,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.324,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.324,Pathway,HATs acetylate histones
+SYNGAP1,1,RASGRP4,0,0.323,Pathway,Regulation of Ras family activation
+KANSL1,1,MCRS1,0,0.321,Pathway,Chromatin modifying enzymes
+KANSL1,1,MCRS1,0,0.321,Pathway,HATs acetylate histones
+KANSL1,1,WDR77,0,0.32,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING3,0,0.319,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING3,0,0.319,Pathway,HATs acetylate histones
+KANSL1,1,PRMT6,0,0.317,Pathway,Chromatin modifying enzymes
+SYNGAP1,1,RRAS,0,0.315,Pathway,Regulation of Ras family activation
+KANSL1,1,KDM4D,0,0.315,Pathway,Chromatin modifying enzymes
+KANSL1,1,HMG20B,0,0.314,Pathway,Chromatin modifying enzymes
+SYNGAP1,1,RIN1,0,0.312,Pathway,Regulation of Ras family activation
+KANSL1,1,SUDS3,0,0.311,Pathway,Chromatin modifying enzymes
+PON1,0,CES5A,0,0.308,Pathway,"Phase I biotransformations, non P450"
+GFM1,1,MRPS17,0,0.308,Pathway,Mitochondrial translation
+GFM1,1,MRPS17,0,0.308,Pathway,Mitochondrial translation elongation
+GFM1,1,MRPS17,0,0.308,Pathway,Organelle biogenesis and maintenance

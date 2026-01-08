@@ -1,0 +1,52 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RIMS1,0,CPLX2,0,0.89,Pathway,Synaptic Vesicle Pathway
+RIMS1,0,KCNQ2,1,0.879,Pathway,Neuronal System
+RIMS1,0,STXBP1,1,0.872,Pathway,Acetylcholine Neurotransmitter Release Cycle
+RIMS1,0,STXBP1,1,0.872,Pathway,Dopamine Neurotransmitter Release Cycle
+RIMS1,0,STXBP1,1,0.872,Pathway,Effects of Botulinum toxin
+RIMS1,0,STXBP1,1,0.872,Pathway,"GABA synthesis, release, reuptake and degradation"
+RIMS1,0,STXBP1,1,0.872,Pathway,Glutamate Neurotransmitter Release Cycle
+RIMS1,0,STXBP1,1,0.872,Pathway,Neuronal System
+RIMS1,0,STXBP1,1,0.872,Pathway,Neurotransmitter Release Cycle
+RIMS1,0,STXBP1,1,0.872,Pathway,Norepinephrine Neurotransmitter Release Cycle
+RIMS1,0,STXBP1,1,0.872,Pathway,Transmission across Chemical Synapses
+RIMS1,0,STXBP1,1,0.872,Pathway,Synaptic Vesicle Pathway
+RIMS1,0,KCNQ5,1,0.872,Pathway,Neuronal System
+RIMS1,0,RAB3GAP2,1,0.869,Pathway,Effects of Botulinum toxin
+RIMS1,0,GNB1,1,0.867,Pathway,Neuronal System
+RIMS1,0,GNB1,1,0.867,Pathway,Transmission across Chemical Synapses
+RIMS1,0,KCNC1,1,0.866,Pathway,Neuronal System
+RIMS1,0,KCNA1,1,0.865,Pathway,Neuronal System
+RIMS1,0,KCNQ3,1,0.865,Pathway,Neuronal System
+RIMS1,0,GRIA3,1,0.864,Pathway,Neuronal System
+RIMS1,0,GRIA3,1,0.864,Pathway,Transmission across Chemical Synapses
+RIMS1,0,ALDH5A1,1,0.863,Pathway,"GABA synthesis, release, reuptake and degradation"
+RIMS1,0,ALDH5A1,1,0.863,Pathway,Neuronal System
+RIMS1,0,ALDH5A1,1,0.863,Pathway,Neurotransmitter Release Cycle
+RIMS1,0,ALDH5A1,1,0.863,Pathway,Transmission across Chemical Synapses
+RIMS1,0,CPLX1,1,0.862,Pathway,Acetylcholine Neurotransmitter Release Cycle
+RIMS1,0,CPLX1,1,0.862,Pathway,Dopamine Neurotransmitter Release Cycle
+RIMS1,0,CPLX1,1,0.862,Pathway,"GABA synthesis, release, reuptake and degradation"
+RIMS1,0,CPLX1,1,0.862,Pathway,Glutamate Neurotransmitter Release Cycle
+RIMS1,0,CPLX1,1,0.862,Pathway,Neuronal System
+RIMS1,0,CPLX1,1,0.862,Pathway,Neurotransmitter Release Cycle
+RIMS1,0,CPLX1,1,0.862,Pathway,Norepinephrine Neurotransmitter Release Cycle
+RIMS1,0,CPLX1,1,0.862,Pathway,Transmission across Chemical Synapses
+RIMS1,0,CPLX1,1,0.862,Pathway,Synaptic Vesicle Pathway
+RIMS1,0,CACNA1A,1,0.862,Pathway,Neuronal System
+RIMS1,0,CACNA1A,1,0.862,Pathway,Transmission across Chemical Synapses
+RIMS1,0,CACNA1A,1,0.862,Pathway,Synaptic Vesicle Pathway
+RIMS1,0,DLG3,0,0.862,Pathway,Neuronal System
+RIMS1,0,DLG3,0,0.862,Pathway,Transmission across Chemical Synapses
+RIMS1,0,GABRG2,1,0.861,Pathway,Neuronal System
+RIMS1,0,GABRG2,1,0.861,Pathway,Transmission across Chemical Synapses
+RIMS1,0,KCNA10,0,0.859,Pathway,Neuronal System
+RIMS1,0,STX1B,1,0.857,Pathway,Synaptic Vesicle Pathway
+RIMS1,0,GABRB3,1,0.857,Pathway,Neuronal System
+RIMS1,0,GABRB3,1,0.857,Pathway,Transmission across Chemical Synapses
+RIMS1,0,SYN1,1,0.856,Pathway,Dopamine Neurotransmitter Release Cycle
+RIMS1,0,SYN1,1,0.856,Pathway,Neuronal System
+RIMS1,0,SYN1,1,0.856,Pathway,Neurotransmitter Release Cycle
+RIMS1,0,SYN1,1,0.856,Pathway,Transmission across Chemical Synapses
+RIMS1,0,SYN1,1,0.856,Pathway,Synaptic Vesicle Pathway
+RIMS1,0,CLN8,0,0.855,Pathway,Synaptic Vesicle Pathway

@@ -1,0 +1,31 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TALDO1,0,SUCLG1,1,0.886,Pathway,Metabolism
+TALDO1,0,SUCLA2,1,0.884,Pathway,Metabolism
+TALDO1,0,TSC2,0,0.884,Pathway,Disease
+TALDO1,0,ATP6V0A1,1,0.884,Pathway,Disease
+TALDO1,0,PACS1,1,0.881,Pathway,Disease
+TALDO1,0,MED18,0,0.881,Pathway,Metabolism
+TALDO1,0,PCCB,1,0.878,Pathway,Disease
+TALDO1,0,PCCB,1,0.878,Pathway,Metabolism
+TALDO1,0,RANBP2,1,0.878,Pathway,Carbohydrate metabolism
+TALDO1,0,RANBP2,1,0.878,Pathway,Disease
+TALDO1,0,RANBP2,1,0.878,Pathway,Metabolism
+TALDO1,0,PNPO,1,0.877,Pathway,Disease
+TALDO1,0,PNPO,1,0.877,Pathway,Metabolism
+TALDO1,0,GNAT1,0,0.877,Pathway,Disease
+TALDO1,0,STXBP1,1,0.876,Pathway,Integration of energy metabolism
+TALDO1,0,STXBP1,1,0.876,Pathway,Metabolism
+TALDO1,0,TPK1,1,0.876,Pathway,Disease
+TALDO1,0,TPK1,1,0.876,Pathway,Metabolism
+TALDO1,0,SLC23A1,0,0.876,Pathway,Disease
+TALDO1,0,SLC23A1,0,0.876,Pathway,Metabolism
+TALDO1,0,PDHA1,1,0.875,Pathway,Metabolism
+TALDO1,0,GPT,0,0.875,Pathway,Metabolism
+TALDO1,0,GPT,0,0.875,Pathway,Cori Cycle
+TALDO1,0,PRPS1,0,0.873,Pathway,Carbohydrate metabolism
+TALDO1,0,PRPS1,0,0.873,Pathway,Disease
+TALDO1,0,PRPS1,0,0.873,Pathway,Metabolism
+TALDO1,0,HSD17B6,0,0.872,Pathway,Disease
+TALDO1,0,STX1B,1,0.871,Pathway,Disease
+TALDO1,0,HADHB,0,0.871,Pathway,Metabolism
+TALDO1,0,AP1S2,0,0.869,Pathway,Disease

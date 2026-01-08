@@ -1,0 +1,68 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ALMS1,0,SMC1A,1,0.888,Pathway,Cell Cycle
+ALMS1,0,SMC1A,1,0.888,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,RANBP2,1,0.872,Pathway,Cell Cycle
+ALMS1,0,RANBP2,1,0.872,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,TUBA1A,0,0.865,Pathway,Cell Cycle
+ALMS1,0,TUBA1A,0,0.865,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,TUBA1A,0,0.865,Pathway,Centrosome maturation
+ALMS1,0,TUBA1A,0,0.865,Pathway,G2/M Transition
+ALMS1,0,TUBA1A,0,0.865,Pathway,Loss of Nlp from mitotic centrosomes
+ALMS1,0,TUBA1A,0,0.865,Pathway,Mitotic G2-G2/M phases
+ALMS1,0,TUBA1A,0,0.865,Pathway,Regulation of PLK1 Activity at G2/M Transition
+ALMS1,0,HDAC8,1,0.859,Pathway,Cell Cycle
+ALMS1,0,HDAC8,1,0.859,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,DYRK1A,1,0.852,Pathway,Cell Cycle
+ALMS1,0,DYRK1A,1,0.852,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,EMD,0,0.839,Pathway,Cell Cycle
+ALMS1,0,EMD,0,0.839,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,PPP2R5D,1,0.837,Pathway,Cell Cycle
+ALMS1,0,PPP2R5D,1,0.837,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,TUBGCP4,0,0.832,Pathway,Cell Cycle
+ALMS1,0,TUBGCP4,0,0.832,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,TUBGCP4,0,0.832,Pathway,Centrosome maturation
+ALMS1,0,TUBGCP4,0,0.832,Pathway,G2/M Transition
+ALMS1,0,TUBGCP4,0,0.832,Pathway,Mitotic G2-G2/M phases
+ALMS1,0,NIPBL,0,0.827,Pathway,Cell Cycle
+ALMS1,0,NIPBL,0,0.827,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,TINF2,0,0.817,Pathway,Cell Cycle
+ALMS1,0,PHF8,0,0.81,Pathway,Cell Cycle
+ALMS1,0,PHF8,0,0.81,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,STAG1,1,0.8,Pathway,Cell Cycle
+ALMS1,0,STAG1,1,0.8,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,AAAS,0,0.798,Pathway,Cell Cycle
+ALMS1,0,AAAS,0,0.798,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,PPP2R1A,1,0.796,Pathway,Cell Cycle
+ALMS1,0,PPP2R1A,1,0.796,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,PPP2R1A,1,0.796,Pathway,Centrosome maturation
+ALMS1,0,PPP2R1A,1,0.796,Pathway,G2/M Transition
+ALMS1,0,PPP2R1A,1,0.796,Pathway,Loss of Nlp from mitotic centrosomes
+ALMS1,0,PPP2R1A,1,0.796,Pathway,Mitotic G2-G2/M phases
+ALMS1,0,PPP2R1A,1,0.796,Pathway,Regulation of PLK1 Activity at G2/M Transition
+ALMS1,0,CEP76,0,0.795,Pathway,Cell Cycle
+ALMS1,0,CEP76,0,0.795,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,CEP76,0,0.795,Pathway,Centrosome maturation
+ALMS1,0,CEP76,0,0.795,Pathway,G2/M Transition
+ALMS1,0,CEP76,0,0.795,Pathway,Loss of Nlp from mitotic centrosomes
+ALMS1,0,CEP76,0,0.795,Pathway,Mitotic G2-G2/M phases
+ALMS1,0,CEP76,0,0.795,Pathway,Regulation of PLK1 Activity at G2/M Transition
+ALMS1,0,TUBB,1,0.794,Pathway,Cell Cycle
+ALMS1,0,TUBB,1,0.794,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,TUBB,1,0.794,Pathway,Centrosome maturation
+ALMS1,0,TUBB,1,0.794,Pathway,G2/M Transition
+ALMS1,0,TUBB,1,0.794,Pathway,Loss of Nlp from mitotic centrosomes
+ALMS1,0,TUBB,1,0.794,Pathway,Mitotic G2-G2/M phases
+ALMS1,0,TUBB,1,0.794,Pathway,Regulation of PLK1 Activity at G2/M Transition
+ALMS1,0,RFC1,0,0.792,Pathway,Cell Cycle
+ALMS1,0,RFC1,0,0.792,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,DYNC1H1,1,0.791,Pathway,Cell Cycle
+ALMS1,0,DYNC1H1,1,0.791,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,DYNC1H1,1,0.791,Pathway,Centrosome maturation
+ALMS1,0,DYNC1H1,1,0.791,Pathway,G2/M Transition
+ALMS1,0,DYNC1H1,1,0.791,Pathway,Loss of Nlp from mitotic centrosomes
+ALMS1,0,DYNC1H1,1,0.791,Pathway,Mitotic G2-G2/M phases
+ALMS1,0,DYNC1H1,1,0.791,Pathway,Regulation of PLK1 Activity at G2/M Transition
+ALMS1,0,MCPH1,0,0.788,Pathway,Cell Cycle
+ALMS1,0,MCPH1,0,0.788,Pathway,"Cell Cycle, Mitotic"
+ALMS1,0,RB1,0,0.785,Pathway,Cell Cycle
+ALMS1,0,RB1,0,0.785,Pathway,"Cell Cycle, Mitotic"

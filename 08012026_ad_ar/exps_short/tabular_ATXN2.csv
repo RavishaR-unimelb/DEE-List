@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ATXN2,0,PINK1,1,0.935,Pathway,Parkinsons Disease Pathway
+ATXN2,0,STAMBP,1,0.928,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,HTRA2,1,0.918,Pathway,Parkinsons Disease Pathway
+ATXN2,0,ASAP1,0,0.917,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,STXBP1,1,0.915,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,SYNJ1,1,0.914,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,SYT11,0,0.91,Pathway,Parkinsons Disease Pathway
+ATXN2,0,CASP2,1,0.91,Pathway,Parkinsons Disease Pathway
+ATXN2,0,DNM1,1,0.91,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,MAP2K1,1,0.909,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,HRAS,1,0.909,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,UCHL1,0,0.908,Pathway,Parkinsons Disease Pathway
+ATXN2,0,DDC,1,0.908,Pathway,Parkinsons Disease Pathway
+ATXN2,0,STMN1,0,0.908,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,TNK2,1,0.907,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,PTPN12,0,0.904,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,PTPN11,0,0.903,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,STAT1,0,0.903,Pathway,EGF/EGFR Signaling Pathway
+ATXN2,0,TH,0,0.901,Pathway,Parkinsons Disease Pathway
+ATXN2,0,MEF2C,1,0.9,Pathway,EGF/EGFR Signaling Pathway

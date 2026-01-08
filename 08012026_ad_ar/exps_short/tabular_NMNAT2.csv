@@ -1,0 +1,28 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NMNAT2,0,PNPO,1,0.915,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+NMNAT2,0,PNPO,1,0.915,Pathway,Disease
+NMNAT2,0,PNPO,1,0.915,Pathway,Metabolism
+NMNAT2,0,PACS1,1,0.915,Pathway,Disease
+NMNAT2,0,GNAT1,0,0.914,Pathway,Disease
+NMNAT2,0,STXBP1,1,0.912,Pathway,Metabolism
+NMNAT2,0,GPT,0,0.912,Pathway,Metabolism
+NMNAT2,0,SUCLA2,1,0.91,Pathway,Metabolism
+NMNAT2,0,MED18,0,0.909,Pathway,Metabolism
+NMNAT2,0,PCCB,1,0.908,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+NMNAT2,0,PCCB,1,0.908,Pathway,Disease
+NMNAT2,0,PCCB,1,0.908,Pathway,Metabolism
+NMNAT2,0,CACNA1A,1,0.908,Pathway,Metabolism
+NMNAT2,0,SLC23A1,0,0.908,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+NMNAT2,0,SLC23A1,0,0.908,Pathway,Disease
+NMNAT2,0,SLC23A1,0,0.908,Pathway,Metabolism
+NMNAT2,0,HADHB,0,0.907,Pathway,Metabolism
+NMNAT2,0,SUCLG1,1,0.907,Pathway,Metabolism
+NMNAT2,0,GMPS,0,0.907,Pathway,Metabolism
+NMNAT2,0,RANBP2,1,0.906,Pathway,Disease
+NMNAT2,0,RANBP2,1,0.906,Pathway,Metabolism
+NMNAT2,0,STX1B,1,0.906,Pathway,Disease
+NMNAT2,0,TSC2,0,0.906,Pathway,Disease
+NMNAT2,0,ATP6V0A1,1,0.906,Pathway,Disease
+NMNAT2,0,AP1S2,0,0.905,Pathway,Disease
+NMNAT2,0,PDHA1,1,0.902,Pathway,Metabolism
+NMNAT2,0,HADHA,0,0.899,Pathway,Metabolism

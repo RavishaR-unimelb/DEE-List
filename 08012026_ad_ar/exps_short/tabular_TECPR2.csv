@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3GAP2,1,CHRNA1,0,0.466,Pathway,Effects of Botulinum toxin
+PNKP,1,XRCC6,0,0.403,Pathway,DNA-PK pathway in nonhomologous end joining
+SYNGAP1,1,RASAL1,0,0.359,Pathway,Regulation of Ras family activation
+SYNGAP1,1,RASGRP4,0,0.352,Pathway,Regulation of Ras family activation
+SYNGAP1,1,RIN1,0,0.352,Pathway,Regulation of Ras family activation
+PNKP,1,XRCC4,0,0.345,Pathway,DNA-PK pathway in nonhomologous end joining
+ARX,1,BMP4,0,0.338,Pathway,Ectoderm Differentiation
+KANSL1,1,CCND1,0,0.335,Pathway,Chromatin modifying enzymes
+SYNGAP1,1,RRAS,0,0.335,Pathway,Regulation of Ras family activation
+ARX,1,TNFRSF11B,0,0.335,Pathway,Ectoderm Differentiation
+ARX,1,PPFIBP2,0,0.332,Pathway,Ectoderm Differentiation
+PNKP,1,POLM,0,0.331,Pathway,DNA-PK pathway in nonhomologous end joining
+ARX,1,ARHGAP10,0,0.328,Pathway,Ectoderm Differentiation
+ARX,1,RHPN1,0,0.327,Pathway,Ectoderm Differentiation
+ARX,1,ARHGAP15,0,0.325,Pathway,Ectoderm Differentiation
+KANSL1,1,PRMT6,0,0.324,Pathway,Chromatin modifying enzymes
+ARX,1,EDA2R,0,0.322,Pathway,Ectoderm Differentiation
+ASPA,1,GPT,0,0.322,Pathway,Alanine and aspartate metabolism
+PURA,1,RBPMS,0,0.321,Pathway,Diurnally Regulated Genes with Circadian Orthologs
+ARX,1,PTPRB,0,0.32,Pathway,Ectoderm Differentiation

@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PLCB4,0,PNPO,1,0.824,Pathway,Metabolism
+PLCB4,0,TPK1,1,0.823,Pathway,Metabolism
+PLCB4,0,RANBP2,1,0.822,Pathway,Metabolism
+PLCB4,0,MED18,0,0.822,Pathway,Metabolism
+PLCB4,0,SLC23A2,0,0.821,Pathway,Metabolism
+PLCB4,0,GPT,0,0.82,Pathway,Metabolism
+PLCB4,0,SLC25A20,0,0.82,Pathway,Metabolism
+PLCB4,0,PCCB,1,0.819,Pathway,Metabolism
+PLCB4,0,CACNA1A,1,0.818,Pathway,Metabolism
+PLCB4,0,HADHB,0,0.818,Pathway,Metabolism
+PLCB4,0,SUCLG1,1,0.817,Pathway,Metabolism
+PLCB4,0,HDAC6,0,0.816,Pathway,Signaling Pathways
+PLCB4,0,PRODH,1,0.815,Pathway,Metabolism
+PLCB4,0,MOCS1,1,0.814,Pathway,Metabolism
+PLCB4,0,HADHA,0,0.814,Pathway,Metabolism
+PLCB4,0,PRPS1,0,0.813,Pathway,Metabolism
+PLCB4,0,GNAZ,0,0.812,Pathway,G-protein mediated events
+PLCB4,0,GNAZ,0,0.812,Pathway,GPCR downstream signaling
+PLCB4,0,GNAZ,0,0.812,Pathway,Opioid Signalling
+PLCB4,0,GNAZ,0,0.812,Pathway,PLC beta mediated events
+PLCB4,0,GNAZ,0,0.812,Pathway,Signaling Pathways
+PLCB4,0,GNAZ,0,0.812,Pathway,Signaling by GPCR
+PLCB4,0,STXBP1,1,0.812,Pathway,Metabolism
+PLCB4,0,GMPS,0,0.811,Pathway,Metabolism
+PLCB4,0,SUCLA2,1,0.811,Pathway,Metabolism

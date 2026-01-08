@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TPP1,0,EXOSC3,1,0.902,Pathway,Metabolism of proteins
+TPP1,0,EXOSC3,1,0.902,Pathway,Unfolded Protein Response (UPR)
+TPP1,0,PIGT,1,0.901,Pathway,Metabolism of proteins
+TPP1,0,PIGO,1,0.9,Pathway,Metabolism of proteins
+TPP1,0,EIF2B2,1,0.899,Pathway,Metabolism of proteins
+TPP1,0,ALG14,1,0.895,Pathway,Metabolism of proteins
+TPP1,0,GFPT1,0,0.894,Pathway,IRE1alpha activates chaperones
+TPP1,0,GFPT1,0,0.894,Pathway,Metabolism of proteins
+TPP1,0,GFPT1,0,0.894,Pathway,Unfolded Protein Response (UPR)
+TPP1,0,GFPT1,0,0.894,Pathway,XBP1(S) activates chaperone genes
+TPP1,0,PIGN,1,0.892,Pathway,Metabolism of proteins
+TPP1,0,PMPCA,0,0.891,Pathway,Metabolism of proteins
+TPP1,0,EIF2B4,1,0.89,Pathway,Metabolism of proteins
+TPP1,0,ALG2,1,0.889,Pathway,Metabolism of proteins
+TPP1,0,BCS1L,1,0.889,Pathway,Metabolism of proteins
+TPP1,0,ALG9,1,0.888,Pathway,Metabolism of proteins
+TPP1,0,PIGS,1,0.888,Pathway,Metabolism of proteins
+TPP1,0,DPAGT1,1,0.885,Pathway,Metabolism of proteins
+TPP1,0,TUBB2A,1,0.885,Pathway,Metabolism of proteins
+TPP1,0,GMPPA,1,0.884,Pathway,Metabolism of proteins
+TPP1,0,TIMM9,0,0.884,Pathway,Metabolism of proteins
+TPP1,0,KIF5B,1,0.882,Pathway,Metabolism of proteins
+TPP1,0,PIGV,1,0.881,Pathway,Metabolism of proteins
+TPP1,0,ALG8,1,0.881,Pathway,Metabolism of proteins

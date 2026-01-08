@@ -1,0 +1,53 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ATP2B3,0,GABRG2,1,0.896,Pathway,Ion channel transport
+ATP2B3,0,GABRG2,1,0.896,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,PHF21A,1,0.894,Pathway,Hemostasis
+ATP2B3,0,ATP6V1G1,0,0.889,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,UNC80,1,0.888,Pathway,Ion channel transport
+ATP2B3,0,UNC80,1,0.888,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Hemostasis
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Ion channel transport
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Ion transport by P-type ATPases
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Platelet calcium homeostasis
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Platelet homeostasis
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Reduction of cytosolic Ca++ levels
+ATP2B3,0,ATP2B4,0,0.887,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,GNB1,1,0.887,Pathway,Hemostasis
+ATP2B3,0,GNB1,1,0.887,Pathway,Platelet homeostasis
+ATP2B3,0,GNB1,1,0.887,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,GNB1,1,0.887,Pathway,Calcium Regulation in the Cardiac Cell
+ATP2B3,0,GNA11,0,0.885,Pathway,Hemostasis
+ATP2B3,0,GNA11,0,0.885,Pathway,Calcium Regulation in the Cardiac Cell
+ATP2B3,0,PPP2R5D,1,0.885,Pathway,Hemostasis
+ATP2B3,0,PPP2R5D,1,0.885,Pathway,Platelet homeostasis
+ATP2B3,0,CACNA1A,1,0.884,Pathway,Calcium Regulation in the Cardiac Cell
+ATP2B3,0,GABRB3,1,0.884,Pathway,Ion channel transport
+ATP2B3,0,GABRB3,1,0.884,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,WNK1,0,0.884,Pathway,Ion channel transport
+ATP2B3,0,WNK1,0,0.884,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,GNAO1,1,0.884,Pathway,Calcium Regulation in the Cardiac Cell
+ATP2B3,0,RANBP2,1,0.884,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Hemostasis
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Ion channel transport
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Ion transport by P-type ATPases
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Platelet calcium homeostasis
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Platelet homeostasis
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Reduction of cytosolic Ca++ levels
+ATP2B3,0,ATP2A1,0,0.881,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ATP10B,0,0.88,Pathway,Ion channel transport
+ATP2B3,0,ATP10B,0,0.88,Pathway,Ion transport by P-type ATPases
+ATP2B3,0,ATP10B,0,0.88,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Hemostasis
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Ion channel transport
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Ion transport by P-type ATPases
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Platelet calcium homeostasis
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Platelet homeostasis
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Reduction of cytosolic Ca++ levels
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ATP2B2,1,0.88,Pathway,Calcium Regulation in the Cardiac Cell
+ATP2B3,0,TUBB2B,0,0.88,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ABCA12,0,0.879,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,TUBB2A,1,0.879,Pathway,Transmembrane transport of small molecules
+ATP2B3,0,ATP10D,0,0.878,Pathway,Ion channel transport
+ATP2B3,0,ATP10D,0,0.878,Pathway,Ion transport by P-type ATPases
+ATP2B3,0,ATP10D,0,0.878,Pathway,Transmembrane transport of small molecules

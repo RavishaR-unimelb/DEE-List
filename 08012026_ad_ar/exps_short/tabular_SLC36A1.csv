@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SLC36A1,0,ATP6V1G1,0,0.872,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,RANBP2,1,0.862,Pathway,SLC-mediated transmembrane transport
+SLC36A1,0,RANBP2,1,0.862,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,GNB1,1,0.86,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ABCA12,0,0.859,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,UNC80,1,0.856,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,TBL1XR1,1,0.856,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,SLC27A1,0,0.856,Pathway,SLC-mediated transmembrane transport
+SLC36A1,0,SLC27A1,0,0.856,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,SLC35D2,0,0.852,Pathway,SLC-mediated transmembrane transport
+SLC36A1,0,SLC35D2,0,0.852,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ATP10D,0,0.852,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ANO7,0,0.85,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,WNK1,0,0.849,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,GLRB,0,0.847,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ATP2B4,0,0.846,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ATP1B3,0,0.842,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,UNC79,1,0.841,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ATP2B3,0,0.84,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,GABRG2,1,0.84,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,SLC6A11,0,0.839,Pathway,SLC-mediated transmembrane transport
+SLC36A1,0,SLC6A11,0,0.839,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,SLC11A2,0,0.836,Pathway,SLC-mediated transmembrane transport
+SLC36A1,0,SLC11A2,0,0.836,Pathway,Transmembrane transport of small molecules
+SLC36A1,0,ATP2A2,0,0.835,Pathway,Transmembrane transport of small molecules

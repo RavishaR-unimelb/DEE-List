@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNB2,0,STXBP1,1,0.932,Pathway,Integration of energy metabolism
+CACNB2,0,STXBP1,1,0.932,Pathway,Metabolism
+CACNB2,0,STXBP1,1,0.932,Pathway,Neuronal System
+CACNB2,0,STXBP1,1,0.932,Pathway,Regulation of insulin secretion
+CACNB2,0,STXBP1,1,0.932,Pathway,Transmission across Chemical Synapses
+CACNB2,0,RANBP2,1,0.932,Pathway,Metabolism
+CACNB2,0,SLC23A2,0,0.931,Pathway,Metabolism
+CACNB2,0,MED18,0,0.93,Pathway,Developmental Biology
+CACNB2,0,MED18,0,0.93,Pathway,Metabolism
+CACNB2,0,HADHB,0,0.93,Pathway,Metabolism
+CACNB2,0,PNPO,1,0.929,Pathway,Metabolism
+CACNB2,0,SCN1A,1,0.929,Pathway,Axon guidance
+CACNB2,0,SCN1A,1,0.929,Pathway,Developmental Biology
+CACNB2,0,PRPS1,0,0.928,Pathway,Metabolism
+CACNB2,0,GPT,0,0.927,Pathway,Metabolism
+CACNB2,0,CPLX1,1,0.926,Pathway,Neuronal System
+CACNB2,0,CPLX1,1,0.926,Pathway,Transmission across Chemical Synapses
+CACNB2,0,GAD2,0,0.926,Pathway,Neuronal System
+CACNB2,0,GAD2,0,0.926,Pathway,Transmission across Chemical Synapses
+CACNB2,0,KCNQ5,1,0.926,Pathway,Neuronal System
+CACNB2,0,SUCLA2,1,0.926,Pathway,Metabolism
+CACNB2,0,KCNQ2,1,0.925,Pathway,Axon guidance
+CACNB2,0,KCNQ2,1,0.925,Pathway,Developmental Biology
+CACNB2,0,KCNQ2,1,0.925,Pathway,Neuronal System
+CACNB2,0,GMPS,0,0.925,Pathway,Metabolism
+CACNB2,0,ACAD8,0,0.924,Pathway,Metabolism
+CACNB2,0,GNAS,0,0.924,Pathway,Integration of energy metabolism
+CACNB2,0,GNAS,0,0.924,Pathway,Metabolism
+CACNB2,0,GNAS,0,0.924,Pathway,Regulation of insulin secretion
+CACNB2,0,PRODH,1,0.924,Pathway,Metabolism
+CACNB2,0,SDHA,1,0.924,Pathway,Metabolism
+CACNB2,0,MOCS1,1,0.923,Pathway,Metabolism

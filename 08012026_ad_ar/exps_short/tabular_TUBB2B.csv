@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBB2B,0,PIGO,1,0.892,Pathway,Metabolism of proteins
+TUBB2B,0,GNB1,1,0.89,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,EIF2B4,1,0.888,Pathway,Metabolism of proteins
+TUBB2B,0,PIGT,1,0.888,Pathway,Metabolism of proteins
+TUBB2B,0,ATP6V1G1,0,0.883,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,EIF2B2,1,0.883,Pathway,Metabolism of proteins
+TUBB2B,0,BCS1L,1,0.883,Pathway,Metabolism of proteins
+TUBB2B,0,EXOSC3,1,0.882,Pathway,Metabolism of proteins
+TUBB2B,0,ATP2B3,0,0.88,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,ATP10D,0,0.879,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Chaperonin-mediated protein folding
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Formation of tubulin folding intermediates by CCT/TriC
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Metabolism of proteins
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Post-chaperonin tubulin folding pathway
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Prefoldin mediated transfer of substrate to CCT/TriC
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Protein folding
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Pathogenic Escherichia coli infection
+TUBB2B,0,TUBA1A,0,0.879,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBB2B,0,ABCA12,0,0.878,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,PMPCA,0,0.877,Pathway,Metabolism of proteins
+TUBB2B,0,ATP2C1,0,0.876,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,UNC80,1,0.876,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,PIGS,1,0.875,Pathway,Metabolism of proteins
+TUBB2B,0,RANBP2,1,0.874,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,PIGQ,1,0.873,Pathway,Metabolism of proteins
+TUBB2B,0,ATP1B3,0,0.873,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,UNC79,1,0.873,Pathway,Transmembrane transport of small molecules

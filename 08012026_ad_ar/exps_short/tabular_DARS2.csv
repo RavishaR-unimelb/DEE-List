@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DARS2,0,EIF2B4,1,0.938,Pathway,Gene Expression
+DARS2,0,RANBP2,1,0.936,Pathway,Gene Expression
+DARS2,0,EIF2B3,1,0.935,Pathway,Gene Expression
+DARS2,0,POLR3A,0,0.935,Pathway,Gene Expression
+DARS2,0,EXOSC3,1,0.935,Pathway,Gene Expression
+DARS2,0,FARS2,1,0.935,Pathway,tRNA Aminoacylation
+DARS2,0,FARS2,1,0.935,Pathway,Gene Expression
+DARS2,0,FARS2,1,0.935,Pathway,Mitochondrial tRNA aminoacylation
+DARS2,0,EIF2B2,1,0.934,Pathway,Gene Expression
+DARS2,0,SMC1A,1,0.933,Pathway,Gene Expression
+DARS2,0,YARS2,0,0.932,Pathway,tRNA Aminoacylation
+DARS2,0,YARS2,0,0.932,Pathway,Gene Expression
+DARS2,0,YARS2,0,0.932,Pathway,Mitochondrial tRNA aminoacylation
+DARS2,0,HNRNPH2,1,0.932,Pathway,Gene Expression
+DARS2,0,EFTUD2,1,0.931,Pathway,Gene Expression
+DARS2,0,EIF1AX,0,0.931,Pathway,Gene Expression
+DARS2,0,RARS2,1,0.931,Pathway,tRNA Aminoacylation
+DARS2,0,RARS2,1,0.931,Pathway,Gene Expression
+DARS2,0,RARS2,1,0.931,Pathway,Mitochondrial tRNA aminoacylation
+DARS2,0,NARS2,1,0.93,Pathway,tRNA Aminoacylation
+DARS2,0,NARS2,1,0.93,Pathway,Gene Expression
+DARS2,0,NARS2,1,0.93,Pathway,Mitochondrial tRNA aminoacylation
+DARS2,0,ADAR,1,0.93,Pathway,Gene Expression
+DARS2,0,AARS2,1,0.929,Pathway,tRNA Aminoacylation
+DARS2,0,AARS2,1,0.929,Pathway,Gene Expression
+DARS2,0,AARS2,1,0.929,Pathway,Mitochondrial tRNA aminoacylation
+DARS2,0,EIF2B1,1,0.929,Pathway,Gene Expression
+DARS2,0,EXOSC2,0,0.928,Pathway,Gene Expression
+DARS2,0,PARS2,1,0.928,Pathway,tRNA Aminoacylation
+DARS2,0,PARS2,1,0.928,Pathway,Gene Expression
+DARS2,0,PARS2,1,0.928,Pathway,Mitochondrial tRNA aminoacylation
+DARS2,0,HNRNPH1,1,0.928,Pathway,Gene Expression

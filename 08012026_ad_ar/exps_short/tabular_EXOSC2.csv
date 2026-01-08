@@ -1,0 +1,39 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+EXOSC2,0,PIGO,1,0.875,Pathway,Metabolism of proteins
+EXOSC2,0,PIGT,1,0.865,Pathway,Metabolism of proteins
+EXOSC2,0,EIF2B2,1,0.861,Pathway,Gene Expression
+EXOSC2,0,EIF2B2,1,0.861,Pathway,Metabolism of proteins
+EXOSC2,0,SMC1A,1,0.859,Pathway,Gene Expression
+EXOSC2,0,FARS2,1,0.856,Pathway,Gene Expression
+EXOSC2,0,EXOSC3,1,0.855,Pathway,ATF4 activates genes
+EXOSC2,0,EXOSC3,1,0.855,Pathway,mRNA decay by 3' to 5' exoribonuclease
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Butyrate Response Factor 1 (BRF1) destabilizes mRNA
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Deadenylation-dependent mRNA decay
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Gene Expression
+EXOSC2,0,EXOSC3,1,0.855,Pathway,KSRP destabilizes mRNA
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Metabolism of RNA
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Metabolism of mRNA
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Metabolism of proteins
+EXOSC2,0,EXOSC3,1,0.855,Pathway,PERK regulates gene expression
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Regulation of mRNA stability by proteins that bind AU-rich elements
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Tristetraprolin (TTP) destabilizes mRNA
+EXOSC2,0,EXOSC3,1,0.855,Pathway,Unfolded Protein Response (UPR)
+EXOSC2,0,BCS1L,1,0.854,Pathway,Metabolism of proteins
+EXOSC2,0,TBL1XR1,1,0.854,Pathway,Gene Expression
+EXOSC2,0,PMPCA,0,0.854,Pathway,Metabolism of proteins
+EXOSC2,0,DARS2,0,0.854,Pathway,Gene Expression
+EXOSC2,0,RARS2,1,0.852,Pathway,Gene Expression
+EXOSC2,0,RANBP2,1,0.85,Pathway,Gene Expression
+EXOSC2,0,RANBP2,1,0.85,Pathway,Metabolism of RNA
+EXOSC2,0,EIF2B4,1,0.85,Pathway,Gene Expression
+EXOSC2,0,EIF2B4,1,0.85,Pathway,Metabolism of proteins
+EXOSC2,0,UPF3B,1,0.849,Pathway,Gene Expression
+EXOSC2,0,UPF3B,1,0.849,Pathway,Metabolism of RNA
+EXOSC2,0,UPF3B,1,0.849,Pathway,Metabolism of mRNA
+EXOSC2,0,HNRNPH2,1,0.849,Pathway,Gene Expression
+EXOSC2,0,PIGN,1,0.849,Pathway,Metabolism of proteins
+EXOSC2,0,ALG8,1,0.847,Pathway,Metabolism of proteins
+EXOSC2,0,EIF2B3,1,0.844,Pathway,Gene Expression
+EXOSC2,0,EIF2B3,1,0.844,Pathway,Metabolism of proteins
+EXOSC2,0,GMPPA,1,0.843,Pathway,Metabolism of proteins
+EXOSC2,0,MOGS,1,0.843,Pathway,Metabolism of proteins

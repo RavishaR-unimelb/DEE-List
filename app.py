@@ -16,7 +16,7 @@ def filter_df():
 ##################################
 
 # --- Load JSON data ---
-with open('prediction_output.json', 'r') as f:
+with open('predictions_A0.json', 'r') as f:
     data = json.load(f)
 
 # --- Prepare the DataFrame ---

@@ -1,0 +1,51 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SPTBN2,0,UBE2A,1,0.887,Pathway,Adaptive Immune System
+SPTBN2,0,UBE2A,1,0.887,Pathway,Immune System
+SPTBN2,0,SCN5A,0,0.887,Pathway,Axon guidance
+SPTBN2,0,SCN5A,0,0.887,Pathway,Developmental Biology
+SPTBN2,0,SCN5A,0,0.887,Pathway,Interaction between L1 and Ankyrins
+SPTBN2,0,SCN5A,0,0.887,Pathway,L1CAM interactions
+SPTBN2,0,UBA5,1,0.884,Pathway,Adaptive Immune System
+SPTBN2,0,UBA5,1,0.884,Pathway,Immune System
+SPTBN2,0,SCN1A,1,0.883,Pathway,Axon guidance
+SPTBN2,0,SCN1A,1,0.883,Pathway,Developmental Biology
+SPTBN2,0,SCN1A,1,0.883,Pathway,Interaction between L1 and Ankyrins
+SPTBN2,0,SCN1A,1,0.883,Pathway,L1CAM interactions
+SPTBN2,0,MED18,0,0.88,Pathway,Developmental Biology
+SPTBN2,0,KCNQ3,1,0.88,Pathway,Axon guidance
+SPTBN2,0,KCNQ3,1,0.88,Pathway,Developmental Biology
+SPTBN2,0,KCNQ3,1,0.88,Pathway,Interaction between L1 and Ankyrins
+SPTBN2,0,KCNQ3,1,0.88,Pathway,L1CAM interactions
+SPTBN2,0,KCNQ2,1,0.879,Pathway,Axon guidance
+SPTBN2,0,KCNQ2,1,0.879,Pathway,Developmental Biology
+SPTBN2,0,KCNQ2,1,0.879,Pathway,Interaction between L1 and Ankyrins
+SPTBN2,0,KCNQ2,1,0.879,Pathway,L1CAM interactions
+SPTBN2,0,RANBP2,1,0.879,Pathway,Immune System
+SPTBN2,0,SCN10A,1,0.878,Pathway,Axon guidance
+SPTBN2,0,SCN10A,1,0.878,Pathway,Developmental Biology
+SPTBN2,0,SCN10A,1,0.878,Pathway,Interaction between L1 and Ankyrins
+SPTBN2,0,SCN10A,1,0.878,Pathway,L1CAM interactions
+SPTBN2,0,DLG3,0,0.876,Pathway,Axon guidance
+SPTBN2,0,DLG3,0,0.876,Pathway,Developmental Biology
+SPTBN2,0,DLG3,0,0.876,Pathway,L1CAM interactions
+SPTBN2,0,KIF2A,1,0.874,Pathway,Adaptive Immune System
+SPTBN2,0,KIF2A,1,0.874,Pathway,Immune System
+SPTBN2,0,KIF2A,1,0.874,Pathway,MHC class II antigen presentation
+SPTBN2,0,TBL1XR1,1,0.872,Pathway,Developmental Biology
+SPTBN2,0,POLR3A,0,0.872,Pathway,Immune System
+SPTBN2,0,TRIP12,1,0.872,Pathway,Adaptive Immune System
+SPTBN2,0,TRIP12,1,0.872,Pathway,Immune System
+SPTBN2,0,TSC2,0,0.872,Pathway,Adaptive Immune System
+SPTBN2,0,TSC2,0,0.872,Pathway,Immune System
+SPTBN2,0,SCN2A,1,0.872,Pathway,Axon guidance
+SPTBN2,0,SCN2A,1,0.872,Pathway,Developmental Biology
+SPTBN2,0,SCN2A,1,0.872,Pathway,Interaction between L1 and Ankyrins
+SPTBN2,0,SCN2A,1,0.872,Pathway,L1CAM interactions
+SPTBN2,0,UBE3B,0,0.871,Pathway,Adaptive Immune System
+SPTBN2,0,UBE3B,0,0.871,Pathway,Immune System
+SPTBN2,0,PLXNA1,1,0.871,Pathway,Axon guidance
+SPTBN2,0,PLXNA1,1,0.871,Pathway,Developmental Biology
+SPTBN2,0,AP1S2,0,0.87,Pathway,Adaptive Immune System
+SPTBN2,0,AP1S2,0,0.87,Pathway,Immune System
+SPTBN2,0,AP1S2,0,0.87,Pathway,MHC class II antigen presentation
+SPTBN2,0,TCF3,0,0.87,Pathway,Developmental Biology

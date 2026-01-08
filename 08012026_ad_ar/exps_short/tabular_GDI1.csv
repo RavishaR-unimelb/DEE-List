@@ -1,0 +1,24 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GDI1,0,GNB1,1,0.893,Pathway,Signaling Pathways
+GDI1,0,TSC2,0,0.89,Pathway,Signaling Pathways
+GDI1,0,TSC2,0,0.89,Pathway,Integrated Breast Cancer Pathway
+GDI1,0,ATP6V0A1,1,0.888,Pathway,Signaling Pathways
+GDI1,0,PDE8A,0,0.882,Pathway,Signaling Pathways
+GDI1,0,GRM5,0,0.881,Pathway,Signaling Pathways
+GDI1,0,PPP2R5D,1,0.881,Pathway,Signaling Pathways
+GDI1,0,ATP6AP1,0,0.879,Pathway,Signaling Pathways
+GDI1,0,GNAO1,1,0.879,Pathway,Signaling Pathways
+GDI1,0,HDAC6,0,0.879,Pathway,Signaling Pathways
+GDI1,0,GNA11,0,0.878,Pathway,Signaling Pathways
+GDI1,0,CASP2,1,0.877,Pathway,Signaling Pathways
+GDI1,0,TBL1XR1,1,0.877,Pathway,Signaling Pathways
+GDI1,0,DHTKD1,0,0.876,Pathway,Integrated Breast Cancer Pathway
+GDI1,0,CCDC88C,1,0.876,Pathway,Signaling Pathways
+GDI1,0,PLCB4,0,0.876,Pathway,Signaling Pathways
+GDI1,0,BAX,0,0.875,Pathway,Integrated Breast Cancer Pathway
+GDI1,0,KRT19,0,0.874,Pathway,Signaling mediated by p38-alpha and p38-beta
+GDI1,0,OPHN1,1,0.873,Pathway,Rho GTPase cycle
+GDI1,0,OPHN1,1,0.873,Pathway,Signaling Pathways
+GDI1,0,RAC3,1,0.872,Pathway,Rho GTPase cycle
+GDI1,0,RAC3,1,0.872,Pathway,Signaling Pathways
+GDI1,0,CREBBP,1,0.871,Pathway,Signaling Pathways

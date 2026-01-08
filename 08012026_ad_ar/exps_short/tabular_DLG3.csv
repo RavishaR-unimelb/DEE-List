@@ -1,0 +1,49 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DLG3,0,CPLX1,1,0.891,Pathway,Neuronal System
+DLG3,0,CPLX1,1,0.891,Pathway,Transmission across Chemical Synapses
+DLG3,0,STXBP1,1,0.891,Pathway,Neuronal System
+DLG3,0,STXBP1,1,0.891,Pathway,Transmission across Chemical Synapses
+DLG3,0,SCN1A,1,0.891,Pathway,Axon guidance
+DLG3,0,SCN1A,1,0.891,Pathway,Developmental Biology
+DLG3,0,SCN1A,1,0.891,Pathway,L1CAM interactions
+DLG3,0,MED18,0,0.89,Pathway,Developmental Biology
+DLG3,0,SCN5A,0,0.889,Pathway,Axon guidance
+DLG3,0,SCN5A,0,0.889,Pathway,Developmental Biology
+DLG3,0,SCN5A,0,0.889,Pathway,L1CAM interactions
+DLG3,0,KCNQ5,1,0.887,Pathway,Neuronal System
+DLG3,0,GABRG2,1,0.886,Pathway,Neuronal System
+DLG3,0,GABRG2,1,0.886,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+DLG3,0,GABRG2,1,0.886,Pathway,Transmission across Chemical Synapses
+DLG3,0,KCNQ3,1,0.885,Pathway,Axon guidance
+DLG3,0,KCNQ3,1,0.885,Pathway,Developmental Biology
+DLG3,0,KCNQ3,1,0.885,Pathway,L1CAM interactions
+DLG3,0,KCNQ3,1,0.885,Pathway,Neuronal System
+DLG3,0,SCN10A,1,0.884,Pathway,Axon guidance
+DLG3,0,SCN10A,1,0.884,Pathway,Developmental Biology
+DLG3,0,SCN10A,1,0.884,Pathway,L1CAM interactions
+DLG3,0,RAB3A,0,0.883,Pathway,Neuronal System
+DLG3,0,RAB3A,0,0.883,Pathway,Transmission across Chemical Synapses
+DLG3,0,CACNA1A,1,0.882,Pathway,Neuronal System
+DLG3,0,CACNA1A,1,0.882,Pathway,Transmission across Chemical Synapses
+DLG3,0,GRIA3,1,0.881,Pathway,Neuronal System
+DLG3,0,GRIA3,1,0.881,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+DLG3,0,GRIA3,1,0.881,Pathway,Transmission across Chemical Synapses
+DLG3,0,KCNA1,1,0.88,Pathway,Neuronal System
+DLG3,0,KCNQ2,1,0.879,Pathway,Axon guidance
+DLG3,0,KCNQ2,1,0.879,Pathway,Developmental Biology
+DLG3,0,KCNQ2,1,0.879,Pathway,L1CAM interactions
+DLG3,0,KCNQ2,1,0.879,Pathway,Neuronal System
+DLG3,0,GNB1,1,0.878,Pathway,Activation of Kainate Receptors upon glutamate binding
+DLG3,0,GNB1,1,0.878,Pathway,Neuronal System
+DLG3,0,GNB1,1,0.878,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+DLG3,0,GNB1,1,0.878,Pathway,Transmission across Chemical Synapses
+DLG3,0,GABRB3,1,0.877,Pathway,Neuronal System
+DLG3,0,GABRB3,1,0.877,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+DLG3,0,GABRB3,1,0.877,Pathway,Transmission across Chemical Synapses
+DLG3,0,KCNC1,1,0.876,Pathway,Neuronal System
+DLG3,0,GFRA2,0,0.876,Pathway,Axon guidance
+DLG3,0,GFRA2,0,0.876,Pathway,Developmental Biology
+DLG3,0,TBL1XR1,1,0.876,Pathway,Developmental Biology
+DLG3,0,SPTAN1,1,0.873,Pathway,Axon guidance
+DLG3,0,SPTAN1,1,0.873,Pathway,Developmental Biology
+DLG3,0,SPTAN1,1,0.873,Pathway,L1CAM interactions

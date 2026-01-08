@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PMPCA,0,EXOSC3,1,0.903,Pathway,Metabolism of proteins
+PMPCA,0,EIF2B2,1,0.903,Pathway,Metabolism of proteins
+PMPCA,0,PIGT,1,0.902,Pathway,Metabolism of proteins
+PMPCA,0,BCS1L,1,0.897,Pathway,Metabolism of proteins
+PMPCA,0,BCS1L,1,0.897,Pathway,Mitochondrial protein import
+PMPCA,0,PIGN,1,0.896,Pathway,Metabolism of proteins
+PMPCA,0,PIGO,1,0.894,Pathway,Metabolism of proteins
+PMPCA,0,PIGS,1,0.892,Pathway,Metabolism of proteins
+PMPCA,0,TIMM9,0,0.892,Pathway,Metabolism of proteins
+PMPCA,0,TIMM9,0,0.892,Pathway,Mitochondrial protein import
+PMPCA,0,EIF2B4,1,0.891,Pathway,Metabolism of proteins
+PMPCA,0,ALG14,1,0.89,Pathway,Metabolism of proteins
+PMPCA,0,ALG9,1,0.89,Pathway,Metabolism of proteins
+PMPCA,0,TUBA1A,0,0.89,Pathway,Metabolism of proteins
+PMPCA,0,GMPPA,1,0.889,Pathway,Metabolism of proteins
+PMPCA,0,MCFD2,0,0.888,Pathway,Metabolism of proteins
+PMPCA,0,PIGQ,1,0.887,Pathway,Metabolism of proteins
+PMPCA,0,ALG8,1,0.886,Pathway,Metabolism of proteins
+PMPCA,0,GFPT1,0,0.885,Pathway,Metabolism of proteins
+PMPCA,0,KIF13A,0,0.884,Pathway,Metabolism of proteins
+PMPCA,0,TBCE,0,0.884,Pathway,Metabolism of proteins
+PMPCA,0,ALG2,1,0.884,Pathway,Metabolism of proteins

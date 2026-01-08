@@ -1,0 +1,30 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ATP6AP1,0,RANBP2,1,0.87,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ATP6V1G1,0,0.866,Pathway,Insulin receptor recycling
+ATP6AP1,0,ATP6V1G1,0,0.866,Pathway,Iron uptake and transport
+ATP6AP1,0,ATP6V1G1,0,0.866,Pathway,Signaling Pathways
+ATP6AP1,0,ATP6V1G1,0,0.866,Pathway,Signaling by Insulin receptor
+ATP6AP1,0,ATP6V1G1,0,0.866,Pathway,Transferrin endocytosis and recycling
+ATP6AP1,0,ATP6V1G1,0,0.866,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,UNC80,1,0.863,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ATP10D,0,0.863,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,GNB1,1,0.861,Pathway,Signaling Pathways
+ATP6AP1,0,GNB1,1,0.861,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,GNA11,0,0.858,Pathway,Signaling Pathways
+ATP6AP1,0,SLC27A1,0,0.857,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,GDI1,0,0.856,Pathway,Signaling Pathways
+ATP6AP1,0,TSC2,0,0.855,Pathway,Signaling Pathways
+ATP6AP1,0,TSC2,0,0.855,Pathway,Signaling by Insulin receptor
+ATP6AP1,0,SLC6A1,1,0.854,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,TBL1XR1,1,0.852,Pathway,Signaling Pathways
+ATP6AP1,0,TBL1XR1,1,0.852,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ATP2B4,0,0.852,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ABCA12,0,0.851,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,STRADA,1,0.85,Pathway,Signaling Pathways
+ATP6AP1,0,STRADA,1,0.85,Pathway,Signaling by Insulin receptor
+ATP6AP1,0,PPP2R5D,1,0.85,Pathway,Signaling Pathways
+ATP6AP1,0,SLC6A2,0,0.849,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,NDUFV1,1,0.848,Pathway,Oxidative phosphorylation
+ATP6AP1,0,SLC35D2,0,0.848,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,UNC79,1,0.847,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,NDUFS1,1,0.846,Pathway,Oxidative phosphorylation

@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GNAS,0,SLC20A1,0,0.915,Pathway,Transmembrane transport of small molecules
+GNAS,0,PNPO,1,0.91,Pathway,Metabolism
+GNAS,0,HADHB,0,0.899,Pathway,Metabolism
+GNAS,0,RANBP2,1,0.897,Pathway,Metabolism
+GNAS,0,RANBP2,1,0.897,Pathway,Transmembrane transport of small molecules
+GNAS,0,STXBP1,1,0.896,Pathway,Integration of energy metabolism
+GNAS,0,STXBP1,1,0.896,Pathway,Metabolism
+GNAS,0,STXBP1,1,0.896,Pathway,Regulation of insulin secretion
+GNAS,0,ATP10D,0,0.893,Pathway,Transmembrane transport of small molecules
+GNAS,0,GNAZ,0,0.889,Pathway,G alpha (i) signalling events
+GNAS,0,GNAZ,0,0.889,Pathway,G alpha (s) signalling events
+GNAS,0,GNAZ,0,0.889,Pathway,G alpha (z) signalling events
+GNAS,0,GNAZ,0,0.889,Pathway,GPCR downstream signaling
+GNAS,0,GNAZ,0,0.889,Pathway,Signaling Pathways
+GNAS,0,GNAZ,0,0.889,Pathway,Signaling by GPCR
+GNAS,0,GNAZ,0,0.889,Pathway,Corticotropin-releasing hormone
+GNAS,0,GNAZ,0,0.889,Pathway,G Protein Signaling Pathways
+GNAS,0,GNAZ,0,0.889,Pathway,Calcium Regulation in the Cardiac Cell
+GNAS,0,TSC2,0,0.889,Pathway,Signaling Pathways
+GNAS,0,TPK1,1,0.889,Pathway,Metabolism
+GNAS,0,IDUA,0,0.886,Pathway,Metabolism
+GNAS,0,PCCB,1,0.884,Pathway,Metabolism
+GNAS,0,SUCLG1,1,0.884,Pathway,Metabolism
+GNAS,0,SLC6A1,1,0.884,Pathway,Transmembrane transport of small molecules
+GNAS,0,ATP6V1G1,0,0.883,Pathway,Signaling Pathways
+GNAS,0,ATP6V1G1,0,0.883,Pathway,Transmembrane transport of small molecules
+GNAS,0,PHF21A,1,0.883,Pathway,Hemostasis
+GNAS,0,UNC80,1,0.881,Pathway,Transmembrane transport of small molecules
+GNAS,0,PRPS1,0,0.881,Pathway,Metabolism
+GNAS,0,MED18,0,0.881,Pathway,Metabolism
+GNAS,0,L2HGDH,1,0.881,Pathway,Metabolism
+GNAS,0,SUCLA2,1,0.88,Pathway,Metabolism

@@ -1,0 +1,46 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3A,0,KCNQ2,1,0.893,Pathway,Neuronal System
+RAB3A,0,KCNC1,1,0.887,Pathway,Neuronal System
+RAB3A,0,GNB1,1,0.887,Pathway,Neuronal System
+RAB3A,0,GNB1,1,0.887,Pathway,Transmission across Chemical Synapses
+RAB3A,0,STX1B,1,0.886,Pathway,Synaptic Vesicle Pathway
+RAB3A,0,STXBP1,1,0.886,Pathway,Acetylcholine Neurotransmitter Release Cycle
+RAB3A,0,STXBP1,1,0.886,Pathway,Dopamine Neurotransmitter Release Cycle
+RAB3A,0,STXBP1,1,0.886,Pathway,"GABA synthesis, release, reuptake and degradation"
+RAB3A,0,STXBP1,1,0.886,Pathway,Glutamate Neurotransmitter Release Cycle
+RAB3A,0,STXBP1,1,0.886,Pathway,Neuronal System
+RAB3A,0,STXBP1,1,0.886,Pathway,Neurotransmitter Release Cycle
+RAB3A,0,STXBP1,1,0.886,Pathway,Norepinephrine Neurotransmitter Release Cycle
+RAB3A,0,STXBP1,1,0.886,Pathway,Transmission across Chemical Synapses
+RAB3A,0,STXBP1,1,0.886,Pathway,Synaptic Vesicle Pathway
+RAB3A,0,KCNQ5,1,0.886,Pathway,Neuronal System
+RAB3A,0,CPLX2,0,0.885,Pathway,Synaptic Vesicle Pathway
+RAB3A,0,DLG3,0,0.884,Pathway,Neuronal System
+RAB3A,0,DLG3,0,0.884,Pathway,Transmission across Chemical Synapses
+RAB3A,0,KCNQ3,1,0.883,Pathway,Neuronal System
+RAB3A,0,KCNA1,1,0.883,Pathway,Neuronal System
+RAB3A,0,TSC2,0,0.881,Pathway,BDNF signaling pathway
+RAB3A,0,KCND3,1,0.88,Pathway,Neuronal System
+RAB3A,0,GRIA3,1,0.878,Pathway,Neuronal System
+RAB3A,0,GRIA3,1,0.878,Pathway,Transmission across Chemical Synapses
+RAB3A,0,GRIA3,1,0.878,Pathway,BDNF signaling pathway
+RAB3A,0,SLC22A2,0,0.878,Pathway,Neuronal System
+RAB3A,0,SLC22A2,0,0.878,Pathway,Neurotransmitter Release Cycle
+RAB3A,0,SLC22A2,0,0.878,Pathway,Norepinephrine Neurotransmitter Release Cycle
+RAB3A,0,SLC22A2,0,0.878,Pathway,Transmission across Chemical Synapses
+RAB3A,0,KCNA10,0,0.878,Pathway,Neuronal System
+RAB3A,0,SYP,0,0.878,Pathway,Synaptic Vesicle Pathway
+RAB3A,0,CACNA1A,1,0.877,Pathway,Neuronal System
+RAB3A,0,CACNA1A,1,0.877,Pathway,Transmission across Chemical Synapses
+RAB3A,0,CACNA1A,1,0.877,Pathway,Synaptic Vesicle Pathway
+RAB3A,0,CDKL5,1,0.877,Pathway,BDNF signaling pathway
+RAB3A,0,KCNAB2,0,0.874,Pathway,Neuronal System
+RAB3A,0,CPLX1,1,0.874,Pathway,Acetylcholine Neurotransmitter Release Cycle
+RAB3A,0,CPLX1,1,0.874,Pathway,Dopamine Neurotransmitter Release Cycle
+RAB3A,0,CPLX1,1,0.874,Pathway,"GABA synthesis, release, reuptake and degradation"
+RAB3A,0,CPLX1,1,0.874,Pathway,Glutamate Neurotransmitter Release Cycle
+RAB3A,0,CPLX1,1,0.874,Pathway,Neuronal System
+RAB3A,0,CPLX1,1,0.874,Pathway,Neurotransmitter Release Cycle
+RAB3A,0,CPLX1,1,0.874,Pathway,Norepinephrine Neurotransmitter Release Cycle
+RAB3A,0,CPLX1,1,0.874,Pathway,Transmission across Chemical Synapses
+RAB3A,0,CPLX1,1,0.874,Pathway,Synaptic Vesicle Pathway

@@ -1,0 +1,42 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GABRG3,0,ABCA12,0,0.937,Pathway,Transmembrane transport of small molecules
+GABRG3,0,KCNQ2,1,0.936,Pathway,Neuronal System
+GABRG3,0,KCNQ5,1,0.935,Pathway,Neuronal System
+GABRG3,0,KCNQ3,1,0.934,Pathway,Neuronal System
+GABRG3,0,ATP10D,0,0.933,Pathway,Ion channel transport
+GABRG3,0,ATP10D,0,0.933,Pathway,Transmembrane transport of small molecules
+GABRG3,0,STXBP1,1,0.932,Pathway,Neuronal System
+GABRG3,0,STXBP1,1,0.932,Pathway,Transmission across Chemical Synapses
+GABRG3,0,RANBP2,1,0.931,Pathway,Transmembrane transport of small molecules
+GABRG3,0,UNC80,1,0.93,Pathway,Ion channel transport
+GABRG3,0,UNC80,1,0.93,Pathway,Transmembrane transport of small molecules
+GABRG3,0,GNB1,1,0.93,Pathway,GABA receptor activation
+GABRG3,0,GNB1,1,0.93,Pathway,Neuronal System
+GABRG3,0,GNB1,1,0.93,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GABRG3,0,GNB1,1,0.93,Pathway,Transmembrane transport of small molecules
+GABRG3,0,GNB1,1,0.93,Pathway,Transmission across Chemical Synapses
+GABRG3,0,KCNC1,1,0.929,Pathway,Neuronal System
+GABRG3,0,KCNA10,0,0.929,Pathway,Neuronal System
+GABRG3,0,SLC26A9,0,0.928,Pathway,Transmembrane transport of small molecules
+GABRG3,0,DLG3,0,0.927,Pathway,Neuronal System
+GABRG3,0,DLG3,0,0.927,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GABRG3,0,DLG3,0,0.927,Pathway,Transmission across Chemical Synapses
+GABRG3,0,UNC79,1,0.926,Pathway,Ion channel transport
+GABRG3,0,UNC79,1,0.926,Pathway,Transmembrane transport of small molecules
+GABRG3,0,SYN1,1,0.926,Pathway,Neuronal System
+GABRG3,0,SYN1,1,0.926,Pathway,Transmission across Chemical Synapses
+GABRG3,0,ATP6V1G1,0,0.925,Pathway,Transmembrane transport of small molecules
+GABRG3,0,ATP2B4,0,0.925,Pathway,Ion channel transport
+GABRG3,0,ATP2B4,0,0.925,Pathway,Transmembrane transport of small molecules
+GABRG3,0,GABRG2,1,0.925,Pathway,GABA A receptor activation
+GABRG3,0,GABRG2,1,0.925,Pathway,GABA receptor activation
+GABRG3,0,GABRG2,1,0.925,Pathway,Ion channel transport
+GABRG3,0,GABRG2,1,0.925,Pathway,Ligand-gated ion channel transport
+GABRG3,0,GABRG2,1,0.925,Pathway,Neuronal System
+GABRG3,0,GABRG2,1,0.925,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GABRG3,0,GABRG2,1,0.925,Pathway,Orphan transporters
+GABRG3,0,GABRG2,1,0.925,Pathway,Transmembrane transport of small molecules
+GABRG3,0,GABRG2,1,0.925,Pathway,Transmission across Chemical Synapses
+GABRG3,0,CACNA1A,1,0.924,Pathway,Neuronal System
+GABRG3,0,CACNA1A,1,0.924,Pathway,Transmission across Chemical Synapses
+GABRG3,0,SLC2A13,0,0.924,Pathway,Transmembrane transport of small molecules

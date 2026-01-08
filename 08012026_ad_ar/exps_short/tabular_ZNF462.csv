@@ -1,0 +1,22 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3GAP2,1,CHRNA1,0,0.467,Pathway,Effects of Botulinum toxin
+PNKP,1,XRCC6,0,0.388,Pathway,DNA-PK pathway in nonhomologous end joining
+SYNGAP1,1,RASAL1,0,0.383,Pathway,Regulation of Ras family activation
+PNKP,1,POLM,0,0.373,Pathway,DNA-PK pathway in nonhomologous end joining
+SYNGAP1,1,RASGRP4,0,0.361,Pathway,Regulation of Ras family activation
+PURA,1,RBPMS,0,0.356,Pathway,Diurnally Regulated Genes with Circadian Orthologs
+SYNGAP1,1,RIN1,0,0.35,Pathway,Regulation of Ras family activation
+SYNGAP1,1,RRAS,0,0.348,Pathway,Regulation of Ras family activation
+PURA,1,CEBPB,0,0.344,Pathway,Diurnally Regulated Genes with Circadian Orthologs
+KANSL1,1,CCND1,0,0.344,Pathway,Chromatin modifying enzymes
+RAB3GAP2,1,STX1A,1,0.337,Pathway,Effects of Botulinum toxin
+PNKP,1,XRCC4,0,0.335,Pathway,DNA-PK pathway in nonhomologous end joining
+KANSL1,1,KDM4D,0,0.331,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.33,Pathway,Chromatin modifying enzymes
+KANSL1,1,ING5,0,0.33,Pathway,HATs acetylate histones
+PNKP,1,APLF,0,0.33,Pathway,DNA-PK pathway in nonhomologous end joining
+PURA,1,SUMO1,0,0.326,Pathway,Diurnally Regulated Genes with Circadian Orthologs
+PURA,1,HLA-DMA,0,0.326,Pathway,Diurnally Regulated Genes with Circadian Orthologs
+KANSL1,1,WDR77,0,0.326,Pathway,Chromatin modifying enzymes
+ARX,1,BMP4,0,0.325,Pathway,Ectoderm Differentiation
+PNKP,1,NHEJ1,0,0.324,Pathway,DNA-PK pathway in nonhomologous end joining

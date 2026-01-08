@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GBA2,0,STXBP1,1,0.888,Pathway,Metabolism
+GBA2,0,SLC23A2,0,0.887,Pathway,Metabolism
+GBA2,0,PNPO,1,0.887,Pathway,Metabolism
+GBA2,0,GNAS,0,0.885,Pathway,Metabolism
+GBA2,0,PCCB,1,0.883,Pathway,Metabolism
+GBA2,0,PCCB,1,0.883,Pathway,Metabolism of lipids and lipoproteins
+GBA2,0,SLC25A21,0,0.883,Pathway,Metabolism
+GBA2,0,SDHA,1,0.882,Pathway,Metabolism
+GBA2,0,CACNA1A,1,0.881,Pathway,Metabolism
+GBA2,0,HADHA,0,0.881,Pathway,Metabolism
+GBA2,0,HADHA,0,0.881,Pathway,Metabolism of lipids and lipoproteins
+GBA2,0,PRODH,1,0.881,Pathway,Metabolism
+GBA2,0,HSD3B1,0,0.881,Pathway,Metabolism
+GBA2,0,HSD3B1,0,0.881,Pathway,Metabolism of lipids and lipoproteins
+GBA2,0,ADSL,1,0.88,Pathway,Metabolism
+GBA2,0,IDUA,0,0.88,Pathway,Metabolism
+GBA2,0,TALDO1,0,0.88,Pathway,Metabolism
+GBA2,0,PDHX,1,0.88,Pathway,Metabolism
+GBA2,0,MED18,0,0.88,Pathway,Metabolism
+GBA2,0,MED18,0,0.88,Pathway,Metabolism of lipids and lipoproteins
+GBA2,0,PDHA1,1,0.88,Pathway,Metabolism
+GBA2,0,SUCLA2,1,0.88,Pathway,Metabolism
+GBA2,0,TPK1,1,0.879,Pathway,Metabolism
+GBA2,0,L2HGDH,1,0.879,Pathway,Metabolism

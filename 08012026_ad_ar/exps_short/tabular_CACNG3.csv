@@ -1,0 +1,40 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNG3,0,KCNQ5,1,0.903,Pathway,Neuronal System
+CACNG3,0,KCNA10,0,0.899,Pathway,Neuronal System
+CACNG3,0,CPLX1,1,0.894,Pathway,Neuronal System
+CACNG3,0,CPLX1,1,0.894,Pathway,Transmission across Chemical Synapses
+CACNG3,0,KCNQ3,1,0.894,Pathway,Neuronal System
+CACNG3,0,KCNC1,1,0.892,Pathway,Neuronal System
+CACNG3,0,RAB3A,0,0.891,Pathway,Neuronal System
+CACNG3,0,RAB3A,0,0.891,Pathway,Transmission across Chemical Synapses
+CACNG3,0,KCNA1,1,0.891,Pathway,Neuronal System
+CACNG3,0,GRIA3,1,0.89,Pathway,"Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity"
+CACNG3,0,GRIA3,1,0.89,Pathway,Neuronal System
+CACNG3,0,GRIA3,1,0.89,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GRIA3,1,0.89,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GNB1,1,0.889,Pathway,Neuronal System
+CACNG3,0,GNB1,1,0.889,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GNB1,1,0.889,Pathway,Transmission across Chemical Synapses
+CACNG3,0,KCNQ2,1,0.888,Pathway,Neuronal System
+CACNG3,0,STXBP1,1,0.886,Pathway,Neuronal System
+CACNG3,0,STXBP1,1,0.886,Pathway,Transmission across Chemical Synapses
+CACNG3,0,SYN1,1,0.885,Pathway,Neuronal System
+CACNG3,0,SYN1,1,0.885,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GABRB3,1,0.884,Pathway,Neuronal System
+CACNG3,0,GABRB3,1,0.884,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GABRB3,1,0.884,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GABRG2,1,0.882,Pathway,Neuronal System
+CACNG3,0,GABRG2,1,0.882,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GABRG2,1,0.882,Pathway,Transmission across Chemical Synapses
+CACNG3,0,CACNA1A,1,0.88,Pathway,Neuronal System
+CACNG3,0,CACNA1A,1,0.88,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GAD1,1,0.879,Pathway,Neuronal System
+CACNG3,0,GAD1,1,0.879,Pathway,Transmission across Chemical Synapses
+CACNG3,0,RIMS1,0,0.878,Pathway,Neuronal System
+CACNG3,0,RIMS1,0,0.878,Pathway,Transmission across Chemical Synapses
+CACNG3,0,ALDH5A1,1,0.878,Pathway,Neuronal System
+CACNG3,0,ALDH5A1,1,0.878,Pathway,Transmission across Chemical Synapses
+CACNG3,0,ABAT,1,0.878,Pathway,Neuronal System
+CACNG3,0,ABAT,1,0.878,Pathway,Transmission across Chemical Synapses
+CACNG3,0,SLC18A2,0,0.877,Pathway,Neuronal System
+CACNG3,0,SLC18A2,0,0.877,Pathway,Transmission across Chemical Synapses

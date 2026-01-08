@@ -1,0 +1,28 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NFIX,0,RANBP2,1,0.791,Pathway,Gene Expression
+NFIX,0,DARS2,0,0.784,Pathway,Gene Expression
+NFIX,0,RARS2,1,0.781,Pathway,Gene Expression
+NFIX,0,EXOSC3,1,0.781,Pathway,Gene Expression
+NFIX,0,HNRNPH2,1,0.78,Pathway,Gene Expression
+NFIX,0,SMC1A,1,0.779,Pathway,Gene Expression
+NFIX,0,EIF2B2,1,0.779,Pathway,Gene Expression
+NFIX,0,GATAD2B,1,0.775,Pathway,Gene Expression
+NFIX,0,GATAD2B,1,0.775,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+NFIX,0,GATAD2B,1,0.775,Pathway,Transcription
+NFIX,0,EIF2B4,1,0.774,Pathway,Gene Expression
+NFIX,0,TBL1XR1,1,0.772,Pathway,Gene Expression
+NFIX,0,POLR3A,0,0.772,Pathway,Gene Expression
+NFIX,0,POLR3A,0,0.772,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+NFIX,0,POLR3A,0,0.772,Pathway,RNA Polymerase III Abortive And Retractive Initiation
+NFIX,0,POLR3A,0,0.772,Pathway,RNA Polymerase III Transcription Termination
+NFIX,0,POLR3A,0,0.772,Pathway,Transcription
+NFIX,0,FARS2,1,0.772,Pathway,Gene Expression
+NFIX,0,NARS2,1,0.771,Pathway,Gene Expression
+NFIX,0,EIF2B3,1,0.77,Pathway,Gene Expression
+NFIX,0,CREBBP,1,0.769,Pathway,Gene Expression
+NFIX,0,HNRNPU,1,0.768,Pathway,Gene Expression
+NFIX,0,UPF3B,1,0.766,Pathway,Gene Expression
+NFIX,0,UPF3B,1,0.766,Pathway,Transcription
+NFIX,0,USP9X,1,0.764,Pathway,Gene Expression
+NFIX,0,IARS2,1,0.764,Pathway,Gene Expression
+NFIX,0,ADAR,1,0.763,Pathway,Gene Expression

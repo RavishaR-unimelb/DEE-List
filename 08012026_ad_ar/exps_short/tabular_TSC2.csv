@@ -1,0 +1,30 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TSC2,0,GDI1,0,0.925,Pathway,Signaling Pathways
+TSC2,0,GDI1,0,0.925,Pathway,Integrated Breast Cancer Pathway
+TSC2,0,PNPO,1,0.924,Pathway,Disease
+TSC2,0,GNAO1,1,0.919,Pathway,Signaling Pathways
+TSC2,0,POLR3A,0,0.919,Pathway,Immune System
+TSC2,0,POLR3A,0,0.919,Pathway,Innate Immune System
+TSC2,0,UBA5,1,0.919,Pathway,Adaptive Immune System
+TSC2,0,UBA5,1,0.919,Pathway,Immune System
+TSC2,0,TPK1,1,0.918,Pathway,Disease
+TSC2,0,UBE2A,1,0.917,Pathway,Adaptive Immune System
+TSC2,0,UBE2A,1,0.917,Pathway,Immune System
+TSC2,0,GRIA3,1,0.917,Pathway,BDNF signaling pathway
+TSC2,0,PCCB,1,0.916,Pathway,Disease
+TSC2,0,ZMIZ1,1,0.914,Pathway,Integrated Breast Cancer Pathway
+TSC2,0,PACS1,1,0.914,Pathway,Disease
+TSC2,0,SPTBN2,0,0.914,Pathway,Adaptive Immune System
+TSC2,0,SPTBN2,0,0.914,Pathway,Immune System
+TSC2,0,OPHN1,1,0.913,Pathway,Signaling Pathways
+TSC2,0,RANBP2,1,0.912,Pathway,Disease
+TSC2,0,RANBP2,1,0.912,Pathway,Immune System
+TSC2,0,TALDO1,0,0.912,Pathway,Disease
+TSC2,0,RAB3A,0,0.912,Pathway,BDNF signaling pathway
+TSC2,0,ATP6V0A1,1,0.911,Pathway,Disease
+TSC2,0,ATP6V0A1,1,0.911,Pathway,Signaling Pathways
+TSC2,0,ATP6V0A1,1,0.911,Pathway,Signaling by Insulin receptor
+TSC2,0,GNA11,0,0.911,Pathway,Signaling Pathways
+TSC2,0,ENO2,0,0.911,Pathway,Disease
+TSC2,0,ATP6AP1,0,0.91,Pathway,Signaling Pathways
+TSC2,0,ATP6AP1,0,0.91,Pathway,Signaling by Insulin receptor

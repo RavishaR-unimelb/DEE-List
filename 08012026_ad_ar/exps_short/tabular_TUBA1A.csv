@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBA1A,0,PIGT,1,0.884,Pathway,Metabolism of proteins
+TUBA1A,0,RANBP2,1,0.884,Pathway,Cell Cycle
+TUBA1A,0,RANBP2,1,0.884,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,EXOSC2,0,0.883,Pathway,Metabolism of proteins
+TUBA1A,0,HDAC8,1,0.88,Pathway,Cell Cycle
+TUBA1A,0,HDAC8,1,0.88,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,EXOSC3,1,0.879,Pathway,Metabolism of proteins
+TUBA1A,0,TUBA8,1,0.878,Pathway,Pathogenic Escherichia coli infection
+TUBA1A,0,TUBA8,1,0.878,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBA1A,0,CASK,1,0.878,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBA1A,0,ALG2,1,0.878,Pathway,Metabolism of proteins
+TUBA1A,0,SMC1A,1,0.877,Pathway,Cell Cycle
+TUBA1A,0,SMC1A,1,0.877,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,KIF23,0,0.876,Pathway,Cell Cycle
+TUBA1A,0,KIF23,0,0.876,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,MOGS,1,0.875,Pathway,Metabolism of proteins
+TUBA1A,0,PMPCA,0,0.874,Pathway,Metabolism of proteins
+TUBA1A,0,PIGO,1,0.873,Pathway,Metabolism of proteins
+TUBA1A,0,EMD,0,0.873,Pathway,Cell Cycle
+TUBA1A,0,EMD,0,0.873,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,PIGN,1,0.872,Pathway,Metabolism of proteins
+TUBA1A,0,GMPPA,1,0.872,Pathway,Metabolism of proteins
+TUBA1A,0,BCS1L,1,0.872,Pathway,Metabolism of proteins
+TUBA1A,0,GFPT1,0,0.871,Pathway,Metabolism of proteins
+TUBA1A,0,EIF1AX,0,0.871,Pathway,Metabolism of proteins
+TUBA1A,0,GANAB,0,0.87,Pathway,Metabolism of proteins

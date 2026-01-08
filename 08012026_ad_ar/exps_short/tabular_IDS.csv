@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+IDS,0,PCCB,1,0.888,Pathway,Disease
+IDS,0,PCCB,1,0.888,Pathway,Metabolism
+IDS,0,SUCLG1,1,0.884,Pathway,Metabolism
+IDS,0,SLC25A20,0,0.883,Pathway,Metabolism
+IDS,0,PPP2R5D,1,0.882,Pathway,Carbohydrate metabolism
+IDS,0,PPP2R5D,1,0.882,Pathway,Disease
+IDS,0,PPP2R5D,1,0.882,Pathway,Metabolism
+IDS,0,AP1S2,0,0.882,Pathway,Disease
+IDS,0,SUCLA2,1,0.882,Pathway,Metabolism
+IDS,0,MOCS1,1,0.881,Pathway,Disease
+IDS,0,MOCS1,1,0.881,Pathway,Metabolism
+IDS,0,CACNA1A,1,0.881,Pathway,Metabolism
+IDS,0,PNPO,1,0.881,Pathway,Disease
+IDS,0,PNPO,1,0.881,Pathway,Metabolism
+IDS,0,PDHX,1,0.881,Pathway,Metabolism
+IDS,0,TPK1,1,0.88,Pathway,Disease
+IDS,0,TPK1,1,0.88,Pathway,Metabolism
+IDS,0,IDUA,0,0.879,Pathway,CS/DS degradation
+IDS,0,IDUA,0,0.879,Pathway,Carbohydrate metabolism
+IDS,0,IDUA,0,0.879,Pathway,Chondroitin sulfate/dermatan sulfate metabolism
+IDS,0,IDUA,0,0.879,Pathway,Defective B3GAT3 causes JDSSDHD
+IDS,0,IDUA,0,0.879,Pathway,Disease
+IDS,0,IDUA,0,0.879,Pathway,HS-GAG degradation
+IDS,0,IDUA,0,0.879,Pathway,Heparan sulfate/heparin (HS-GAG) metabolism
+IDS,0,IDUA,0,0.879,Pathway,Metabolism
+IDS,0,GMPS,0,0.879,Pathway,Metabolism
+IDS,0,BTD,1,0.879,Pathway,Disease
+IDS,0,BTD,1,0.879,Pathway,Metabolism
+IDS,0,L2HGDH,1,0.878,Pathway,Metabolism
+IDS,0,TSC2,0,0.877,Pathway,Disease
+IDS,0,GAB2,0,0.877,Pathway,Disease
+IDS,0,PACS1,1,0.877,Pathway,Disease
+IDS,0,PDHA1,1,0.877,Pathway,Metabolism
+IDS,0,GC,0,0.876,Pathway,Metabolism

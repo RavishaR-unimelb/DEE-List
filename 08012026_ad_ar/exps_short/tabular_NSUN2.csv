@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NSUN2,0,PPP2R5D,1,0.824,Pathway,Aurora B signaling
+NSUN2,0,STMN1,0,0.819,Pathway,Aurora B signaling
+NSUN2,0,TACC1,0,0.815,Pathway,Aurora B signaling
+NSUN2,0,PEBP1,0,0.791,Pathway,Aurora B signaling
+NSUN2,0,CUL3,1,0.761,Pathway,Aurora B signaling
+NSUN2,0,AURKC,0,0.761,Pathway,Aurora B signaling
+NSUN2,0,KLHL13,0,0.758,Pathway,Aurora B signaling
+NSUN2,0,CBX5,0,0.757,Pathway,Aurora B signaling
+NSUN2,0,EVI5,0,0.756,Pathway,Aurora B signaling
+NSUN2,0,KLHL9,0,0.751,Pathway,Aurora B signaling
+NSUN2,0,NCAPD2,0,0.75,Pathway,Aurora B signaling
+NSUN2,0,RASA1,0,0.748,Pathway,Aurora B signaling
+NSUN2,0,NCL,0,0.748,Pathway,Aurora B signaling
+NSUN2,0,NDC80,0,0.745,Pathway,Aurora B signaling
+NSUN2,0,NCAPG,0,0.743,Pathway,Aurora B signaling
+NSUN2,0,CDCA8,0,0.743,Pathway,Aurora B signaling
+NSUN2,0,BUB1,0,0.742,Pathway,Aurora B signaling
+NSUN2,0,PPP1CC,0,0.74,Pathway,Aurora B signaling
+NSUN2,0,KIF23,0,0.737,Pathway,Aurora B signaling
+NSUN2,0,CENPA,0,0.734,Pathway,Aurora B signaling

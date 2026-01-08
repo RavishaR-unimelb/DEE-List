@@ -1,0 +1,43 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GFRA2,0,SCN2A,1,0.884,Pathway,Axon guidance
+GFRA2,0,SCN2A,1,0.884,Pathway,Developmental Biology
+GFRA2,0,SCN1A,1,0.879,Pathway,Axon guidance
+GFRA2,0,SCN1A,1,0.879,Pathway,Developmental Biology
+GFRA2,0,TRIO,1,0.879,Pathway,Axon guidance
+GFRA2,0,TRIO,1,0.879,Pathway,Developmental Biology
+GFRA2,0,DLG3,0,0.878,Pathway,Axon guidance
+GFRA2,0,DLG3,0,0.878,Pathway,Developmental Biology
+GFRA2,0,SPTAN1,1,0.874,Pathway,Axon guidance
+GFRA2,0,SPTAN1,1,0.874,Pathway,Developmental Biology
+GFRA2,0,SPTAN1,1,0.874,Pathway,NCAM signaling for neurite out-growth
+GFRA2,0,MED18,0,0.874,Pathway,Developmental Biology
+GFRA2,0,KCNQ2,1,0.874,Pathway,Axon guidance
+GFRA2,0,KCNQ2,1,0.874,Pathway,Developmental Biology
+GFRA2,0,NFASC,0,0.872,Pathway,Axon guidance
+GFRA2,0,NFASC,0,0.872,Pathway,Developmental Biology
+GFRA2,0,KCNQ3,1,0.872,Pathway,Axon guidance
+GFRA2,0,KCNQ3,1,0.872,Pathway,Developmental Biology
+GFRA2,0,MEF2C,1,0.872,Pathway,Developmental Biology
+GFRA2,0,SCN5A,0,0.871,Pathway,Axon guidance
+GFRA2,0,SCN5A,0,0.871,Pathway,Developmental Biology
+GFRA2,0,SRGAP3,0,0.869,Pathway,Axon guidance
+GFRA2,0,SRGAP3,0,0.869,Pathway,Developmental Biology
+GFRA2,0,TBL1XR1,1,0.869,Pathway,Developmental Biology
+GFRA2,0,DNM1,1,0.868,Pathway,Axon guidance
+GFRA2,0,DNM1,1,0.868,Pathway,Developmental Biology
+GFRA2,0,GRIN1,1,0.867,Pathway,Axon guidance
+GFRA2,0,GRIN1,1,0.867,Pathway,Developmental Biology
+GFRA2,0,SPTBN2,0,0.865,Pathway,Axon guidance
+GFRA2,0,SPTBN2,0,0.865,Pathway,Developmental Biology
+GFRA2,0,SPTBN2,0,0.865,Pathway,NCAM signaling for neurite out-growth
+GFRA2,0,PTPN11,0,0.865,Pathway,Axon guidance
+GFRA2,0,PTPN11,0,0.865,Pathway,Developmental Biology
+GFRA2,0,PTPN11,0,0.865,Pathway,NCAM signaling for neurite out-growth
+GFRA2,0,CACNB4,0,0.864,Pathway,Axon guidance
+GFRA2,0,CACNB4,0,0.864,Pathway,Developmental Biology
+GFRA2,0,CACNB4,0,0.864,Pathway,NCAM signaling for neurite out-growth
+GFRA2,0,CACNB4,0,0.864,Pathway,NCAM1 interactions
+GFRA2,0,SCN11A,0,0.862,Pathway,Axon guidance
+GFRA2,0,SCN11A,0,0.862,Pathway,Developmental Biology
+GFRA2,0,PAK3,1,0.859,Pathway,Axon guidance
+GFRA2,0,PAK3,1,0.859,Pathway,Developmental Biology

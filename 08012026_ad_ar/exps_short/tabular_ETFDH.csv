@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ETFDH,0,SLC23A2,0,0.875,Pathway,Metabolism
+ETFDH,0,PNPO,1,0.872,Pathway,Metabolism
+ETFDH,0,STXBP1,1,0.87,Pathway,Metabolism
+ETFDH,0,TPK1,1,0.864,Pathway,Metabolism
+ETFDH,0,MED18,0,0.855,Pathway,Metabolism
+ETFDH,0,CACNA1A,1,0.852,Pathway,Metabolism
+ETFDH,0,GPT,0,0.844,Pathway,Metabolism
+ETFDH,0,SLC25A21,0,0.843,Pathway,Metabolism
+ETFDH,0,SUCLA2,1,0.842,Pathway,Metabolism
+ETFDH,0,SUCLA2,1,0.842,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+ETFDH,0,NMNAT2,0,0.841,Pathway,Metabolism
+ETFDH,0,RANBP2,1,0.838,Pathway,Metabolism
+ETFDH,0,GNAS,0,0.838,Pathway,Metabolism
+ETFDH,0,HADHB,0,0.837,Pathway,Metabolism
+ETFDH,0,MOCS1,1,0.836,Pathway,Metabolism
+ETFDH,0,TALDO1,0,0.834,Pathway,Metabolism
+ETFDH,0,PRPS1,0,0.831,Pathway,Metabolism
+ETFDH,0,PDHA1,1,0.83,Pathway,Metabolism
+ETFDH,0,PDHA1,1,0.83,Pathway,The citric acid (TCA) cycle and respiratory electron transport
+ETFDH,0,TBL1XR1,1,0.825,Pathway,Metabolism
+ETFDH,0,PRODH,1,0.822,Pathway,Metabolism
+ETFDH,0,HADHA,0,0.822,Pathway,Metabolism

@@ -1,0 +1,34 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SLC23A2,0,PNPO,1,0.885,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+SLC23A2,0,PNPO,1,0.885,Pathway,Disease
+SLC23A2,0,PNPO,1,0.885,Pathway,Metabolism
+SLC23A2,0,STXBP1,1,0.885,Pathway,Metabolism
+SLC23A2,0,TBL1XR1,1,0.877,Pathway,Disease
+SLC23A2,0,TBL1XR1,1,0.877,Pathway,Metabolism
+SLC23A2,0,PACS1,1,0.876,Pathway,Disease
+SLC23A2,0,SLC23A1,0,0.875,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+SLC23A2,0,SLC23A1,0,0.875,Pathway,Disease
+SLC23A2,0,SLC23A1,0,0.875,Pathway,Metabolism
+SLC23A2,0,SLC23A1,0,0.875,Pathway,Vitamin C (ascorbate) metabolism
+SLC23A2,0,GNAT1,0,0.873,Pathway,Disease
+SLC23A2,0,HADHB,0,0.87,Pathway,Metabolism
+SLC23A2,0,TPK1,1,0.868,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+SLC23A2,0,TPK1,1,0.868,Pathway,Disease
+SLC23A2,0,TPK1,1,0.868,Pathway,Metabolism
+SLC23A2,0,RANBP2,1,0.867,Pathway,Disease
+SLC23A2,0,RANBP2,1,0.867,Pathway,Metabolism
+SLC23A2,0,TSC2,0,0.867,Pathway,Disease
+SLC23A2,0,MED18,0,0.866,Pathway,Metabolism
+SLC23A2,0,GPT,0,0.865,Pathway,Metabolism
+SLC23A2,0,SUCLG1,1,0.864,Pathway,Metabolism
+SLC23A2,0,SLC25A21,0,0.864,Pathway,Metabolism
+SLC23A2,0,PCCB,1,0.861,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+SLC23A2,0,PCCB,1,0.861,Pathway,Disease
+SLC23A2,0,PCCB,1,0.861,Pathway,Metabolism
+SLC23A2,0,STX1B,1,0.861,Pathway,Disease
+SLC23A2,0,ATP6V0A1,1,0.86,Pathway,Disease
+SLC23A2,0,MOCS1,1,0.859,Pathway,Defective AMN causes hereditary megaloblastic anemia 1
+SLC23A2,0,MOCS1,1,0.859,Pathway,Disease
+SLC23A2,0,MOCS1,1,0.859,Pathway,Metabolism
+SLC23A2,0,AP1S2,0,0.859,Pathway,Disease
+SLC23A2,0,CACNA1A,1,0.857,Pathway,Metabolism

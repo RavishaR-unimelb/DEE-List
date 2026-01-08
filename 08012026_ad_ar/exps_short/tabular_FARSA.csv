@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+FARSA,0,EIF2B4,1,0.907,Pathway,Gene Expression
+FARSA,0,FARS2,1,0.906,Pathway,tRNA Aminoacylation
+FARSA,0,FARS2,1,0.906,Pathway,Gene Expression
+FARSA,0,EIF2B2,1,0.905,Pathway,Gene Expression
+FARSA,0,HNRNPH2,1,0.904,Pathway,Gene Expression
+FARSA,0,DARS2,0,0.9,Pathway,tRNA Aminoacylation
+FARSA,0,DARS2,0,0.9,Pathway,Gene Expression
+FARSA,0,EXOSC3,1,0.9,Pathway,Gene Expression
+FARSA,0,UPF3B,1,0.9,Pathway,Gene Expression
+FARSA,0,RANBP2,1,0.895,Pathway,Gene Expression
+FARSA,0,SMC1A,1,0.894,Pathway,Gene Expression
+FARSA,0,EXOSC2,0,0.894,Pathway,Gene Expression
+FARSA,0,EIF2B3,1,0.893,Pathway,Gene Expression
+FARSA,0,RARS2,1,0.886,Pathway,tRNA Aminoacylation
+FARSA,0,RARS2,1,0.886,Pathway,Gene Expression
+FARSA,0,POLR3A,0,0.885,Pathway,Gene Expression
+FARSA,0,PARS2,1,0.883,Pathway,tRNA Aminoacylation
+FARSA,0,PARS2,1,0.883,Pathway,Gene Expression
+FARSA,0,DCPS,0,0.883,Pathway,Gene Expression
+FARSA,0,CNOT10,0,0.883,Pathway,Gene Expression
+FARSA,0,YARS2,0,0.882,Pathway,tRNA Aminoacylation
+FARSA,0,YARS2,0,0.882,Pathway,Gene Expression
+FARSA,0,NOTCH3,0,0.88,Pathway,Gene Expression
+FARSA,0,TBL1XR1,1,0.88,Pathway,Gene Expression
+FARSA,0,EFTUD2,1,0.878,Pathway,Gene Expression

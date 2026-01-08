@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+APC,0,TPK1,1,0.872,Pathway,Disease
+APC,0,AP1S2,0,0.869,Pathway,Disease
+APC,0,SMC1A,1,0.866,Pathway,Cell Cycle
+APC,0,PNPO,1,0.866,Pathway,Disease
+APC,0,MOCS1,1,0.866,Pathway,Disease
+APC,0,PACS1,1,0.865,Pathway,Disease
+APC,0,GNB1,1,0.864,Pathway,Disease
+APC,0,GNB1,1,0.864,Pathway,Signaling Pathways
+APC,0,GNB1,1,0.864,Pathway,Signaling by Wnt
+APC,0,GNA11,0,0.864,Pathway,Signaling Pathways
+APC,0,PCCB,1,0.863,Pathway,Disease
+APC,0,SLC25A32,0,0.863,Pathway,Disease
+APC,0,TSC2,0,0.862,Pathway,Direct p53 effectors
+APC,0,TSC2,0,0.862,Pathway,Disease
+APC,0,TSC2,0,0.862,Pathway,Signaling Pathways
+APC,0,TSC2,0,0.862,Pathway,BDNF signaling pathway
+APC,0,TSC2,0,0.862,Pathway,Wnt Signaling Pathway Netpath
+APC,0,TALDO1,0,0.86,Pathway,Disease
+APC,0,GDI1,0,0.86,Pathway,Signaling Pathways
+APC,0,CDKL5,1,0.86,Pathway,BDNF signaling pathway
+APC,0,STRADA,1,0.859,Pathway,Signaling Pathways
+APC,0,PRPS1,0,0.859,Pathway,Disease
+APC,0,STX1B,1,0.859,Pathway,Disease
+APC,0,BTD,1,0.859,Pathway,Disease
+APC,0,NMNAT2,0,0.858,Pathway,Disease
+APC,0,RANBP10,0,0.857,Pathway,Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)

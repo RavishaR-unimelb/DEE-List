@@ -1,0 +1,45 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TSC1,0,GNB1,1,0.865,Pathway,Signaling Pathways
+TSC1,0,STXBP1,1,0.863,Pathway,Insulin Signaling
+TSC1,0,GDI1,0,0.862,Pathway,Signaling Pathways
+TSC1,0,GDI1,0,0.862,Pathway,Integrated Breast Cancer Pathway
+TSC1,0,GNAO1,1,0.861,Pathway,Signaling Pathways
+TSC1,0,GNA11,0,0.858,Pathway,Signaling Pathways
+TSC1,0,ATP6AP1,0,0.855,Pathway,Signaling Pathways
+TSC1,0,ATP6AP1,0,0.855,Pathway,Signaling by Insulin receptor
+TSC1,0,PPP2R5D,1,0.855,Pathway,Signaling Pathways
+TSC1,0,ATP6V0A1,1,0.854,Pathway,Signaling Pathways
+TSC1,0,ATP6V0A1,1,0.854,Pathway,Signaling by Insulin receptor
+TSC1,0,TSC2,0,0.854,Pathway,mTOR signaling pathway
+TSC1,0,TSC2,0,0.854,Pathway,mTOR signalling
+TSC1,0,TSC2,0,0.854,Pathway,Energy dependent regulation of mTOR by LKB1-AMPK
+TSC1,0,TSC2,0,0.854,Pathway,IGF1R signaling cascade
+TSC1,0,TSC2,0,0.854,Pathway,IRS-mediated signalling
+TSC1,0,TSC2,0,0.854,Pathway,IRS-related events
+TSC1,0,TSC2,0,0.854,Pathway,IRS-related events triggered by IGF1R
+TSC1,0,TSC2,0,0.854,Pathway,Inhibition of TSC complex formation by PKB
+TSC1,0,TSC2,0,0.854,Pathway,Insulin receptor signalling cascade
+TSC1,0,TSC2,0,0.854,Pathway,LKB1 signaling events
+TSC1,0,TSC2,0,0.854,Pathway,PI3K Cascade
+TSC1,0,TSC2,0,0.854,Pathway,PKB-mediated events
+TSC1,0,TSC2,0,0.854,Pathway,Regulation of Rheb GTPase activity by AMPK
+TSC1,0,TSC2,0,0.854,Pathway,Signaling Pathways
+TSC1,0,TSC2,0,0.854,Pathway,Signaling by Insulin receptor
+TSC1,0,TSC2,0,0.854,Pathway,AMPK Signaling
+TSC1,0,TSC2,0,0.854,Pathway,TOR Signaling
+TSC1,0,TSC2,0,0.854,Pathway,Integrated Breast Cancer Pathway
+TSC1,0,TSC2,0,0.854,Pathway,Signaling Pathways in Glioblastoma
+TSC1,0,TSC2,0,0.854,Pathway,Wnt Signaling Pathway Netpath
+TSC1,0,TSC2,0,0.854,Pathway,Insulin Signaling
+TSC1,0,TBL1XR1,1,0.852,Pathway,Signaling Pathways
+TSC1,0,SNAP25,1,0.851,Pathway,Insulin Signaling
+TSC1,0,HDAC6,0,0.851,Pathway,Signaling Pathways
+TSC1,0,TRRAP,1,0.85,Pathway,Signaling Pathways
+TSC1,0,OPHN1,1,0.849,Pathway,Signaling Pathways
+TSC1,0,APC,0,0.849,Pathway,Signaling Pathways
+TSC1,0,APC,0,0.849,Pathway,Wnt Signaling Pathway Netpath
+TSC1,0,SRGAP3,0,0.848,Pathway,Signaling Pathways
+TSC1,0,GRM5,0,0.845,Pathway,Signaling Pathways
+TSC1,0,MEF2C,1,0.842,Pathway,Signaling Pathways
+TSC1,0,PLCB4,0,0.839,Pathway,Signaling Pathways
+TSC1,0,TTC21B,0,0.839,Pathway,Signaling Pathways

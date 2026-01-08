@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TBCE,0,PIGO,1,0.905,Pathway,Metabolism of proteins
+TBCE,0,EIF2B2,1,0.896,Pathway,Metabolism of proteins
+TBCE,0,PIGT,1,0.892,Pathway,Metabolism of proteins
+TBCE,0,BCS1L,1,0.886,Pathway,Metabolism of proteins
+TBCE,0,EIF2B4,1,0.88,Pathway,Metabolism of proteins
+TBCE,0,PMPCA,0,0.88,Pathway,Metabolism of proteins
+TBCE,0,EIF2B3,1,0.877,Pathway,Metabolism of proteins
+TBCE,0,EXOSC3,1,0.876,Pathway,Metabolism of proteins
+TBCE,0,MOGS,1,0.87,Pathway,Metabolism of proteins
+TBCE,0,TUBA1A,0,0.868,Pathway,Metabolism of proteins
+TBCE,0,TUBA1A,0,0.868,Pathway,Post-chaperonin tubulin folding pathway
+TBCE,0,TUBA1A,0,0.868,Pathway,Protein folding
+TBCE,0,ALG8,1,0.861,Pathway,Metabolism of proteins
+TBCE,0,GMPPA,1,0.861,Pathway,Metabolism of proteins
+TBCE,0,TIMM9,0,0.861,Pathway,Metabolism of proteins
+TBCE,0,EXOSC2,0,0.861,Pathway,Metabolism of proteins
+TBCE,0,PIGN,1,0.86,Pathway,Metabolism of proteins
+TBCE,0,ALG9,1,0.86,Pathway,Metabolism of proteins
+TBCE,0,ALG14,1,0.858,Pathway,Metabolism of proteins
+TBCE,0,SLC25A4,0,0.857,Pathway,Metabolism of proteins
+TBCE,0,MCFD2,0,0.856,Pathway,Metabolism of proteins
+TBCE,0,PIGQ,1,0.855,Pathway,Metabolism of proteins

@@ -1,0 +1,64 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBGCP4,0,RANBP2,1,0.843,Pathway,Cell Cycle
+TUBGCP4,0,RANBP2,1,0.843,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,SMC1A,1,0.83,Pathway,Cell Cycle
+TUBGCP4,0,SMC1A,1,0.83,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,HDAC8,1,0.824,Pathway,Cell Cycle
+TUBGCP4,0,HDAC8,1,0.824,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,TUBA1A,0,0.819,Pathway,Cell Cycle
+TUBGCP4,0,TUBA1A,0,0.819,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,TUBA1A,0,0.819,Pathway,Centrosome maturation
+TUBGCP4,0,TUBA1A,0,0.819,Pathway,G2/M Transition
+TUBGCP4,0,TUBA1A,0,0.819,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,EMD,0,0.814,Pathway,Cell Cycle
+TUBGCP4,0,EMD,0,0.814,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,PPP2R5D,1,0.813,Pathway,Cell Cycle
+TUBGCP4,0,PPP2R5D,1,0.813,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,RB1,0,0.801,Pathway,Cell Cycle
+TUBGCP4,0,RB1,0,0.801,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,PHF8,0,0.799,Pathway,Cell Cycle
+TUBGCP4,0,PHF8,0,0.799,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,SYNE1,0,0.794,Pathway,Cell Cycle
+TUBGCP4,0,ALMS1,0,0.793,Pathway,Cell Cycle
+TUBGCP4,0,ALMS1,0,0.793,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,ALMS1,0,0.793,Pathway,Centrosome maturation
+TUBGCP4,0,ALMS1,0,0.793,Pathway,G2/M Transition
+TUBGCP4,0,ALMS1,0,0.793,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,TINF2,0,0.791,Pathway,Cell Cycle
+TUBGCP4,0,CEP76,0,0.791,Pathway,Cell Cycle
+TUBGCP4,0,CEP76,0,0.791,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,CEP76,0,0.791,Pathway,Centrosome maturation
+TUBGCP4,0,CEP76,0,0.791,Pathway,G2/M Transition
+TUBGCP4,0,CEP76,0,0.791,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,DYRK1A,1,0.79,Pathway,Cell Cycle
+TUBGCP4,0,DYRK1A,1,0.79,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,NUP98,0,0.789,Pathway,Cell Cycle
+TUBGCP4,0,NUP98,0,0.789,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,YWHAG,1,0.786,Pathway,Cell Cycle
+TUBGCP4,0,YWHAG,1,0.786,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,YWHAG,1,0.786,Pathway,Centrosome maturation
+TUBGCP4,0,YWHAG,1,0.786,Pathway,G2/M Transition
+TUBGCP4,0,YWHAG,1,0.786,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,PPP2R1A,1,0.785,Pathway,Cell Cycle
+TUBGCP4,0,PPP2R1A,1,0.785,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,PPP2R1A,1,0.785,Pathway,Centrosome maturation
+TUBGCP4,0,PPP2R1A,1,0.785,Pathway,G2/M Transition
+TUBGCP4,0,PPP2R1A,1,0.785,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,TUBB,1,0.785,Pathway,Cell Cycle
+TUBGCP4,0,TUBB,1,0.785,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,TUBB,1,0.785,Pathway,Centrosome maturation
+TUBGCP4,0,TUBB,1,0.785,Pathway,G2/M Transition
+TUBGCP4,0,TUBB,1,0.785,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,TUBGCP2,1,0.784,Pathway,Cell Cycle
+TUBGCP4,0,TUBGCP2,1,0.784,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,TUBGCP2,1,0.784,Pathway,Centrosome maturation
+TUBGCP4,0,TUBGCP2,1,0.784,Pathway,G2/M Transition
+TUBGCP4,0,TUBGCP2,1,0.784,Pathway,Mitotic G2-G2/M phases
+TUBGCP4,0,TUBGCP2,1,0.784,Pathway,Recruitment of NuMA to mitotic centrosomes
+TUBGCP4,0,RFC1,0,0.783,Pathway,Cell Cycle
+TUBGCP4,0,RFC1,0,0.783,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,SDCCAG8,0,0.783,Pathway,Cell Cycle
+TUBGCP4,0,SDCCAG8,0,0.783,Pathway,"Cell Cycle, Mitotic"
+TUBGCP4,0,SDCCAG8,0,0.783,Pathway,Centrosome maturation
+TUBGCP4,0,SDCCAG8,0,0.783,Pathway,G2/M Transition
+TUBGCP4,0,SDCCAG8,0,0.783,Pathway,Mitotic G2-G2/M phases

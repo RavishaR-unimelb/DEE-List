@@ -1,0 +1,45 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+UBE3B,0,SPTBN2,0,0.835,Pathway,Adaptive Immune System
+UBE3B,0,SPTBN2,0,0.835,Pathway,Immune System
+UBE3B,0,UBE2A,1,0.833,Pathway,Adaptive Immune System
+UBE3B,0,UBE2A,1,0.833,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE3B,0,UBE2A,1,0.833,Pathway,Class I MHC mediated antigen processing & presentation
+UBE3B,0,UBE2A,1,0.833,Pathway,Immune System
+UBE3B,0,UBA5,1,0.828,Pathway,Adaptive Immune System
+UBE3B,0,UBA5,1,0.828,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE3B,0,UBA5,1,0.828,Pathway,Class I MHC mediated antigen processing & presentation
+UBE3B,0,UBA5,1,0.828,Pathway,Immune System
+UBE3B,0,AP1S2,0,0.825,Pathway,Adaptive Immune System
+UBE3B,0,AP1S2,0,0.825,Pathway,Immune System
+UBE3B,0,RANBP2,1,0.817,Pathway,Immune System
+UBE3B,0,HERC2,1,0.817,Pathway,Adaptive Immune System
+UBE3B,0,HERC2,1,0.817,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE3B,0,HERC2,1,0.817,Pathway,Class I MHC mediated antigen processing & presentation
+UBE3B,0,HERC2,1,0.817,Pathway,Immune System
+UBE3B,0,TRIP12,1,0.816,Pathway,Adaptive Immune System
+UBE3B,0,TRIP12,1,0.816,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE3B,0,TRIP12,1,0.816,Pathway,Class I MHC mediated antigen processing & presentation
+UBE3B,0,TRIP12,1,0.816,Pathway,Immune System
+UBE3B,0,KLC2,0,0.815,Pathway,Adaptive Immune System
+UBE3B,0,KLC2,0,0.815,Pathway,Immune System
+UBE3B,0,UBR1,0,0.815,Pathway,Adaptive Immune System
+UBE3B,0,UBR1,0,0.815,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE3B,0,UBR1,0,0.815,Pathway,Class I MHC mediated antigen processing & presentation
+UBE3B,0,UBR1,0,0.815,Pathway,Immune System
+UBE3B,0,CREBBP,1,0.814,Pathway,Immune System
+UBE3B,0,TSC2,0,0.813,Pathway,Adaptive Immune System
+UBE3B,0,TSC2,0,0.813,Pathway,Immune System
+UBE3B,0,NUP98,0,0.811,Pathway,Immune System
+UBE3B,0,POLR3A,0,0.81,Pathway,Immune System
+UBE3B,0,KPNA3,0,0.81,Pathway,Immune System
+UBE3B,0,UBE3A,1,0.809,Pathway,Adaptive Immune System
+UBE3B,0,UBE3A,1,0.809,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE3B,0,UBE3A,1,0.809,Pathway,Class I MHC mediated antigen processing & presentation
+UBE3B,0,UBE3A,1,0.809,Pathway,Immune System
+UBE3B,0,AAAS,0,0.808,Pathway,Immune System
+UBE3B,0,MEF2C,1,0.808,Pathway,Immune System
+UBE3B,0,PPP2R5D,1,0.806,Pathway,Adaptive Immune System
+UBE3B,0,PPP2R5D,1,0.806,Pathway,Immune System
+UBE3B,0,CASP10,0,0.806,Pathway,Immune System
+UBE3B,0,PAK3,1,0.806,Pathway,Adaptive Immune System
+UBE3B,0,PAK3,1,0.806,Pathway,Immune System
