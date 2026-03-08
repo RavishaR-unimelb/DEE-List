@@ -128,7 +128,7 @@ display_name = gene_name
 
 # --- Back link ---
 st.markdown(
-    '<div class="back-link"><a href="/" target="_top">← Back to predictions</a></div>',
+    '<div class="back-link"><a href="/" target="_blank">← Back to predictions</a></div>',
     unsafe_allow_html=True
 )
 
