@@ -302,7 +302,7 @@ a:hover {{ text-decoration: underline; }}
 </html>"""
 
 table_html = build_table_html(display_df, max_score, n, total)
-# Calculate height: header(40) + result-count(30) + rows(50 each) + padding
+# Each row ~46px, thead ~44px, result-count ~28px, wrapper padding ~20px
 row_count = max(len(display_df), 1)
-height = min(50 + 30 + row_count * 50 + 60, 2400)
+height = 44 + 28 + row_count * 46 + 40
 components.html(table_html, height=height, scrolling=False)
