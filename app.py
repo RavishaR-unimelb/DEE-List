@@ -180,79 +180,55 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; paddi
 </html>
 """, height=320)
 
-# ── Search + filter (native Streamlit widgets) ───────────────────────────────
-col1, col2 = st.columns([3, 1])
-with col1:
-    st.text_input("Search genes", key="search_query", on_change=apply_filters, placeholder="e.g. SCN1A")
-with col2:
-    st.selectbox("Confidence", ["All", "High", "Medium", "Low"], key="conf_filter", on_change=apply_filters)
+# ── Serialize all gene data to JSON for client-side filtering ────────────────
+genes_json = df[["Rank", "Gene", "Score", "Confidence"]].to_json(orient="records")
 
-display_df = st.session_state.display_df
-n     = len(display_df)
-total = len(df)
-
-# ── Table (via component so CSS is guaranteed to render) ─────────────────────
-CONF_META = {
-    "High":   ("high", "#16a34a"),
-    "Medium": ("med",  "#d97706"),
-    "Low":    ("low",  "#dc2626"),
-}
-
-def build_table_html(display_df, max_score, n, total):
-    rows = ""
-    for _, row in display_df.iterrows():
-        rank  = int(row["Rank"])
-        gene  = str(row["Gene"])
-        score = float(row["Score"])
-        conf  = str(row["Confidence"])
-
-        url_safe    = gene.replace(" ", "_")
-        pct         = int((score / max_score) * 100) if max_score > 0.0 else 0
-        cls, color  = CONF_META.get(conf, ("low", "#dc2626"))
-        badge_class = "rank-badge top3" if rank <= 3 else "rank-badge"
-
-        rows += f"""
-        <tr>
-            <td><span class="{badge_class}">{rank}</span></td>
-            <td><a href="/Gene_Explanation?gene={url_safe}" target="_top">{gene}</a></td>
-            <td>
-                <div class="score-cell">
-                    <div class="score-bar-bg">
-                        <div class="score-bar-fill" style="width:{pct}%;background:{color}"></div>
-                    </div>
-                    <span class="score-val {cls}">{score:.4f}</span>
-                </div>
-            </td>
-            <td><span class="conf-badge {cls}">{conf}</span></td>
-        </tr>"""
-
-    if not rows:
-        rows = '<tr><td colspan="4"><div class="no-results">No genes match your search.</div></td></tr>'
-
-    return f"""<!DOCTYPE html>
+# ── Single self-contained component: search + table, all client-side ─────────
+components.html(f"""
+<!DOCTYPE html>
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; }}
+body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; padding-bottom: 8px; }}
+
+.controls {{ display: flex; gap: 12px; margin-bottom: 8px; align-items: flex-end; }}
+.search-wrap {{ flex: 1; }}
+.search-wrap label, .select-wrap label {{
+    display: block; font-size: 0.8rem; font-weight: 500; color: #374151; margin-bottom: 4px;
+}}
+.search-wrap input {{
+    width: 100%; font-family: "IBM Plex Sans", sans-serif; font-size: 0.9rem;
+    border: 1.5px solid #d1d5db; border-radius: 8px; padding: 0.55rem 1rem;
+    background: #fff; color: #111827; outline: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: border-color 0.15s, box-shadow 0.15s;
+}}
+.search-wrap input:focus {{
+    border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}}
+.select-wrap select {{
+    font-family: "IBM Plex Sans", sans-serif; font-size: 0.875rem;
+    border: 1.5px solid #d1d5db; border-radius: 8px; padding: 0.55rem 0.85rem;
+    background: #fff; color: #111827; outline: none; cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}}
 .result-count {{
     font-family: "IBM Plex Mono", monospace; font-size: 0.75rem;
-    color: #9ca3af; margin-bottom: 1rem;
+    color: #9ca3af; margin-bottom: 10px;
 }}
 .gene-table-wrapper {{
-    background: #ffffff; border-radius: 12px;
-    border: 1px solid #e5e7eb; overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    background: #fff; border-radius: 12px; border: 1px solid #e5e7eb;
+    overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }}
 table {{ width: 100%; border-collapse: collapse; font-size: 0.865rem; }}
 thead tr {{ background: #f9fafb; border-bottom: 1.5px solid #e5e7eb; }}
 thead th {{
-    font-family: "IBM Plex Mono", monospace; font-size: 0.67rem;
-    font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
-    color: #6b7a8d; padding: 0.7rem 1rem; text-align: left; white-space: nowrap;
+    font-family: "IBM Plex Mono", monospace; font-size: 0.67rem; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase; color: #6b7a8d;
+    padding: 0.7rem 1rem; text-align: left; white-space: nowrap;
 }}
-tbody tr {{ border-bottom: 1px solid #f3f4f6; transition: background 0.12s ease; }}
+tbody tr {{ border-bottom: 1px solid #f3f4f6; transition: background 0.1s; }}
 tbody tr:last-child {{ border-bottom: none; }}
 tbody tr:hover {{ background: #f8faff; }}
 tbody td {{ padding: 0.65rem 1rem; color: #1f2937; vertical-align: middle; }}
@@ -272,13 +248,10 @@ a:hover {{ text-decoration: underline; }}
 }}
 .score-bar-fill {{ height: 100%; border-radius: 99px; }}
 .score-val {{ font-family: "IBM Plex Mono", monospace; font-size: 0.82rem; font-weight: 500; }}
-.score-val.high {{ color: #15803d; }}
-.score-val.med  {{ color: #b45309; }}
-.score-val.low  {{ color: #b91c1c; }}
+.score-val.high {{ color: #15803d; }} .score-val.med {{ color: #b45309; }} .score-val.low {{ color: #b91c1c; }}
 .conf-badge {{
-    display: inline-flex; align-items: center;
-    padding: 2px 10px; border-radius: 100px;
-    font-size: 0.73rem; font-weight: 600; white-space: nowrap;
+    display: inline-flex; align-items: center; padding: 2px 10px;
+    border-radius: 100px; font-size: 0.73rem; font-weight: 600; white-space: nowrap;
 }}
 .conf-badge.high {{ background: #dcfce7; color: #15803d; }}
 .conf-badge.med  {{ background: #fef9c3; color: #a16207; }}
@@ -287,20 +260,87 @@ a:hover {{ text-decoration: underline; }}
 </style>
 </head>
 <body>
-<div class="result-count">Showing {n} of {total} genes</div>
-<div class="gene-table-wrapper">
-    <table>
-        <thead>
-            <tr>
-                <th>Rank</th><th>Gene</th><th>Score</th><th>Confidence</th>
-            </tr>
-        </thead>
-        <tbody>{rows}</tbody>
-    </table>
-</div>
-</body>
-</html>"""
 
-table_html = build_table_html(display_df, max_score, n, total)
-# Height: enough for all possible rows (100 genes * 46px + chrome), no cutoff
-components.html(table_html, height=5200, scrolling=False)
+<div class="controls">
+  <div class="search-wrap">
+    <label for="geneSearch">Search genes</label>
+    <input id="geneSearch" type="text" placeholder="e.g. SCN1A" oninput="filterTable()" autocomplete="off">
+  </div>
+  <div class="select-wrap">
+    <label for="confSelect">Confidence</label>
+    <select id="confSelect" onchange="filterTable()">
+      <option value="All">All</option>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
+  </div>
+</div>
+
+<div class="result-count" id="resultCount"></div>
+
+<div class="gene-table-wrapper">
+  <table>
+    <thead>
+      <tr><th>Rank</th><th>Gene</th><th>Score</th><th>Confidence</th></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+</div>
+
+<script>
+const ALL_GENES = {genes_json};
+const MAX_SCORE = {max_score};
+const TOTAL     = ALL_GENES.length;
+
+const CONF_META = {{
+  High:   {{ cls: "high", color: "#16a34a" }},
+  Medium: {{ cls: "med",  color: "#d97706" }},
+  Low:    {{ cls: "low",  color: "#dc2626" }},
+}};
+
+function buildRow(g) {{
+  const meta       = CONF_META[g.Confidence] || CONF_META.Low;
+  const pct        = Math.round((g.Score / MAX_SCORE) * 100);
+  const badgeCls   = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
+  const urlSafe    = g.Gene.replace(/ /g, "_");
+  return `<tr>
+    <td><span class="${{badgeCls}}">${{g.Rank}}</span></td>
+    <td><a href="/Gene_Explanation?gene=${{urlSafe}}" target="_top">${{g.Gene}}</a></td>
+    <td>
+      <div class="score-cell">
+        <div class="score-bar-bg"><div class="score-bar-fill" style="width:${{pct}}%;background:${{meta.color}}"></div></div>
+        <span class="score-val ${{meta.cls}}">${{g.Score.toFixed(4)}}</span>
+      </div>
+    </td>
+    <td><span class="conf-badge ${{meta.cls}}">${{g.Confidence}}</span></td>
+  </tr>`;
+}}
+
+function filterTable() {{
+  const q    = document.getElementById("geneSearch").value.trim().toLowerCase();
+  const conf = document.getElementById("confSelect").value;
+
+  const filtered = ALL_GENES.filter(g => {{
+    const matchQ    = q === "" || g.Gene.toLowerCase().includes(q);
+    const matchConf = conf === "All" || g.Confidence === conf;
+    return matchQ && matchConf;
+  }});
+
+  const tbody = document.getElementById("tableBody");
+  if (filtered.length === 0) {{
+    tbody.innerHTML = `<tr><td colspan="4"><div class="no-results">No genes match your search.</div></td></tr>`;
+  }} else {{
+    tbody.innerHTML = filtered.map(buildRow).join("");
+  }}
+
+  document.getElementById("resultCount").textContent =
+    `Showing ${{filtered.length}} of ${{TOTAL}} genes`;
+}}
+
+// Initial render
+filterTable();
+</script>
+</body>
+</html>
+""", height=5200, scrolling=False)
