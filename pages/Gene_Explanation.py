@@ -243,7 +243,7 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         st.download_button(
             label="⬇ Download as CSV",
             data=df.to_csv(index=False).encode("utf-8"),
-            file_name=f"{display_name}_connections.csv",
+            file_name=f"{display_name}_top_connections.csv",
             mime="text/csv",
         )
 
