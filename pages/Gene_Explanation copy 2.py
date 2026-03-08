@@ -240,13 +240,6 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         })
         st.data_editor(df, use_container_width=True, height=500, hide_index=True)
 
-        st.download_button(
-            label="⬇ Download as CSV",
-            data=df.to_csv(index=False).encode("utf-8"),
-            file_name=f"{display_name}_connections.csv",
-            mime="text/csv",
-        )
-
 else:
     st.markdown("""
     <div style="background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:2rem; text-align:center; color:#9ca3af; margin-top:1rem;">
