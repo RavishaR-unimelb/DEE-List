@@ -106,6 +106,7 @@ body { font-family: "IBM Plex Sans", sans-serif; background: transparent; paddin
 .tab-btn.active { color: #2563eb; border-bottom-color: #2563eb; font-weight: 600; }
 
 /* Stats */
+.tab-desc { font-size: 0.85rem; color: #6b7280; line-height: 1.6; margin-bottom: 1.1rem; max-width: 680px; }
 .stats-strip { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
 .stat-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 0.6rem 1.1rem; min-width: 100px; }
 .stat-label { font-family: "IBM Plex Mono", monospace; font-size: 0.63rem; text-transform: uppercase; letter-spacing: 0.08em; color: #9ca3af; margin-bottom: 2px; }
@@ -165,6 +166,7 @@ a:hover { text-decoration: underline; }
   <button class="tab-btn" onclick="switchTab('ar', this)">Only AR</button>
 </div>
 
+<div class="tab-desc" id="tabDesc"></div>
 <div class="stats-strip" id="statsStrip"></div>
 
 <div class="legend">
@@ -208,6 +210,12 @@ const DATASETS = {
 
 let activeTab = "both";
 
+const TAB_DESCS = {
+  both: "Genes ranked using a model trained on both Autosomal Dominant (AD) and Autosomal Recessive (AR) DEE genes as positive examples. This combined model captures a broad set of DEE-associated gene characteristics.",
+  ad:   "Genes ranked using a model trained exclusively on Autosomal Dominant (AD) DEE genes. This model is tuned to identify candidates that share features with dominantly inherited DEE genes.",
+  ar:   "Genes ranked using a model trained exclusively on Autosomal Recessive (AR) DEE genes. This model is tuned to identify candidates that share features with recessively inherited DEE genes.",
+};
+
 const CONF_META = {
   High:   { cls: "high", color: "#16a34a" },
   Medium: { cls: "med",  color: "#d97706" },
@@ -245,6 +253,7 @@ function switchTab(tab, btn) {
   btn.classList.add("active");
   document.getElementById("geneSearch").value = "";
   document.getElementById("confSelect").value = "All";
+  document.getElementById("tabDesc").textContent = TAB_DESCS[tab];
   updateStats(DATASETS[tab]);
   filterTable();
 }
@@ -265,6 +274,7 @@ function filterTable() {
     `Showing ${filtered.length} of ${genes.length} genes`;
 }
 
+document.getElementById("tabDesc").textContent = TAB_DESCS[activeTab];
 updateStats(DATASETS[activeTab]);
 filterTable();
 </script>
