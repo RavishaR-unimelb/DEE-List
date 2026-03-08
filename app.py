@@ -67,20 +67,20 @@ def get_confidence(score):
     elif score >= MEDIUM_THRESHOLD: return "Medium"
     else:                           return "Low"
 
-def prepare_genes(source_df):
+def prepare_genes(source_df, dee_type):
     d = source_df.copy()
     d["Score"]      = d["Score"].astype(float)
     d["Rank"]       = list(range(1, len(d) + 1))
     d["Confidence"] = d["Score"].apply(get_confidence)
-    d["GeneLink"]   = d["Gene"].apply(
-        lambda g: '<a href="/Gene_Explanation?gene=' + g.replace(" ", "_") + '" target="_blank">' + g + '</a>'
+    d["GeneLink"] = d["Gene"].apply(
+        lambda g: f'<a href="/Gene_Explanation?gene={g.replace(" ", "_")}&type={dee_type}" target="_blank">{g}</a>'
     )
     return d[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
 
 # Swap these for separate files when ready
-genes_both_json = prepare_genes(df)
-genes_ad_json   = prepare_genes(df_ad)
-genes_ar_json   = prepare_genes(df_ar)
+genes_both_json = prepare_genes(df, 'both')
+genes_ad_json   = prepare_genes(df_ad, 'ad')
+genes_ar_json   = prepare_genes(df_ar, 'ar')
 
 updated = data["updated"]
 

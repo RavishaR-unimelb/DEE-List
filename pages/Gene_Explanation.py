@@ -7,8 +7,19 @@ import pandas as pd
 # Get query parameters
 query_params = st.query_params
 gene_name = query_params.get("gene", None)
-main_dir = f'08012026_ad_ar/exps_short/'
+gene_type = query_params.get("type", None)
 
+if gene_type == 'both':
+    main_dir = f'08012026_ad_ar/exps_short/'
+elif gene_type == 'ad':
+    main_dir = f'ad/exps_short/'
+elif gene_type == 'ar':
+    main_dir = f'ar/exps_short/'
+else:
+    main_dir = f'08012026_ad_ar/exps_short/'
+
+
+########################################################
 st.set_page_config(page_title="Explanations Dashboard", layout="wide", initial_sidebar_state="collapsed")
 st.markdown("""
     <style>
