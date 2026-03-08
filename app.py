@@ -155,7 +155,7 @@ a:hover { text-decoration: underline; }
 <body>
 
 <div class="eyebrow">Gene Prioritization &middot; Predictive Model</div>
-<div class="title">Top Developmental &amp; Epileptic Encephalopathy (DEE) Gene Predictions</div>
+<div class="title">Developmental &amp; Epileptic Encephalopathy (DEE) Gene Predictions</div>
 <div class="desc">Ranked predictions for Developmental &amp; Epileptic Encephalopathy genes based on the latest model outputs.</div>
 <div class="meta-pill">&#10227; &nbsp;Last updated: __UPDATED__</div>
 
