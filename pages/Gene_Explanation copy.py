@@ -1,0 +1,156 @@
+import streamlit as st
+from urllib.parse import parse_qs
+import os
+import base64
+import pandas as pd
+
+# Get query parameters
+query_params = st.query_params
+gene_name = query_params.get("gene", None)
+gene_type = query_params.get("type", None)
+
+if gene_type == 'both':
+    main_dir = f'08012026_ad_ar/exps_short/'
+elif gene_type == 'ad':
+    main_dir = f'ad/exps_short/'
+elif gene_type == 'ar':
+    main_dir = f'ar/exps_short/'
+else:
+    main_dir = f'08012026_ad_ar/exps_short/'
+
+
+########################################################
+st.set_page_config(page_title="Explanations Dashboard", layout="wide", initial_sidebar_state="collapsed")
+st.markdown("""
+    <style>
+        .block-container {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .element-container {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+if gene_name:
+    #display_name = gene_name.replace('_', ' ')
+    display_name = gene_name
+    st.title(f"Explanation for {display_name.replace('_', ' ')}")
+
+    # Summary
+    try:
+        with open(main_dir+f"dee_summary_{display_name}_v2.txt", "r") as f:
+            description_text = f.read()
+    except FileNotFoundError:
+        description_text = "This gene has no connections to other genes in the data used for the predictive model."
+
+    st.markdown(description_text)
+
+
+    image_path = main_dir+f"{display_name}_legend_v2.png"
+    if os.path.exists(image_path):
+        #st.image(image_path, caption=f"Explanation for {display_name}")
+        # --- Layout with two columns ---
+        #col1, col2 = st.columns([3, 3])  
+
+
+
+        # Step 1: Encode legend image as base64
+        with open(image_path, "rb") as img_file:
+            legend_base64 = base64.b64encode(img_file.read()).decode()
+
+        # Step 2: Read HTML content and inject styles
+        with open(main_dir+f"{display_name}_v2.html", "r") as f:
+            html_content = f.read()
+
+        # Optional: Ensure no extra margin/padding inside embedded HTML
+        html_content = html_content.replace(
+            "<head>",
+            """<head><style>
+                body, html {
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    overflow: hidden !important;
+                }
+                svg {
+                    display: block;
+                    margin: 0 auto;
+                }
+            </style>
+            <script type="text/javascript">
+                document.addEventListener("DOMContentLoaded", function() {
+                    if (window.network) {
+                        const MIN_ZOOM = 0.5;
+                        const MAX_ZOOM = 10;
+
+                        // Intercept zoom events and block beyond thresholds
+                        network.on("zoom", function(params) {
+                            if (params.scale < MIN_ZOOM) {
+                                params.scale = MIN_ZOOM;
+                                network.moveTo({ scale: MIN_ZOOM });
+                            } else if (params.scale > MAX_ZOOM) {
+                                params.scale = MAX_ZOOM;
+                                network.moveTo({ scale: MAX_ZOOM });
+                            }
+                        });
+                    }
+                });
+            </script>
+            """
+        )
+
+        # Step 3: Combine legend image and HTML in one styled container
+        styled_html = f"""
+            <style>
+                .border-box {{
+                    border: 2px solid #cccccc;
+                    padding: 10px;
+                    border-radius: 0px;
+                    margin-top: 0px;
+                    text-align: center;
+                }}
+                .legend-img {{
+                    max-width: 800px;
+                    margin-bottom: 0px;
+                }}
+            </style>
+            <div class="border-box">
+                <img class="legend-img" src="data:image/png;base64,{legend_base64}" alt="Legend">
+                {html_content}
+            </div>
+        """
+
+        # Step 4: Render everything
+        st.components.v1.html(styled_html, height=1500, width=900, scrolling=False)
+
+        df = pd.read_csv(main_dir+f"tabular_{display_name}.csv")
+        df = df.rename(columns={
+            "Sender": "Source Gene",
+            "Sender Label": "Known DEE Gene or Not (Source Gene)",
+            "Receiver": "Target Gene",
+            "Receiver Label": "Known DEE Gene or Not (Target Gene)",
+            "Importance": "Connection Importance",
+            "Edge Type": "Connection Type",
+            "Pathways": "Pathway Type(s)"
+        })
+        #st.dataframe(df)
+        st.data_editor(df, use_container_width=True, height=600)
+
+
+    else:
+        st.warning("No image found for this gene.")
+else:
+    st.error("No gene specified in the URL.")
+
+
+hide_sidebar_style = """
+    <style>
+        [data-testid="stSidebar"] {
+            display: none;
+        }
+    </style>
+"""
+st.markdown(hide_sidebar_style, unsafe_allow_html=True)
+
+
