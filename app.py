@@ -108,8 +108,24 @@ if _conf != "All":
     _filtered = _filtered[_filtered["Confidence"] == _conf]
 st.session_state.display_df = _filtered
 
+# ── Serialize all three datasets ────────────────────────────────────────────
+def prepare_genes(source_df):
+    d = source_df.copy()
+    d["Score"] = d["Score"].astype(float)
+    d["Rank"] = list(range(1, len(d) + 1))
+    d["Confidence"] = d["Score"].apply(get_confidence)
+    def make_link(gene_name):
+        url_safe_name = gene_name.replace(" ", "_")
+        return f'<a href="/Gene_Explanation?gene={url_safe_name}" target="_blank">{gene_name}</a>'
+    d["GeneLink"] = d["Gene"].apply(make_link)
+    return d[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
+
+genes_both_json = prepare_genes(df)
+genes_ad_json   = prepare_genes(df)  # swap file later
+genes_ar_json   = prepare_genes(df)  # swap file later
+
 # ── Single merged component: header + tabs + stats + search + table ─────────
-components.html(f"""
+html_template = """
 <!DOCTYPE html>
 <html>
 <head>
@@ -284,4 +300,13 @@ filterTable();
 </script>
 </body>
 </html>
-""", height=6000, scrolling=False)
+"""
+
+# Inject Python values into the HTML template
+html_out = (html_template
+    .replace("{data[\"updated\"]}", data["updated"])
+    .replace("{genes_both_json}", genes_both_json)
+    .replace("{genes_ad_json}",   genes_ad_json)
+    .replace("{genes_ar_json}",   genes_ar_json)
+)
+components.html(html_out, height=6000, scrolling=False)
