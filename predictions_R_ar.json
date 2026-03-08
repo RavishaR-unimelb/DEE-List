@@ -1,0 +1,405 @@
+{
+  "predictions": [
+    {
+      "Gene": "DARS2",
+      "Score": "0.867"
+    },
+    {
+      "Gene": "MTFMT",
+      "Score": "0.865"
+    },
+    {
+      "Gene": "PMPCA",
+      "Score": "0.865"
+    },
+    {
+      "Gene": "PDHB",
+      "Score": "0.862"
+    },
+    {
+      "Gene": "ALG13",
+      "Score": "0.859"
+    },
+    {
+      "Gene": "HADHB",
+      "Score": "0.858"
+    },
+    {
+      "Gene": "AUH",
+      "Score": "0.858"
+    },
+    {
+      "Gene": "NDUFA1",
+      "Score": "0.857"
+    },
+    {
+      "Gene": "GK",
+      "Score": "0.856"
+    },
+    {
+      "Gene": "PRPS1",
+      "Score": "0.854"
+    },
+    {
+      "Gene": "NDUFA8",
+      "Score": "0.854"
+    },
+    {
+      "Gene": "GBA2",
+      "Score": "0.851"
+    },
+    {
+      "Gene": "GFM2",
+      "Score": "0.851"
+    },
+    {
+      "Gene": "ETFDH",
+      "Score": "0.845"
+    },
+    {
+      "Gene": "CLDN19",
+      "Score": "0.844"
+    },
+    {
+      "Gene": "SLC25A13",
+      "Score": "0.843"
+    },
+    {
+      "Gene": "SLC6A8",
+      "Score": "0.841"
+    },
+    {
+      "Gene": "PEX14",
+      "Score": "0.841"
+    },
+    {
+      "Gene": "MCCC1",
+      "Score": "0.840"
+    },
+    {
+      "Gene": "TALDO1",
+      "Score": "0.840"
+    },
+    {
+      "Gene": "SPTBN2",
+      "Score": "0.839"
+    },
+    {
+      "Gene": "POLR1C",
+      "Score": "0.837"
+    },
+    {
+      "Gene": "MAN2A1",
+      "Score": "0.834"
+    },
+    {
+      "Gene": "SYNGAP1",
+      "Score": "0.834"
+    },
+    {
+      "Gene": "SLC19A2",
+      "Score": "0.833"
+    },
+    {
+      "Gene": "MTO1",
+      "Score": "0.832"
+    },
+    {
+      "Gene": "PORCN",
+      "Score": "0.831"
+    },
+    {
+      "Gene": "HIBCH",
+      "Score": "0.831"
+    },
+    {
+      "Gene": "PGM1",
+      "Score": "0.829"
+    },
+    {
+      "Gene": "TRNT1",
+      "Score": "0.828"
+    },
+    {
+      "Gene": "HADHA",
+      "Score": "0.826"
+    },
+    {
+      "Gene": "ACAD8",
+      "Score": "0.825"
+    },
+    {
+      "Gene": "HMBS",
+      "Score": "0.824"
+    },
+    {
+      "Gene": "TSC2",
+      "Score": "0.823"
+    },
+    {
+      "Gene": "GNA11",
+      "Score": "0.823"
+    },
+    {
+      "Gene": "GNPAT",
+      "Score": "0.821"
+    },
+    {
+      "Gene": "EFTUD2",
+      "Score": "0.821"
+    },
+    {
+      "Gene": "AP1S2",
+      "Score": "0.820"
+    },
+    {
+      "Gene": "PEMT",
+      "Score": "0.820"
+    },
+    {
+      "Gene": "SLC1A3",
+      "Score": "0.820"
+    },
+    {
+      "Gene": "DHCR7",
+      "Score": "0.819"
+    },
+    {
+      "Gene": "GPD1",
+      "Score": "0.819"
+    },
+    {
+      "Gene": "GLO1",
+      "Score": "0.819"
+    },
+    {
+      "Gene": "PDE10A",
+      "Score": "0.819"
+    },
+    {
+      "Gene": "SCN8A",
+      "Score": "0.815"
+    },
+    {
+      "Gene": "PPA2",
+      "Score": "0.815"
+    },
+    {
+      "Gene": "IDUA",
+      "Score": "0.812"
+    },
+    {
+      "Gene": "HADH",
+      "Score": "0.811"
+    },
+    {
+      "Gene": "DHDDS",
+      "Score": "0.811"
+    },
+    {
+      "Gene": "ANO10",
+      "Score": "0.809"
+    },
+    {
+      "Gene": "PDHA1",
+      "Score": "0.808"
+    },
+    {
+      "Gene": "TPP1",
+      "Score": "0.808"
+    },
+    {
+      "Gene": "COASY",
+      "Score": "0.808"
+    },
+    {
+      "Gene": "MTHFD1",
+      "Score": "0.807"
+    },
+    {
+      "Gene": "YARS2",
+      "Score": "0.807"
+    },
+    {
+      "Gene": "GDAP1",
+      "Score": "0.807"
+    },
+    {
+      "Gene": "NDUFB7",
+      "Score": "0.804"
+    },
+    {
+      "Gene": "PDP1",
+      "Score": "0.801"
+    },
+    {
+      "Gene": "ARX",
+      "Score": "0.800"
+    },
+    {
+      "Gene": "PHKG2",
+      "Score": "0.800"
+    },
+    {
+      "Gene": "VAC14",
+      "Score": "0.798"
+    },
+    {
+      "Gene": "FTL",
+      "Score": "0.796"
+    },
+    {
+      "Gene": "XPNPEP1",
+      "Score": "0.796"
+    },
+    {
+      "Gene": "LYRM7",
+      "Score": "0.794"
+    },
+    {
+      "Gene": "EXOSC2",
+      "Score": "0.792"
+    },
+    {
+      "Gene": "ASL",
+      "Score": "0.788"
+    },
+    {
+      "Gene": "TMEM126B",
+      "Score": "0.787"
+    },
+    {
+      "Gene": "ALDH18A1",
+      "Score": "0.786"
+    },
+    {
+      "Gene": "GCLM",
+      "Score": "0.786"
+    },
+    {
+      "Gene": "SPTLC1",
+      "Score": "0.786"
+    },
+    {
+      "Gene": "ETFA",
+      "Score": "0.784"
+    },
+    {
+      "Gene": "MTRR",
+      "Score": "0.782"
+    },
+    {
+      "Gene": "NDUFB8",
+      "Score": "0.782"
+    },
+    {
+      "Gene": "ACADM",
+      "Score": "0.781"
+    },
+    {
+      "Gene": "GLUD1",
+      "Score": "0.781"
+    },
+    {
+      "Gene": "TTC21B",
+      "Score": "0.779"
+    },
+    {
+      "Gene": "AFG3L2",
+      "Score": "0.777"
+    },
+    {
+      "Gene": "PLCB4",
+      "Score": "0.777"
+    },
+    {
+      "Gene": "NDUFA12",
+      "Score": "0.777"
+    },
+    {
+      "Gene": "TBCE",
+      "Score": "0.775"
+    },
+    {
+      "Gene": "DLD",
+      "Score": "0.775"
+    },
+    {
+      "Gene": "NUFIP1",
+      "Score": "0.773"
+    },
+    {
+      "Gene": "MECR",
+      "Score": "0.772"
+    },
+    {
+      "Gene": "G6PD",
+      "Score": "0.772"
+    },
+    {
+      "Gene": "GRHPR",
+      "Score": "0.771"
+    },
+    {
+      "Gene": "PYGM",
+      "Score": "0.770"
+    },
+    {
+      "Gene": "ACADVL",
+      "Score": "0.770"
+    },
+    {
+      "Gene": "ATP1A3",
+      "Score": "0.770"
+    },
+    {
+      "Gene": "SLC35A2",
+      "Score": "0.768"
+    },
+    {
+      "Gene": "UAP1",
+      "Score": "0.767"
+    },
+    {
+      "Gene": "PEX16",
+      "Score": "0.766"
+    },
+    {
+      "Gene": "TRMU",
+      "Score": "0.766"
+    },
+    {
+      "Gene": "AASS",
+      "Score": "0.764"
+    },
+    {
+      "Gene": "MCFD2",
+      "Score": "0.763"
+    },
+    {
+      "Gene": "ABHD12",
+      "Score": "0.763"
+    },
+    {
+      "Gene": "TTC19",
+      "Score": "0.762"
+    },
+    {
+      "Gene": "SLC25A46",
+      "Score": "0.762"
+    },
+    {
+      "Gene": "GAN",
+      "Score": "0.760"
+    },
+    {
+      "Gene": "G6PC3",
+      "Score": "0.758"
+    },
+    {
+      "Gene": "ACADSB",
+      "Score": "0.757"
+    }
+  ],
+  "updated": "2026-03-08 04:50:43"
+}

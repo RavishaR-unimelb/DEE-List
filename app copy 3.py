@@ -26,38 +26,14 @@ header { visibility: hidden; }
 """, unsafe_allow_html=True)
 
 # --- Load data ---
-# ad + ar
 with open("predictions_A0.json", "r") as f:
     data = json.load(f)
 
-# only ad
-with open("predictions_R_ad.json", "r") as f:
-    data_ad = json.load(f)
-
-# only ar
-with open("predictions_R_ar.json", "r") as f:
-    data_ar = json.load(f)
-
-# ad + ar
 df = pd.DataFrame(data["predictions"])
 df = df.reset_index(drop=True)
 df["Rank"] = df.index + 1
 df = df[["Rank", "Gene", "Score"]]
 df["Score"] = df["Score"].astype(float)
-
-# only ad
-df_ad = pd.DataFrame(data_ad["predictions"])
-df_ad = df_ad.reset_index(drop=True)
-df_ad["Rank"] = df_ad.index + 1
-df_ad = df_ad[["Rank", "Gene", "Score"]]
-df_ad["Score"] = df_ad["Score"].astype(float)
-
-# only ar
-df_ar = pd.DataFrame(data_ar["predictions"])
-df_ar = df_ar.reset_index(drop=True)
-df_ar["Rank"] = df_ar.index + 1
-df_ar = df_ar[["Rank", "Gene", "Score"]]
-df_ar["Score"] = df_ar["Score"].astype(float)
 
 HIGH_THRESHOLD   = 0.85
 MEDIUM_THRESHOLD = 0.50
@@ -79,8 +55,8 @@ def prepare_genes(source_df):
 
 # Swap these for separate files when ready
 genes_both_json = prepare_genes(df)
-genes_ad_json   = prepare_genes(df_ad)
-genes_ar_json   = prepare_genes(df_ar)
+genes_ad_json   = prepare_genes(df)
+genes_ar_json   = prepare_genes(df)
 
 updated = data["updated"]
 
