@@ -73,7 +73,7 @@ df["Confidence"] = df["Score"].apply(get_confidence)
 
 def make_gene_link(gene_name):
     url_safe_name = gene_name.replace(" ", "_")
-    return f'<a href="/Gene_Explanation?gene={url_safe_name}" target="_top">{gene_name}</a>'
+    return f'<a href="/Gene_Explanation?gene={url_safe_name}" target="_blank">{gene_name}</a>'
 
 df["GeneLink"] = df["Gene"].apply(make_gene_link)
 
