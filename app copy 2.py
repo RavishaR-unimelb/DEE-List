@@ -165,8 +165,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; paddi
 <div class="title">Top DEE Gene Predictions</div>
 <div class="desc">
     Ranked predictions for Developmental &amp; Epileptic Encephalopathy genes based on the
-    latest model outputs, trained on both AD and AR DEE genes.
-    Also view: <a href="/only_ar_dee">Only AR DEE</a> &nbsp;&middot;&nbsp; <a href="/only_ad_dee">Only AD DEE</a>
+    latest model outputs. Use the tabs below to switch between AD+AR, Only AD, and Only AR rankings.
 </div>
 <div class="meta-pill">&#10227; &nbsp;Last updated: {data["updated"]}</div>
 <div class="stats-strip">
@@ -186,10 +185,24 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; paddi
 </html>
 """, height=320)
 
-# ── Serialize all gene data to JSON for client-side filtering ────────────────
-genes_json = df[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
+# ── Serialize all three datasets to JSON for client-side tab switching ───────
+def prepare_genes(source_df):
+    d = source_df.copy()
+    d["Score"] = d["Score"].astype(float)
+    d["Rank"] = range(1, len(d) + 1)
+    d["Confidence"] = d["Score"].apply(get_confidence)
+    def make_link(gene_name):
+        url_safe_name = gene_name.replace(" ", "_")
+        return f'<a href="/Gene_Explanation?gene={url_safe_name}" target="_blank">{gene_name}</a>'
+    d["GeneLink"] = d["Gene"].apply(make_link)
+    return d[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
 
-# ── Single self-contained component: search + table, all client-side ─────────
+genes_both_json = prepare_genes(df)
+# For now AD and AR use the same file; swap out later
+genes_ad_json   = prepare_genes(df)
+genes_ar_json   = prepare_genes(df)
+
+# ── Single self-contained component: tabs + search + table ──────────────────
 components.html(f"""
 <!DOCTYPE html>
 <html>
@@ -199,6 +212,22 @@ components.html(f"""
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
 body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; padding-bottom: 8px; }}
 
+/* Tabs */
+.tab-bar {{
+    display: flex; gap: 4px; margin-bottom: 20px;
+    border-bottom: 2px solid #e5e7eb; padding-bottom: 0;
+}}
+.tab-btn {{
+    font-family: "IBM Plex Sans", sans-serif; font-size: 0.875rem; font-weight: 500;
+    color: #6b7280; background: none; border: none; cursor: pointer;
+    padding: 0.55rem 1.1rem; border-radius: 6px 6px 0 0;
+    border-bottom: 2px solid transparent; margin-bottom: -2px;
+    transition: color 0.15s, border-color 0.15s;
+}}
+.tab-btn:hover {{ color: #2563eb; }}
+.tab-btn.active {{ color: #2563eb; border-bottom-color: #2563eb; font-weight: 600; }}
+
+/* Controls */
 .controls {{ display: flex; gap: 12px; margin-bottom: 8px; align-items: flex-end; }}
 .search-wrap {{ flex: 1; }}
 .search-wrap label, .select-wrap label {{
@@ -210,9 +239,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; paddi
     background: #fff; color: #111827; outline: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: border-color 0.15s, box-shadow 0.15s;
 }}
-.search-wrap input:focus {{
-    border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
-}}
+.search-wrap input:focus {{ border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }}
 .select-wrap select {{
     font-family: "IBM Plex Sans", sans-serif; font-size: 0.875rem;
     border: 1.5px solid #d1d5db; border-radius: 8px; padding: 0.55rem 0.85rem;
@@ -248,17 +275,11 @@ tbody td {{ padding: 0.65rem 1rem; color: #1f2937; vertical-align: middle; }}
 a {{ color: #1d4ed8; font-weight: 500; text-decoration: none; }}
 a:hover {{ text-decoration: underline; }}
 .score-cell {{ display: flex; align-items: center; gap: 8px; }}
-.score-bar-bg {{
-    width: 56px; height: 5px; background: #e5e7eb;
-    border-radius: 99px; overflow: hidden; flex-shrink: 0;
-}}
+.score-bar-bg {{ width: 56px; height: 5px; background: #e5e7eb; border-radius: 99px; overflow: hidden; flex-shrink: 0; }}
 .score-bar-fill {{ height: 100%; border-radius: 99px; }}
 .score-val {{ font-family: "IBM Plex Mono", monospace; font-size: 0.82rem; font-weight: 500; }}
 .score-val.high {{ color: #15803d; }} .score-val.med {{ color: #b45309; }} .score-val.low {{ color: #b91c1c; }}
-.conf-badge {{
-    display: inline-flex; align-items: center; padding: 2px 10px;
-    border-radius: 100px; font-size: 0.73rem; font-weight: 600; white-space: nowrap;
-}}
+.conf-badge {{ display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 100px; font-size: 0.73rem; font-weight: 600; white-space: nowrap; }}
 .conf-badge.high {{ background: #dcfce7; color: #15803d; }}
 .conf-badge.med  {{ background: #fef9c3; color: #a16207; }}
 .conf-badge.low  {{ background: #fee2e2; color: #b91c1c; }}
@@ -266,6 +287,12 @@ a:hover {{ text-decoration: underline; }}
 </style>
 </head>
 <body>
+
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('both', this)">AD + AR</button>
+  <button class="tab-btn" onclick="switchTab('ad', this)">Only AD</button>
+  <button class="tab-btn" onclick="switchTab('ar', this)">Only AR</button>
+</div>
 
 <div class="controls">
   <div class="search-wrap">
@@ -295,9 +322,18 @@ a:hover {{ text-decoration: underline; }}
 </div>
 
 <script>
-const ALL_GENES = {genes_json};
-const MAX_SCORE = {max_score};
-const TOTAL     = ALL_GENES.length;
+const DATASETS = {{
+  both: {genes_both_json},
+  ad:   {genes_ad_json},
+  ar:   {genes_ar_json},
+}};
+const MAX_SCORES = {{
+  both: Math.max(...DATASETS.both.map(g => g.Score)),
+  ad:   Math.max(...DATASETS.ad.map(g => g.Score)),
+  ar:   Math.max(...DATASETS.ar.map(g => g.Score)),
+}};
+
+let activeTab = "both";
 
 const CONF_META = {{
   High:   {{ cls: "high", color: "#16a34a" }},
@@ -305,10 +341,10 @@ const CONF_META = {{
   Low:    {{ cls: "low",  color: "#dc2626" }},
 }};
 
-function buildRow(g) {{
-  const meta       = CONF_META[g.Confidence] || CONF_META.Low;
-  const pct        = Math.round((g.Score / MAX_SCORE) * 100);
-  const badgeCls   = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
+function buildRow(g, maxScore) {{
+  const meta     = CONF_META[g.Confidence] || CONF_META.Low;
+  const pct      = Math.round((g.Score / maxScore) * 100);
+  const badgeCls = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
   return `<tr>
     <td><span class="${{badgeCls}}">${{g.Rank}}</span></td>
     <td>${{g.GeneLink}}</td>
@@ -322,28 +358,36 @@ function buildRow(g) {{
   </tr>`;
 }}
 
-function filterTable() {{
-  const q    = document.getElementById("geneSearch").value.trim().toLowerCase();
-  const conf = document.getElementById("confSelect").value;
+function switchTab(tab, btn) {{
+  activeTab = tab;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  document.getElementById("geneSearch").value = "";
+  document.getElementById("confSelect").value = "All";
+  filterTable();
+}}
 
-  const filtered = ALL_GENES.filter(g => {{
+function filterTable() {{
+  const q        = document.getElementById("geneSearch").value.trim().toLowerCase();
+  const conf     = document.getElementById("confSelect").value;
+  const genes    = DATASETS[activeTab];
+  const maxScore = MAX_SCORES[activeTab];
+
+  const filtered = genes.filter(g => {{
     const matchQ    = q === "" || g.Gene.toLowerCase().includes(q);
     const matchConf = conf === "All" || g.Confidence === conf;
     return matchQ && matchConf;
   }});
 
   const tbody = document.getElementById("tableBody");
-  if (filtered.length === 0) {{
-    tbody.innerHTML = `<tr><td colspan="4"><div class="no-results">No genes match your search.</div></td></tr>`;
-  }} else {{
-    tbody.innerHTML = filtered.map(buildRow).join("");
-  }}
+  tbody.innerHTML = filtered.length === 0
+    ? `<tr><td colspan="4"><div class="no-results">No genes match your search.</div></td></tr>`
+    : filtered.map(g => buildRow(g, maxScore)).join("");
 
   document.getElementById("resultCount").textContent =
-    `Showing ${{filtered.length}} of ${{TOTAL}} genes`;
+    `Showing ${{filtered.length}} of ${{genes.length}} genes`;
 }}
 
-// Initial render
 filterTable();
 </script>
 </body>
