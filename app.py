@@ -308,8 +308,8 @@ if 'search_query' not in st.session_state:
     st.session_state.search_query = ''
 if 'conf_filter' not in st.session_state:
     st.session_state.conf_filter = 'All'
-if 'display_df' not in st.session_state:
-    st.session_state.display_df = df
+# Always use the freshly enriched df (avoids stale session state missing new columns)
+st.session_state.display_df = df
 
 
 # ── Header ──────────────────────────────────────────────────────────────────
