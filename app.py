@@ -302,21 +302,5 @@ a:hover {{ text-decoration: underline; }}
 </html>"""
 
 table_html = build_table_html(display_df, max_score, n, total)
-# Inject a JS resize script so the iframe self-reports its true height to Streamlit
-resize_script = """
-<script>
-  function reportHeight() {
-    const h = document.documentElement.scrollHeight || document.body.scrollHeight;
-    window.parent.postMessage({isStreamlitMessage: true, type: "streamlit:setFrameHeight", height: h}, "*");
-  }
-  // Run on load and whenever DOM changes
-  reportHeight();
-  new MutationObserver(reportHeight).observe(document.body, {childList: true, subtree: true});
-  window.addEventListener("load", reportHeight);
-</script>
-"""
-table_html_with_resize = table_html.replace("</body>", resize_script + "</body>")
-# Use a generous initial height; JS will correct it immediately
-row_count = max(len(display_df), 1)
-initial_height = 44 + 28 + row_count * 46 + 80
-components.html(table_html_with_resize, height=initial_height, scrolling=False)
+# Height: enough for all possible rows (100 genes * 46px + chrome), no cutoff
+components.html(table_html, height=5200, scrolling=False)
