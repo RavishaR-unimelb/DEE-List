@@ -14,36 +14,21 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
 
-/* Global font */
-html, body, [class*="css"] {
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-/* Hide sidebar */
+html, body, [class*="css"] { font-family: 'IBM Plex Sans', sans-serif; }
 [data-testid="stSidebar"] { display: none; }
-
-/* Hide Streamlit branding */
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header { visibility: hidden; }
 
-/* Page background */
-.stApp {
-    background-color: #f7f8fa;
-}
+.stApp { background-color: #f7f8fa; }
 
-/* Main container */
 .block-container {
-    max-width: 780px !important;
+    max-width: 900px !important;
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
 
-/* Header section */
-.header-block {
-    margin-bottom: 2rem;
-}
-
+/* Header */
 .header-eyebrow {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.7rem;
@@ -53,7 +38,6 @@ header { visibility: hidden; }
     color: #6b7a8d;
     margin-bottom: 0.5rem;
 }
-
 .header-title {
     font-size: 2rem;
     font-weight: 600;
@@ -62,25 +46,16 @@ header { visibility: hidden; }
     line-height: 1.2;
     margin-bottom: 0.75rem;
 }
-
 .header-desc {
     font-size: 0.925rem;
     color: #4b5563;
     line-height: 1.7;
-    max-width: 620px;
+    max-width: 680px;
+    margin-bottom: 1.25rem;
 }
+.header-desc a { color: #2563eb; text-decoration: none; font-weight: 500; }
+.header-desc a:hover { text-decoration: underline; }
 
-.header-desc a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.header-desc a:hover {
-    text-decoration: underline;
-}
-
-/* Meta pill */
 .meta-pill {
     display: inline-flex;
     align-items: center;
@@ -92,11 +67,67 @@ header { visibility: hidden; }
     font-weight: 500;
     padding: 4px 12px;
     border-radius: 100px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     letter-spacing: 0.03em;
 }
 
-/* Search box override */
+/* Stats strip */
+.stats-strip {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+}
+.stat-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 0.6rem 1.1rem;
+    min-width: 100px;
+}
+.stat-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.63rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9ca3af;
+    margin-bottom: 2px;
+}
+.stat-value { font-size: 1.1rem; font-weight: 600; color: #111827; }
+.stat-value.high { color: #16a34a; }
+.stat-value.med  { color: #d97706; }
+.stat-value.low  { color: #dc2626; }
+
+/* Legend */
+.legend {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.legend-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9ca3af;
+    margin-right: 4px;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    color: #374151;
+}
+.legend-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Search / select */
 .stTextInput > div > div > input {
     font-family: 'IBM Plex Sans', sans-serif !important;
     font-size: 0.9rem !important;
@@ -106,23 +137,17 @@ header { visibility: hidden; }
     background: #ffffff !important;
     color: #111827 !important;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
-    transition: border-color 0.2s, box-shadow 0.2s !important;
 }
-
 .stTextInput > div > div > input:focus {
     border-color: #2563eb !important;
     box-shadow: 0 0 0 3px rgba(37,99,235,0.1) !important;
 }
-
-.stTextInput label {
+.stTextInput label, .stSelectbox label {
     font-size: 0.8rem !important;
     font-weight: 500 !important;
     color: #374151 !important;
-    letter-spacing: 0.01em !important;
-    margin-bottom: 4px !important;
 }
 
-/* Result count */
 .result-count {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.75rem;
@@ -131,7 +156,7 @@ header { visibility: hidden; }
     margin-bottom: 1rem;
 }
 
-/* Table styling */
+/* Table */
 .gene-table-wrapper {
     background: #ffffff;
     border-radius: 12px;
@@ -139,115 +164,95 @@ header { visibility: hidden; }
     overflow: hidden;
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
-
 .gene-table-wrapper table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.88rem;
+    font-size: 0.865rem;
 }
-
 .gene-table-wrapper thead tr {
     background: #f9fafb;
     border-bottom: 1.5px solid #e5e7eb;
 }
-
 .gene-table-wrapper thead th {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.7rem;
+    font-size: 0.67rem;
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #6b7a8d;
-    padding: 0.75rem 1.25rem;
+    padding: 0.7rem 1rem;
     text-align: left;
+    white-space: nowrap;
 }
-
-.gene-table-wrapper thead th:first-child { width: 64px; }
-.gene-table-wrapper thead th:last-child  { text-align: right; }
-
 .gene-table-wrapper tbody tr {
     border-bottom: 1px solid #f3f4f6;
     transition: background 0.12s ease;
 }
-
 .gene-table-wrapper tbody tr:last-child { border-bottom: none; }
-.gene-table-wrapper tbody tr:hover { background: #f0f4ff; }
-
+.gene-table-wrapper tbody tr:hover { background: #f8faff; }
 .gene-table-wrapper tbody td {
-    padding: 0.75rem 1.25rem;
+    padding: 0.65rem 1rem;
     color: #1f2937;
     vertical-align: middle;
 }
 
-.gene-table-wrapper tbody td:last-child {
-    text-align: right;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.82rem;
-    color: #374151;
-}
-
-/* Rank badge */
+/* Rank */
 .rank-badge {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 26px; height: 26px;
     border-radius: 50%;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     font-weight: 600;
     background: #f3f4f6;
     color: #6b7280;
 }
-
-.rank-badge.top3 {
-    background: #dbeafe;
-    color: #1d4ed8;
-}
+.rank-badge.top3 { background: #dbeafe; color: #1d4ed8; }
 
 /* Gene link */
-.gene-table-wrapper a {
-    color: #1d4ed8;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
+.gene-table-wrapper a { color: #1d4ed8; font-weight: 500; text-decoration: none; }
+.gene-table-wrapper a:hover { text-decoration: underline; }
 
-.gene-table-wrapper a:hover {
-    color: #1e40af;
-    text-decoration: underline;
-}
-
-/* Score bar */
-.score-cell {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
+/* Score */
+.score-cell { display: flex; align-items: center; gap: 8px; }
 .score-bar-bg {
-    width: 72px;
-    height: 5px;
+    width: 56px; height: 5px;
     background: #e5e7eb;
     border-radius: 99px;
     overflow: hidden;
+    flex-shrink: 0;
 }
+.score-bar-fill { height: 100%; border-radius: 99px; }
+.score-val { font-family: 'IBM Plex Mono', monospace; font-size: 0.82rem; font-weight: 500; }
+.score-val.high { color: #15803d; }
+.score-val.med  { color: #b45309; }
+.score-val.low  { color: #b91c1c; }
 
-.score-bar-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #3b82f6, #6366f1);
-    border-radius: 99px;
+/* Confidence badge */
+.conf-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 100px;
+    font-size: 0.73rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
+.conf-badge.high { background: #dcfce7; color: #15803d; }
+.conf-badge.med  { background: #fef9c3; color: #a16207; }
+.conf-badge.low  { background: #fee2e2; color: #b91c1c; }
+
+/* Percentile */
+.pct-cell { font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem; color: #6b7280; }
+.pct-cell span { font-weight: 600; color: #374151; }
+
+/* Gap to next */
+.delta-cell { font-family: 'IBM Plex Mono', monospace; font-size: 0.76rem; color: #9ca3af; }
 
 /* No results */
-.no-results {
-    text-align: center;
-    padding: 3rem 1rem;
-    color: #9ca3af;
-    font-size: 0.9rem;
-}
+.no-results { text-align: center; padding: 3rem 1rem; color: #9ca3af; font-size: 0.9rem; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -261,59 +266,138 @@ df = pd.DataFrame(data['predictions'])
 df = df.reset_index(drop=True)
 df['Rank'] = df.index + 1
 df = df[['Rank', 'Gene', 'Score']]
+df['Score'] = df['Score'].astype(float)
 
 max_score = float(df['Score'].max())
 
-# --- Filter function ---
-def filter_df():
-    q = st.session_state.search_query
-    if q == '':
-        st.session_state.display_df = df
+# --- Confidence thresholds ---
+HIGH_THRESHOLD   = 0.80
+MEDIUM_THRESHOLD = 0.50
+
+def get_confidence(score):
+    if score >= HIGH_THRESHOLD:
+        return "High"
+    elif score >= MEDIUM_THRESHOLD:
+        return "Medium"
     else:
-        st.session_state.display_df = df[df['Gene'].str.contains(q, case=False, na=False)]
+        return "Low"
+
+df['Confidence'] = df['Score'].apply(get_confidence)
+df['Percentile'] = df['Score'].rank(pct=True).mul(100).round(0).astype(int)
+df['Delta']      = df['Score'].diff(-1).fillna(0).round(4)
+
+n_high   = int((df['Confidence'] == 'High').sum())
+n_medium = int((df['Confidence'] == 'Medium').sum())
+n_low    = int((df['Confidence'] == 'Low').sum())
+
+
+# --- Filter function ---
+def apply_filters():
+    q    = st.session_state.get('search_query', '')
+    conf = st.session_state.get('conf_filter', 'All')
+    filtered = df.copy()
+    if q:
+        filtered = filtered[filtered['Gene'].str.contains(q, case=False, na=False)]
+    if conf != 'All':
+        filtered = filtered[filtered['Confidence'] == conf]
+    st.session_state.display_df = filtered
+
 
 # --- Initialize session state ---
 if 'search_query' not in st.session_state:
     st.session_state.search_query = ''
+if 'conf_filter' not in st.session_state:
+    st.session_state.conf_filter = 'All'
 if 'display_df' not in st.session_state:
     st.session_state.display_df = df
 
-# --- Header ---
-st.markdown("""
-<div class="header-block">
-    <div class="header-eyebrow">Genomics · Predictive Model</div>
-    <div class="header-title">Top DEE Gene Predictions</div>
-    <div class="header-desc">
-        Ranked predictions for Developmental &amp; Epileptic Encephalopathy genes based on the latest model outputs,
-        trained on both AD and AR DEE genes.
-        Also view rankings using <a href="/only_ar_dee">Only AR DEE</a> or <a href="/only_ad_dee">Only AD DEE</a>.
-    </div>
+
+# ── Header ──────────────────────────────────────────────────────────────────
+st.markdown(f"""
+<div class="header-eyebrow">Genomics · Predictive Model</div>
+<div class="header-title">Top DEE Gene Predictions</div>
+<div class="header-desc">
+    Ranked predictions for Developmental &amp; Epileptic Encephalopathy genes based on the
+    latest model outputs, trained on both AD and AR DEE genes.
+    Also view: <a href="/only_ar_dee">Only AR DEE</a> &nbsp;·&nbsp; <a href="/only_ad_dee">Only AD DEE</a>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown(f'<div class="meta-pill">⟳ &nbsp;Last updated: {data["updated"]}</div>', unsafe_allow_html=True)
 
-# --- Search ---
-st.text_input("Search genes", key="search_query", on_change=filter_df, placeholder="e.g. SCN1A")
+# ── Stats strip ─────────────────────────────────────────────────────────────
+st.markdown(f"""
+<div class="stats-strip">
+    <div class="stat-card">
+        <div class="stat-label">Total Genes</div>
+        <div class="stat-value">{len(df)}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">High Confidence</div>
+        <div class="stat-value high">{n_high}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">Medium Confidence</div>
+        <div class="stat-value med">{n_medium}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">Low Confidence</div>
+        <div class="stat-value low">{n_low}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">Top Score</div>
+        <div class="stat-value">{max_score:.4f}</div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+# ── Legend ───────────────────────────────────────────────────────────────────
+st.markdown("""
+<div class="legend">
+    <span class="legend-label">Key:</span>
+    <div class="legend-item"><div class="legend-dot" style="background:#16a34a"></div> High &ge; 0.80</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#d97706"></div> Medium 0.50 – 0.79</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dc2626"></div> Low &lt; 0.50</div>
+</div>
+""", unsafe_allow_html=True)
+
+# ── Search + confidence filter ────────────────────────────────────────────
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.text_input("Search genes", key="search_query", on_change=apply_filters, placeholder="e.g. SCN1A")
+with col2:
+    st.selectbox("Confidence", ["All", "High", "Medium", "Low"], key="conf_filter", on_change=apply_filters)
 
 display_df = st.session_state.display_df
-n = len(display_df)
+n     = len(display_df)
 total = len(df)
-st.markdown(
-    f'<div class="result-count">Showing {n} of {total} genes</div>',
-    unsafe_allow_html=True
-)
+st.markdown(f'<div class="result-count">Showing {n} of {total} genes</div>', unsafe_allow_html=True)
 
-# --- Build HTML table ---
+
+# ── Table builder ─────────────────────────────────────────────────────────
+CONF_META = {
+    "High":   ("high", "#16a34a"),
+    "Medium": ("med",  "#d97706"),
+    "Low":    ("low",  "#dc2626"),
+}
+
 def build_table(display_df, max_score):
     rows = ""
     for _, row in display_df.iterrows():
-        rank = int(row['Rank'])
-        gene = row['Gene']
-        score = float(str(row['Score']))
-        url_safe = str(gene).replace(' ', '_')
-        pct = int((score / max_score) * 100) if max_score > 0.0 else 0
+        rank       = int(row['Rank'])
+        gene       = str(row['Gene'])
+        score      = float(row['Score'])
+        conf       = str(row['Confidence'])
+        percentile = int(row['Percentile'])
+        delta      = float(row['Delta'])
+
+        url_safe    = gene.replace(' ', '_')
+        pct         = int((score / max_score) * 100) if max_score > 0.0 else 0
+        cls, color  = CONF_META.get(conf, ("low", "#dc2626"))
         badge_class = "rank-badge top3" if rank <= 3 else "rank-badge"
+        top_pct     = 100 - percentile + 1
+        delta_str   = f"▼ {delta:.4f}" if delta > 0.0001 else "—"
+
         rows += f"""
         <tr>
             <td><span class="{badge_class}">{rank}</span></td>
@@ -321,15 +405,18 @@ def build_table(display_df, max_score):
             <td>
                 <div class="score-cell">
                     <div class="score-bar-bg">
-                        <div class="score-bar-fill" style="width:{pct}%"></div>
+                        <div class="score-bar-fill" style="width:{pct}%;background:{color}"></div>
                     </div>
-                    {score:.4f}
+                    <span class="score-val {cls}">{score:.4f}</span>
                 </div>
             </td>
+            <td><span class="conf-badge {cls}">{conf}</span></td>
+            <td><div class="pct-cell">Top <span>{top_pct}%</span></div></td>
+            <td><div class="delta-cell">{delta_str}</div></td>
         </tr>"""
 
     if not rows:
-        rows = '<tr><td colspan="3"><div class="no-results">No genes match your search.</div></td></tr>'
+        rows = '<tr><td colspan="6"><div class="no-results">No genes match your search.</div></td></tr>'
 
     return f"""
     <div class="gene-table-wrapper">
@@ -338,7 +425,10 @@ def build_table(display_df, max_score):
                 <tr>
                     <th>Rank</th>
                     <th>Gene</th>
-                    <th style="text-align:right">Score</th>
+                    <th>Score</th>
+                    <th>Confidence</th>
+                    <th>Percentile</th>
+                    <th>Gap to Next</th>
                 </tr>
             </thead>
             <tbody>{rows}</tbody>
