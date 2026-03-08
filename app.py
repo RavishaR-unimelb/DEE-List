@@ -262,7 +262,7 @@ df = df.reset_index(drop=True)
 df['Rank'] = df.index + 1
 df = df[['Rank', 'Gene', 'Score']]
 
-max_score = df['Score'].max()
+max_score = float(df['Score'].max())
 
 # --- Filter function ---
 def filter_df():
@@ -310,9 +310,9 @@ def build_table(display_df, max_score):
     for _, row in display_df.iterrows():
         rank = int(row['Rank'])
         gene = row['Gene']
-        score = float(row['Score'])
-        url_safe = gene.replace(' ', '_')
-        pct = int((score / max_score) * 100) if max_score > 0 else 0
+        score = float(str(row['Score']))
+        url_safe = str(gene).replace(' ', '_')
+        pct = int((score / max_score) * 100) if max_score > 0.0 else 0
         badge_class = "rank-badge top3" if rank <= 3 else "rank-badge"
         rows += f"""
         <tr>
