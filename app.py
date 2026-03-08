@@ -305,9 +305,11 @@ function buildRow(g) {{
   const badgeCls   = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
   const urlSafe    = g.Gene.replace(/ /g, "_");
   const geneParam   = encodeURIComponent(urlSafe);
+  const base        = window.top.location.origin + window.top.location.pathname.replace(/\/[^\/]*$/, "");
+  const href        = base + "/Gene_Explanation?gene=" + geneParam;
   return `<tr>
     <td><span class="${{badgeCls}}">${{g.Rank}}</span></td>
-    <td><a href="/Gene_Explanation?gene=${{geneParam}}" target="_top">${{g.Gene}}</a></td>
+    <td><a href="${{href}}" target="_top">${{g.Gene}}</a></td>
     <td>
       <div class="score-cell">
         <div class="score-bar-bg"><div class="score-bar-fill" style="width:${{pct}}%;background:${{meta.color}}"></div></div>
