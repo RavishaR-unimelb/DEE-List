@@ -271,7 +271,7 @@ df['Score'] = df['Score'].astype(float)
 max_score = float(df['Score'].max())
 
 # --- Confidence thresholds ---
-HIGH_THRESHOLD   = 0.80
+HIGH_THRESHOLD   = 0.85
 MEDIUM_THRESHOLD = 0.50
 
 def get_confidence(score):
@@ -283,8 +283,6 @@ def get_confidence(score):
         return "Low"
 
 df['Confidence'] = df['Score'].apply(get_confidence)
-df['Percentile'] = df['Score'].rank(pct=True).mul(100).round(0).astype(int)
-df['Delta']      = df['Score'].diff(-1).fillna(0).round(4)
 
 n_high   = int((df['Confidence'] == 'High').sum())
 n_medium = int((df['Confidence'] == 'Medium').sum())
@@ -308,8 +306,17 @@ if 'search_query' not in st.session_state:
     st.session_state.search_query = ''
 if 'conf_filter' not in st.session_state:
     st.session_state.conf_filter = 'All'
-# Always use the freshly enriched df (avoids stale session state missing new columns)
-st.session_state.display_df = df
+
+# Recompute display_df on every run based on current filters
+# (ensures enriched columns are always present and search stays in sync)
+_q    = st.session_state.get('search_query', '')
+_conf = st.session_state.get('conf_filter', 'All')
+_filtered = df.copy()
+if _q:
+    _filtered = _filtered[_filtered['Gene'].str.contains(_q, case=False, na=False)]
+if _conf != 'All':
+    _filtered = _filtered[_filtered['Confidence'] == _conf]
+st.session_state.display_df = _filtered
 
 
 # ── Header ──────────────────────────────────────────────────────────────────
@@ -355,8 +362,8 @@ st.markdown(f"""
 st.markdown("""
 <div class="legend">
     <span class="legend-label">Key:</span>
-    <div class="legend-item"><div class="legend-dot" style="background:#16a34a"></div> High &ge; 0.80</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#d97706"></div> Medium 0.50 – 0.79</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#16a34a"></div> High &ge; 0.85</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#d97706"></div> Medium 0.50 – 0.84</div>
     <div class="legend-item"><div class="legend-dot" style="background:#dc2626"></div> Low &lt; 0.50</div>
 </div>
 """, unsafe_allow_html=True)
@@ -388,15 +395,11 @@ def build_table(display_df, max_score):
         gene       = str(row['Gene'])
         score      = float(row['Score'])
         conf       = str(row['Confidence'])
-        percentile = int(row['Percentile'])
-        delta      = float(row['Delta'])
 
         url_safe    = gene.replace(' ', '_')
         pct         = int((score / max_score) * 100) if max_score > 0.0 else 0
         cls, color  = CONF_META.get(conf, ("low", "#dc2626"))
         badge_class = "rank-badge top3" if rank <= 3 else "rank-badge"
-        top_pct     = 100 - percentile + 1
-        delta_str   = f"▼ {delta:.4f}" if delta > 0.0001 else "—"
 
         rows += f"""
         <tr>
@@ -411,12 +414,11 @@ def build_table(display_df, max_score):
                 </div>
             </td>
             <td><span class="conf-badge {cls}">{conf}</span></td>
-            <td><div class="pct-cell">Top <span>{top_pct}%</span></div></td>
-            <td><div class="delta-cell">{delta_str}</div></td>
+
         </tr>"""
 
     if not rows:
-        rows = '<tr><td colspan="6"><div class="no-results">No genes match your search.</div></td></tr>'
+        rows = '<tr><td colspan="4"><div class="no-results">No genes match your search.</div></td></tr>'
 
     return f"""
     <div class="gene-table-wrapper">
@@ -427,8 +429,6 @@ def build_table(display_df, max_score):
                     <th>Gene</th>
                     <th>Score</th>
                     <th>Confidence</th>
-                    <th>Percentile</th>
-                    <th>Gap to Next</th>
                 </tr>
             </thead>
             <tbody>{rows}</tbody>
