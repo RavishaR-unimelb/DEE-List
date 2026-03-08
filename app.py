@@ -161,9 +161,9 @@ a:hover { text-decoration: underline; }
 <div class="meta-pill">&#10227; &nbsp;Last updated: __UPDATED__</div>
 
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="switchTab('both', this)">AD + AR</button>
-  <button class="tab-btn" onclick="switchTab('ad', this)">Only AD</button>
-  <button class="tab-btn" onclick="switchTab('ar', this)">Only AR</button>
+  <button class="tab-btn active" onclick="switchTab('both', this)">Both Autosomal Dominant and Recessive Genes</button>
+  <button class="tab-btn" onclick="switchTab('ad', this)">Autosomal Dominant Genes Only</button>
+  <button class="tab-btn" onclick="switchTab('ar', this)">Autosomal Recessive Genes Only</button>
 </div>
 
 <div class="tab-desc" id="tabDesc"></div>
