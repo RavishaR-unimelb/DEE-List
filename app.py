@@ -71,6 +71,12 @@ def get_confidence(score):
 
 df["Confidence"] = df["Score"].apply(get_confidence)
 
+def make_gene_link(gene_name):
+    url_safe_name = gene_name.replace(" ", "_")
+    return f'<a href="/Gene_Explanation?gene={url_safe_name}" target="_top">{gene_name}</a>'
+
+df["GeneLink"] = df["Gene"].apply(make_gene_link)
+
 n_high   = int((df["Confidence"] == "High").sum())
 n_medium = int((df["Confidence"] == "Medium").sum())
 n_low    = int((df["Confidence"] == "Low").sum())
@@ -181,7 +187,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: transparent; paddi
 """, height=320)
 
 # ── Serialize all gene data to JSON for client-side filtering ────────────────
-genes_json = df[["Rank", "Gene", "Score", "Confidence"]].to_json(orient="records")
+genes_json = df[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
 
 # ── Single self-contained component: search + table, all client-side ─────────
 components.html(f"""
@@ -303,13 +309,9 @@ function buildRow(g) {{
   const meta       = CONF_META[g.Confidence] || CONF_META.Low;
   const pct        = Math.round((g.Score / MAX_SCORE) * 100);
   const badgeCls   = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
-  const urlSafe    = g.Gene.replace(/ /g, "_");
-  const geneParam   = encodeURIComponent(urlSafe);
-  const base        = window.top.location.origin + window.top.location.pathname.replace(/\/[^\/]*$/, "");
-  const href        = base + "/Gene_Explanation?gene=" + geneParam;
   return `<tr>
     <td><span class="${{badgeCls}}">${{g.Rank}}</span></td>
-    <td><a href="${{href}}" target="_top">${{g.Gene}}</a></td>
+    <td>${{g.GeneLink}}</td>
     <td>
       <div class="score-cell">
         <div class="score-bar-bg"><div class="score-bar-fill" style="width:${{pct}}%;background:${{meta.color}}"></div></div>
