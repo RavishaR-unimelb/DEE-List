@@ -221,7 +221,7 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         <img src="data:image/png;base64,{legend_b64}"
              style="display:block; max-width:420px; width:100%; height:auto;" alt="Legend">
     </div>
-    """, height=280)
+    """, height=420)
 
     # Network
     network_html = f"""
@@ -237,7 +237,7 @@ if os.path.exists(image_path) and os.path.exists(html_path):
     """
 
     st.markdown('<div class="network-card">', unsafe_allow_html=True)
-    components.html(network_html, height=900, scrolling=False)
+    components.html(network_html, height=1200, scrolling=False)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # --- Connections table ---
