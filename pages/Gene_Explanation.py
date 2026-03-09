@@ -179,6 +179,10 @@ if os.path.exists(image_path) and os.path.exists(html_path):
                 const poll = setInterval(function() {
                     if (window.network) {
                         clearInterval(poll);
+                        // Auto-fit once layout is stable
+                        window.network.once("stabilized", function() {
+                            window.network.fit({ animation: { duration: 400, easingFunction: "easeInOutQuad" } });
+                        });
                         const MIN_ZOOM = 0.5, MAX_ZOOM = 10;
                         window.network.on("zoom", function(params) {
                             if (params.scale < MIN_ZOOM) window.network.moveTo({ scale: MIN_ZOOM });
@@ -209,7 +213,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow:
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 640px;
 }}
 
 /* Toolbar */
