@@ -221,7 +221,7 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         <img src="data:image/png;base64,{legend_b64}"
              style="display:block; max-width:420px; width:100%; height:auto;" alt="Legend">
     </div>
-    """, height=400)
+    """, height=360)
 
     # Network
     network_html = f"""
