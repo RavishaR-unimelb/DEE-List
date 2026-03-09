@@ -306,7 +306,7 @@ function toggleLegend() {{
 </body>
 </html>"""
 
-    components.html(network_html, height=700, scrolling=False)
+    components.html(network_html, height=900, scrolling=False)
 
     # --- Connections table ---
     csv_path = main_dir + f"tabular_{display_name}.csv"
