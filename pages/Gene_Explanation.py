@@ -209,7 +209,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow:
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     display: flex;
     flex-direction: column;
-    height: 640px;
+    height: 800px;
 }}
 
 /* Toolbar */
@@ -306,7 +306,7 @@ function toggleLegend() {{
 </body>
 </html>"""
 
-    components.html(network_html, height=900, scrolling=False)
+    components.html(network_html, height=700, scrolling=False)
 
     # --- Connections table ---
     csv_path = main_dir + f"tabular_{display_name}.csv"
