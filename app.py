@@ -237,7 +237,7 @@ function updateStats(genes) {
 
 function buildRow(g, maxScore) {
   const meta     = CONF_META[g.Confidence] || CONF_META.Low;
-  const pct      = Math.round((g.Score / maxScore) * 100);
+  const pct      = Math.round((g.Score / 1.0) * 100);
   const badgeCls = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
   return `<tr>
     <td><span class="${badgeCls}">${g.Rank}</span></td>
