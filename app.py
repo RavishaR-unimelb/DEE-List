@@ -1,336 +1,292 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import os
-import base64
 import pandas as pd
+import json
 
 # --- Page setup ---
 st.set_page_config(
-    page_title="Gene Explanation",
+    page_title="DEE Gene Predictions",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
 
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
 [data-testid="stSidebar"] { display: none; }
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header { visibility: hidden; }
 .stApp { background-color: #f7f8fa; }
-html, body, [class*="css"] { font-family: "IBM Plex Sans", sans-serif; }
 .block-container {
-    max-width: 960px !important;
+    max-width: 900px !important;
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
-.back-link a {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.75rem; color: #6b7a8d;
-    text-decoration: none; letter-spacing: 0.05em;
-}
-.back-link a:hover { color: #2563eb; }
-.gene-eyebrow {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.7rem; font-weight: 500;
-    letter-spacing: 0.12em; text-transform: uppercase;
-    color: #6b7a8d; margin-bottom: 0.4rem; margin-top: 0.75rem;
-}
-.gene-title {
-    font-size: 2rem; font-weight: 600; color: #111827;
-    letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.5rem;
-}
-.gene-type-badge {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.72rem; font-weight: 500;
-    padding: 3px 12px; border-radius: 100px;
-    margin-bottom: 1.5rem; letter-spacing: 0.03em;
-}
-.gene-type-badge.both { background: #e8f0fe; color: #1e40af; }
-.gene-type-badge.ad   { background: #fef3c7; color: #92400e; }
-.gene-type-badge.ar   { background: #f0fdf4; color: #166534; }
-.summary-card {
-    background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
-    padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-    font-size: 0.925rem; color: #374151; line-height: 1.75;
-}
-.summary-card-label {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.65rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.1em;
-    color: #9ca3af; margin-bottom: 0.6rem;
-}
-.section-header {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.1em;
-    color: #9ca3af; margin-bottom: 0.75rem;
-    padding-bottom: 0.5rem; border-bottom: 1px solid #e5e7eb;
-}
-.stDataFrame { border-radius: 12px; overflow: hidden; }
-[data-testid="stDataFrameResizable"] { border-radius: 12px !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# --- Query params ---
-query_params = st.query_params
-gene_name = query_params.get("gene", None)
-gene_type = query_params.get("type", "both")
+# --- Load data ---
+# ad + ar
+with open("predictions_A0.json", "r") as f:
+    data = json.load(f)
 
-TAB_LABELS = {
-    "both": "Autosomal Dominant + Recessive",
-    "ad":   "Autosomal Dominant Only",
-    "ar":   "Autosomal Recessive Only"
-}
+# only ad
+with open("predictions_R_ad.json", "r") as f:
+    data_ad = json.load(f)
 
-if gene_type == "both":
-    main_dir = "08012026_ad_ar/exps_short/"
-elif gene_type == "ad":
-    main_dir = "ad/exps_short/"
-elif gene_type == "ar":
-    main_dir = "ar/exps_short/"
-else:
-    main_dir = "08012026_ad_ar/exps_short/"
-    gene_type = "both"
+# only ar
+with open("predictions_R_ar.json", "r") as f:
+    data_ar = json.load(f)
 
-# --- No gene specified ---
-if not gene_name:
-    st.markdown("""
-    <div style="text-align:center; padding: 4rem 1rem; color: #9ca3af;">
-        <div style="font-size:2rem; margin-bottom:0.5rem;">🧬</div>
-        <div style="font-family:'IBM Plex Mono',monospace; font-size:0.85rem;">No gene specified in the URL.</div>
-    </div>
-    """, unsafe_allow_html=True)
-    st.stop()
+# ad + ar
+df = pd.DataFrame(data["predictions"])
+df = df.reset_index(drop=True)
+df["Rank"] = df.index + 1
+df = df[["Rank", "Gene", "Score"]]
+df["Score"] = df["Score"].astype(float)
 
-display_name = gene_name
+# only ad
+df_ad = pd.DataFrame(data_ad["predictions"])
+df_ad = df_ad.reset_index(drop=True)
+df_ad["Rank"] = df_ad.index + 1
+df_ad = df_ad[["Rank", "Gene", "Score"]]
+df_ad["Score"] = df_ad["Score"].astype(float)
 
-# --- Back link ---
-st.markdown('<div class="back-link"><a href="/">← Back to predictions</a></div>', unsafe_allow_html=True)
+# only ar
+df_ar = pd.DataFrame(data_ar["predictions"])
+df_ar = df_ar.reset_index(drop=True)
+df_ar["Rank"] = df_ar.index + 1
+df_ar = df_ar[["Rank", "Gene", "Score"]]
+df_ar["Score"] = df_ar["Score"].astype(float)
 
-# --- Gene header ---
-tab_label = TAB_LABELS.get(gene_type, "AD + AR")
-st.markdown(f"""
-<div class="gene-eyebrow">Gene Explanation</div>
-<div class="gene-title">{display_name.replace("_", " ")}</div>
-<span class="gene-type-badge {gene_type}">&#9654; {tab_label} model</span>
-""", unsafe_allow_html=True)
+HIGH_THRESHOLD   = 0.85
+MEDIUM_THRESHOLD = 0.50
 
-# --- Summary ---
-try:
-    with open(main_dir + f"dee_summary_{display_name}_v2.txt", "r") as f:
-        description_text = f.read()
-except FileNotFoundError:
-    description_text = "This gene has no connections to other genes in the data used for the predictive model."
+def get_confidence(score):
+    if score >= HIGH_THRESHOLD:   return "High"
+    elif score >= MEDIUM_THRESHOLD: return "Medium"
+    else:                           return "Low"
 
-st.markdown(f"""
-<div class="summary-card">
-    <div class="summary-card-label">Summary</div>
-    {description_text}
-</div>
-""", unsafe_allow_html=True)
-
-# --- Network visualisation ---
-image_path = main_dir + f"{display_name}_legend_v2.png"
-html_path  = main_dir + f"{display_name}_v2.html"
-
-if os.path.exists(image_path) and os.path.exists(html_path):
-
-    st.markdown('<div class="section-header">Gene Interaction Network</div>', unsafe_allow_html=True)
-
-    # Embed original legend at full resolution (no re-encoding = max sharpness)
-    with open(image_path, "rb") as img_file:
-        legend_b64 = base64.b64encode(img_file.read()).decode()
-
-    # Read and patch network HTML
-    with open(html_path, "r") as f:
-        html_content = f.read()
-
-    # Expose vis.js network instance as a global so we can call fit()
-    html_content = html_content.replace(
-        "var network = new vis.Network(",
-        "var network = window.network = new vis.Network("
+def prepare_genes(source_df, dee_type):
+    d = source_df.copy()
+    d["Score"]      = d["Score"].astype(float)
+    d["Rank"]       = list(range(1, len(d) + 1))
+    d["Confidence"] = d["Score"].apply(get_confidence)
+    d["GeneLink"] = d["Gene"].apply(
+        lambda g: f'<a href="/Gene_Explanation?gene={g.replace(" ", "_")}&type={dee_type}" target="_blank">{g}</a>'
     )
+    return d[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
 
-    html_content = html_content.replace(
-        "<head>",
-        """<head><style>
-            body, html { margin: 0 !important; padding: 0 !important; background: #fff; }
-        </style>
-        <script type="text/javascript">
-            window.addEventListener("message", function(e) {
-                if (!window.network) return;
-                if (e.data === "fit") window.network.fit({ animation: { duration: 400, easingFunction: "easeInOutQuad" } });
-                if (e.data === "reset") window.network.moveTo({ scale: 1, position: { x: 0, y: 0 }, animation: { duration: 400, easingFunction: "easeInOutQuad" } });
-            });
-            document.addEventListener("DOMContentLoaded", function() {
-                // Poll until network is ready then attach zoom limits
-                const poll = setInterval(function() {
-                    if (window.network) {
-                        clearInterval(poll);
-                        // Auto-fit once layout is stable
-                        window.network.once("stabilized", function() {
-                            window.network.fit({ animation: { duration: 400, easingFunction: "easeInOutQuad" } });
-                        });
-                        const MIN_ZOOM = 0.5, MAX_ZOOM = 10;
-                        window.network.on("zoom", function(params) {
-                            if (params.scale < MIN_ZOOM) window.network.moveTo({ scale: MIN_ZOOM });
-                            else if (params.scale > MAX_ZOOM) window.network.moveTo({ scale: MAX_ZOOM });
-                        });
-                    }
-                }, 200);
-            });
-        </script>"""
-    )
+# Swap these for separate files when ready
+genes_both_json = prepare_genes(df, 'both')
+genes_ad_json   = prepare_genes(df_ad, 'ad')
+genes_ar_json   = prepare_genes(df_ar, 'ar')
 
-    # Escape for srcdoc embedding
-    srcdoc = html_content.replace("&", "&amp;").replace('"', "&quot;").replace("'", "&#39;")
+updated = data["updated"]
 
-    network_html = f"""<!DOCTYPE html>
+HTML = """
+<!DOCTYPE html>
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-* {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow: hidden; }}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "IBM Plex Sans", sans-serif; background: transparent; padding-bottom: 8px; }
 
-.card {{
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-    display: flex;
-    flex-direction: column;
-    height: 640px;
-}}
+/* Header */
+.eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: #6b7a8d; margin-bottom: 0.5rem; }
+.title { font-size: 2rem; font-weight: 600; color: #111827; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.75rem; }
+.desc { font-size: 0.925rem; color: #4b5563; line-height: 1.7; max-width: 680px; margin-bottom: 1rem; }
+.meta-pill { display: inline-flex; align-items: center; gap: 6px; background: #e8f0fe; color: #1e40af; font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; font-weight: 500; padding: 4px 12px; border-radius: 100px; margin-bottom: 1.25rem; letter-spacing: 0.03em; }
 
-/* Toolbar */
-.toolbar {{
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0.5rem 1rem;
-    background: #f9fafb;
-    border-bottom: 1px solid #e5e7eb;
-    flex-shrink: 0;
-}}
-.toolbar-title {{
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.63rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.1em; color: #9ca3af;
-}}
-.toolbar-actions {{ display: flex; gap: 6px; }}
-.btn {{
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 0.78rem; font-weight: 500;
-    color: #374151; background: #fff;
-    border: 1px solid #d1d5db; border-radius: 7px;
-    padding: 4px 12px; cursor: pointer;
-    transition: background 0.15s, border-color 0.15s;
-}}
-.btn:hover {{ background: #f3f4f6; border-color: #9ca3af; }}
+/* Tabs */
+.tab-bar { display: flex; gap: 4px; border-bottom: 2px solid #e5e7eb; margin-bottom: 1.25rem; }
+.tab-btn { font-family: "IBM Plex Sans", sans-serif; font-size: 0.875rem; font-weight: 500; color: #6b7280; background: none; border: none; cursor: pointer; padding: 0.55rem 1.1rem; border-radius: 6px 6px 0 0; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: color 0.15s, border-color 0.15s; }
+.tab-btn:hover { color: #2563eb; }
+.tab-btn.active { color: #2563eb; border-bottom-color: #2563eb; font-weight: 600; }
 
-/* Network area */
-.network-area {{ position: relative; flex: 1; overflow: hidden; }}
-.network-frame {{ width: 100%; height: 100%; border: none; display: block; }}
+/* Stats */
+.tab-desc { font-size: 0.85rem; color: #6b7280; line-height: 1.6; margin-bottom: 1.1rem; max-width: 680px; }
+.stats-strip { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.stat-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 0.6rem 1.1rem; min-width: 100px; }
+.stat-label { font-family: "IBM Plex Mono", monospace; font-size: 0.63rem; text-transform: uppercase; letter-spacing: 0.08em; color: #9ca3af; margin-bottom: 2px; }
+.stat-value { font-size: 1.1rem; font-weight: 600; color: #111827; }
+.stat-value.high { color: #16a34a; } .stat-value.med { color: #d97706; } .stat-value.low { color: #dc2626; }
 
-/* Legend overlay — collapsible, top-right */
-.legend-overlay {{
-    position: absolute; top: 12px; right: 12px;
-    background: rgba(255,255,255,0.97);
-    border: 1px solid #e5e7eb; border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    overflow: hidden; z-index: 100;
-    max-width: 280px; min-width: 160px;
-    transition: box-shadow 0.2s;
-}}
-.legend-header {{
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 6px 10px;
-    background: #f9fafb; border-bottom: 1px solid #e5e7eb;
-    cursor: pointer; user-select: none;
-}}
-.legend-header-label {{
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.6rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.1em; color: #6b7a8d;
-}}
-.legend-toggle {{ font-size: 0.6rem; color: #9ca3af; transition: transform 0.2s; }}
-.legend-body {{ padding: 8px 10px; }}
-.legend-body img {{ display: block; width: 100%; height: auto; }}
-.legend-overlay.collapsed .legend-body {{ display: none; }}
-.legend-overlay.collapsed .legend-toggle {{ transform: rotate(180deg); }}
+/* Legend */
+.legend { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; margin-bottom: 1.25rem; }
+.legend-label { font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: #9ca3af; margin-right: 4px; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: #374151; }
+.legend-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+
+/* Controls */
+.controls { display: flex; gap: 12px; margin-bottom: 8px; align-items: flex-end; }
+.search-wrap { flex: 1; }
+.search-wrap label, .select-wrap label { display: block; font-size: 0.8rem; font-weight: 500; color: #374151; margin-bottom: 4px; }
+.search-wrap input { width: 100%; font-family: "IBM Plex Sans", sans-serif; font-size: 0.9rem; border: 1.5px solid #d1d5db; border-radius: 8px; padding: 0.55rem 1rem; background: #fff; color: #111827; outline: none; box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: border-color 0.15s, box-shadow 0.15s; }
+.search-wrap input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.select-wrap select { font-family: "IBM Plex Sans", sans-serif; font-size: 0.875rem; border: 1.5px solid #d1d5db; border-radius: 8px; padding: 0.55rem 0.85rem; background: #fff; color: #111827; outline: none; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.result-count { font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; color: #9ca3af; margin-bottom: 10px; }
+
+/* Table */
+.gene-table-wrapper { background: #fff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+table { width: 100%; border-collapse: collapse; font-size: 0.865rem; }
+thead tr { background: #f9fafb; border-bottom: 1.5px solid #e5e7eb; }
+thead th { font-family: "IBM Plex Mono", monospace; font-size: 0.67rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #6b7a8d; padding: 0.7rem 1rem; text-align: left; white-space: nowrap; }
+tbody tr { border-bottom: 1px solid #f3f4f6; transition: background 0.1s; }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: #f8faff; }
+tbody td { padding: 0.65rem 1rem; color: #1f2937; vertical-align: middle; }
+.rank-badge { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; font-weight: 600; background: #f3f4f6; color: #6b7280; }
+.rank-badge.top3 { background: #dbeafe; color: #1d4ed8; }
+a { color: #1d4ed8; font-weight: 500; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.score-cell { display: flex; align-items: center; gap: 8px; }
+.score-bar-bg { width: 56px; height: 5px; background: #e5e7eb; border-radius: 99px; overflow: hidden; flex-shrink: 0; }
+.score-bar-fill { height: 100%; border-radius: 99px; }
+.score-val { font-family: "IBM Plex Mono", monospace; font-size: 0.82rem; font-weight: 500; }
+.score-val.high { color: #15803d; } .score-val.med { color: #b45309; } .score-val.low { color: #b91c1c; }
+.conf-badge { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 100px; font-size: 0.73rem; font-weight: 600; white-space: nowrap; }
+.conf-badge.high { background: #dcfce7; color: #15803d; }
+.conf-badge.med  { background: #fef9c3; color: #a16207; }
+.conf-badge.low  { background: #fee2e2; color: #b91c1c; }
+.no-results { text-align: center; padding: 3rem 1rem; color: #9ca3af; font-size: 0.9rem; }
 </style>
 </head>
 <body>
-<div class="card">
 
-  <div class="toolbar">
-    <span class="toolbar-title">Interactive Network &mdash; Pan &amp; zoom to explore</span>
-    <div class="toolbar-actions">
-      <button class="btn" onclick="fitNetwork()">&#8853; Fit to screen</button>
-    </div>
+<div class="eyebrow">Gene Prioritization &middot; Predictive Model</div>
+<div class="title">Developmental &amp; Epileptic Encephalopathy (DEE) Gene Predictions</div>
+<div class="desc">Our model predicts candidate genes that may be linked to Developmental &amp; Epileptic Encephalopathy (DEE). These are genes not yet confirmed as DEE-associated but are identified by our model as likely candidates based on their genomic and network features.</div>
+<div class="meta-pill">&#10227; &nbsp;Last updated: __UPDATED__</div>
+
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('both', this)">Both Autosomal Dominant and Recessive Genes</button>
+  <button class="tab-btn" onclick="switchTab('ad', this)">Autosomal Dominant Genes Only</button>
+  <button class="tab-btn" onclick="switchTab('ar', this)">Autosomal Recessive Genes Only</button>
+</div>
+
+<div class="tab-desc" id="tabDesc"></div>
+<div class="stats-strip" id="statsStrip"></div>
+
+<div class="legend">
+  <span class="legend-label">Key:</span>
+  <div class="legend-item"><div class="legend-dot" style="background:#16a34a"></div> High &ge; 0.85</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#d97706"></div> Medium 0.50 &ndash; 0.84</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#dc2626"></div> Low &lt; 0.50</div>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <label for="geneSearch">Search genes</label>
+    <input id="geneSearch" type="text" placeholder="e.g. SCN1A" oninput="filterTable()" autocomplete="off">
   </div>
-
-  <div class="network-area">
-    <iframe id="netFrame" class="network-frame" srcdoc="{srcdoc}"></iframe>
-
-    <div class="legend-overlay" id="legendOverlay">
-      <div class="legend-header" onclick="toggleLegend()">
-        <span class="legend-header-label">Legend</span>
-        <span class="legend-toggle" id="legendToggle">&#9650;</span>
-      </div>
-      <div class="legend-body">
-        <img src="data:image/png;base64,{legend_b64}" alt="Legend">
-      </div>
-    </div>
+  <div class="select-wrap">
+    <label for="confSelect">Confidence</label>
+    <select id="confSelect" onchange="filterTable()">
+      <option value="All">All</option>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
   </div>
+</div>
 
+<div class="result-count" id="resultCount"></div>
+
+<div class="gene-table-wrapper">
+  <table>
+    <thead><tr><th>Rank</th><th>Gene</th><th>Score</th><th>Confidence</th></tr></thead>
+    <tbody id="tableBody"></tbody>
+  </table>
 </div>
 
 <script>
-function fitNetwork() {{
-  document.getElementById("netFrame").contentWindow.postMessage("fit", "*");
-}}
+const DATASETS = {
+  both: __GENES_BOTH__,
+  ad:   __GENES_AD__,
+  ar:   __GENES_AR__,
+};
 
-function toggleLegend() {{
-  document.getElementById("legendOverlay").classList.toggle("collapsed");
-}}
+let activeTab = "both";
+
+const TAB_DESCS = {
+  both: "Genes ranked using a model trained on both Autosomal Dominant (AD) and Autosomal Recessive (AR) DEE genes as positive examples. This combined model captures a broad set of DEE-associated gene characteristics.",
+  ad:   "Genes ranked using a model trained exclusively on Autosomal Dominant (AD) DEE genes. This model is tuned to identify candidates that share features with dominantly inherited DEE genes.",
+  ar:   "Genes ranked using a model trained exclusively on Autosomal Recessive (AR) DEE genes. This model is tuned to identify candidates that share features with recessively inherited DEE genes.",
+};
+
+const CONF_META = {
+  High:   { cls: "high", color: "#16a34a" },
+  Medium: { cls: "med",  color: "#d97706" },
+  Low:    { cls: "low",  color: "#dc2626" },
+};
+
+function updateStats(genes) {
+  const nHigh = genes.filter(g => g.Confidence === "High").length;
+  const nMed  = genes.filter(g => g.Confidence === "Medium").length;
+  const nLow  = genes.filter(g => g.Confidence === "Low").length;
+  const top   = Math.max(...genes.map(g => g.Score)).toFixed(4);
+  document.getElementById("statsStrip").innerHTML =
+    `<div class="stat-card"><div class="stat-label">Total Genes</div><div class="stat-value">${genes.length}</div></div>` +
+    `<div class="stat-card"><div class="stat-label">High Confidence</div><div class="stat-value high">${nHigh}</div></div>` +
+    `<div class="stat-card"><div class="stat-label">Medium Confidence</div><div class="stat-value med">${nMed}</div></div>` +
+    `<div class="stat-card"><div class="stat-label">Low Confidence</div><div class="stat-value low">${nLow}</div></div>` +
+    `<div class="stat-card"><div class="stat-label">Top Score</div><div class="stat-value">${top}</div></div>`;
+}
+
+function buildRow(g, maxScore) {
+  const meta     = CONF_META[g.Confidence] || CONF_META.Low;
+  const pct      = Math.round((g.Score / maxScore) * 100);
+  const badgeCls = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
+  return `<tr>
+    <td><span class="${badgeCls}">${g.Rank}</span></td>
+    <td>${g.GeneLink}</td>
+    <td><div class="score-cell"><div class="score-bar-bg"><div class="score-bar-fill" style="width:${pct}%;background:${meta.color}"></div></div><span class="score-val ${meta.cls}">${g.Score.toFixed(4)}</span></div></td>
+    <td><span class="conf-badge ${meta.cls}">${g.Confidence}</span></td>
+  </tr>`;
+}
+
+function switchTab(tab, btn) {
+  activeTab = tab;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  document.getElementById("geneSearch").value = "";
+  document.getElementById("confSelect").value = "All";
+  document.getElementById("tabDesc").textContent = TAB_DESCS[tab];
+  updateStats(DATASETS[tab]);
+  filterTable();
+}
+
+function filterTable() {
+  const q        = document.getElementById("geneSearch").value.trim().toLowerCase();
+  const conf     = document.getElementById("confSelect").value;
+  const genes    = DATASETS[activeTab];
+  const maxScore = Math.max(...genes.map(g => g.Score));
+  const filtered = genes.filter(g =>
+    (q === "" || g.Gene.toLowerCase().includes(q)) &&
+    (conf === "All" || g.Confidence === conf)
+  );
+  document.getElementById("tableBody").innerHTML = filtered.length === 0
+    ? `<tr><td colspan="4"><div class="no-results">No genes match your search.</div></td></tr>`
+    : filtered.map(g => buildRow(g, maxScore)).join("");
+  document.getElementById("resultCount").textContent =
+    `Showing ${filtered.length} of ${genes.length} genes`;
+}
+
+document.getElementById("tabDesc").textContent = TAB_DESCS[activeTab];
+updateStats(DATASETS[activeTab]);
+filterTable();
 </script>
 </body>
-</html>"""
+</html>
+"""
 
-    components.html(network_html, height=700, scrolling=False)
+html_out = (HTML
+    .replace("__UPDATED__",    updated)
+    .replace("__GENES_BOTH__", genes_both_json)
+    .replace("__GENES_AD__",   genes_ad_json)
+    .replace("__GENES_AR__",   genes_ar_json)
+)
 
-    # --- Connections table ---
-    csv_path = main_dir + f"tabular_{display_name}.csv"
-    if os.path.exists(csv_path):
-        st.markdown('<div class="section-header" style="margin-top:1.5rem;">Gene Connections</div>', unsafe_allow_html=True)
-        df = pd.read_csv(csv_path)
-        df = df.rename(columns={
-            "Sender":        "Source Gene",
-            "Sender Label":  "Known DEE Gene (Source)",
-            "Receiver":      "Target Gene",
-            "Receiver Label":"Known DEE Gene (Target)",
-            "Importance":    "Connection Importance",
-            "Edge Type":     "Connection Type",
-            "Pathways":      "Pathway Type(s)"
-        })
-        st.data_editor(df, use_container_width=True, height=500, hide_index=True)
-
-        st.download_button(
-            label="⬇ Download as CSV",
-            data=df.to_csv(index=False).encode("utf-8"),
-            file_name=f"{display_name}_connections.csv",
-            mime="text/csv",
-        )
-
-else:
-    st.markdown("""
-    <div style="background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:2rem; text-align:center; color:#9ca3af; margin-top:1rem;">
-        <div style="font-size:1.5rem; margin-bottom:0.5rem;">🔍</div>
-        <div style="font-family:'IBM Plex Mono',monospace; font-size:0.82rem;">No network visualisation found for this gene.</div>
-    </div>
-    """, unsafe_allow_html=True)
+components.html(html_out, height=6000, scrolling=False)
