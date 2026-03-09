@@ -3,8 +3,6 @@ import streamlit.components.v1 as components
 import os
 import base64
 import pandas as pd
-from PIL import Image, ImageOps
-import io
 
 # --- Page setup ---
 st.set_page_config(
@@ -104,7 +102,7 @@ query_params = st.query_params
 gene_name = query_params.get("gene", None)
 gene_type = query_params.get("type", "both")
 
-TAB_LABELS = {"both": "Autosomal Dominant + Recessive", "ad": "Autosomal Dominant Only", "ar": "Autosomal Recessive Only"}
+TAB_LABELS = {"both": "AD + AR", "ad": "Only AD", "ar": "Only AR"}
 
 if gene_type == "both":
     main_dir = "08012026_ad_ar/exps_short/"
@@ -191,51 +189,39 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         </script>"""
     )
 
-    # Trim legend whitespace and show as compact image
-    legend_img = Image.open(image_path).convert("RGBA")
-    bg = Image.new("RGBA", legend_img.size, (255, 255, 255, 255))
-    diff = ImageOps.invert(Image.alpha_composite(bg, legend_img).convert("RGB"))
-    bbox = diff.getbbox()
-    if bbox:
-        pad = 18
-        bbox = (
-            max(0, bbox[0] - pad), max(0, bbox[1] - pad),
-            min(legend_img.width, bbox[2] + pad), min(legend_img.height, bbox[3] + pad)
-        )
-        legend_img = legend_img.crop(bbox)
-    buf = io.BytesIO()
-    legend_img.save(buf, format="PNG")
-    buf.seek(0)
-
-    st.markdown("""
-    <div style="
-        background:#fff; border:1px solid #e5e7eb; border-radius:12px;
-        padding:1rem 1.25rem 0.75rem; margin-bottom:1rem;
-        box-shadow:0 1px 4px rgba(0,0,0,0.05); display:inline-block;
-    ">
-        <div style="font-family:'IBM Plex Mono',monospace; font-size:0.63rem; font-weight:600;
-            text-transform:uppercase; letter-spacing:0.1em; color:#9ca3af; margin-bottom:0.5rem;">
-            Legend
-        </div>
-    """, unsafe_allow_html=True)
-    st.image(buf, use_container_width=False)
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    # Network
     network_html = f"""
     <!DOCTYPE html><html><head>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
     * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-    body {{ margin: 0 !important; padding: 0 !important; overflow: hidden !important; background: #fff; }}
-    svg {{ display: block; margin: 0 auto; }}
+    body {{ font-family: "IBM Plex Sans", sans-serif; background: #fff; }}
+    .legend-wrap {{
+        padding: 16px 20px 10px;
+        border-bottom: 1px solid #e5e7eb;
+        background: #f9fafb;
+        text-align: center;
+    }}
+    .legend-label {{
+        font-family: "IBM Plex Mono", monospace; font-size: 0.65rem;
+        font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em;
+        color: #9ca3af; margin-bottom: 8px;
+    }}
+    .legend-img {{ max-width: 780px; width: 100%; }}
+    .network-wrap {{ padding: 0; }}
     </style>
     </head><body>
-    {html_content}
+    <div class="legend-wrap">
+        <div class="legend-label">Legend</div>
+        <img class="legend-img" src="data:image/png;base64,{legend_base64}" alt="Legend">
+    </div>
+    <div class="network-wrap">
+        {html_content}
+    </div>
     </body></html>
     """
 
     st.markdown('<div class="network-card">', unsafe_allow_html=True)
-    components.html(network_html, height=1400, scrolling=False)
+    components.html(network_html, height=1520, scrolling=False)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # --- Connections table ---
@@ -257,7 +243,7 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         st.download_button(
             label="⬇ Download as CSV",
             data=df.to_csv(index=False).encode("utf-8"),
-            file_name=f"{display_name}_connections.csv",
+            file_name=f"{display_name}_top_connections.csv",
             mime="text/csv",
         )
 
