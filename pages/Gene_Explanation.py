@@ -218,7 +218,7 @@ if os.path.exists(image_path) and os.path.exists(html_path):
             Legend
         </div>
     """, unsafe_allow_html=True)
-    st.image(buf, width=380)
+    st.image(buf, use_container_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Network
