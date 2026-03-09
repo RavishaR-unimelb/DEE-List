@@ -209,7 +209,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow:
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 1000px;
 }}
 
 /* Toolbar */
