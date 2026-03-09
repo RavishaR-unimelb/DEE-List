@@ -27,17 +27,21 @@ html, body, [class*="css"] { font-family: "IBM Plex Sans", sans-serif; }
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
+/* Back link */
 .back-link a {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 0.75rem; color: #6b7a8d;
-    text-decoration: none; letter-spacing: 0.05em;
+    font-size: 0.75rem;
+    color: #6b7a8d;
+    text-decoration: none;
+    letter-spacing: 0.05em;
 }
 .back-link a:hover { color: #2563eb; }
+/* Gene header */
 .gene-eyebrow {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.7rem; font-weight: 500;
     letter-spacing: 0.12em; text-transform: uppercase;
-    color: #6b7a8d; margin-bottom: 0.4rem; margin-top: 0.75rem;
+    color: #6b7a8d; margin-bottom: 0.4rem;
 }
 .gene-title {
     font-size: 2rem; font-weight: 600; color: #111827;
@@ -53,11 +57,17 @@ html, body, [class*="css"] { font-family: "IBM Plex Sans", sans-serif; }
 .gene-type-badge.both { background: #e8f0fe; color: #1e40af; }
 .gene-type-badge.ad   { background: #fef3c7; color: #92400e; }
 .gene-type-badge.ar   { background: #f0fdf4; color: #166534; }
+/* Summary card */
 .summary-card {
-    background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
-    padding: 1.25rem 1.5rem; margin-bottom: 1.5rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-    font-size: 0.925rem; color: #374151; line-height: 1.75;
+    font-size: 0.925rem;
+    color: #374151;
+    line-height: 1.75;
 }
 .summary-card-label {
     font-family: "IBM Plex Mono", monospace;
@@ -65,13 +75,25 @@ html, body, [class*="css"] { font-family: "IBM Plex Sans", sans-serif; }
     text-transform: uppercase; letter-spacing: 0.1em;
     color: #9ca3af; margin-bottom: 0.6rem;
 }
+/* Section headers */
 .section-header {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.68rem; font-weight: 600;
     text-transform: uppercase; letter-spacing: 0.1em;
     color: #9ca3af; margin-bottom: 0.75rem;
-    padding-bottom: 0.5rem; border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
 }
+/* Network wrapper */
+.network-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+}
+/* Dataframe overrides */
 .stDataFrame { border-radius: 12px; overflow: hidden; }
 [data-testid="stDataFrameResizable"] { border-radius: 12px !important; }
 </style>
@@ -82,11 +104,7 @@ query_params = st.query_params
 gene_name = query_params.get("gene", None)
 gene_type = query_params.get("type", "both")
 
-TAB_LABELS = {
-    "both": "Autosomal Dominant + Recessive",
-    "ad":   "Autosomal Dominant Only",
-    "ar":   "Autosomal Recessive Only"
-}
+TAB_LABELS = {"both": "Autosomal Dominant + Recessive", "ad": "Autosomal Dominant Only", "ar": "Autosomal Recessive Only"}
 
 if gene_type == "both":
     main_dir = "08012026_ad_ar/exps_short/"
@@ -111,7 +129,10 @@ if not gene_name:
 display_name = gene_name
 
 # --- Back link ---
-st.markdown('<div class="back-link"><a href="/">← Back to predictions</a></div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="back-link"><a href="/">← Back to predictions</a></div>',
+    unsafe_allow_html=True
+)
 
 # --- Gene header ---
 tab_label = TAB_LABELS.get(gene_type, "AD + AR")
@@ -143,21 +164,9 @@ if os.path.exists(image_path) and os.path.exists(html_path):
 
     st.markdown('<div class="section-header">Gene Interaction Network</div>', unsafe_allow_html=True)
 
-    # Trim legend whitespace
-    legend_img = Image.open(image_path).convert("RGBA")
-    bg   = Image.new("RGBA", legend_img.size, (255, 255, 255, 255))
-    diff = ImageOps.invert(Image.alpha_composite(bg, legend_img).convert("RGB"))
-    bbox = diff.getbbox()
-    if bbox:
-        pad  = 18
-        bbox = (
-            max(0, bbox[0] - pad), max(0, bbox[1] - pad),
-            min(legend_img.width, bbox[2] + pad), min(legend_img.height, bbox[3] + pad)
-        )
-        legend_img = legend_img.crop(bbox)
-    buf = io.BytesIO()
-    legend_img.save(buf, format="PNG")
-    legend_b64 = base64.b64encode(buf.getvalue()).decode()
+    # Encode legend
+    with open(image_path, "rb") as img_file:
+        legend_base64 = base64.b64encode(img_file.read()).decode()
 
     # Read and patch network HTML
     with open(html_path, "r") as f:
@@ -166,7 +175,8 @@ if os.path.exists(image_path) and os.path.exists(html_path):
     html_content = html_content.replace(
         "<head>",
         """<head><style>
-            body, html { margin: 0 !important; padding: 0 !important; background: #fff; }
+            body, html { margin: 0 !important; padding: 0 !important; overflow: hidden !important; background: #fff; }
+            svg { display: block; margin: 0 auto; }
         </style>
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function() {
@@ -181,132 +191,54 @@ if os.path.exists(image_path) and os.path.exists(html_path):
         </script>"""
     )
 
-    # Escape for srcdoc embedding
-    srcdoc = html_content.replace("&", "&amp;").replace('"', "&quot;").replace("'", "&#39;")
+    # Trim legend whitespace and show as compact image
+    legend_img = Image.open(image_path).convert("RGBA")
+    bg = Image.new("RGBA", legend_img.size, (255, 255, 255, 255))
+    diff = ImageOps.invert(Image.alpha_composite(bg, legend_img).convert("RGB"))
+    bbox = diff.getbbox()
+    if bbox:
+        pad = 18
+        bbox = (
+            max(0, bbox[0] - pad), max(0, bbox[1] - pad),
+            min(legend_img.width, bbox[2] + pad), min(legend_img.height, bbox[3] + pad)
+        )
+        legend_img = legend_img.crop(bbox)
+    buf = io.BytesIO()
+    legend_img.save(buf, format="PNG")
+    buf.seek(0)
 
-    network_html = f"""<!DOCTYPE html>
-<html>
-<head>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<style>
-* {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow: hidden; }}
-
-.card {{
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-    display: flex;
-    flex-direction: column;
-    height: 660px;
-}}
-
-/* Toolbar */
-.toolbar {{
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0.5rem 1rem;
-    background: #f9fafb;
-    border-bottom: 1px solid #e5e7eb;
-    flex-shrink: 0;
-}}
-.toolbar-title {{
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.63rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.1em; color: #9ca3af;
-}}
-.toolbar-actions {{ display: flex; gap: 6px; }}
-.btn {{
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 0.78rem; font-weight: 500;
-    color: #374151; background: #fff;
-    border: 1px solid #d1d5db; border-radius: 7px;
-    padding: 4px 12px; cursor: pointer;
-    transition: background 0.15s, border-color 0.15s;
-}}
-.btn:hover {{ background: #f3f4f6; border-color: #9ca3af; }}
-
-/* Network area */
-.network-area {{ position: relative; flex: 1; overflow: hidden; }}
-.network-frame {{ width: 100%; height: 100%; border: none; display: block; }}
-
-/* Legend overlay — collapsible, top-right */
-.legend-overlay {{
-    position: absolute; top: 12px; right: 12px;
-    background: rgba(255,255,255,0.97);
-    border: 1px solid #e5e7eb; border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    overflow: hidden; z-index: 100;
-    max-width: 280px; min-width: 160px;
-    transition: box-shadow 0.2s;
-}}
-.legend-header {{
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 6px 10px;
-    background: #f9fafb; border-bottom: 1px solid #e5e7eb;
-    cursor: pointer; user-select: none;
-}}
-.legend-header-label {{
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.6rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.1em; color: #6b7a8d;
-}}
-.legend-toggle {{ font-size: 0.6rem; color: #9ca3af; transition: transform 0.2s; }}
-.legend-body {{ padding: 8px 10px; }}
-.legend-body img {{ display: block; width: 100%; height: auto; }}
-.legend-overlay.collapsed .legend-body {{ display: none; }}
-.legend-overlay.collapsed .legend-toggle {{ transform: rotate(180deg); }}
-</style>
-</head>
-<body>
-<div class="card">
-
-  <div class="toolbar">
-    <span class="toolbar-title">Interactive Network &mdash; Pan &amp; zoom to explore</span>
-    <div class="toolbar-actions">
-      <button class="btn" onclick="fitNetwork()">&#8853; Fit to screen</button>
-      <button class="btn" onclick="resetNetwork()">&#8635; Reset</button>
+    legend_b64 = base64.b64encode(buf.getvalue()).decode()
+    components.html(f"""
+    <div style="
+        background:#fff; border:1px solid #e5e7eb; border-radius:12px;
+        padding:1rem 1.25rem 0.75rem; margin-bottom:1rem;
+        box-shadow:0 1px 4px rgba(0,0,0,0.05); display:inline-block;
+    ">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:0.63rem; font-weight:600;
+            text-transform:uppercase; letter-spacing:0.1em; color:#9ca3af; margin-bottom:0.5rem;">
+            Legend
+        </div>
+        <img src="data:image/png;base64,{legend_b64}"
+             style="display:block; max-width:420px; width:100%; height:auto;" alt="Legend">
     </div>
-  </div>
+    """, height=360)
 
-  <div class="network-area">
-    <iframe id="netFrame" class="network-frame" srcdoc="{srcdoc}"></iframe>
+    # Network
+    network_html = f"""
+    <!DOCTYPE html><html><head>
+    <style>
+    * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+    body {{ margin: 0 !important; padding: 0 !important; overflow: hidden !important; background: #fff; }}
+    svg {{ display: block; margin: 0 auto; }}
+    </style>
+    </head><body>
+    {html_content}
+    </body></html>
+    """
 
-    <div class="legend-overlay" id="legendOverlay">
-      <div class="legend-header" onclick="toggleLegend()">
-        <span class="legend-header-label">Legend</span>
-        <span class="legend-toggle" id="legendToggle">&#9650;</span>
-      </div>
-      <div class="legend-body">
-        <img src="data:image/png;base64,{legend_b64}" alt="Legend">
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<script>
-function fitNetwork() {{
-  try {{
-    const w = document.getElementById("netFrame").contentWindow;
-    if (w && w.network) w.network.fit({{ animation: {{ duration: 400, easingFunction: "easeInOutQuad" }} }});
-  }} catch(e) {{}}
-}}
-function resetNetwork() {{
-  try {{
-    const w = document.getElementById("netFrame").contentWindow;
-    if (w && w.network) w.network.moveTo({{ scale: 1, animation: {{ duration: 400, easingFunction: "easeInOutQuad" }} }});
-  }} catch(e) {{}}
-}}
-function toggleLegend() {{
-  document.getElementById("legendOverlay").classList.toggle("collapsed");
-}}
-</script>
-</body>
-</html>"""
-
-    components.html(network_html, height=680, scrolling=False)
+    st.markdown('<div class="network-card">', unsafe_allow_html=True)
+    components.html(network_html, height=1100, scrolling=False)
+    st.markdown('</div>', unsafe_allow_html=True)
 
     # --- Connections table ---
     csv_path = main_dir + f"tabular_{display_name}.csv"
