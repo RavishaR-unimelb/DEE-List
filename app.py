@@ -26,38 +26,14 @@ header { visibility: hidden; }
 """, unsafe_allow_html=True)
 
 # --- Load data ---
-# ad + ar
 with open("predictions_A0.json", "r") as f:
     data = json.load(f)
 
-# only ad
-with open("predictions_R_ad.json", "r") as f:
-    data_ad = json.load(f)
-
-# only ar
-with open("predictions_R_ar.json", "r") as f:
-    data_ar = json.load(f)
-
-# ad + ar
 df = pd.DataFrame(data["predictions"])
 df = df.reset_index(drop=True)
 df["Rank"] = df.index + 1
 df = df[["Rank", "Gene", "Score"]]
 df["Score"] = df["Score"].astype(float)
-
-# only ad
-df_ad = pd.DataFrame(data_ad["predictions"])
-df_ad = df_ad.reset_index(drop=True)
-df_ad["Rank"] = df_ad.index + 1
-df_ad = df_ad[["Rank", "Gene", "Score"]]
-df_ad["Score"] = df_ad["Score"].astype(float)
-
-# only ar
-df_ar = pd.DataFrame(data_ar["predictions"])
-df_ar = df_ar.reset_index(drop=True)
-df_ar["Rank"] = df_ar.index + 1
-df_ar = df_ar[["Rank", "Gene", "Score"]]
-df_ar["Score"] = df_ar["Score"].astype(float)
 
 HIGH_THRESHOLD   = 0.85
 MEDIUM_THRESHOLD = 0.50
@@ -67,20 +43,17 @@ def get_confidence(score):
     elif score >= MEDIUM_THRESHOLD: return "Medium"
     else:                           return "Low"
 
-def prepare_genes(source_df, dee_type):
+def prepare_genes(source_df):
     d = source_df.copy()
     d["Score"]      = d["Score"].astype(float)
     d["Rank"]       = list(range(1, len(d) + 1))
     d["Confidence"] = d["Score"].apply(get_confidence)
-    d["GeneLink"] = d["Gene"].apply(
-        lambda g: f'<a href="/Gene_Explanation?gene={g.replace(" ", "_")}&type={dee_type}" target="_blank">{g}</a>'
-    )
-    return d[["Rank", "Gene", "GeneLink", "Score", "Confidence"]].to_json(orient="records")
+    return d[["Rank", "Gene", "Score", "Confidence"]].to_json(orient="records")
 
 # Swap these for separate files when ready
-genes_both_json = prepare_genes(df, 'both')
-genes_ad_json   = prepare_genes(df_ad, 'ad')
-genes_ar_json   = prepare_genes(df_ar, 'ar')
+genes_both_json = prepare_genes(df)
+genes_ad_json   = prepare_genes(df)
+genes_ar_json   = prepare_genes(df)
 
 updated = data["updated"]
 
@@ -155,15 +128,15 @@ a:hover { text-decoration: underline; }
 </head>
 <body>
 
-<div class="eyebrow">Gene Prioritization &middot; Predictive Model</div>
-<div class="title">Developmental &amp; Epileptic Encephalopathy (DEE) Gene Predictions</div>
-<div class="desc">Our model predicts candidate genes that may be linked to Developmental &amp; Epileptic Encephalopathy (DEE). These are genes not yet confirmed as DEE-associated but are identified by our model as likely candidates based on their genomic and network features.</div>
+<div class="eyebrow">Genomics &middot; Predictive Model</div>
+<div class="title">Top DEE Gene Predictions</div>
+<div class="desc">Our model predicts candidate genes that may be linked to Developmental &amp; Epileptic Encephalopathy (DEE). These are genes not yet confirmed as DEE-associated, but which the model identifies as likely candidates based on their genomic and network features.</div>
 <div class="meta-pill">&#10227; &nbsp;Last updated: __UPDATED__</div>
 
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="switchTab('both', this)">Both Autosomal Dominant and Recessive Genes</button>
-  <button class="tab-btn" onclick="switchTab('ad', this)">Autosomal Dominant Genes Only</button>
-  <button class="tab-btn" onclick="switchTab('ar', this)">Autosomal Recessive Genes Only</button>
+  <button class="tab-btn active" onclick="switchTab('both', this)">Autosomal Dominant + Recessive</button>
+  <button class="tab-btn" onclick="switchTab('ad', this)">Autosomal Dominant Only</button>
+  <button class="tab-btn" onclick="switchTab('ar', this)">Autosomal Recessive Only</button>
 </div>
 
 <div class="tab-desc" id="tabDesc"></div>
@@ -239,10 +212,12 @@ function buildRow(g, maxScore) {
   const meta     = CONF_META[g.Confidence] || CONF_META.Low;
   const pct      = Math.round((g.Score / maxScore) * 100);
   const badgeCls = g.Rank <= 3 ? "rank-badge top3" : "rank-badge";
+  const urlGene  = g.Gene.replace(/ /g, "_");
+  const href     = `/Gene_Explanation?gene=${urlGene}&tab=${activeTab}`;
   return `<tr>
     <td><span class="${badgeCls}">${g.Rank}</span></td>
-    <td>${g.GeneLink}</td>
-    <td><div class="score-cell"><div class="score-bar-bg"><div class="score-bar-fill" style="width:${pct}%;background:${meta.color}"></div></div><span class="score-val ${meta.cls}">${g.Score.toFixed(4)}</span></div></td>
+    <td><a href="${href}" target="_blank">${g.Gene}</a></td>
+    <td><span class="score-val ${meta.cls}">${g.Score.toFixed(4)}</span></td>
     <td><span class="conf-badge ${meta.cls}">${g.Confidence}</span></td>
   </tr>`;
 }
