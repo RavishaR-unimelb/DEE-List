@@ -3,6 +3,8 @@ import streamlit.components.v1 as components
 import os
 import base64
 import pandas as pd
+from PIL import Image, ImageOps
+import io
 
 # --- Page setup ---
 st.set_page_config(
@@ -141,9 +143,21 @@ if os.path.exists(image_path) and os.path.exists(html_path):
 
     st.markdown('<div class="section-header">Gene Interaction Network</div>', unsafe_allow_html=True)
 
-    # Embed original legend at full resolution (no re-encoding = max sharpness)
-    with open(image_path, "rb") as img_file:
-        legend_b64 = base64.b64encode(img_file.read()).decode()
+    # Trim legend whitespace
+    legend_img = Image.open(image_path).convert("RGBA")
+    bg   = Image.new("RGBA", legend_img.size, (255, 255, 255, 255))
+    diff = ImageOps.invert(Image.alpha_composite(bg, legend_img).convert("RGB"))
+    bbox = diff.getbbox()
+    if bbox:
+        pad  = 18
+        bbox = (
+            max(0, bbox[0] - pad), max(0, bbox[1] - pad),
+            min(legend_img.width, bbox[2] + pad), min(legend_img.height, bbox[3] + pad)
+        )
+        legend_img = legend_img.crop(bbox)
+    buf = io.BytesIO()
+    legend_img.save(buf, format="PNG")
+    legend_b64 = base64.b64encode(buf.getvalue()).decode()
 
     # Read and patch network HTML
     with open(html_path, "r") as f:
