@@ -207,7 +207,8 @@ if os.path.exists(image_path) and os.path.exists(html_path):
     legend_img.save(buf, format="PNG")
     buf.seek(0)
 
-    st.markdown("""
+    legend_b64 = base64.b64encode(buf.getvalue()).decode()
+    components.html(f"""
     <div style="
         background:#fff; border:1px solid #e5e7eb; border-radius:12px;
         padding:1rem 1.25rem 0.75rem; margin-bottom:1rem;
@@ -217,9 +218,10 @@ if os.path.exists(image_path) and os.path.exists(html_path):
             text-transform:uppercase; letter-spacing:0.1em; color:#9ca3af; margin-bottom:0.5rem;">
             Legend
         </div>
-    """, unsafe_allow_html=True)
-    st.image(buf, use_container_width=True)
-    st.markdown("</div>", unsafe_allow_html=True)
+        <img src="data:image/png;base64,{legend_b64}"
+             style="display:block; max-width:420px; width:100%; height:auto;" alt="Legend">
+    </div>
+    """, height=280)
 
     # Network
     network_html = f"""
