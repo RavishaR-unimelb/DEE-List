@@ -169,14 +169,23 @@ if os.path.exists(image_path) and os.path.exists(html_path):
             body, html { margin: 0 !important; padding: 0 !important; background: #fff; }
         </style>
         <script type="text/javascript">
+            window.addEventListener("message", function(e) {
+                if (!window.network) return;
+                if (e.data === "fit") window.network.fit({ animation: { duration: 400, easingFunction: "easeInOutQuad" } });
+                if (e.data === "reset") window.network.moveTo({ scale: 1, position: { x: 0, y: 0 }, animation: { duration: 400, easingFunction: "easeInOutQuad" } });
+            });
             document.addEventListener("DOMContentLoaded", function() {
-                if (window.network) {
-                    const MIN_ZOOM = 0.5, MAX_ZOOM = 10;
-                    network.on("zoom", function(params) {
-                        if (params.scale < MIN_ZOOM) network.moveTo({ scale: MIN_ZOOM });
-                        else if (params.scale > MAX_ZOOM) network.moveTo({ scale: MAX_ZOOM });
-                    });
-                }
+                // Poll until network is ready then attach zoom limits
+                const poll = setInterval(function() {
+                    if (window.network) {
+                        clearInterval(poll);
+                        const MIN_ZOOM = 0.5, MAX_ZOOM = 10;
+                        window.network.on("zoom", function(params) {
+                            if (params.scale < MIN_ZOOM) window.network.moveTo({ scale: MIN_ZOOM });
+                            else if (params.scale > MAX_ZOOM) window.network.moveTo({ scale: MAX_ZOOM });
+                        });
+                    }
+                }, 200);
             });
         </script>"""
     )
@@ -200,7 +209,7 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow:
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     display: flex;
     flex-direction: column;
-    height: 660px;
+    height: 640px;
 }}
 
 /* Toolbar */
@@ -266,7 +275,6 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow:
     <span class="toolbar-title">Interactive Network &mdash; Pan &amp; zoom to explore</span>
     <div class="toolbar-actions">
       <button class="btn" onclick="fitNetwork()">&#8853; Fit to screen</button>
-      <button class="btn" onclick="resetNetwork()">&#8635; Reset</button>
     </div>
   </div>
 
@@ -288,17 +296,9 @@ body {{ font-family: "IBM Plex Sans", sans-serif; background: #f7f8fa; overflow:
 
 <script>
 function fitNetwork() {{
-  try {{
-    const w = document.getElementById("netFrame").contentWindow;
-    if (w && w.network) w.network.fit({{ animation: {{ duration: 400, easingFunction: "easeInOutQuad" }} }});
-  }} catch(e) {{}}
+  document.getElementById("netFrame").contentWindow.postMessage("fit", "*");
 }}
-function resetNetwork() {{
-  try {{
-    const w = document.getElementById("netFrame").contentWindow;
-    if (w && w.network) w.network.moveTo({{ scale: 1, animation: {{ duration: 400, easingFunction: "easeInOutQuad" }} }});
-  }} catch(e) {{}}
-}}
+
 function toggleLegend() {{
   document.getElementById("legendOverlay").classList.toggle("collapsed");
 }}
@@ -306,7 +306,7 @@ function toggleLegend() {{
 </body>
 </html>"""
 
-    components.html(network_html, height=680, scrolling=False)
+    components.html(network_html, height=700, scrolling=False)
 
     # --- Connections table ---
     csv_path = main_dir + f"tabular_{display_name}.csv"
