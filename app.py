@@ -128,15 +128,15 @@ a:hover { text-decoration: underline; }
 </head>
 <body>
 
-<div class="eyebrow">Genomics &middot; Predictive Model</div>
-<div class="title">Top DEE Gene Predictions</div>
-<div class="desc">Our model predicts candidate genes that may be linked to Developmental &amp; Epileptic Encephalopathy (DEE). These are genes not yet confirmed as DEE-associated, but which the model identifies as likely candidates based on their genomic and network features.</div>
+<div class="eyebrow">Gene Prioritization &middot; Predictive Model</div>
+<div class="title">Developmental &amp; Epileptic Encephalopathy (DEE) Gene Predictions</div>
+<div class="desc">Our model predicts candidate genes that may be linked to Developmental &amp; Epileptic Encephalopathy (DEE). These are genes not yet confirmed as DEE-associated but are identified by our model as likely candidates based on their genomic and network features.</div>
 <div class="meta-pill">&#10227; &nbsp;Last updated: __UPDATED__</div>
 
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="switchTab('both', this)">Autosomal Dominant + Recessive</button>
-  <button class="tab-btn" onclick="switchTab('ad', this)">Autosomal Dominant Only</button>
-  <button class="tab-btn" onclick="switchTab('ar', this)">Autosomal Recessive Only</button>
+  <button class="tab-btn active" onclick="switchTab('both', this)">Both Autosomal Dominant and Recessive Genes</button>
+  <button class="tab-btn" onclick="switchTab('ad', this)">Autosomal Dominant Genes Only</button>
+  <button class="tab-btn" onclick="switchTab('ar', this)">Autosomal Recessive Genes Only</button>
 </div>
 
 <div class="tab-desc" id="tabDesc"></div>
