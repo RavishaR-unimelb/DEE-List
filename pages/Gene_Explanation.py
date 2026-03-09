@@ -163,6 +163,12 @@ if os.path.exists(image_path) and os.path.exists(html_path):
     with open(html_path, "r") as f:
         html_content = f.read()
 
+    # Expose vis.js network instance as a global so we can call fit()
+    html_content = html_content.replace(
+        "var network = new vis.Network(",
+        "var network = window.network = new vis.Network("
+    )
+
     html_content = html_content.replace(
         "<head>",
         """<head><style>
