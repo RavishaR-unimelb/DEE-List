@@ -1,0 +1,41 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DCX,0,SCN1A,1,0.936,Pathway,Axon guidance
+DCX,0,SCN1A,1,0.936,Pathway,Developmental Biology
+DCX,0,SCN1A,1,0.936,Pathway,L1CAM interactions
+DCX,0,CACNA1G,1,0.933,Pathway,Axon guidance
+DCX,0,CACNA1G,1,0.933,Pathway,Developmental Biology
+DCX,0,PAFAH1B3,0,0.931,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+DCX,0,PAFAH1B2,0,0.927,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+DCX,0,MED18,0,0.926,Pathway,Developmental Biology
+DCX,0,NEO1,0,0.926,Pathway,Axon guidance
+DCX,0,NEO1,0,0.926,Pathway,Developmental Biology
+DCX,0,CRMP1,0,0.926,Pathway,Axon guidance
+DCX,0,CRMP1,0,0.926,Pathway,Developmental Biology
+DCX,0,TCF3,0,0.926,Pathway,Developmental Biology
+DCX,0,RELN,0,0.926,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+DCX,0,DAB1,0,0.926,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+DCX,0,DLG4,1,0.926,Pathway,Axon guidance
+DCX,0,DLG4,1,0.926,Pathway,Developmental Biology
+DCX,0,DLG4,1,0.926,Pathway,L1CAM interactions
+DCX,0,SCN2B,0,0.926,Pathway,Axon guidance
+DCX,0,SCN2B,0,0.926,Pathway,Developmental Biology
+DCX,0,SCN2B,0,0.926,Pathway,L1CAM interactions
+DCX,0,PLXNA1,1,0.925,Pathway,Axon guidance
+DCX,0,PLXNA1,1,0.925,Pathway,Developmental Biology
+DCX,0,CHL1,0,0.925,Pathway,Axon guidance
+DCX,0,CHL1,0,0.925,Pathway,Developmental Biology
+DCX,0,CHL1,0,0.925,Pathway,L1CAM interactions
+DCX,0,SCN11A,0,0.925,Pathway,Axon guidance
+DCX,0,SCN11A,0,0.925,Pathway,Developmental Biology
+DCX,0,SCN11A,0,0.925,Pathway,L1CAM interactions
+DCX,0,EPHA4,0,0.925,Pathway,Axon guidance
+DCX,0,EPHA4,0,0.925,Pathway,Developmental Biology
+DCX,0,PFN2,0,0.925,Pathway,Axon guidance
+DCX,0,PFN2,0,0.925,Pathway,Developmental Biology
+DCX,0,SPTBN1,1,0.925,Pathway,Axon guidance
+DCX,0,SPTBN1,1,0.925,Pathway,Developmental Biology
+DCX,0,SPTBN1,1,0.925,Pathway,L1CAM interactions
+DCX,0,PITPNA,0,0.925,Pathway,Axon guidance
+DCX,0,PITPNA,0,0.925,Pathway,Developmental Biology
+DCX,0,GIT1,0,0.924,Pathway,Axon guidance
+DCX,0,GIT1,0,0.924,Pathway,Developmental Biology

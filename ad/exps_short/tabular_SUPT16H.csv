@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SUPT16H,0,CHD4,1,0.958,Pathway,Gene Expression
+SUPT16H,0,CHD4,1,0.958,Pathway,Transcription
+SUPT16H,0,PACS1,1,0.957,Pathway,Disease
+SUPT16H,0,PACS1,1,0.957,Pathway,HIV Infection
+SUPT16H,0,ATP6V0A1,1,0.953,Pathway,Disease
+SUPT16H,0,HNRNPU,1,0.953,Pathway,Gene Expression
+SUPT16H,0,HNRNPUL1,0,0.953,Pathway,Gene Expression
+SUPT16H,0,TSC2,0,0.95,Pathway,Disease
+SUPT16H,0,GATAD2B,1,0.949,Pathway,Gene Expression
+SUPT16H,0,GATAD2B,1,0.949,Pathway,Transcription
+SUPT16H,0,NUP98,0,0.949,Pathway,Disease
+SUPT16H,0,NUP98,0,0.949,Pathway,Gene Expression
+SUPT16H,0,NUP98,0,0.949,Pathway,HIV Infection
+SUPT16H,0,NUP98,0,0.949,Pathway,HIV Life Cycle
+SUPT16H,0,NUP98,0,0.949,Pathway,Late Phase of HIV Life Cycle
+SUPT16H,0,EP300,0,0.948,Pathway,Disease
+SUPT16H,0,NR5A2,0,0.947,Pathway,Gene Expression
+SUPT16H,0,JARID2,1,0.947,Pathway,Gene Expression
+SUPT16H,0,HDAC4,0,0.947,Pathway,Disease
+SUPT16H,0,TET3,1,0.946,Pathway,Gene Expression
+SUPT16H,0,ADCY1,0,0.946,Pathway,Disease
+SUPT16H,0,SF3B1,0,0.946,Pathway,Gene Expression
+SUPT16H,0,GPHN,0,0.945,Pathway,Disease
+SUPT16H,0,TRRAP,1,0.945,Pathway,Disease
+SUPT16H,0,AKT1,1,0.944,Pathway,Disease
+SUPT16H,0,AKT1,1,0.944,Pathway,Gene Expression
+SUPT16H,0,SMC1A,0,0.944,Pathway,Gene Expression
+SUPT16H,0,HNRNPH1,0,0.943,Pathway,Gene Expression

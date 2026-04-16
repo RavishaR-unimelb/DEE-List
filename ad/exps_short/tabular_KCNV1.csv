@@ -1,0 +1,31 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+KCNV1,0,DNAJC5,0,0.962,Pathway,Neuronal System
+KCNV1,0,GRIN2D,1,0.961,Pathway,Neuronal System
+KCNV1,0,SLC6A13,0,0.961,Pathway,Neuronal System
+KCNV1,0,KCND2,1,0.96,Pathway,Neuronal System
+KCNV1,0,KCND2,1,0.96,Pathway,Potassium Channels
+KCNV1,0,KCND2,1,0.96,Pathway,Voltage gated Potassium channels
+KCNV1,0,ALDH5A1,0,0.959,Pathway,Neuronal System
+KCNV1,0,AP2M1,1,0.959,Pathway,Neuronal System
+KCNV1,0,GRIK3,0,0.958,Pathway,Neuronal System
+KCNV1,0,EPB41L1,0,0.957,Pathway,Neuronal System
+KCNV1,0,KCNH7,0,0.957,Pathway,Neuronal System
+KCNV1,0,KCNH7,0,0.957,Pathway,Potassium Channels
+KCNV1,0,KCNH7,0,0.957,Pathway,Voltage gated Potassium channels
+KCNV1,0,CHRNA2,0,0.957,Pathway,Neuronal System
+KCNV1,0,ADCY5,1,0.956,Pathway,Neuronal System
+KCNV1,0,KCNH1,1,0.956,Pathway,Neuronal System
+KCNV1,0,KCNH1,1,0.956,Pathway,Potassium Channels
+KCNV1,0,KCNH1,1,0.956,Pathway,Voltage gated Potassium channels
+KCNV1,0,BRAF,1,0.956,Pathway,Neuronal System
+KCNV1,0,RRAS,0,0.956,Pathway,Neuronal System
+KCNV1,0,STXBP1,1,0.956,Pathway,Neuronal System
+KCNV1,0,KCNN2,1,0.956,Pathway,Neuronal System
+KCNV1,0,KCNN2,1,0.956,Pathway,Potassium Channels
+KCNV1,0,KCNMB4,0,0.955,Pathway,Neuronal System
+KCNV1,0,KCNMB4,0,0.955,Pathway,Potassium Channels
+KCNV1,0,SYN3,0,0.955,Pathway,Neuronal System
+KCNV1,0,KCNAB1,0,0.955,Pathway,Neuronal System
+KCNV1,0,KCNAB1,0,0.955,Pathway,Potassium Channels
+KCNV1,0,KCNAB1,0,0.955,Pathway,Voltage gated Potassium channels
+KCNV1,0,GRIN2B,1,0.955,Pathway,Neuronal System

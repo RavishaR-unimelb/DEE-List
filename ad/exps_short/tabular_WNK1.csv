@@ -1,0 +1,37 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+WNK1,0,ATP6V0D1,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,FXYD3,0,0.967,Pathway,Ion channel transport
+WNK1,0,FXYD3,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,MCOLN2,0,0.967,Pathway,Ion channel transport
+WNK1,0,MCOLN2,0,0.967,Pathway,Stimuli-sensing channels
+WNK1,0,MCOLN2,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,TRPM6,0,0.967,Pathway,Ion channel transport
+WNK1,0,TRPM6,0,0.967,Pathway,Stimuli-sensing channels
+WNK1,0,TRPM6,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,TRPM2,0,0.967,Pathway,Ion channel transport
+WNK1,0,TRPM2,0,0.967,Pathway,Stimuli-sensing channels
+WNK1,0,TRPM2,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,TRPV1,0,0.967,Pathway,Ion channel transport
+WNK1,0,TRPV1,0,0.967,Pathway,Stimuli-sensing channels
+WNK1,0,TRPV1,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,STEAP3,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,POM121,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,HK2,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,ATP6V0E1,0,0.967,Pathway,Transmembrane transport of small molecules
+WNK1,0,OSTM1,0,0.966,Pathway,Ion channel transport
+WNK1,0,OSTM1,0,0.966,Pathway,Stimuli-sensing channels
+WNK1,0,OSTM1,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,SLC35C1,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,ATP6V0D2,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,SLC27A1,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,NUP210,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,HMOX1,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,FXYD4,0,0.966,Pathway,Ion channel transport
+WNK1,0,FXYD4,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,NEDD4L,0,0.966,Pathway,Ion channel transport
+WNK1,0,NEDD4L,0,0.966,Pathway,Stimuli-sensing channels
+WNK1,0,NEDD4L,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,AQP2,0,0.966,Pathway,Transmembrane transport of small molecules
+WNK1,0,TRPV2,0,0.966,Pathway,Ion channel transport
+WNK1,0,TRPV2,0,0.966,Pathway,Stimuli-sensing channels
+WNK1,0,TRPV2,0,0.966,Pathway,Transmembrane transport of small molecules

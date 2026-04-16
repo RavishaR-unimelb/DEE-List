@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SCN3B,0,ARID3A,0,0.963,Pathway,Direct p53 effectors
+SCN3B,0,RPS6KA6,0,0.963,Pathway,Axon guidance
+SCN3B,0,RPS6KA6,0,0.963,Pathway,Developmental Biology
+SCN3B,0,RPS6KA6,0,0.963,Pathway,L1CAM interactions
+SCN3B,0,SCN1A,1,0.963,Pathway,Axon guidance
+SCN3B,0,SCN1A,1,0.963,Pathway,Developmental Biology
+SCN3B,0,SCN1A,1,0.963,Pathway,Interaction between L1 and Ankyrins
+SCN3B,0,SCN1A,1,0.963,Pathway,L1CAM interactions
+SCN3B,0,TP53INP1,0,0.962,Pathway,Direct p53 effectors
+SCN3B,0,HIC1,0,0.962,Pathway,Direct p53 effectors
+SCN3B,0,JMY,0,0.962,Pathway,Direct p53 effectors
+SCN3B,0,SH2D1A,0,0.961,Pathway,Direct p53 effectors
+SCN3B,0,MBD1,0,0.96,Pathway,SIDS Susceptibility Pathways
+SCN3B,0,TNFRSF10C,0,0.96,Pathway,Direct p53 effectors
+SCN3B,0,CC2D1A,0,0.96,Pathway,SIDS Susceptibility Pathways
+SCN3B,0,TNFRSF10A,0,0.959,Pathway,Direct p53 effectors
+SCN3B,0,PRKAR1A,0,0.959,Pathway,SIDS Susceptibility Pathways
+SCN3B,0,TYRP1,0,0.959,Pathway,Direct p53 effectors
+SCN3B,0,TLX3,0,0.959,Pathway,SIDS Susceptibility Pathways
+SCN3B,0,PCBP4,0,0.959,Pathway,Direct p53 effectors
+SCN3B,0,BCL2L2,0,0.958,Pathway,Direct p53 effectors
+SCN3B,0,PCNA,0,0.958,Pathway,Direct p53 effectors
+SCN3B,0,SERPINB5,0,0.958,Pathway,Direct p53 effectors
+SCN3B,0,TCF3,0,0.958,Pathway,Developmental Biology
+SCN3B,0,TCF3,0,0.958,Pathway,SIDS Susceptibility Pathways
+SCN3B,0,CEBPZ,0,0.958,Pathway,Direct p53 effectors

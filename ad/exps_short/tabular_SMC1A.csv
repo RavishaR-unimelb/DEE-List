@@ -1,0 +1,54 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SMC1A,0,HNRNPU,1,0.956,Pathway,mRNA Splicing
+SMC1A,0,HNRNPU,1,0.956,Pathway,Gene Expression
+SMC1A,0,HNRNPU,1,0.956,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SMC1A,0,HNRNPU,1,0.956,Pathway,mRNA Processing
+SMC1A,0,HNRNPUL1,0,0.955,Pathway,mRNA Splicing
+SMC1A,0,HNRNPUL1,0,0.955,Pathway,Gene Expression
+SMC1A,0,HNRNPUL1,0,0.955,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SMC1A,0,AP3B2,0,0.954,Pathway,ATM Signaling Pathway
+SMC1A,0,CHD3,1,0.953,Pathway,Gene Expression
+SMC1A,0,CHD4,1,0.953,Pathway,Gene Expression
+SMC1A,0,SNRNP70,0,0.952,Pathway,mRNA Splicing
+SMC1A,0,SNRNP70,0,0.952,Pathway,Gene Expression
+SMC1A,0,SNRNP70,0,0.952,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SMC1A,0,SNRNP70,0,0.952,Pathway,mRNA Processing
+SMC1A,0,SUPT5H,0,0.951,Pathway,Gene Expression
+SMC1A,0,SUPT5H,0,0.951,Pathway,mRNA Processing
+SMC1A,0,DYRK1A,1,0.951,Pathway,Cell Cycle
+SMC1A,0,DYRK1A,1,0.951,Pathway,"Cell Cycle, Mitotic"
+SMC1A,0,CREBBP,1,0.951,Pathway,Gene Expression
+SMC1A,0,CELF2,1,0.951,Pathway,mRNA Processing
+SMC1A,0,NUP98,0,0.951,Pathway,Cell Cycle
+SMC1A,0,NUP98,0,0.951,Pathway,"Cell Cycle, Mitotic"
+SMC1A,0,NUP98,0,0.951,Pathway,Gene Expression
+SMC1A,0,NUP98,0,0.951,Pathway,M Phase
+SMC1A,0,NUP98,0,0.951,Pathway,Mitotic Anaphase
+SMC1A,0,NUP98,0,0.951,Pathway,Mitotic M-M/G1 phases
+SMC1A,0,NUP98,0,0.951,Pathway,Mitotic Metaphase and Anaphase
+SMC1A,0,NUP98,0,0.951,Pathway,Mitotic Prometaphase
+SMC1A,0,NUP98,0,0.951,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SMC1A,0,NUP98,0,0.951,Pathway,Resolution of Sister Chromatid Cohesion
+SMC1A,0,NUP98,0,0.951,Pathway,Separation of Sister Chromatids
+SMC1A,0,NR2E1,0,0.951,Pathway,Gene Expression
+SMC1A,0,EP300,0,0.951,Pathway,Cell Cycle
+SMC1A,0,EP300,0,0.951,Pathway,"Cell Cycle, Mitotic"
+SMC1A,0,EP300,0,0.951,Pathway,Cell Cycle
+SMC1A,0,HNRNPM,0,0.95,Pathway,mRNA Splicing
+SMC1A,0,HNRNPM,0,0.95,Pathway,Gene Expression
+SMC1A,0,HNRNPM,0,0.95,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SMC1A,0,HNRNPM,0,0.95,Pathway,mRNA Processing
+SMC1A,0,GATAD2B,1,0.95,Pathway,Gene Expression
+SMC1A,0,PRPF40A,0,0.95,Pathway,mRNA Processing
+SMC1A,0,TP53BP1,0,0.95,Pathway,ATM pathway
+SMC1A,0,TP53BP1,0,0.95,Pathway,ATM Signaling Pathway
+SMC1A,0,CSNK2B,1,0.95,Pathway,Cell Cycle
+SMC1A,0,CSNK2B,1,0.95,Pathway,"Cell Cycle, Mitotic"
+SMC1A,0,CSNK2B,1,0.95,Pathway,M Phase
+SMC1A,0,CSNK2B,1,0.95,Pathway,Mitotic M-M/G1 phases
+SMC1A,0,CSNK2B,1,0.95,Pathway,Mitotic Prometaphase
+SMC1A,0,EFTUD2,1,0.95,Pathway,mRNA Splicing
+SMC1A,0,EFTUD2,1,0.95,Pathway,Gene Expression
+SMC1A,0,EFTUD2,1,0.95,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SMC1A,0,EFTUD2,1,0.95,Pathway,mRNA Processing
+SMC1A,0,DHX8,0,0.95,Pathway,mRNA Processing

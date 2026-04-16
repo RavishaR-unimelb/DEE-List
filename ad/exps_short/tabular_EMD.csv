@@ -1,0 +1,52 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+EMD,0,CACNG4,0,0.95,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,CACNG7,0,0.949,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,RAB2A,0,0.947,Pathway,Cell Cycle
+EMD,0,RAB2A,0,0.947,Pathway,"Cell Cycle, Mitotic"
+EMD,0,RAB2A,0,0.947,Pathway,M Phase
+EMD,0,RAB2A,0,0.947,Pathway,Mitotic M-M/G1 phases
+EMD,0,RAB2A,0,0.947,Pathway,Mitotic Prophase
+EMD,0,SGCB,0,0.946,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,CACNG5,0,0.943,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,EP300,0,0.943,Pathway,Cell Cycle
+EMD,0,EP300,0,0.943,Pathway,"Cell Cycle, Mitotic"
+EMD,0,CACNA2D1,0,0.942,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,CACNA2D4,0,0.942,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,NUP98,0,0.939,Pathway,Cell Cycle
+EMD,0,NUP98,0,0.939,Pathway,"Cell Cycle, Mitotic"
+EMD,0,NUP98,0,0.939,Pathway,M Phase
+EMD,0,NUP98,0,0.939,Pathway,Mitotic Anaphase
+EMD,0,NUP98,0,0.939,Pathway,Mitotic M-M/G1 phases
+EMD,0,NUP98,0,0.939,Pathway,Mitotic Metaphase and Anaphase
+EMD,0,NUP98,0,0.939,Pathway,Mitotic Prophase
+EMD,0,NUP98,0,0.939,Pathway,Nuclear Envelope Breakdown
+EMD,0,PKP2,0,0.939,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,ALMS1,0,0.939,Pathway,Cell Cycle
+EMD,0,ALMS1,0,0.939,Pathway,"Cell Cycle, Mitotic"
+EMD,0,CSNK1D,0,0.938,Pathway,Cell Cycle
+EMD,0,CSNK1D,0,0.938,Pathway,"Cell Cycle, Mitotic"
+EMD,0,NIPBL,0,0.938,Pathway,Cell Cycle
+EMD,0,NIPBL,0,0.938,Pathway,"Cell Cycle, Mitotic"
+EMD,0,NIPBL,0,0.938,Pathway,M Phase
+EMD,0,NIPBL,0,0.938,Pathway,Mitotic M-M/G1 phases
+EMD,0,DAG1,0,0.936,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,CSNK1E,1,0.936,Pathway,Cell Cycle
+EMD,0,CSNK1E,1,0.936,Pathway,"Cell Cycle, Mitotic"
+EMD,0,CSNK2B,1,0.936,Pathway,Cell Cycle
+EMD,0,CSNK2B,1,0.936,Pathway,"Cell Cycle, Mitotic"
+EMD,0,CSNK2B,1,0.936,Pathway,M Phase
+EMD,0,CSNK2B,1,0.936,Pathway,Mitotic M-M/G1 phases
+EMD,0,CACNB1,0,0.936,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,CACNA1F,0,0.936,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+EMD,0,STAG2,0,0.936,Pathway,Cell Cycle
+EMD,0,STAG2,0,0.936,Pathway,"Cell Cycle, Mitotic"
+EMD,0,STAG2,0,0.936,Pathway,M Phase
+EMD,0,STAG2,0,0.936,Pathway,Mitotic Anaphase
+EMD,0,STAG2,0,0.936,Pathway,Mitotic M-M/G1 phases
+EMD,0,STAG2,0,0.936,Pathway,Mitotic Metaphase and Anaphase
+EMD,0,STAG1,1,0.935,Pathway,Cell Cycle
+EMD,0,STAG1,1,0.935,Pathway,"Cell Cycle, Mitotic"
+EMD,0,STAG1,1,0.935,Pathway,M Phase
+EMD,0,STAG1,1,0.935,Pathway,Mitotic Anaphase
+EMD,0,STAG1,1,0.935,Pathway,Mitotic M-M/G1 phases
+EMD,0,STAG1,1,0.935,Pathway,Mitotic Metaphase and Anaphase

@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ARHGAP32,0,NTF4,0,0.961,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,RASGRF1,0,0.955,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,NTRK3,0,0.953,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,FAIM,0,0.951,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,GIPC1,0,0.95,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,DYNLT1,0,0.949,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,EHD4,0,0.947,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,DNAJA3,0,0.947,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,BDNF,0,0.946,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,NTF3,0,0.945,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,CRKL,0,0.944,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,ABL1,0,0.94,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,MAP2K1,1,0.94,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,MAGED1,0,0.94,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,PIK3CA,0,0.94,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,NTRK2,1,0.94,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,NEDD4L,0,0.939,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,NRAS,1,0.939,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,TIAM1,0,0.934,Pathway,Neurotrophic factor-mediated Trk receptor signaling
+ARHGAP32,0,GRB2,0,0.933,Pathway,Neurotrophic factor-mediated Trk receptor signaling

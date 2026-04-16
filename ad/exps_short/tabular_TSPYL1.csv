@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TSPYL1,0,EP300,0,0.953,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,CREBBP,1,0.952,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,GRIN1,1,0.952,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,MEF2C,1,0.947,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,ATP1A3,1,0.943,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,SNAP25,1,0.941,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,CTCF,0,0.937,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,NOS1AP,0,0.936,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,GABRA1,1,0.936,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,AQP4,0,0.935,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,PLP1,0,0.935,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,CDCA7L,0,0.934,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,MECP2,0,0.934,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,TLX3,0,0.934,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,PHOX2A,0,0.934,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,CC2D1A,0,0.934,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,EN1,0,0.933,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,MAP2,0,0.933,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,RYR2,0,0.933,Pathway,SIDS Susceptibility Pathways
+TSPYL1,0,KCNJ8,0,0.933,Pathway,SIDS Susceptibility Pathways

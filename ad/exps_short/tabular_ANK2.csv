@@ -1,0 +1,47 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ANK2,0,TCF3,0,0.95,Pathway,Developmental Biology
+ANK2,0,MED18,0,0.95,Pathway,Developmental Biology
+ANK2,0,GRIN2B,1,0.948,Pathway,Axon guidance
+ANK2,0,GRIN2B,1,0.948,Pathway,Developmental Biology
+ANK2,0,MEF2C,1,0.946,Pathway,Developmental Biology
+ANK2,0,EP300,0,0.943,Pathway,Developmental Biology
+ANK2,0,DCX,0,0.942,Pathway,Axon guidance
+ANK2,0,DCX,0,0.942,Pathway,Developmental Biology
+ANK2,0,DCX,0,0.942,Pathway,L1CAM interactions
+ANK2,0,CSNK2B,1,0.941,Pathway,Axon guidance
+ANK2,0,CSNK2B,1,0.941,Pathway,Developmental Biology
+ANK2,0,CSNK2B,1,0.941,Pathway,L1CAM interactions
+ANK2,0,NEO1,0,0.941,Pathway,Axon guidance
+ANK2,0,NEO1,0,0.941,Pathway,Developmental Biology
+ANK2,0,TRIO,1,0.941,Pathway,Axon guidance
+ANK2,0,TRIO,1,0.941,Pathway,Developmental Biology
+ANK2,0,SCN1A,1,0.941,Pathway,Axon guidance
+ANK2,0,SCN1A,1,0.941,Pathway,Developmental Biology
+ANK2,0,SCN1A,1,0.941,Pathway,Interaction between L1 and Ankyrins
+ANK2,0,SCN1A,1,0.941,Pathway,L1CAM interactions
+ANK2,0,TBL1XR1,1,0.94,Pathway,Developmental Biology
+ANK2,0,SLIT1,0,0.94,Pathway,Axon guidance
+ANK2,0,SLIT1,0,0.94,Pathway,Developmental Biology
+ANK2,0,CACNB4,0,0.94,Pathway,Axon guidance
+ANK2,0,CACNB4,0,0.94,Pathway,Developmental Biology
+ANK2,0,KCNQ3,1,0.94,Pathway,Axon guidance
+ANK2,0,KCNQ3,1,0.94,Pathway,Developmental Biology
+ANK2,0,KCNQ3,1,0.94,Pathway,Interaction between L1 and Ankyrins
+ANK2,0,KCNQ3,1,0.94,Pathway,L1CAM interactions
+ANK2,0,NCAM1,0,0.939,Pathway,Axon guidance
+ANK2,0,NCAM1,0,0.939,Pathway,Developmental Biology
+ANK2,0,NCAM1,0,0.939,Pathway,L1CAM interactions
+ANK2,0,SCN5A,0,0.939,Pathway,Axon guidance
+ANK2,0,SCN5A,0,0.939,Pathway,Developmental Biology
+ANK2,0,SCN5A,0,0.939,Pathway,Interaction between L1 and Ankyrins
+ANK2,0,SCN5A,0,0.939,Pathway,L1CAM interactions
+ANK2,0,GRIN1,1,0.938,Pathway,Axon guidance
+ANK2,0,GRIN1,1,0.938,Pathway,Developmental Biology
+ANK2,0,CACNA1G,1,0.938,Pathway,Axon guidance
+ANK2,0,CACNA1G,1,0.938,Pathway,Developmental Biology
+ANK2,0,SCN2B,0,0.938,Pathway,Axon guidance
+ANK2,0,SCN2B,0,0.938,Pathway,Developmental Biology
+ANK2,0,SCN2B,0,0.938,Pathway,Interaction between L1 and Ankyrins
+ANK2,0,SCN2B,0,0.938,Pathway,L1CAM interactions
+ANK2,0,ACTR3,0,0.938,Pathway,Axon guidance
+ANK2,0,ACTR3,0,0.938,Pathway,Developmental Biology

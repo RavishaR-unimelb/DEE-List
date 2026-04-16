@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SPRED1,0,STAP1,0,0.936,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)
+SPRED1,0,PEX14,0,0.932,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,LYL1,0,0.931,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,ANXA2R,0,0.929,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,BBX,0,0.926,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,CASZ1,0,0.925,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,PIM2,0,0.922,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,NOP2,0,0.92,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,SLC7A3,0,0.92,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,SLC50A1,0,0.917,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,PTPRO,0,0.916,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)
+SPRED1,0,MITF,0,0.915,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)
+SPRED1,0,RAB36,0,0.913,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,BCL2,0,0.913,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)
+SPRED1,0,BCL2,0,0.913,Pathway,IL-5 Signaling Pathway
+SPRED1,0,NSD1,1,0.912,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,BTK,0,0.911,Pathway,IL-5 Signaling Pathway
+SPRED1,0,SNAI2,0,0.911,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)
+SPRED1,0,ZC3HAV1,0,0.911,Pathway,Imatinib Resistance in Chronic Myeloid Leukemia
+SPRED1,0,AKT1,1,0.91,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)
+SPRED1,0,AKT1,1,0.91,Pathway,IL-5 Signaling Pathway
+SPRED1,0,MAP4K1,0,0.91,Pathway,Signaling events mediated by Stem cell factor receptor (c-Kit)

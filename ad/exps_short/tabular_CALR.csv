@@ -1,0 +1,32 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CALR,0,UBA5,0,0.967,Pathway,Adaptive Immune System
+CALR,0,UBA5,0,0.967,Pathway,Class I MHC mediated antigen processing & presentation
+CALR,0,UBA5,0,0.967,Pathway,Immune System
+CALR,0,PACS1,1,0.967,Pathway,Disease
+CALR,0,ADCY1,0,0.967,Pathway,Disease
+CALR,0,ADCY1,0,0.967,Pathway,Immune System
+CALR,0,ADCY1,0,0.967,Pathway,Calcium Regulation in the Cardiac Cell
+CALR,0,TSC2,0,0.967,Pathway,Adaptive Immune System
+CALR,0,TSC2,0,0.967,Pathway,Disease
+CALR,0,TSC2,0,0.967,Pathway,Immune System
+CALR,0,ZMIZ1,1,0.967,Pathway,Androgen receptor signaling pathway
+CALR,0,SUPT5H,0,0.966,Pathway,Disease
+CALR,0,ATP6V0A4,0,0.966,Pathway,Disease
+CALR,0,MEF2C,1,0.966,Pathway,Immune System
+CALR,0,TRRAP,1,0.966,Pathway,Disease
+CALR,0,TUBB2A,1,0.966,Pathway,Metabolism of proteins
+CALR,0,UBE2A,0,0.966,Pathway,Adaptive Immune System
+CALR,0,UBE2A,0,0.966,Pathway,Class I MHC mediated antigen processing & presentation
+CALR,0,UBE2A,0,0.966,Pathway,Immune System
+CALR,0,EEF1A2,1,0.966,Pathway,Metabolism of proteins
+CALR,0,ATP6V0A1,1,0.965,Pathway,Disease
+CALR,0,BRAF,1,0.965,Pathway,Disease
+CALR,0,CSNK1E,1,0.965,Pathway,Disease
+CALR,0,NUP98,0,0.965,Pathway,Disease
+CALR,0,NUP98,0,0.965,Pathway,Immune System
+CALR,0,NUP98,0,0.965,Pathway,Influenza Infection
+CALR,0,NUP98,0,0.965,Pathway,Influenza Life Cycle
+CALR,0,NCAM1,0,0.965,Pathway,Immune System
+CALR,0,CSNK2B,1,0.965,Pathway,Disease
+CALR,0,PGK1,0,0.965,Pathway,Disease
+CALR,0,SMARCE1,1,0.965,Pathway,Androgen receptor signaling pathway

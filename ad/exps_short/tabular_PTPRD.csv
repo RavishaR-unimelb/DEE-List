@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RAB3GAP2,0,UNC13B,0,0.37,Pathway,Effects of Botulinum toxin
+RAB3GAP2,0,CHRNA1,0,0.362,Pathway,Effects of Botulinum toxin
+RAB3GAP2,0,STX1A,0,0.362,Pathway,Effects of Botulinum toxin
+MSRB3,0,MSRA,0,0.328,Pathway,Sulindac Metabolic Pathway
+PRDM2,0,SMYD2,0,0.326,Pathway,Histone Modifications
+SYTL2,0,MADD,0,0.326,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+PRDM2,0,SMYD1,0,0.322,Pathway,Histone Modifications
+PRDM2,0,SETDB1,0,0.318,Pathway,Histone Modifications
+MSRB3,0,CYP1A2,0,0.317,Pathway,Sulindac Metabolic Pathway
+RPH3A,0,GCC2,0,0.316,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+PRDM2,0,EZH2,0,0.313,Pathway,Histone Modifications
+GCC2,0,MADD,0,0.311,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+RAB3GAP2,0,SYT1,0,0.311,Pathway,Effects of Botulinum toxin
+HVCN1,0,CD9,0,0.31,Pathway,Fertilization
+PRDM2,0,SETMAR,0,0.31,Pathway,Histone Modifications
+SYTL4,0,MADD,0,0.31,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+PRDM2,0,SETD3,0,0.308,Pathway,Histone Modifications
+PRDM2,0,SETD7,0,0.308,Pathway,Histone Modifications
+RAB3GAP2,0,VAMP2,1,0.307,Pathway,Effects of Botulinum toxin
+RPH3A,0,MADD,0,0.307,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer

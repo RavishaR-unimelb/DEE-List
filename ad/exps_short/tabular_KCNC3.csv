@@ -1,0 +1,28 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+KCNC3,0,KCNMB1,0,0.976,Pathway,Neuronal System
+KCNC3,0,KCNMB1,0,0.976,Pathway,Potassium Channels
+KCNC3,0,SLC1A3,0,0.976,Pathway,Neuronal System
+KCNC3,0,CHRNA1,0,0.976,Pathway,Neuronal System
+KCNC3,0,GJA10,0,0.976,Pathway,Neuronal System
+KCNC3,0,SLC38A2,0,0.976,Pathway,Neuronal System
+KCNC3,0,ABAT,0,0.976,Pathway,Neuronal System
+KCNC3,0,CHRNA9,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNJ2,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNJ2,0,0.975,Pathway,Potassium Channels
+KCNC3,0,CHRNG,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNJ6,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNJ6,0,0.975,Pathway,Potassium Channels
+KCNC3,0,NEFL,0,0.975,Pathway,Neuronal System
+KCNC3,0,GRIK1,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNK7,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNK7,0,0.975,Pathway,Potassium Channels
+KCNC3,0,KCNA7,0,0.975,Pathway,Neuronal System
+KCNC3,0,KCNA7,0,0.975,Pathway,Potassium Channels
+KCNC3,0,KCNA7,0,0.975,Pathway,Voltage gated Potassium channels
+KCNC3,0,CHRND,0,0.975,Pathway,Neuronal System
+KCNC3,0,CHRNE,0,0.974,Pathway,Neuronal System
+KCNC3,0,GNG11,0,0.974,Pathway,Neuronal System
+KCNC3,0,KCNJ14,0,0.974,Pathway,Neuronal System
+KCNC3,0,KCNJ14,0,0.974,Pathway,Potassium Channels
+KCNC3,0,SLC1A7,0,0.974,Pathway,Neuronal System
+KCNC3,0,PRKACB,0,0.974,Pathway,Neuronal System

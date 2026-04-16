@@ -1,0 +1,44 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GRIA3,0,TSC2,0,0.966,Pathway,BDNF signaling pathway
+GRIA3,0,ADCY1,0,0.965,Pathway,Activation of NMDA receptor upon glutamate binding and postsynaptic events
+GRIA3,0,ADCY1,0,0.965,Pathway,Neuronal System
+GRIA3,0,ADCY1,0,0.965,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GRIA3,0,ADCY1,0,0.965,Pathway,Transmission across Chemical Synapses
+GRIA3,0,ADCY1,0,0.965,Pathway,Hypothetical Network for Drug Addiction
+GRIA3,0,CYFIP1,0,0.964,Pathway,BDNF signaling pathway
+GRIA3,0,KCNC4,0,0.963,Pathway,Neuronal System
+GRIA3,0,GAD2,0,0.963,Pathway,Neuronal System
+GRIA3,0,GAD2,0,0.963,Pathway,Transmission across Chemical Synapses
+GRIA3,0,DRD2,0,0.963,Pathway,Hypothetical Network for Drug Addiction
+GRIA3,0,MEF2C,1,0.963,Pathway,BDNF signaling pathway
+GRIA3,0,SLC38A2,0,0.963,Pathway,Neuronal System
+GRIA3,0,SLC38A2,0,0.963,Pathway,Transmission across Chemical Synapses
+GRIA3,0,KRIT1,0,0.963,Pathway,Hypothetical Network for Drug Addiction
+GRIA3,0,KCNH8,0,0.963,Pathway,Neuronal System
+GRIA3,0,CHRNA5,0,0.963,Pathway,Neuronal System
+GRIA3,0,CHRNA5,0,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GRIA3,0,CHRNA5,0,0.963,Pathway,Transmission across Chemical Synapses
+GRIA3,0,KCNH6,0,0.963,Pathway,Neuronal System
+GRIA3,0,KCNK17,0,0.963,Pathway,Neuronal System
+GRIA3,0,CHRNB4,0,0.963,Pathway,Neuronal System
+GRIA3,0,CHRNB4,0,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GRIA3,0,CHRNB4,0,0.963,Pathway,Transmission across Chemical Synapses
+GRIA3,0,GRIN2B,1,0.962,Pathway,Activation of NMDA receptor upon glutamate binding and postsynaptic events
+GRIA3,0,GRIN2B,1,0.962,Pathway,Neuronal System
+GRIA3,0,GRIN2B,1,0.962,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GRIA3,0,GRIN2B,1,0.962,Pathway,Transmission across Chemical Synapses
+GRIA3,0,GRIN2B,1,0.962,Pathway,"Unblocking of NMDA receptor, glutamate binding and activation"
+GRIA3,0,GRIN2B,1,0.962,Pathway,BDNF signaling pathway
+GRIA3,0,GRIN2B,1,0.962,Pathway,Hypothetical Network for Drug Addiction
+GRIA3,0,PPFIA3,0,0.962,Pathway,Neuronal System
+GRIA3,0,PPFIA3,0,0.962,Pathway,Transmission across Chemical Synapses
+GRIA3,0,PANX2,0,0.962,Pathway,Neuronal System
+GRIA3,0,DOK5,0,0.962,Pathway,BDNF signaling pathway
+GRIA3,0,STXBP1,1,0.962,Pathway,Neuronal System
+GRIA3,0,STXBP1,1,0.962,Pathway,Transmission across Chemical Synapses
+GRIA3,0,GRIN2D,1,0.962,Pathway,Activation of NMDA receptor upon glutamate binding and postsynaptic events
+GRIA3,0,GRIN2D,1,0.962,Pathway,Neuronal System
+GRIA3,0,GRIN2D,1,0.962,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GRIA3,0,GRIN2D,1,0.962,Pathway,Transmission across Chemical Synapses
+GRIA3,0,GRIN2D,1,0.962,Pathway,"Unblocking of NMDA receptor, glutamate binding and activation"
+GRIA3,0,GRIN2D,1,0.962,Pathway,Hypothetical Network for Drug Addiction

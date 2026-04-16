@@ -1,0 +1,80 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+KCNJ10,0,GABBR1,0,0.954,Pathway,Activation of G protein gated Potassium channels
+KCNJ10,0,GABBR1,0,0.954,Pathway,Activation of GABAB receptors
+KCNJ10,0,GABBR1,0,0.954,Pathway,GABA receptor activation
+KCNJ10,0,GABBR1,0,0.954,Pathway,Inwardly rectifying K+ channels
+KCNJ10,0,GABBR1,0,0.954,Pathway,Neuronal System
+KCNJ10,0,GABBR1,0,0.954,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GABBR1,0,0.954,Pathway,Potassium Channels
+KCNJ10,0,GABBR1,0,0.954,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,STXBP1,1,0.954,Pathway,Neuronal System
+KCNJ10,0,STXBP1,1,0.954,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GRIK5,0,0.952,Pathway,Neuronal System
+KCNJ10,0,GRIK5,0,0.952,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GRIK5,0,0.952,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,DNAJC5,0,0.951,Pathway,Neuronal System
+KCNJ10,0,DNAJC5,0,0.951,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GRIK3,0,0.951,Pathway,Neuronal System
+KCNJ10,0,GRIK3,0,0.951,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GRIK3,0,0.951,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GABRB3,1,0.95,Pathway,GABA receptor activation
+KCNJ10,0,GABRB3,1,0.95,Pathway,Neuronal System
+KCNJ10,0,GABRB3,1,0.95,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GABRB3,1,0.95,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GNB1,1,0.949,Pathway,Activation of G protein gated Potassium channels
+KCNJ10,0,GNB1,1,0.949,Pathway,Activation of GABAB receptors
+KCNJ10,0,GNB1,1,0.949,Pathway,GABA receptor activation
+KCNJ10,0,GNB1,1,0.949,Pathway,Inwardly rectifying K+ channels
+KCNJ10,0,GNB1,1,0.949,Pathway,Neuronal System
+KCNJ10,0,GNB1,1,0.949,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GNB1,1,0.949,Pathway,Potassium Channels
+KCNJ10,0,GNB1,1,0.949,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,KCNK10,0,0.948,Pathway,Neuronal System
+KCNJ10,0,KCNK10,0,0.948,Pathway,Potassium Channels
+KCNJ10,0,CACNA1B,0,0.948,Pathway,Neuronal System
+KCNJ10,0,CACNA1B,0,0.948,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GABRG2,1,0.947,Pathway,GABA receptor activation
+KCNJ10,0,GABRG2,1,0.947,Pathway,Neuronal System
+KCNJ10,0,GABRG2,1,0.947,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GABRG2,1,0.947,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GABRB2,1,0.945,Pathway,GABA receptor activation
+KCNJ10,0,GABRB2,1,0.945,Pathway,Neuronal System
+KCNJ10,0,GABRB2,1,0.945,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GABRB2,1,0.945,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,KCNQ3,1,0.945,Pathway,Neuronal System
+KCNJ10,0,KCNQ3,1,0.945,Pathway,Potassium Channels
+KCNJ10,0,KCNH3,0,0.945,Pathway,Neuronal System
+KCNJ10,0,KCNH3,0,0.945,Pathway,Potassium Channels
+KCNJ10,0,CACNG3,0,0.945,Pathway,Neuronal System
+KCNJ10,0,CACNG3,0,0.945,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,CACNG3,0,0.945,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GABBR2,1,0.945,Pathway,Activation of G protein gated Potassium channels
+KCNJ10,0,GABBR2,1,0.945,Pathway,Activation of GABAB receptors
+KCNJ10,0,GABBR2,1,0.945,Pathway,GABA receptor activation
+KCNJ10,0,GABBR2,1,0.945,Pathway,Inwardly rectifying K+ channels
+KCNJ10,0,GABBR2,1,0.945,Pathway,Neuronal System
+KCNJ10,0,GABBR2,1,0.945,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GABBR2,1,0.945,Pathway,Potassium Channels
+KCNJ10,0,GABBR2,1,0.945,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,SLC6A13,0,0.944,Pathway,Neuronal System
+KCNJ10,0,SLC6A13,0,0.944,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Activation of G protein gated Potassium channels
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Activation of GABAB receptors
+KCNJ10,0,KCNJ16,0,0.944,Pathway,GABA receptor activation
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Inwardly rectifying K+ channels
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Neuronal System
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Potassium Channels
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Potassium transport channels
+KCNJ10,0,KCNJ16,0,0.944,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GRIN2B,1,0.944,Pathway,Neuronal System
+KCNJ10,0,GRIN2B,1,0.944,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GRIN2B,1,0.944,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,ADCY1,0,0.944,Pathway,Activation of GABAB receptors
+KCNJ10,0,ADCY1,0,0.944,Pathway,GABA receptor activation
+KCNJ10,0,ADCY1,0,0.944,Pathway,Neuronal System
+KCNJ10,0,ADCY1,0,0.944,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,ADCY1,0,0.944,Pathway,Transmission across Chemical Synapses
+KCNJ10,0,GRIN1,1,0.944,Pathway,Neuronal System
+KCNJ10,0,GRIN1,1,0.944,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+KCNJ10,0,GRIN1,1,0.944,Pathway,Transmission across Chemical Synapses

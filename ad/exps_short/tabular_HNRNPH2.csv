@@ -1,0 +1,28 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+HNRNPH2,0,NUP98,0,0.963,Pathway,Gene Expression
+HNRNPH2,0,NUP98,0,0.963,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPH2,0,TNPO1,0,0.959,Pathway,Gene Expression
+HNRNPH2,0,CHD4,1,0.959,Pathway,Gene Expression
+HNRNPH2,0,CHD9,0,0.958,Pathway,Gene Expression
+HNRNPH2,0,NEDD4L,0,0.958,Pathway,Gene Expression
+HNRNPH2,0,CHD3,1,0.957,Pathway,Gene Expression
+HNRNPH2,0,GATAD2B,1,0.956,Pathway,Gene Expression
+HNRNPH2,0,EFTUD2,1,0.956,Pathway,mRNA Splicing
+HNRNPH2,0,EFTUD2,1,0.956,Pathway,Gene Expression
+HNRNPH2,0,EFTUD2,1,0.956,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPH2,0,EFTUD2,1,0.956,Pathway,mRNA Processing
+HNRNPH2,0,NR2E1,0,0.956,Pathway,Gene Expression
+HNRNPH2,0,USP9X,0,0.956,Pathway,Gene Expression
+HNRNPH2,0,CELF2,1,0.956,Pathway,mRNA Processing
+HNRNPH2,0,SKI,0,0.955,Pathway,Gene Expression
+HNRNPH2,0,CNOT10,0,0.955,Pathway,Gene Expression
+HNRNPH2,0,TBL1XR1,1,0.954,Pathway,Gene Expression
+HNRNPH2,0,NR0B2,0,0.954,Pathway,Gene Expression
+HNRNPH2,0,NR2C2,0,0.953,Pathway,Gene Expression
+HNRNPH2,0,PRPF40A,0,0.953,Pathway,mRNA Processing
+HNRNPH2,0,SMC1A,0,0.953,Pathway,mRNA Splicing
+HNRNPH2,0,SMC1A,0,0.953,Pathway,Gene Expression
+HNRNPH2,0,SMC1A,0,0.953,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPH2,0,SMC1A,0,0.953,Pathway,mRNA Processing
+HNRNPH2,0,RPS4Y1,0,0.953,Pathway,Gene Expression
+HNRNPH2,0,EIF1AX,0,0.952,Pathway,Gene Expression

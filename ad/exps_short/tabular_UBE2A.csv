@@ -1,0 +1,34 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+UBE2A,0,KIF2A,1,0.955,Pathway,Adaptive Immune System
+UBE2A,0,KIF2A,1,0.955,Pathway,Immune System
+UBE2A,0,PSME2,0,0.953,Pathway,Adaptive Immune System
+UBE2A,0,PSME2,0,0.953,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE2A,0,PSME2,0,0.953,Pathway,Class I MHC mediated antigen processing & presentation
+UBE2A,0,PSME2,0,0.953,Pathway,Immune System
+UBE2A,0,C2,0,0.952,Pathway,Immune System
+UBE2A,0,CFI,0,0.952,Pathway,Immune System
+UBE2A,0,ASB2,0,0.952,Pathway,Adaptive Immune System
+UBE2A,0,ASB2,0,0.952,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE2A,0,ASB2,0,0.952,Pathway,Class I MHC mediated antigen processing & presentation
+UBE2A,0,ASB2,0,0.952,Pathway,Immune System
+UBE2A,0,CFH,0,0.95,Pathway,Immune System
+UBE2A,0,CD44,0,0.95,Pathway,Immune System
+UBE2A,0,C9,0,0.95,Pathway,Immune System
+UBE2A,0,CD300E,0,0.95,Pathway,Immune System
+UBE2A,0,DEFB123,0,0.95,Pathway,Immune System
+UBE2A,0,DEFB125,0,0.95,Pathway,Immune System
+UBE2A,0,CFHR3,0,0.95,Pathway,Immune System
+UBE2A,0,CDK1,0,0.95,Pathway,Immune System
+UBE2A,0,DEFB119,0,0.95,Pathway,Immune System
+UBE2A,0,CD34,0,0.95,Pathway,Adaptive Immune System
+UBE2A,0,CD34,0,0.95,Pathway,Immune System
+UBE2A,0,PSMB7,0,0.95,Pathway,Adaptive Immune System
+UBE2A,0,PSMB7,0,0.95,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBE2A,0,PSMB7,0,0.95,Pathway,Class I MHC mediated antigen processing & presentation
+UBE2A,0,PSMB7,0,0.95,Pathway,Immune System
+UBE2A,0,BTLA,0,0.95,Pathway,Adaptive Immune System
+UBE2A,0,BTLA,0,0.95,Pathway,Immune System
+UBE2A,0,CASP2,0,0.949,Pathway,Immune System
+UBE2A,0,DEFB128,0,0.949,Pathway,Immune System
+UBE2A,0,KIF2C,0,0.949,Pathway,Adaptive Immune System
+UBE2A,0,KIF2C,0,0.949,Pathway,Immune System

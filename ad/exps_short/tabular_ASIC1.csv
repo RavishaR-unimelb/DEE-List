@@ -1,0 +1,32 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ASIC1,0,GABRB3,1,0.96,Pathway,Ion channel transport
+ASIC1,0,GABRB3,1,0.96,Pathway,Transmembrane transport of small molecules
+ASIC1,0,ADCY1,0,0.958,Pathway,Transmembrane transport of small molecules
+ASIC1,0,GABRB2,1,0.956,Pathway,Ion channel transport
+ASIC1,0,GABRB2,1,0.956,Pathway,Transmembrane transport of small molecules
+ASIC1,0,TUBB2A,1,0.955,Pathway,Transmembrane transport of small molecules
+ASIC1,0,ATP2B4,0,0.953,Pathway,Ion channel transport
+ASIC1,0,ATP2B4,0,0.953,Pathway,Transmembrane transport of small molecules
+ASIC1,0,TRPM3,1,0.952,Pathway,Ion channel transport
+ASIC1,0,TRPM3,1,0.952,Pathway,Stimuli-sensing channels
+ASIC1,0,TRPM3,1,0.952,Pathway,Transmembrane transport of small molecules
+ASIC1,0,GABRG2,1,0.951,Pathway,Ion channel transport
+ASIC1,0,GABRG2,1,0.951,Pathway,Transmembrane transport of small molecules
+ASIC1,0,ATP10D,0,0.95,Pathway,Ion channel transport
+ASIC1,0,ATP10D,0,0.95,Pathway,Transmembrane transport of small molecules
+ASIC1,0,LCN9,0,0.949,Pathway,Transmembrane transport of small molecules
+ASIC1,0,WNK1,0,0.949,Pathway,Ion channel transport
+ASIC1,0,WNK1,0,0.949,Pathway,Stimuli-sensing channels
+ASIC1,0,WNK1,0,0.949,Pathway,Transmembrane transport of small molecules
+ASIC1,0,SLC24A5,0,0.949,Pathway,Transmembrane transport of small molecules
+ASIC1,0,SLC3A2,0,0.949,Pathway,Transmembrane transport of small molecules
+ASIC1,0,ATP10B,0,0.948,Pathway,Ion channel transport
+ASIC1,0,ATP10B,0,0.948,Pathway,Transmembrane transport of small molecules
+ASIC1,0,SLC13A4,0,0.948,Pathway,Transmembrane transport of small molecules
+ASIC1,0,APOA1,0,0.947,Pathway,Transmembrane transport of small molecules
+ASIC1,0,HTR3D,0,0.947,Pathway,Ion channel transport
+ASIC1,0,HTR3D,0,0.947,Pathway,Transmembrane transport of small molecules
+ASIC1,0,ABCA2,0,0.947,Pathway,Transmembrane transport of small molecules
+ASIC1,0,MIP,0,0.947,Pathway,Transmembrane transport of small molecules
+ASIC1,0,MYO5B,0,0.947,Pathway,Transmembrane transport of small molecules
+ASIC1,0,RHAG,0,0.946,Pathway,Transmembrane transport of small molecules

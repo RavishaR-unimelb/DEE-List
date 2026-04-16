@@ -1,0 +1,48 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNG3,0,STXBP1,1,0.959,Pathway,Neuronal System
+CACNG3,0,STXBP1,1,0.959,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GABBR1,0,0.952,Pathway,Neuronal System
+CACNG3,0,GABBR1,0,0.952,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GABBR1,0,0.952,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GABRB3,1,0.949,Pathway,Neuronal System
+CACNG3,0,GABRB3,1,0.949,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GABRB3,1,0.949,Pathway,Transmission across Chemical Synapses
+CACNG3,0,CHRNA5,0,0.948,Pathway,Neuronal System
+CACNG3,0,CHRNA5,0,0.948,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,CHRNA5,0,0.948,Pathway,Transmission across Chemical Synapses
+CACNG3,0,SGCD,0,0.948,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNG3,0,SGCA,0,0.947,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNG3,0,GNB1,1,0.947,Pathway,Neuronal System
+CACNG3,0,GNB1,1,0.947,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GNB1,1,0.947,Pathway,Transmission across Chemical Synapses
+CACNG3,0,CHRNA3,0,0.947,Pathway,Neuronal System
+CACNG3,0,CHRNA3,0,0.947,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,CHRNA3,0,0.947,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GABBR2,1,0.946,Pathway,Neuronal System
+CACNG3,0,GABBR2,1,0.946,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GABBR2,1,0.946,Pathway,Transmission across Chemical Synapses
+CACNG3,0,KCNQ3,1,0.946,Pathway,Neuronal System
+CACNG3,0,GABRG2,1,0.945,Pathway,Neuronal System
+CACNG3,0,GABRG2,1,0.945,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GABRG2,1,0.945,Pathway,Transmission across Chemical Synapses
+CACNG3,0,ADCY1,0,0.943,Pathway,Neuronal System
+CACNG3,0,ADCY1,0,0.943,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,ADCY1,0,0.943,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GRIN2B,1,0.942,Pathway,Neuronal System
+CACNG3,0,GRIN2B,1,0.942,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GRIN2B,1,0.942,Pathway,Transmission across Chemical Synapses
+CACNG3,0,KCNJ1,0,0.942,Pathway,Neuronal System
+CACNG3,0,DES,0,0.942,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNG3,0,CACNG1,0,0.941,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNG3,0,CHRNB4,0,0.941,Pathway,Neuronal System
+CACNG3,0,CHRNB4,0,0.941,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,CHRNB4,0,0.941,Pathway,Transmission across Chemical Synapses
+CACNG3,0,GNG5,0,0.94,Pathway,Neuronal System
+CACNG3,0,GNG5,0,0.94,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,GNG5,0,0.94,Pathway,Transmission across Chemical Synapses
+CACNG3,0,CACNG4,0,0.94,Pathway,"Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity"
+CACNG3,0,CACNG4,0,0.94,Pathway,Neuronal System
+CACNG3,0,CACNG4,0,0.94,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG3,0,CACNG4,0,0.94,Pathway,Transmission across Chemical Synapses
+CACNG3,0,CACNG4,0,0.94,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNG3,0,CTNNA3,0,0.94,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy

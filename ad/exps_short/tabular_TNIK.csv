@@ -1,0 +1,31 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TNIK,0,TCF4,1,0.966,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,EHMT1,1,0.966,Pathway,Cellular Senescence
+TNIK,0,EHMT1,1,0.966,Pathway,Cellular responses to stress
+TNIK,0,CREBBP,1,0.959,Pathway,Cellular responses to stress
+TNIK,0,TRRAP,1,0.958,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,EP300,0,0.958,Pathway,Cellular responses to stress
+TNIK,0,EP300,0,0.958,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,SMARCA4,1,0.958,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,NCOA2,0,0.957,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,RAD50,0,0.955,Pathway,Cellular Senescence
+TNIK,0,RAD50,0,0.955,Pathway,Cellular responses to stress
+TNIK,0,EP400,0,0.952,Pathway,Cellular Senescence
+TNIK,0,EP400,0,0.952,Pathway,Cellular responses to stress
+TNIK,0,YWHAG,1,0.95,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,CACNA1G,1,0.95,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,TLE1,0,0.95,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,JUN,0,0.95,Pathway,Cellular Senescence
+TNIK,0,JUN,0,0.95,Pathway,Cellular responses to stress
+TNIK,0,JUN,0,0.95,Pathway,Oxidative Stress Induced Senescence
+TNIK,0,JUN,0,0.95,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,TBL1XR1,1,0.95,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,APC,0,0.95,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,EED,1,0.949,Pathway,Cellular Senescence
+TNIK,0,EED,1,0.949,Pathway,Cellular responses to stress
+TNIK,0,EED,1,0.949,Pathway,Oxidative Stress Induced Senescence
+TNIK,0,ID2,0,0.949,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription
+TNIK,0,FZR1,1,0.949,Pathway,Cellular Senescence
+TNIK,0,FZR1,1,0.949,Pathway,Cellular responses to stress
+TNIK,0,HIF1A,0,0.949,Pathway,Cellular responses to stress
+TNIK,0,KCNIP4,0,0.949,Pathway,Regulation of nuclear beta catenin signaling and target gene transcription

@@ -1,0 +1,51 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNG4,0,GABRB3,1,0.965,Pathway,Neuronal System
+CACNG4,0,GABRB3,1,0.965,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GABRB3,1,0.965,Pathway,Transmission across Chemical Synapses
+CACNG4,0,STXBP1,1,0.965,Pathway,Neuronal System
+CACNG4,0,STXBP1,1,0.965,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GABBR1,0,0.965,Pathway,Neuronal System
+CACNG4,0,GABBR1,0,0.965,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GABBR1,0,0.965,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GABRG2,1,0.964,Pathway,Neuronal System
+CACNG4,0,GABRG2,1,0.964,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GABRG2,1,0.964,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GABBR2,1,0.964,Pathway,Neuronal System
+CACNG4,0,GABBR2,1,0.964,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GABBR2,1,0.964,Pathway,Transmission across Chemical Synapses
+CACNG4,0,CACNB4,0,0.964,Pathway,Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels
+CACNG4,0,CACNB4,0,0.964,Pathway,Neuronal System
+CACNG4,0,CACNB4,0,0.964,Pathway,Transmission across Chemical Synapses
+CACNG4,0,CACNB4,0,0.964,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNG4,0,KCNQ3,1,0.963,Pathway,Neuronal System
+CACNG4,0,GRIN2B,1,0.963,Pathway,Neuronal System
+CACNG4,0,GRIN2B,1,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GRIN2B,1,0.963,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GABRB2,1,0.963,Pathway,Neuronal System
+CACNG4,0,GABRB2,1,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GABRB2,1,0.963,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GNB1,1,0.961,Pathway,Neuronal System
+CACNG4,0,GNB1,1,0.961,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GNB1,1,0.961,Pathway,Transmission across Chemical Synapses
+CACNG4,0,SYN2,0,0.956,Pathway,Neuronal System
+CACNG4,0,SYN2,0,0.956,Pathway,Transmission across Chemical Synapses
+CACNG4,0,ADCY1,0,0.955,Pathway,Neuronal System
+CACNG4,0,ADCY1,0,0.955,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,ADCY1,0,0.955,Pathway,Transmission across Chemical Synapses
+CACNG4,0,KCNC1,1,0.954,Pathway,Neuronal System
+CACNG4,0,CACNA1A,1,0.954,Pathway,Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels
+CACNG4,0,CACNA1A,1,0.954,Pathway,Neuronal System
+CACNG4,0,CACNA1A,1,0.954,Pathway,Transmission across Chemical Synapses
+CACNG4,0,SNAP25,1,0.954,Pathway,Neuronal System
+CACNG4,0,SNAP25,1,0.954,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GRIN1,1,0.953,Pathway,Neuronal System
+CACNG4,0,GRIN1,1,0.953,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GRIN1,1,0.953,Pathway,Transmission across Chemical Synapses
+CACNG4,0,GABRA5,1,0.953,Pathway,Neuronal System
+CACNG4,0,GABRA5,1,0.953,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CACNG4,0,GABRA5,1,0.953,Pathway,Transmission across Chemical Synapses
+CACNG4,0,SLC1A6,0,0.953,Pathway,Neuronal System
+CACNG4,0,SLC1A6,0,0.953,Pathway,Transmission across Chemical Synapses
+CACNG4,0,RAB3A,0,0.952,Pathway,Neuronal System
+CACNG4,0,RAB3A,0,0.952,Pathway,Transmission across Chemical Synapses
+CACNG4,0,KCNB1,1,0.952,Pathway,Neuronal System

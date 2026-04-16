@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+KIF3C,0,EP300,0,0.965,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF3C,0,EP300,0,0.965,Pathway,Hemostasis
+KIF3C,0,EP300,0,0.965,Pathway,Immune System
+KIF3C,0,TSC2,0,0.964,Pathway,Adaptive Immune System
+KIF3C,0,TSC2,0,0.964,Pathway,Immune System
+KIF3C,0,JAM2,0,0.964,Pathway,Hemostasis
+KIF3C,0,ZAP70,0,0.963,Pathway,Adaptive Immune System
+KIF3C,0,ZAP70,0,0.963,Pathway,Immune System
+KIF3C,0,RAE1,0,0.963,Pathway,Immune System
+KIF3C,0,POLR2E,0,0.963,Pathway,Immune System
+KIF3C,0,SEH1L,0,0.962,Pathway,Immune System
+KIF3C,0,TP53,0,0.962,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF3C,0,TP53,0,0.962,Pathway,Hemostasis
+KIF3C,0,POLR2H,0,0.962,Pathway,Immune System
+KIF3C,0,VPS45,0,0.962,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF3C,0,VPS45,0,0.962,Pathway,Hemostasis
+KIF3C,0,RNF41,0,0.962,Pathway,Adaptive Immune System
+KIF3C,0,RNF41,0,0.962,Pathway,Immune System
+KIF3C,0,CD28,0,0.962,Pathway,Adaptive Immune System
+KIF3C,0,CD28,0,0.962,Pathway,Immune System
+KIF3C,0,RNF135,0,0.962,Pathway,Immune System
+KIF3C,0,PDE3B,0,0.962,Pathway,Hemostasis
+KIF3C,0,GNB5,0,0.962,Pathway,Hemostasis
+KIF3C,0,POLR3D,0,0.962,Pathway,Immune System
+KIF3C,0,POLR3C,0,0.962,Pathway,Immune System
+KIF3C,0,POLR3E,0,0.961,Pathway,Immune System
+KIF3C,0,CBX5,0,0.961,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF3C,0,CBX5,0,0.961,Pathway,Hemostasis
+KIF3C,0,KIF2C,0,0.961,Pathway,Adaptive Immune System
+KIF3C,0,KIF2C,0,0.961,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF3C,0,KIF2C,0,0.961,Pathway,Hemostasis
+KIF3C,0,KIF2C,0,0.961,Pathway,Immune System
+KIF3C,0,KIF2C,0,0.961,Pathway,Kinesins
+KIF3C,0,KIF2C,0,0.961,Pathway,MHC class II antigen presentation

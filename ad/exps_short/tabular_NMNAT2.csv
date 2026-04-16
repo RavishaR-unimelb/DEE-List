@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NMNAT2,0,NUP98,0,0.96,Pathway,Disease
+NMNAT2,0,NUP98,0,0.96,Pathway,Metabolism
+NMNAT2,0,MED18,0,0.959,Pathway,Metabolism
+NMNAT2,0,SUPT5H,0,0.959,Pathway,Disease
+NMNAT2,0,PACS1,1,0.959,Pathway,Disease
+NMNAT2,0,TSC2,0,0.957,Pathway,Disease
+NMNAT2,0,ADCY1,0,0.955,Pathway,Disease
+NMNAT2,0,ADCY1,0,0.955,Pathway,Metabolism
+NMNAT2,0,CHD9,0,0.952,Pathway,Metabolism
+NMNAT2,0,ATP6V0A1,1,0.952,Pathway,Disease
+NMNAT2,0,GPD2,0,0.952,Pathway,Metabolism
+NMNAT2,0,ATP6V0A4,0,0.951,Pathway,Disease
+NMNAT2,0,RANBP2,1,0.951,Pathway,Disease
+NMNAT2,0,RANBP2,1,0.951,Pathway,Metabolism
+NMNAT2,0,STXBP1,1,0.951,Pathway,Metabolism
+NMNAT2,0,NEDD4L,0,0.95,Pathway,Disease
+NMNAT2,0,CDK9,0,0.95,Pathway,Disease
+NMNAT2,0,GNAQ,0,0.95,Pathway,Metabolism
+NMNAT2,0,NCOA2,0,0.95,Pathway,Metabolism
+NMNAT2,0,STX1B,1,0.949,Pathway,Disease
+NMNAT2,0,GNAT1,0,0.949,Pathway,Disease
+NMNAT2,0,CREBBP,1,0.949,Pathway,Disease
+NMNAT2,0,CREBBP,1,0.949,Pathway,Metabolism
+NMNAT2,0,CACNA1A,1,0.949,Pathway,Metabolism

@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CRMP1,0,SPTA1,0,0.969,Pathway,Axon guidance
+CRMP1,0,SPTA1,0,0.969,Pathway,Developmental Biology
+CRMP1,0,SCN8A,1,0.969,Pathway,Axon guidance
+CRMP1,0,SCN8A,1,0.969,Pathway,Developmental Biology
+CRMP1,0,SCN9A,0,0.969,Pathway,Axon guidance
+CRMP1,0,SCN9A,0,0.969,Pathway,Developmental Biology
+CRMP1,0,PTF1A,0,0.968,Pathway,Developmental Biology
+CRMP1,0,SCN4B,0,0.968,Pathway,Axon guidance
+CRMP1,0,SCN4B,0,0.968,Pathway,Developmental Biology
+CRMP1,0,MYF5,0,0.967,Pathway,Developmental Biology
+CRMP1,0,GFRA1,0,0.966,Pathway,Axon guidance
+CRMP1,0,GFRA1,0,0.966,Pathway,Developmental Biology
+CRMP1,0,NEUROG3,0,0.966,Pathway,Developmental Biology
+CRMP1,0,ZIC3,0,0.966,Pathway,Developmental Biology
+CRMP1,0,GFRA4,0,0.966,Pathway,Axon guidance
+CRMP1,0,GFRA4,0,0.966,Pathway,Developmental Biology
+CRMP1,0,ZSCAN10,0,0.966,Pathway,Developmental Biology
+CRMP1,0,FOXD3,0,0.965,Pathway,Developmental Biology
+CRMP1,0,CNTN6,0,0.965,Pathway,Axon guidance
+CRMP1,0,CNTN6,0,0.965,Pathway,Developmental Biology
+CRMP1,0,CDH4,0,0.965,Pathway,Developmental Biology
+CRMP1,0,SIAH1,0,0.964,Pathway,Axon guidance
+CRMP1,0,SIAH1,0,0.964,Pathway,Developmental Biology
+CRMP1,0,PLXNA4,0,0.964,Pathway,Axon guidance
+CRMP1,0,PLXNA4,0,0.964,Pathway,CRMPs in Sema3A signaling
+CRMP1,0,PLXNA4,0,0.964,Pathway,Developmental Biology
+CRMP1,0,PLXNA4,0,0.964,Pathway,Semaphorin interactions
+CRMP1,0,KIF4A,0,0.964,Pathway,Axon guidance
+CRMP1,0,KIF4A,0,0.964,Pathway,Developmental Biology
+CRMP1,0,NRTN,0,0.964,Pathway,Axon guidance
+CRMP1,0,NRTN,0,0.964,Pathway,Developmental Biology
+CRMP1,0,LIN28A,0,0.964,Pathway,Developmental Biology
+CRMP1,0,LAMA1,0,0.964,Pathway,Axon guidance
+CRMP1,0,LAMA1,0,0.964,Pathway,Developmental Biology

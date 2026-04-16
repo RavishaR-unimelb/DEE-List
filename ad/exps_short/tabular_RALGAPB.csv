@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RALGAPB,0,RAB8A,0,0.959,Pathway,Membrane Trafficking
+RALGAPB,0,RAB8A,0,0.959,Pathway,Translocation of GLUT4 to the plasma membrane
+RALGAPB,0,ARCN1,0,0.959,Pathway,Membrane Trafficking
+RALGAPB,0,DTNBP1,0,0.958,Pathway,Membrane Trafficking
+RALGAPB,0,SNX9,0,0.958,Pathway,Membrane Trafficking
+RALGAPB,0,SNX5,0,0.958,Pathway,Membrane Trafficking
+RALGAPB,0,VPS37B,0,0.958,Pathway,Membrane Trafficking
+RALGAPB,0,AP4E1,0,0.957,Pathway,Membrane Trafficking
+RALGAPB,0,COPG1,0,0.957,Pathway,Membrane Trafficking
+RALGAPB,0,GAK,0,0.957,Pathway,Membrane Trafficking
+RALGAPB,0,MYH7,0,0.956,Pathway,Membrane Trafficking
+RALGAPB,0,MYH7,0,0.956,Pathway,Translocation of GLUT4 to the plasma membrane
+RALGAPB,0,COPZ1,0,0.955,Pathway,Membrane Trafficking
+RALGAPB,0,SNF8,0,0.955,Pathway,Membrane Trafficking
+RALGAPB,0,RAB11A,1,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,RAB11A,1,0.954,Pathway,Translocation of GLUT4 to the plasma membrane
+RALGAPB,0,COPB1,0,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,COPB2,0,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,COPA,0,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,COPE,0,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,SNX2,0,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,MYH2,0,0.954,Pathway,Membrane Trafficking
+RALGAPB,0,MYH2,0,0.954,Pathway,Translocation of GLUT4 to the plasma membrane
+RALGAPB,0,RAB10,0,0.953,Pathway,Membrane Trafficking
+RALGAPB,0,RAB10,0,0.953,Pathway,Translocation of GLUT4 to the plasma membrane

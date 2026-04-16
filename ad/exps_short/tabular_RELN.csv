@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+RELN,0,DCX,0,0.955,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,PAFAH1B2,0,0.955,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,DAB1,0,0.955,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,DAB1,0,0.955,Pathway,Reelin signaling pathway
+RELN,0,MAP1B,0,0.954,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,MAP1B,0,0.954,Pathway,Reelin signaling pathway
+RELN,0,DYNC1H1,1,0.954,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,CRKL,0,0.953,Pathway,Reelin signaling pathway
+RELN,0,IGF1R,0,0.952,Pathway,Focal Adhesion
+RELN,0,BRAF,1,0.949,Pathway,Focal Adhesion
+RELN,0,LRPAP1,0,0.948,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,LRPAP1,0,0.948,Pathway,Reelin signaling pathway
+RELN,0,ABL1,0,0.948,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,JUN,0,0.948,Pathway,Focal Adhesion
+RELN,0,CDK5R2,0,0.947,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,TNK2,0,0.947,Pathway,Focal Adhesion
+RELN,0,RAC3,1,0.947,Pathway,Focal Adhesion
+RELN,0,ARAF,0,0.946,Pathway,Focal Adhesion
+RELN,0,AKT2,0,0.946,Pathway,Focal Adhesion
+RELN,0,MAP2K1,1,0.946,Pathway,Focal Adhesion
+RELN,0,TNR,0,0.946,Pathway,Focal Adhesion
+RELN,0,PPP2R5D,1,0.946,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,CDK5R1,0,0.946,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+RELN,0,CDK5R1,0,0.946,Pathway,Reelin signaling pathway

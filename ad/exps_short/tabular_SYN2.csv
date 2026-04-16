@@ -1,0 +1,42 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SYN2,0,CPLX2,0,0.953,Pathway,Synaptic Vesicle Pathway
+SYN2,0,NAPA,0,0.952,Pathway,Synaptic Vesicle Pathway
+SYN2,0,ADCY1,0,0.949,Pathway,Neuronal System
+SYN2,0,ADCY1,0,0.949,Pathway,Transmission across Chemical Synapses
+SYN2,0,CACNG4,0,0.949,Pathway,Neuronal System
+SYN2,0,CACNG4,0,0.949,Pathway,Transmission across Chemical Synapses
+SYN2,0,CPLX3,0,0.944,Pathway,Synaptic Vesicle Pathway
+SYN2,0,STXBP1,1,0.943,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,STXBP1,1,0.943,Pathway,Neuronal System
+SYN2,0,STXBP1,1,0.943,Pathway,Neurotransmitter Release Cycle
+SYN2,0,STXBP1,1,0.943,Pathway,Transmission across Chemical Synapses
+SYN2,0,STXBP1,1,0.943,Pathway,Synaptic Vesicle Pathway
+SYN2,0,BRAF,1,0.943,Pathway,Neuronal System
+SYN2,0,BRAF,1,0.943,Pathway,Transmission across Chemical Synapses
+SYN2,0,GNB1,1,0.943,Pathway,Neuronal System
+SYN2,0,GNB1,1,0.943,Pathway,Transmission across Chemical Synapses
+SYN2,0,SLC6A4,0,0.943,Pathway,Synaptic Vesicle Pathway
+SYN2,0,GABBR1,0,0.942,Pathway,Neuronal System
+SYN2,0,GABBR1,0,0.942,Pathway,Transmission across Chemical Synapses
+SYN2,0,CPLX1,0,0.942,Pathway,Dopamine Neurotransmitter Release Cycle
+SYN2,0,CPLX1,0,0.942,Pathway,Neuronal System
+SYN2,0,CPLX1,0,0.942,Pathway,Neurotransmitter Release Cycle
+SYN2,0,CPLX1,0,0.942,Pathway,Transmission across Chemical Synapses
+SYN2,0,CPLX1,0,0.942,Pathway,Synaptic Vesicle Pathway
+SYN2,0,KCNH1,1,0.942,Pathway,Neuronal System
+SYN2,0,RPS6KA6,0,0.942,Pathway,Neuronal System
+SYN2,0,RPS6KA6,0,0.942,Pathway,Transmission across Chemical Synapses
+SYN2,0,GABBR2,1,0.941,Pathway,Neuronal System
+SYN2,0,GABBR2,1,0.941,Pathway,Transmission across Chemical Synapses
+SYN2,0,HCN1,1,0.941,Pathway,Neuronal System
+SYN2,0,GABRB3,1,0.941,Pathway,Neuronal System
+SYN2,0,GABRB3,1,0.941,Pathway,Transmission across Chemical Synapses
+SYN2,0,SLC1A1,0,0.941,Pathway,Neuronal System
+SYN2,0,SLC1A1,0,0.941,Pathway,Neurotransmitter Release Cycle
+SYN2,0,SLC1A1,0,0.941,Pathway,Transmission across Chemical Synapses
+SYN2,0,DLG4,1,0.941,Pathway,Neuronal System
+SYN2,0,DLG4,1,0.941,Pathway,Transmission across Chemical Synapses
+SYN2,0,GRIA2,1,0.941,Pathway,Neuronal System
+SYN2,0,GRIA2,1,0.941,Pathway,Transmission across Chemical Synapses
+SYN2,0,GABRB2,1,0.94,Pathway,Neuronal System
+SYN2,0,GABRB2,1,0.94,Pathway,Transmission across Chemical Synapses

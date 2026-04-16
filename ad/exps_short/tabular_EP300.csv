@@ -1,0 +1,43 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+EP300,0,KAT6A,1,0.949,Pathway,Chromatin modifying enzymes
+EP300,0,KAT6A,1,0.949,Pathway,HATs acetylate histones
+EP300,0,ZEB2,1,0.949,Pathway,TGF-beta Signaling Pathway
+EP300,0,ZEB2,1,0.949,Pathway,TGF-beta Receptor Signaling
+EP300,0,STXBP1,1,0.949,Pathway,Metabolism
+EP300,0,UBA5,0,0.949,Pathway,Immune System
+EP300,0,PACS1,1,0.949,Pathway,Disease
+EP300,0,KIF2A,1,0.948,Pathway,Cell Cycle
+EP300,0,KIF2A,1,0.948,Pathway,"Cell Cycle, Mitotic"
+EP300,0,KIF2A,1,0.948,Pathway,Factors involved in megakaryocyte development and platelet production
+EP300,0,KIF2A,1,0.948,Pathway,Hemostasis
+EP300,0,KIF2A,1,0.948,Pathway,Immune System
+EP300,0,ACTL6B,0,0.948,Pathway,Chromatin modifying enzymes
+EP300,0,ARID1A,1,0.948,Pathway,Chromatin modifying enzymes
+EP300,0,MED18,0,0.948,Pathway,Developmental Biology
+EP300,0,MED18,0,0.948,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+EP300,0,MED18,0,0.948,Pathway,Metabolism
+EP300,0,MED18,0,0.948,Pathway,Metabolism of lipids and lipoproteins
+EP300,0,MED18,0,0.948,Pathway,PPARA activates gene expression
+EP300,0,MED18,0,0.948,Pathway,Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)
+EP300,0,MED18,0,0.948,Pathway,Transcriptional regulation of white adipocyte differentiation
+EP300,0,SCN1A,1,0.948,Pathway,Developmental Biology
+EP300,0,CHD4,1,0.948,Pathway,Chromatin modifying enzymes
+EP300,0,CHD4,1,0.948,Pathway,Signaling events mediated by HDAC Class I
+EP300,0,HNRNPU,1,0.948,Pathway,Circadian rythm related genes
+EP300,0,EHMT1,1,0.947,Pathway,Cellular responses to stress
+EP300,0,TUBA1A,0,0.947,Pathway,p73 transcription factor network
+EP300,0,TUBA1A,0,0.947,Pathway,Cell Cycle
+EP300,0,TUBA1A,0,0.947,Pathway,"Cell Cycle, Mitotic"
+EP300,0,TUBA1A,0,0.947,Pathway,G2/M Transition
+EP300,0,TUBA1A,0,0.947,Pathway,Mitotic G2-G2/M phases
+EP300,0,SCN5A,0,0.947,Pathway,Developmental Biology
+EP300,0,SCN5A,0,0.947,Pathway,SIDS Susceptibility Pathways
+EP300,0,KCNQ3,1,0.946,Pathway,Developmental Biology
+EP300,0,KANSL1,1,0.945,Pathway,Chromatin modifying enzymes
+EP300,0,KANSL1,1,0.945,Pathway,HATs acetylate histones
+EP300,0,ATP6V0A1,1,0.945,Pathway,Disease
+EP300,0,ATP6V0A1,1,0.945,Pathway,Signaling Pathways
+EP300,0,PHF8,0,0.943,Pathway,Cell Cycle
+EP300,0,PHF8,0,0.943,Pathway,"Cell Cycle, Mitotic"
+EP300,0,PHF8,0,0.943,Pathway,Chromatin modifying enzymes
+EP300,0,CACNB4,0,0.943,Pathway,Developmental Biology

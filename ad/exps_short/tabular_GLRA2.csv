@@ -1,0 +1,30 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GLRA2,0,CHD9,0,0.959,Pathway,Transmembrane transport of small molecules
+GLRA2,0,WWP1,0,0.959,Pathway,Ion channel transport
+GLRA2,0,WWP1,0,0.959,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ATP6V0B,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,SLC5A3,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,NUP98,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,SLC44A5,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,TBL1XR1,1,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ATP2B3,0,0.958,Pathway,Ion channel transport
+GLRA2,0,ATP2B3,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,NUP35,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,NUP54,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ATP6V1B2,1,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,OSTM1,0,0.958,Pathway,Ion channel transport
+GLRA2,0,OSTM1,0,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,TRPM3,1,0.958,Pathway,Ion channel transport
+GLRA2,0,TRPM3,1,0.958,Pathway,Transmembrane transport of small molecules
+GLRA2,0,SRI,0,0.957,Pathway,Ion channel transport
+GLRA2,0,SRI,0,0.957,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ATP2C2,0,0.957,Pathway,Ion channel transport
+GLRA2,0,ATP2C2,0,0.957,Pathway,Transmembrane transport of small molecules
+GLRA2,0,TRPC4AP,0,0.957,Pathway,Ion channel transport
+GLRA2,0,TRPC4AP,0,0.957,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ATP6V0D2,0,0.957,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ABCA12,0,0.957,Pathway,Transmembrane transport of small molecules
+GLRA2,0,ATP12A,0,0.957,Pathway,Ion channel transport
+GLRA2,0,ATP12A,0,0.957,Pathway,Transmembrane transport of small molecules
+GLRA2,0,NEDD4L,0,0.957,Pathway,Ion channel transport
+GLRA2,0,NEDD4L,0,0.957,Pathway,Transmembrane transport of small molecules

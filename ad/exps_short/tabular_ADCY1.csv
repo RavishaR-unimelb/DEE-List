@@ -1,0 +1,48 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ADCY1,0,UBE2A,0,0.965,Pathway,Immune System
+ADCY1,0,CSNK1G2,0,0.964,Pathway,Disease
+ADCY1,0,CSNK1G2,0,0.964,Pathway,Metabolism
+ADCY1,0,CSNK1G2,0,0.964,Pathway,Signaling Pathways
+ADCY1,0,NONO,0,0.964,Pathway,Circadian rythm related genes
+ADCY1,0,STRADA,0,0.964,Pathway,Signaling Pathways
+ADCY1,0,PGK1,0,0.964,Pathway,Disease
+ADCY1,0,PGK1,0,0.964,Pathway,Metabolism
+ADCY1,0,APP,0,0.964,Pathway,Disease
+ADCY1,0,APP,0,0.964,Pathway,G alpha (i) signalling events
+ADCY1,0,APP,0,0.964,Pathway,GPCR downstream signaling
+ADCY1,0,APP,0,0.964,Pathway,Immune System
+ADCY1,0,APP,0,0.964,Pathway,Innate Immune System
+ADCY1,0,APP,0,0.964,Pathway,Signaling Pathways
+ADCY1,0,APP,0,0.964,Pathway,Signaling by GPCR
+ADCY1,0,CALR,0,0.963,Pathway,Disease
+ADCY1,0,CALR,0,0.963,Pathway,Immune System
+ADCY1,0,CALR,0,0.963,Pathway,Calcium Regulation in the Cardiac Cell
+ADCY1,0,CACNG3,0,0.963,Pathway,Neuronal System
+ADCY1,0,CACNG3,0,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+ADCY1,0,CACNG3,0,0.963,Pathway,Transmission across Chemical Synapses
+ADCY1,0,ATP12A,0,0.962,Pathway,Transmembrane transport of small molecules
+ADCY1,0,SIK1,1,0.962,Pathway,Circadian rythm related genes
+ADCY1,0,NCAM1,0,0.961,Pathway,Immune System
+ADCY1,0,CUX1,0,0.96,Pathway,Disease
+ADCY1,0,CUX1,0,0.96,Pathway,Signaling by FGFR in disease
+ADCY1,0,ZMYM2,0,0.959,Pathway,Disease
+ADCY1,0,ZMYM2,0,0.959,Pathway,Signaling by FGFR in disease
+ADCY1,0,SLC25A13,0,0.959,Pathway,Disease
+ADCY1,0,SLC25A13,0,0.959,Pathway,Metabolism
+ADCY1,0,HNRNPU,1,0.959,Pathway,Circadian rythm related genes
+ADCY1,0,EP300,0,0.959,Pathway,Disease
+ADCY1,0,EP300,0,0.959,Pathway,Immune System
+ADCY1,0,EP300,0,0.959,Pathway,Innate Immune System
+ADCY1,0,EP300,0,0.959,Pathway,Metabolism
+ADCY1,0,EP300,0,0.959,Pathway,Signaling Pathways
+ADCY1,0,EP300,0,0.959,Pathway,Circadian rythm related genes
+ADCY1,0,OSTM1,0,0.959,Pathway,Transmembrane transport of small molecules
+ADCY1,0,MAPK14,0,0.959,Pathway,Endothelins
+ADCY1,0,MAPK14,0,0.959,Pathway,Immune System
+ADCY1,0,MAPK14,0,0.959,Pathway,Innate Immune System
+ADCY1,0,MAPK14,0,0.959,Pathway,NGF signalling via TRKA from the plasma membrane
+ADCY1,0,MAPK14,0,0.959,Pathway,Signaling Pathways
+ADCY1,0,MAPK14,0,0.959,Pathway,Signaling by NGF
+ADCY1,0,MED18,0,0.959,Pathway,Metabolism
+ADCY1,0,CPLX1,0,0.959,Pathway,Neuronal System
+ADCY1,0,CPLX1,0,0.959,Pathway,Transmission across Chemical Synapses

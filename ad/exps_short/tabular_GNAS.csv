@@ -1,0 +1,43 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GNAS,0,TCF4,1,0.947,Pathway,Corticotropin-releasing hormone
+GNAS,0,STXBP1,1,0.946,Pathway,Integration of energy metabolism
+GNAS,0,STXBP1,1,0.946,Pathway,Metabolism
+GNAS,0,STXBP1,1,0.946,Pathway,Regulation of insulin secretion
+GNAS,0,GCGR,0,0.945,Pathway,Class B/2 (Secretin family receptors)
+GNAS,0,GCGR,0,0.945,Pathway,G alpha (s) signalling events
+GNAS,0,GCGR,0,0.945,Pathway,GPCR downstream signaling
+GNAS,0,GCGR,0,0.945,Pathway,GPCR ligand binding
+GNAS,0,GCGR,0,0.945,Pathway,Glucagon signaling in metabolic regulation
+GNAS,0,GCGR,0,0.945,Pathway,Glucagon-type ligand receptors
+GNAS,0,GCGR,0,0.945,Pathway,Integration of energy metabolism
+GNAS,0,GCGR,0,0.945,Pathway,Metabolism
+GNAS,0,GCGR,0,0.945,Pathway,Signaling Pathways
+GNAS,0,GCGR,0,0.945,Pathway,Signaling by GPCR
+GNAS,0,NUP98,0,0.945,Pathway,Metabolism
+GNAS,0,NUP98,0,0.945,Pathway,Transmembrane transport of small molecules
+GNAS,0,TSC2,0,0.945,Pathway,Signaling Pathways
+GNAS,0,NTRK2,1,0.944,Pathway,Signaling Pathways
+GNAS,0,TBL1XR1,1,0.944,Pathway,Metabolism
+GNAS,0,TBL1XR1,1,0.944,Pathway,Signaling Pathways
+GNAS,0,TBL1XR1,1,0.944,Pathway,Transmembrane transport of small molecules
+GNAS,0,ATP6V0E1,0,0.944,Pathway,Signaling Pathways
+GNAS,0,ATP6V0E1,0,0.944,Pathway,Transmembrane transport of small molecules
+GNAS,0,NEDD4L,0,0.944,Pathway,Signaling Pathways
+GNAS,0,NEDD4L,0,0.944,Pathway,Transmembrane transport of small molecules
+GNAS,0,MEF2C,1,0.944,Pathway,Signaling Pathways
+GNAS,0,CDK9,0,0.944,Pathway,Signaling Pathways
+GNAS,0,CSNK2B,1,0.944,Pathway,Signaling Pathways
+GNAS,0,TRIO,1,0.944,Pathway,GPCR downstream signaling
+GNAS,0,TRIO,1,0.944,Pathway,Signaling Pathways
+GNAS,0,TRIO,1,0.944,Pathway,Signaling by GPCR
+GNAS,0,USP34,0,0.944,Pathway,Signaling Pathways
+GNAS,0,CSNK1G2,0,0.944,Pathway,Metabolism
+GNAS,0,CSNK1G2,0,0.944,Pathway,Signaling Pathways
+GNAS,0,CRKL,0,0.943,Pathway,Signaling Pathways
+GNAS,0,SDHA,0,0.943,Pathway,Metabolism
+GNAS,0,ATP2C2,0,0.943,Pathway,Transmembrane transport of small molecules
+GNAS,0,ATP6V0B,0,0.943,Pathway,Signaling Pathways
+GNAS,0,ATP6V0B,0,0.943,Pathway,Transmembrane transport of small molecules
+GNAS,0,FGD1,0,0.943,Pathway,GPCR downstream signaling
+GNAS,0,FGD1,0,0.943,Pathway,Signaling Pathways
+GNAS,0,FGD1,0,0.943,Pathway,Signaling by GPCR

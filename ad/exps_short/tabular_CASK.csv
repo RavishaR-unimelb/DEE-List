@@ -1,0 +1,22 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CASK,0,CDH3,0,0.966,Pathway,Cell-Cell communication
+CASK,0,RNF19A,0,0.965,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+CASK,0,CDH24,0,0.965,Pathway,Cell-Cell communication
+CASK,0,CDH8,0,0.965,Pathway,Cell-Cell communication
+CASK,0,CDH2,0,0.965,Pathway,Cell-Cell communication
+CASK,0,MAGI2,0,0.965,Pathway,Cell-Cell communication
+CASK,0,MAGI2,0,0.965,Pathway,Nephrin interactions
+CASK,0,DSCAML1,0,0.964,Pathway,Cell-Cell communication
+CASK,0,CLDN20,0,0.964,Pathway,Cell-Cell communication
+CASK,0,CADM3,0,0.964,Pathway,Cell-Cell communication
+CASK,0,TUBA8,0,0.963,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+CASK,0,CLDN7,0,0.963,Pathway,Cell-Cell communication
+CASK,0,CLDN18,0,0.962,Pathway,Cell-Cell communication
+CASK,0,CLDN1,0,0.962,Pathway,Cell-Cell communication
+CASK,0,EPB41,0,0.961,Pathway,Syndecan-2-mediated signaling events
+CASK,0,CDH4,0,0.961,Pathway,Cell-Cell communication
+CASK,0,CLDN4,0,0.961,Pathway,Cell-Cell communication
+CASK,0,CLDN23,0,0.961,Pathway,Cell-Cell communication
+CASK,0,CDH7,0,0.96,Pathway,Cell-Cell communication
+CASK,0,COL23A1,0,0.96,Pathway,Extracellular matrix organization
+CASK,0,FBLIM1,0,0.96,Pathway,Cell-Cell communication

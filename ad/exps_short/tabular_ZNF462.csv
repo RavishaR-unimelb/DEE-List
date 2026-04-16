@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PGM5,0,HK1,0,0.363,Pathway,Glucuronidation
+RETSAT,0,MAPK1,0,0.352,Pathway,Vitamin A and Carotenoid Metabolism
+SDR16C5,0,MAPK1,0,0.35,Pathway,Vitamin A and Carotenoid Metabolism
+MB,0,NOS1,0,0.342,Pathway,Effects of Nitric Oxide
+ALDH1A3,0,MAPK1,0,0.335,Pathway,Vitamin A and Carotenoid Metabolism
+CYB5R2,0,CYB5R3,0,0.332,Pathway,Oxidation by Cytochrome P450
+SETD6,0,SETD9,0,0.331,Pathway,Histone Modifications
+STAB1,0,CALR,0,0.33,Pathway,Binding and Uptake of Ligands by Scavenger Receptors
+EXPH5,0,RPH3A,0,0.33,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+MYRIP,0,MADD,0,0.33,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+MLPH,0,MADD,0,0.329,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+SMYD3,0,SETD9,0,0.328,Pathway,Histone Modifications
+CYB5R2,0,CYB5B,0,0.327,Pathway,Oxidation by Cytochrome P450
+ECHDC2,0,SCD,0,0.326,Pathway,Fatty Acid Biosynthesis
+ADAM21,0,CD9,0,0.325,Pathway,Fertilization
+POR,0,CYB5R3,0,0.325,Pathway,Oxidation by Cytochrome P450
+SYTL2,0,MADD,0,0.323,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+CYB5R2,0,CYP39A1,0,0.323,Pathway,Oxidation by Cytochrome P450
+GPRC5D,0,GPRC5A,0,0.323,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+HSD17B2,0,HSD3B2,0,0.322,Pathway,Steroid Biosynthesis

@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+AHCYL1,0,SHMT2,0,0.964,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MTHFD1L,0,0.964,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MTHFD2,0,0.964,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,AMT,0,0.964,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MTHFD2L,0,0.963,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,AHCYL2,0,0.963,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,DNMT3L,0,0.963,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,AHCY,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,DNMT3B,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MTHFR,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MAT2A,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MAT2B,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,DNMT1,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MTHFD1,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,CBS,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,PSPH,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,DNMT3A,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,GSS,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,MTR,0,0.962,Pathway,Trans-sulfuration and one carbon metabolism
+AHCYL1,0,SHMT1,0,0.961,Pathway,Trans-sulfuration and one carbon metabolism

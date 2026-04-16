@@ -1,0 +1,30 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GNA11,0,POM121,0,0.966,Pathway,Metabolism
+GNA11,0,OR4D9,0,0.966,Pathway,GPCR downstream signaling
+GNA11,0,OR4D9,0,0.966,Pathway,Signaling Pathways
+GNA11,0,OR4D9,0,0.966,Pathway,Signaling by GPCR
+GNA11,0,IL17RD,0,0.964,Pathway,Signaling Pathways
+GNA11,0,DOK2,0,0.964,Pathway,Hemostasis
+GNA11,0,MAML1,0,0.964,Pathway,Signaling Pathways
+GNA11,0,CD320,0,0.964,Pathway,Metabolism
+GNA11,0,DAO,0,0.964,Pathway,Metabolism
+GNA11,0,DOCK6,0,0.964,Pathway,Hemostasis
+GNA11,0,CCL5,0,0.964,Pathway,GPCR downstream signaling
+GNA11,0,CCL5,0,0.964,Pathway,Signaling Pathways
+GNA11,0,CCL5,0,0.964,Pathway,Signaling by GPCR
+GNA11,0,POGLUT1,0,0.964,Pathway,Signaling Pathways
+GNA11,0,DLL4,0,0.963,Pathway,Signaling Pathways
+GNA11,0,CSH1,0,0.963,Pathway,Signaling Pathways
+GNA11,0,DTX2,0,0.963,Pathway,Signaling Pathways
+GNA11,0,CERS3,0,0.963,Pathway,Metabolism
+GNA11,0,OR8A1,0,0.963,Pathway,GPCR downstream signaling
+GNA11,0,OR8A1,0,0.963,Pathway,Signaling Pathways
+GNA11,0,OR8A1,0,0.963,Pathway,Signaling by GPCR
+GNA11,0,STXBP1,1,0.963,Pathway,Integration of energy metabolism
+GNA11,0,STXBP1,1,0.963,Pathway,Metabolism
+GNA11,0,STXBP1,1,0.963,Pathway,Regulation of insulin secretion
+GNA11,0,ACOT8,0,0.963,Pathway,Metabolism
+GNA11,0,NKX2-1,0,0.963,Pathway,Circadian rythm related genes
+GNA11,0,WNT1,0,0.963,Pathway,Signaling Pathways
+GNA11,0,WNT1,0,0.963,Pathway,Signaling by GPCR
+GNA11,0,ATP6V1C2,0,0.963,Pathway,Signaling Pathways

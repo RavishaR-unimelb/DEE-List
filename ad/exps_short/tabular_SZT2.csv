@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+S100A8,0,RHOA,0,0.373,Pathway,Endogenous TLR signaling
+SEPHS1,0,RPL30,0,0.359,Pathway,Selenium Metabolism and Selenoproteins
+SDR16C5,0,MAPK1,0,0.356,Pathway,Vitamin A and Carotenoid Metabolism
+MPST,0,CTH,0,0.353,Pathway,Trans-sulfuration pathway
+ANXA4,0,EDNRB,0,0.353,Pathway,Prostaglandin Synthesis and Regulation
+ALDH1A3,0,MAPK1,0,0.35,Pathway,Vitamin A and Carotenoid Metabolism
+PGM5,0,HK1,0,0.35,Pathway,Glucuronidation
+IL23R,0,PIK3CA,0,0.349,Pathway,IL23-mediated signaling events
+MMP28,0,BSG,0,0.349,Pathway,Matrix Metalloproteinases
+IL23R,0,PIK3R1,0,0.348,Pathway,IL23-mediated signaling events
+S100A8,0,MYD88,0,0.347,Pathway,Endogenous TLR signaling
+MMP27,0,TIMP2,0,0.344,Pathway,Matrix Metalloproteinases
+HSD17B2,0,HSD3B2,0,0.343,Pathway,Steroid Biosynthesis
+POLL,0,XRCC5,0,0.342,Pathway,DNA-PK pathway in nonhomologous end joining
+MMP27,0,BSG,0,0.341,Pathway,Matrix Metalloproteinases
+RBP7,0,MAPK1,0,0.339,Pathway,Vitamin A and Carotenoid Metabolism
+IL23R,0,JAK2,0,0.338,Pathway,IL23-mediated signaling events
+ANXA3,0,EDNRB,0,0.338,Pathway,Prostaglandin Synthesis and Regulation
+MMP28,0,TIMP2,0,0.337,Pathway,Matrix Metalloproteinases
+PSTK,0,RPL30,0,0.337,Pathway,Selenium Metabolism and Selenoproteins

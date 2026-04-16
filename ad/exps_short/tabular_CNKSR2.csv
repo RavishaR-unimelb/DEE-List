@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GPRC5C,0,GPRC5A,0,0.417,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+SDR16C5,0,MAPK1,0,0.414,Pathway,Vitamin A and Carotenoid Metabolism
+GPRC5C,0,GPRC5D,0,0.408,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+RBP7,0,MAPK1,0,0.396,Pathway,Vitamin A and Carotenoid Metabolism
+S100A8,0,RHOA,0,0.393,Pathway,Endogenous TLR signaling
+CASP5,0,HSP90AA1,0,0.39,Pathway,NOD pathway
+ERG,0,SRF,0,0.39,Pathway,TarBasePathway
+HSD17B2,0,HSD3B2,0,0.389,Pathway,Steroid Biosynthesis
+S100A8,0,VCAN,0,0.389,Pathway,Endogenous TLR signaling
+ESM1,0,APC,0,0.388,Pathway,Gastric Cancer Network 1
+S100A9,0,RHOA,0,0.385,Pathway,Endogenous TLR signaling
+S100P,0,APC,0,0.384,Pathway,Gastric Cancer Network 1
+ANXA3,0,ANXA6,0,0.384,Pathway,Prostaglandin Synthesis and Regulation
+ALDH1A3,0,MAPK1,0,0.384,Pathway,Vitamin A and Carotenoid Metabolism
+BHMT2,0,PRKCZ,0,0.384,Pathway,Allograft Rejection
+GPRC5C,0,CASR,0,0.384,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+ADAM30,0,CD9,0,0.382,Pathway,Fertilization
+ANXA4,0,EDNRB,0,0.38,Pathway,Prostaglandin Synthesis and Regulation
+S100A9,0,TIMP2,0,0.38,Pathway,IL1 and megakaryotyces in obesity
+ZP3,0,CCND2,0,0.379,Pathway,Ovarian Infertility Genes

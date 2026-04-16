@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GTF2I,0,SH3BP2,0,0.963,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,MEF2C,1,0.963,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,AKT1,1,0.96,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,ILF2,0,0.96,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,BRAF,1,0.957,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,CRKL,0,0.955,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,PTPN6,0,0.952,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,MAP2K1,1,0.951,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,ATF2,0,0.951,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,HCLS1,0,0.951,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,KLF11,0,0.95,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,TEC,0,0.95,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,CD22,0,0.949,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,GSK3B,0,0.948,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,FYN,0,0.947,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,JUN,0,0.946,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,CDC42,0,0.945,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,CD81,0,0.945,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,CBL,0,0.945,Pathway,B Cell Receptor Signaling Pathway
+GTF2I,0,HRAS,1,0.945,Pathway,B Cell Receptor Signaling Pathway

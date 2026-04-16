@@ -1,0 +1,22 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PGM5,0,HK1,0,0.408,Pathway,Glucuronidation
+ANXA4,0,EDNRB,0,0.408,Pathway,Prostaglandin Synthesis and Regulation
+ADAM21,0,CD9,0,0.404,Pathway,Fertilization
+ANXA4,0,ANXA6,0,0.386,Pathway,Prostaglandin Synthesis and Regulation
+MPST,0,CTH,0,0.385,Pathway,Trans-sulfuration pathway
+ADAM20,0,CD9,0,0.385,Pathway,Fertilization
+CYB5R2,0,CYB5R3,0,0.384,Pathway,Oxidation by Cytochrome P450
+MPST,0,GOT1,0,0.377,Pathway,Trans-sulfuration pathway
+AWAT2,0,MAPK1,0,0.376,Pathway,Vitamin A and Carotenoid Metabolism
+RETSAT,0,MAPK1,0,0.375,Pathway,Vitamin A and Carotenoid Metabolism
+S100A8,0,RHOA,0,0.375,Pathway,Endogenous TLR signaling
+KATNA1,0,NUDC,0,0.374,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+ANXA3,0,EDNRB,0,0.373,Pathway,Prostaglandin Synthesis and Regulation
+ESM1,0,APC,0,0.373,Pathway,Gastric Cancer Network 1
+KATNA1,0,PLA2G7,0,0.373,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+CYB5R4,0,CYB5R3,0,0.37,Pathway,Oxidation by Cytochrome P450
+CYB5R2,0,CYB5B,0,0.37,Pathway,Oxidation by Cytochrome P450
+CYB5R2,0,CYP39A1,0,0.37,Pathway,Oxidation by Cytochrome P450
+IZUMO4,0,CD9,0,0.37,Pathway,Fertilization
+IZUMO4,0,CD9,0,0.37,Pathway,Sperm:Oocyte Membrane Binding
+ACR,0,CD9,0,0.37,Pathway,Fertilization

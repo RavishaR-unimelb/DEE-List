@@ -1,0 +1,52 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TSC2,0,STXBP1,1,0.939,Pathway,Insulin Signaling
+TSC2,0,KIF2A,1,0.939,Pathway,Adaptive Immune System
+TSC2,0,KIF2A,1,0.939,Pathway,Immune System
+TSC2,0,UBA5,0,0.939,Pathway,Adaptive Immune System
+TSC2,0,UBA5,0,0.939,Pathway,Immune System
+TSC2,0,PACS1,1,0.939,Pathway,Disease
+TSC2,0,GABBR1,0,0.939,Pathway,Signaling Pathways
+TSC2,0,GABRB3,1,0.939,Pathway,BDNF signaling pathway
+TSC2,0,GABBR2,1,0.939,Pathway,Signaling Pathways
+TSC2,0,TCF4,1,0.938,Pathway,Wnt Signaling Pathway Netpath
+TSC2,0,STX1B,1,0.938,Pathway,Disease
+TSC2,0,ATP6V0A1,1,0.938,Pathway,Disease
+TSC2,0,ATP6V0A1,1,0.938,Pathway,Signaling Pathways
+TSC2,0,ATP6V0A1,1,0.938,Pathway,Signaling by Insulin receptor
+TSC2,0,GRIN2B,1,0.937,Pathway,BDNF signaling pathway
+TSC2,0,GNB1,1,0.937,Pathway,Disease
+TSC2,0,GNB1,1,0.937,Pathway,Signaling Pathways
+TSC2,0,GNAO1,1,0.934,Pathway,Signaling Pathways
+TSC2,0,CDKL5,0,0.932,Pathway,BDNF signaling pathway
+TSC2,0,MEF2C,1,0.931,Pathway,Immune System
+TSC2,0,MEF2C,1,0.931,Pathway,Innate Immune System
+TSC2,0,MEF2C,1,0.931,Pathway,NGF signalling via TRKA from the plasma membrane
+TSC2,0,MEF2C,1,0.931,Pathway,Signaling Pathways
+TSC2,0,MEF2C,1,0.931,Pathway,Signaling by NGF
+TSC2,0,MEF2C,1,0.931,Pathway,BDNF signaling pathway
+TSC2,0,ZMIZ1,1,0.931,Pathway,Integrated Breast Cancer Pathway
+TSC2,0,NUP98,0,0.931,Pathway,Disease
+TSC2,0,NUP98,0,0.931,Pathway,Immune System
+TSC2,0,CREBBP,1,0.931,Pathway,Direct p53 effectors
+TSC2,0,CREBBP,1,0.931,Pathway,Disease
+TSC2,0,CREBBP,1,0.931,Pathway,Immune System
+TSC2,0,CREBBP,1,0.931,Pathway,Innate Immune System
+TSC2,0,CREBBP,1,0.931,Pathway,Signaling Pathways
+TSC2,0,RANBP2,1,0.931,Pathway,Disease
+TSC2,0,RANBP2,1,0.931,Pathway,Immune System
+TSC2,0,ADCY1,0,0.931,Pathway,DAP12 interactions
+TSC2,0,ADCY1,0,0.931,Pathway,DAP12 signaling
+TSC2,0,ADCY1,0,0.931,Pathway,Disease
+TSC2,0,ADCY1,0,0.931,Pathway,Downstream signal transduction
+TSC2,0,ADCY1,0,0.931,Pathway,Downstream signaling of activated FGFR
+TSC2,0,ADCY1,0,0.931,Pathway,Immune System
+TSC2,0,ADCY1,0,0.931,Pathway,Innate Immune System
+TSC2,0,ADCY1,0,0.931,Pathway,NGF signalling via TRKA from the plasma membrane
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling Pathways
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by EGFR
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by EGFR in Cancer
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by ERBB2
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by FGFR
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by FGFR in disease
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by NGF
+TSC2,0,ADCY1,0,0.931,Pathway,Signaling by PDGF

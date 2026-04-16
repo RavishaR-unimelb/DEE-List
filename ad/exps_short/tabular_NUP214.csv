@@ -1,0 +1,42 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NUP214,0,STXBP1,1,0.903,Pathway,Metabolism
+NUP214,0,KIF2A,1,0.898,Pathway,Cell Cycle
+NUP214,0,KIF2A,1,0.898,Pathway,"Cell Cycle, Mitotic"
+NUP214,0,KIF2A,1,0.898,Pathway,Immune System
+NUP214,0,KIF2A,1,0.898,Pathway,M Phase
+NUP214,0,KIF2A,1,0.898,Pathway,Mitotic M-M/G1 phases
+NUP214,0,GABRB3,1,0.896,Pathway,Transmembrane transport of small molecules
+NUP214,0,GABRB2,1,0.895,Pathway,Transmembrane transport of small molecules
+NUP214,0,CHD4,1,0.893,Pathway,Gene Expression
+NUP214,0,CHD4,1,0.893,Pathway,Signaling events mediated by HDAC Class I
+NUP214,0,GNAT1,0,0.89,Pathway,Disease
+NUP214,0,PACS1,1,0.89,Pathway,Disease
+NUP214,0,PACS1,1,0.89,Pathway,HIV Infection
+NUP214,0,PACS1,1,0.89,Pathway,Host Interactions of HIV factors
+NUP214,0,MED18,0,0.886,Pathway,Metabolism
+NUP214,0,ZEB2,1,0.885,Pathway,TGF-beta Signaling Pathway
+NUP214,0,WNK1,0,0.884,Pathway,Transmembrane transport of small molecules
+NUP214,0,CACNA1A,1,0.884,Pathway,Metabolism
+NUP214,0,UBA5,0,0.884,Pathway,Immune System
+NUP214,0,HNRNPUL1,0,0.884,Pathway,Gene Expression
+NUP214,0,HNRNPUL1,0,0.884,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+NUP214,0,HNRNPU,1,0.882,Pathway,Gene Expression
+NUP214,0,HNRNPU,1,0.882,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+NUP214,0,TUBA1A,0,0.88,Pathway,Cell Cycle
+NUP214,0,TUBA1A,0,0.88,Pathway,"Cell Cycle, Mitotic"
+NUP214,0,GABRB1,1,0.88,Pathway,Transmembrane transport of small molecules
+NUP214,0,CREBBP,1,0.878,Pathway,Disease
+NUP214,0,CREBBP,1,0.878,Pathway,Gene Expression
+NUP214,0,CREBBP,1,0.878,Pathway,Immune System
+NUP214,0,CREBBP,1,0.878,Pathway,Metabolism
+NUP214,0,CREBBP,1,0.878,Pathway,Role of Calcineurin-dependent NFAT signaling in lymphocytes
+NUP214,0,CREBBP,1,0.878,Pathway,Signaling events mediated by HDAC Class I
+NUP214,0,CREBBP,1,0.878,Pathway,Transmembrane transport of small molecules
+NUP214,0,CREBBP,1,0.878,Pathway,TGF-beta Signaling Pathway
+NUP214,0,HNRNPM,0,0.878,Pathway,Gene Expression
+NUP214,0,HNRNPM,0,0.878,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+NUP214,0,ADCY1,0,0.877,Pathway,Disease
+NUP214,0,ADCY1,0,0.877,Pathway,Immune System
+NUP214,0,ADCY1,0,0.877,Pathway,Metabolism
+NUP214,0,ADCY1,0,0.877,Pathway,Transmembrane transport of small molecules
+NUP214,0,GNAQ,0,0.875,Pathway,Metabolism

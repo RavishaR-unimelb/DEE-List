@@ -1,0 +1,38 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SF3B1,0,NUP98,0,0.955,Pathway,Gene Expression
+SF3B1,0,NUP98,0,0.955,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,NUP54,0,0.953,Pathway,Gene Expression
+SF3B1,0,NUP54,0,0.953,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,NOTCH2,0,0.953,Pathway,Gene Expression
+SF3B1,0,SUPT5H,0,0.952,Pathway,Gene Expression
+SF3B1,0,SUPT5H,0,0.952,Pathway,mRNA Processing
+SF3B1,0,SF3B4,0,0.952,Pathway,mRNA Splicing
+SF3B1,0,SF3B4,0,0.952,Pathway,Gene Expression
+SF3B1,0,SF3B4,0,0.952,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,SF3B4,0,0.952,Pathway,U12 Dependent Splicing
+SF3B1,0,SF3B4,0,0.952,Pathway,mRNA Processing
+SF3B1,0,POLR3A,0,0.951,Pathway,Gene Expression
+SF3B1,0,NUP37,0,0.951,Pathway,Gene Expression
+SF3B1,0,NUP37,0,0.951,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,CHD4,1,0.95,Pathway,Gene Expression
+SF3B1,0,SNRNP70,0,0.95,Pathway,mRNA Splicing
+SF3B1,0,SNRNP70,0,0.95,Pathway,Gene Expression
+SF3B1,0,SNRNP70,0,0.95,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,SNRNP70,0,0.95,Pathway,mRNA Processing
+SF3B1,0,CHD3,1,0.95,Pathway,Gene Expression
+SF3B1,0,DHX15,0,0.95,Pathway,mRNA Processing
+SF3B1,0,NR2E1,0,0.95,Pathway,Gene Expression
+SF3B1,0,DHX16,1,0.95,Pathway,mRNA Processing
+SF3B1,0,HNRNPUL1,0,0.95,Pathway,mRNA Splicing
+SF3B1,0,HNRNPUL1,0,0.95,Pathway,Gene Expression
+SF3B1,0,HNRNPUL1,0,0.95,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,ZNF45,0,0.95,Pathway,Gene Expression
+SF3B1,0,TGIF2,0,0.95,Pathway,Gene Expression
+SF3B1,0,TGIF1,1,0.95,Pathway,Gene Expression
+SF3B1,0,NUP107,0,0.95,Pathway,Gene Expression
+SF3B1,0,NUP107,0,0.95,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,PTBP1,0,0.95,Pathway,mRNA Splicing
+SF3B1,0,PTBP1,0,0.95,Pathway,Gene Expression
+SF3B1,0,PTBP1,0,0.95,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+SF3B1,0,PTBP1,0,0.95,Pathway,mRNA Processing
+SF3B1,0,CELF2,1,0.949,Pathway,mRNA Processing

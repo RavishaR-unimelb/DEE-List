@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SLC12A5,0,NUP98,0,0.955,Pathway,SLC-mediated transmembrane transport
+SLC12A5,0,NUP98,0,0.955,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ADCY1,0,0.954,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,TUBB2A,1,0.953,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ATP2B4,0,0.948,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,RANBP2,1,0.948,Pathway,SLC-mediated transmembrane transport
+SLC12A5,0,RANBP2,1,0.948,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ATP2B3,0,0.947,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,GABRB3,1,0.947,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,WNK1,0,0.947,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ATP2C2,0,0.946,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,SLC12A1,0,0.946,Pathway,Cation-coupled Chloride cotransporters
+SLC12A5,0,SLC12A1,0,0.946,Pathway,SLC-mediated transmembrane transport
+SLC12A5,0,SLC12A1,0,0.946,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,SLC12A1,0,0.946,Pathway,Transport of inorganic cations/anions and amino acids/oligopeptides
+SLC12A5,0,SLC5A3,0,0.945,Pathway,SLC-mediated transmembrane transport
+SLC12A5,0,SLC5A3,0,0.945,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,SLC9C2,0,0.944,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ATP7B,0,0.944,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ABCB10,0,0.943,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,ABCA8,0,0.943,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,GABRG2,1,0.943,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,GABRB2,1,0.943,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,SLC29A3,0,0.943,Pathway,SLC-mediated transmembrane transport
+SLC12A5,0,SLC29A3,0,0.943,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,GNB1,1,0.943,Pathway,Transmembrane transport of small molecules
+SLC12A5,0,SLC47A1,0,0.942,Pathway,SLC-mediated transmembrane transport
+SLC12A5,0,SLC47A1,0,0.942,Pathway,Transmembrane transport of small molecules

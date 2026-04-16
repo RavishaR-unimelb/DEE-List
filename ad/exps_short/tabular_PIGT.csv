@@ -1,0 +1,31 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PIGT,0,MUC1,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,MUC1,0,0.978,Pathway,Post-translational protein modification
+PIGT,0,MUC4,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,MUC4,0,0.978,Pathway,Post-translational protein modification
+PIGT,0,TIMM8B,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,XBP1,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,PIGA,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,PIGA,0,0.978,Pathway,Post-translational modification: synthesis of GPI-anchored proteins
+PIGT,0,PIGA,0,0.978,Pathway,Post-translational protein modification
+PIGT,0,TIMM50,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,GRPEL1,0,0.978,Pathway,Metabolism of proteins
+PIGT,0,CUL7,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,ALG12,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,ALG12,0,0.977,Pathway,Post-translational protein modification
+PIGT,0,PAPPA,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,FAU,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,CDX2,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,DOLPP1,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,DOLPP1,0,0.977,Pathway,Post-translational protein modification
+PIGT,0,B3GNT9,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,B3GNT9,0,0.977,Pathway,Post-translational protein modification
+PIGT,0,ALG10,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,ALG10,0,0.977,Pathway,Post-translational protein modification
+PIGT,0,VKORC1,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,VKORC1,0,0.977,Pathway,Post-translational protein modification
+PIGT,0,MME,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,B3GNT5,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,B3GNT5,0,0.977,Pathway,Post-translational protein modification
+PIGT,0,IGFBP1,0,0.977,Pathway,Metabolism of proteins
+PIGT,0,DCP2,0,0.977,Pathway,Metabolism of proteins

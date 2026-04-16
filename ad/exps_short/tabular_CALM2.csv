@@ -1,0 +1,105 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CALM2,0,PACS1,1,0.965,Pathway,Disease
+CALM2,0,STXBP1,1,0.965,Pathway,Metabolism
+CALM2,0,STXBP1,1,0.965,Pathway,Neuronal System
+CALM2,0,STXBP1,1,0.965,Pathway,Transmission across Chemical Synapses
+CALM2,0,MED18,0,0.965,Pathway,Metabolism
+CALM2,0,KIF2A,1,0.965,Pathway,Adaptive Immune System
+CALM2,0,KIF2A,1,0.965,Pathway,Hemostasis
+CALM2,0,KIF2A,1,0.965,Pathway,Immune System
+CALM2,0,GRIK5,0,0.964,Pathway,Activation of Ca-permeable Kainate Receptor
+CALM2,0,GRIK5,0,0.964,Pathway,Activation of Kainate Receptors upon glutamate binding
+CALM2,0,GRIK5,0,0.964,Pathway,Neuronal System
+CALM2,0,GRIK5,0,0.964,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CALM2,0,GRIK5,0,0.964,Pathway,Transmission across Chemical Synapses
+CALM2,0,SNAP25,1,0.963,Pathway,Disease
+CALM2,0,SNAP25,1,0.963,Pathway,Metabolism
+CALM2,0,SNAP25,1,0.963,Pathway,Neuronal System
+CALM2,0,SNAP25,1,0.963,Pathway,Transmission across Chemical Synapses
+CALM2,0,SNAP25,1,0.963,Pathway,Uptake and actions of bacterial toxins
+CALM2,0,GRIN2A,1,0.963,Pathway,Activation of NMDA receptor upon glutamate binding and postsynaptic events
+CALM2,0,GRIN2A,1,0.963,Pathway,CREB phosphorylation through the activation of CaMKII
+CALM2,0,GRIN2A,1,0.963,Pathway,CREB phosphorylation through the activation of Ras
+CALM2,0,GRIN2A,1,0.963,Pathway,Neuronal System
+CALM2,0,GRIN2A,1,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CALM2,0,GRIN2A,1,0.963,Pathway,Post NMDA receptor activation events
+CALM2,0,GRIN2A,1,0.963,Pathway,Ras activation uopn Ca2+ infux through NMDA receptor
+CALM2,0,GRIN2A,1,0.963,Pathway,Transmission across Chemical Synapses
+CALM2,0,GRIN2A,1,0.963,Pathway,Alzheimers Disease
+CALM2,0,ATP6V0A1,1,0.963,Pathway,Disease
+CALM2,0,ATP6V0A1,1,0.963,Pathway,Signaling Pathways
+CALM2,0,SYNGAP1,1,0.963,Pathway,Regulation of Ras family activation
+CALM2,0,CHMP2B,0,0.962,Pathway,Disease
+CALM2,0,CHMP2B,0,0.962,Pathway,Membrane Trafficking
+CALM2,0,KCNA1,1,0.962,Pathway,Neuronal System
+CALM2,0,KCNQ3,1,0.962,Pathway,Neuronal System
+CALM2,0,ADCY1,0,0.962,Pathway,Activation of NMDA receptor upon glutamate binding and postsynaptic events
+CALM2,0,ADCY1,0,0.962,Pathway,Ca-dependent events
+CALM2,0,ADCY1,0,0.962,Pathway,CaM pathway
+CALM2,0,ADCY1,0,0.962,Pathway,DAG and IP3 signaling
+CALM2,0,ADCY1,0,0.962,Pathway,DAP12 interactions
+CALM2,0,ADCY1,0,0.962,Pathway,DAP12 signaling
+CALM2,0,ADCY1,0,0.962,Pathway,Disease
+CALM2,0,ADCY1,0,0.962,Pathway,Downstream signal transduction
+CALM2,0,ADCY1,0,0.962,Pathway,Downstream signaling of activated FGFR
+CALM2,0,ADCY1,0,0.962,Pathway,EGFR interacts with phospholipase C-gamma
+CALM2,0,ADCY1,0,0.962,Pathway,G-protein mediated events
+CALM2,0,ADCY1,0,0.962,Pathway,Immune System
+CALM2,0,ADCY1,0,0.962,Pathway,Innate Immune System
+CALM2,0,ADCY1,0,0.962,Pathway,Metabolism
+CALM2,0,ADCY1,0,0.962,Pathway,NGF signalling via TRKA from the plasma membrane
+CALM2,0,ADCY1,0,0.962,Pathway,Neuronal System
+CALM2,0,ADCY1,0,0.962,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CALM2,0,ADCY1,0,0.962,Pathway,Opioid Signalling
+CALM2,0,ADCY1,0,0.962,Pathway,PKA activation
+CALM2,0,ADCY1,0,0.962,Pathway,PKA-mediated phosphorylation of CREB
+CALM2,0,ADCY1,0,0.962,Pathway,PLC beta mediated events
+CALM2,0,ADCY1,0,0.962,Pathway,PLC-gamma1 signalling
+CALM2,0,ADCY1,0,0.962,Pathway,PLCG1 events in ERBB2 signaling
+CALM2,0,ADCY1,0,0.962,Pathway,Phospholipase C-mediated cascade
+CALM2,0,ADCY1,0,0.962,Pathway,Post NMDA receptor activation events
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling Pathways
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by EGFR
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by EGFR in Cancer
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by ERBB2
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by FGFR
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by FGFR in disease
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by GPCR
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by NGF
+CALM2,0,ADCY1,0,0.962,Pathway,Signaling by PDGF
+CALM2,0,ADCY1,0,0.962,Pathway,Transmission across Chemical Synapses
+CALM2,0,ADCY1,0,0.962,Pathway,Myometrial Relaxation and Contraction Pathways
+CALM2,0,ADCY1,0,0.962,Pathway,G Protein Signaling Pathways
+CALM2,0,ADCY1,0,0.962,Pathway,Calcium Regulation in the Cardiac Cell
+CALM2,0,GABRB3,1,0.962,Pathway,Neuronal System
+CALM2,0,GABRB3,1,0.962,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CALM2,0,GABRB3,1,0.962,Pathway,Transmission across Chemical Synapses
+CALM2,0,CACNA1A,1,0.961,Pathway,Metabolism
+CALM2,0,CACNA1A,1,0.961,Pathway,Neuronal System
+CALM2,0,CACNA1A,1,0.961,Pathway,Transmission across Chemical Synapses
+CALM2,0,CACNA1A,1,0.961,Pathway,Calcium Regulation in the Cardiac Cell
+CALM2,0,GAB2,0,0.961,Pathway,Disease
+CALM2,0,GAB2,0,0.961,Pathway,Fc epsilon receptor (FCERI) signaling
+CALM2,0,GAB2,0,0.961,Pathway,Hemostasis
+CALM2,0,GAB2,0,0.961,Pathway,IL2 signaling events mediated by PI3K
+CALM2,0,GAB2,0,0.961,Pathway,Immune System
+CALM2,0,GAB2,0,0.961,Pathway,Innate Immune System
+CALM2,0,GAB2,0,0.961,Pathway,"Platelet activation, signaling and aggregation"
+CALM2,0,GAB2,0,0.961,Pathway,Signaling Pathways
+CALM2,0,GAB2,0,0.961,Pathway,Signaling by FGFR in disease
+CALM2,0,GAB2,0,0.961,Pathway,Signaling by GPCR
+CALM2,0,GRM3,0,0.961,Pathway,Signaling Pathways
+CALM2,0,GRM3,0,0.961,Pathway,Signaling by GPCR
+CALM2,0,GABRB2,1,0.961,Pathway,Neuronal System
+CALM2,0,GABRB2,1,0.961,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+CALM2,0,GABRB2,1,0.961,Pathway,Transmission across Chemical Synapses
+CALM2,0,GNAZ,0,0.961,Pathway,G-protein mediated events
+CALM2,0,GNAZ,0,0.961,Pathway,Opioid Signalling
+CALM2,0,GNAZ,0,0.961,Pathway,PLC beta mediated events
+CALM2,0,GNAZ,0,0.961,Pathway,Signaling Pathways
+CALM2,0,GNAZ,0,0.961,Pathway,Signaling by GPCR
+CALM2,0,GNAZ,0,0.961,Pathway,G Protein Signaling Pathways
+CALM2,0,GNAZ,0,0.961,Pathway,Calcium Regulation in the Cardiac Cell
+CALM2,0,POLG2,1,0.961,Pathway,Mitochondrial biogenesis
+CALM2,0,POLG2,1,0.961,Pathway,Organelle biogenesis and maintenance
+CALM2,0,POLG2,1,0.961,Pathway,Transcriptional activation of mitochondrial biogenesis

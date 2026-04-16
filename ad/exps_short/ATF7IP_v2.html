@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: white;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MPST", "label": "MPST (MST)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "SYTL2", "label": "SYTL2", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MSRB2", "label": "MSRB2 (MsrB2)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MSRB3", "label": "MSRB3 (MsrB3)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "LIPA", "label": "LIPA (LAL)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CREB5", "label": "CREB5 (CREB-5)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "LSP1", "label": "LSP1 (pp52)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "PON3", "label": "PON3", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "TBC1D10A", "label": "TBC1D10A", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "SYTL4", "label": "SYTL4", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "B3GALNT1", "label": "B3GALNT1 (b3Gal-T3)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CTH", "label": "CTH (CGL)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MADD", "label": "MADD (RabGEF)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MSRA", "label": "MSRA (PMSR)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CYP1A2", "label": "CYP1A2", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CYP1B1", "label": "CYP1B1", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CES2", "label": "CES2 (CE-2)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "ITGAV", "label": "ITGAV", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "SFN", "label": "SFN", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CSAD", "label": "CSAD", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "PON1", "label": "PON1 (PON 1)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MYRIP", "label": "MYRIP (SlaC2-c)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "DNMT1", "label": "DNMT1 (Dnmt1)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "CES5A", "label": "CES5A (Cauxin)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "RPH3A", "label": "RPH3A", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "MAPK11", "label": "MAPK11 (p38b)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "FUT9", "label": "FUT9 (Fuc-TIX)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "ST3GAL2", "label": "ST3GAL2 (SIAT4-B)", "shape": "dot"}, {"borderWidth": 0, "color": {"background": "lightblue", "border": null}, "font": {"color": "black"}, "id": "ESD", "label": "ESD (FGH)", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#393b79", "from": "MPST", "to": "CTH", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#9c9ede", "from": "SYTL2", "to": "MADD", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#b5cf6b", "from": "MSRB2", "to": "MSRA", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#b5cf6b", "from": "MSRB3", "to": "CYP1A2", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#b5cf6b", "from": "MSRB3", "to": "CYP1B1", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#e7ba52", "from": "LIPA", "to": "CES2", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#ad494a", "from": "CREB5", "to": "ITGAV", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#7b4173", "from": "LSP1", "to": "SFN", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#393b79", "from": "MPST", "to": "CSAD", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#b5cf6b", "from": "MSRB3", "to": "MSRA", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#e7ba52", "from": "PON3", "to": "PON1", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#9c9ede", "from": "TBC1D10A", "to": "MYRIP", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#393b79", "from": "MPST", "to": "DNMT1", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#9c9ede", "from": "SYTL4", "to": "MADD", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#e7ba52", "from": "PON3", "to": "CES5A", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#9c9ede", "from": "SYTL2", "to": "RPH3A", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#7b4173", "from": "LSP1", "to": "MAPK11", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#de9ed6", "from": "B3GALNT1", "to": "FUT9", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#de9ed6", "from": "B3GALNT1", "to": "ST3GAL2", "width": 2.5}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1e-05}}, "color": "#e7ba52", "from": "LIPA", "to": "ESD", "width": 2.5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "solver": "forceAtlas2Based", "forceAtlas2Based": {"springLength": 100, "springConstant": 0.1}, "minVelocity": 0.05}, "nodes": {"font": {"size": 15}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

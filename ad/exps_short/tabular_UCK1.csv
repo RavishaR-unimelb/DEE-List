@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+UCK1,0,NUP98,0,0.965,Pathway,Metabolism
+UCK1,0,EP300,0,0.965,Pathway,Metabolism
+UCK1,0,TBL1XR1,1,0.964,Pathway,Metabolism
+UCK1,0,MED18,0,0.964,Pathway,Metabolism
+UCK1,0,IDH1,0,0.964,Pathway,Metabolism
+UCK1,0,ARF1,0,0.963,Pathway,Metabolism
+UCK1,0,NCOR1,0,0.962,Pathway,Metabolism
+UCK1,0,ADCY1,0,0.962,Pathway,Metabolism
+UCK1,0,SLC26A2,0,0.962,Pathway,Metabolism
+UCK1,0,ARG1,0,0.961,Pathway,Metabolism
+UCK1,0,NUP54,0,0.96,Pathway,Metabolism
+UCK1,0,POM121,0,0.959,Pathway,Metabolism
+UCK1,0,PIK3C2B,0,0.958,Pathway,Metabolism
+UCK1,0,MED12,0,0.957,Pathway,Metabolism
+UCK1,0,NUP37,0,0.957,Pathway,Metabolism
+UCK1,0,NUP214,0,0.957,Pathway,Metabolism
+UCK1,0,CDK8,0,0.956,Pathway,Metabolism
+UCK1,0,SIN3A,0,0.956,Pathway,Metabolism
+UCK1,0,NUP107,0,0.955,Pathway,Metabolism
+UCK1,0,PRKAR2B,0,0.955,Pathway,Metabolism

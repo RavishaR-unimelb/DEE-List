@@ -1,0 +1,24 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+EIF1AX,0,EIF4EBP2,0,0.952,Pathway,Translation Factors
+EIF1AX,0,SAP130,0,0.948,Pathway,Gene Expression
+EIF1AX,0,EEF1D,0,0.948,Pathway,Gene Expression
+EIF1AX,0,EEF1D,0,0.948,Pathway,Metabolism of proteins
+EIF1AX,0,EEF1D,0,0.948,Pathway,Translation
+EIF1AX,0,EEF1D,0,0.948,Pathway,Translation Factors
+EIF1AX,0,EIF1,0,0.948,Pathway,Translation Factors
+EIF1AX,0,SF3B2,0,0.947,Pathway,Gene Expression
+EIF1AX,0,ZNF500,0,0.947,Pathway,Gene Expression
+EIF1AX,0,TGIF1,1,0.947,Pathway,Gene Expression
+EIF1AX,0,ZNF227,0,0.947,Pathway,Gene Expression
+EIF1AX,0,ZNF641,0,0.947,Pathway,Gene Expression
+EIF1AX,0,PHF19,0,0.947,Pathway,Gene Expression
+EIF1AX,0,MAML3,0,0.947,Pathway,Gene Expression
+EIF1AX,0,GTF2E1,0,0.947,Pathway,Gene Expression
+EIF1AX,0,IGF2,0,0.947,Pathway,Metabolism of proteins
+EIF1AX,0,HSPD1,1,0.947,Pathway,Metabolism of proteins
+EIF1AX,0,ZNF443,0,0.947,Pathway,Gene Expression
+EIF1AX,0,ZNF771,0,0.947,Pathway,Gene Expression
+EIF1AX,0,ZNF256,0,0.947,Pathway,Gene Expression
+EIF1AX,0,WDR77,0,0.947,Pathway,Gene Expression
+EIF1AX,0,EZH2,0,0.947,Pathway,Gene Expression
+EIF1AX,0,ZNF559,0,0.947,Pathway,Gene Expression

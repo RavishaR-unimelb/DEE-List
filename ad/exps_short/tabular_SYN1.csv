@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SYN1,0,FBXO32,0,0.964,Pathway,Monoamine Transport
+SYN1,0,STX3,0,0.963,Pathway,Synaptic Vesicle Pathway
+SYN1,0,CPLX2,0,0.962,Pathway,Synaptic Vesicle Pathway
+SYN1,0,DOK5,0,0.961,Pathway,BDNF signaling pathway
+SYN1,0,KCNA7,0,0.96,Pathway,Neuronal System
+SYN1,0,KCNK7,0,0.96,Pathway,Neuronal System
+SYN1,0,CHRNA6,0,0.959,Pathway,Neuronal System
+SYN1,0,CHRNA6,0,0.959,Pathway,Transmission across Chemical Synapses
+SYN1,0,KCNA6,0,0.959,Pathway,Neuronal System
+SYN1,0,YBX1,0,0.959,Pathway,BDNF signaling pathway
+SYN1,0,KCNA4,0,0.959,Pathway,Neuronal System
+SYN1,0,PARK7,0,0.959,Pathway,Synaptic Vesicle Pathway
+SYN1,0,CHRNG,0,0.958,Pathway,Neuronal System
+SYN1,0,CHRNG,0,0.958,Pathway,Transmission across Chemical Synapses
+SYN1,0,EIF2S2,0,0.958,Pathway,BDNF signaling pathway
+SYN1,0,ITGB3,0,0.958,Pathway,Monoamine Transport
+SYN1,0,CHRNA9,0,0.958,Pathway,Neuronal System
+SYN1,0,CHRNA9,0,0.958,Pathway,Transmission across Chemical Synapses
+SYN1,0,CHRNB4,0,0.957,Pathway,Neuronal System
+SYN1,0,CHRNB4,0,0.957,Pathway,Transmission across Chemical Synapses
+SYN1,0,GJA10,0,0.957,Pathway,Neuronal System
+SYN1,0,KCNJ6,0,0.957,Pathway,Neuronal System
+SYN1,0,KCNJ6,0,0.957,Pathway,Transmission across Chemical Synapses
+SYN1,0,STX2,0,0.957,Pathway,Synaptic Vesicle Pathway
+SYN1,0,KCNJ14,0,0.957,Pathway,Neuronal System

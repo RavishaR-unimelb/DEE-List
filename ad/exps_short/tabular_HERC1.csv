@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+MSRB3,0,MSRA,0,0.413,Pathway,Sulindac Metabolic Pathway
+MPST,0,CTH,0,0.405,Pathway,Trans-sulfuration pathway
+PGM5,0,HK1,0,0.4,Pathway,Glucuronidation
+SYTL4,0,MADD,0,0.4,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+PON3,0,ESD,0,0.391,Pathway,"Phase I biotransformations, non P450"
+SYTL2,0,MADD,0,0.388,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+MSRB2,0,MSRA,0,0.388,Pathway,Sulindac Metabolic Pathway
+MSRB3,0,CYP1A2,0,0.384,Pathway,Sulindac Metabolic Pathway
+PON3,0,PON2,0,0.382,Pathway,"Phase I biotransformations, non P450"
+POLM,0,XRCC5,0,0.379,Pathway,DNA-PK pathway in nonhomologous end joining
+LIPA,0,CES2,0,0.379,Pathway,"Phase I biotransformations, non P450"
+LIPA,0,ESD,0,0.374,Pathway,"Phase I biotransformations, non P450"
+SYTL4,0,RPH3A,0,0.373,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+SYTL4,0,RAB27B,0,0.372,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+MSRB3,0,CYP1B1,0,0.372,Pathway,Sulindac Metabolic Pathway
+POLM,0,APTX,0,0.369,Pathway,DNA-PK pathway in nonhomologous end joining
+MPST,0,GOT1,0,0.367,Pathway,Trans-sulfuration pathway
+SYTL4,0,TBC1D10A,0,0.366,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+ALDH1A3,0,MAPK1,0,0.366,Pathway,Vitamin A and Carotenoid Metabolism
+POLM,0,PRKDC,0,0.365,Pathway,DNA-PK pathway in nonhomologous end joining

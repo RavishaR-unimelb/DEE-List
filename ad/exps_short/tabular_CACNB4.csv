@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNB4,0,NODAL,0,0.964,Pathway,Developmental Biology
+CACNB4,0,KLF4,0,0.962,Pathway,Developmental Biology
+CACNB4,0,LEFTY1,0,0.962,Pathway,Developmental Biology
+CACNB4,0,CHRNE,0,0.961,Pathway,Neuronal System
+CACNB4,0,CHRNE,0,0.961,Pathway,Transmission across Chemical Synapses
+CACNB4,0,NKX2-2,0,0.961,Pathway,Developmental Biology
+CACNB4,0,PTF1A,0,0.961,Pathway,Developmental Biology
+CACNB4,0,KCNK18,0,0.96,Pathway,Neuronal System
+CACNB4,0,WNT1,0,0.96,Pathway,Developmental Biology
+CACNB4,0,COL4A3,0,0.959,Pathway,Axon guidance
+CACNB4,0,COL4A3,0,0.959,Pathway,Developmental Biology
+CACNB4,0,COL4A3,0,0.959,Pathway,NCAM signaling for neurite out-growth
+CACNB4,0,COL4A3,0,0.959,Pathway,NCAM1 interactions
+CACNB4,0,INSM1,0,0.959,Pathway,Developmental Biology
+CACNB4,0,RPS6KA4,0,0.958,Pathway,Axon guidance
+CACNB4,0,RPS6KA4,0,0.958,Pathway,Developmental Biology
+CACNB4,0,CACNA1C,1,0.958,Pathway,Axon guidance
+CACNB4,0,CACNA1C,1,0.958,Pathway,Developmental Biology
+CACNB4,0,CACNA1C,1,0.958,Pathway,NCAM signaling for neurite out-growth
+CACNB4,0,CACNA1C,1,0.958,Pathway,NCAM1 interactions
+CACNB4,0,CACNA1C,1,0.958,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNB4,0,CEBPA,0,0.958,Pathway,Developmental Biology
+CACNB4,0,STXBP1,1,0.958,Pathway,Neuronal System
+CACNB4,0,STXBP1,1,0.958,Pathway,Transmission across Chemical Synapses
+CACNB4,0,CACNA1F,0,0.957,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNB4,0,TCF3,0,0.957,Pathway,Developmental Biology
+CACNB4,0,GRIN2B,1,0.957,Pathway,Axon guidance
+CACNB4,0,GRIN2B,1,0.957,Pathway,Developmental Biology
+CACNB4,0,GRIN2B,1,0.957,Pathway,Neuronal System
+CACNB4,0,GRIN2B,1,0.957,Pathway,Transmission across Chemical Synapses
+CACNB4,0,MED18,0,0.957,Pathway,Developmental Biology
+CACNB4,0,KCNV2,0,0.956,Pathway,Neuronal System
+CACNB4,0,PTPRC,0,0.956,Pathway,Axon guidance
+CACNB4,0,PTPRC,0,0.956,Pathway,Developmental Biology

@@ -1,0 +1,40 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+PLCB1,0,MED18,0,0.96,Pathway,Metabolism
+PLCB1,0,UBQLN1,0,0.959,Pathway,CXCR4-mediated signaling events
+PLCB1,0,ATP6AP1,0,0.958,Pathway,Signaling Pathways
+PLCB1,0,CACNG4,0,0.957,Pathway,Neuronal System
+PLCB1,0,CACNG4,0,0.957,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+PLCB1,0,CACNG4,0,0.957,Pathway,Transmission across Chemical Synapses
+PLCB1,0,TSC2,0,0.957,Pathway,Signaling Pathways
+PLCB1,0,TSC2,0,0.957,Pathway,AMPK Signaling
+PLCB1,0,TRRAP,1,0.957,Pathway,Signaling Pathways
+PLCB1,0,TRRAP,1,0.957,Pathway,Signaling by Wnt
+PLCB1,0,MEF2C,1,0.957,Pathway,Signaling Pathways
+PLCB1,0,JUN,0,0.956,Pathway,Endothelins
+PLCB1,0,JUN,0,0.956,Pathway,Signaling Pathways
+PLCB1,0,JUN,0,0.956,Pathway,TSH signaling pathway
+PLCB1,0,USP34,0,0.956,Pathway,Signaling Pathways
+PLCB1,0,USP34,0,0.956,Pathway,Signaling by Wnt
+PLCB1,0,NUP98,0,0.956,Pathway,Metabolism
+PLCB1,0,EP300,0,0.956,Pathway,Metabolism
+PLCB1,0,EP300,0,0.956,Pathway,Signaling Pathways
+PLCB1,0,EP300,0,0.956,Pathway,Signaling by Wnt
+PLCB1,0,BRAF,1,0.956,Pathway,Neuronal System
+PLCB1,0,BRAF,1,0.956,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+PLCB1,0,BRAF,1,0.956,Pathway,Signaling Pathways
+PLCB1,0,BRAF,1,0.956,Pathway,Transmission across Chemical Synapses
+PLCB1,0,BRAF,1,0.956,Pathway,TSH signaling pathway
+PLCB1,0,ATP6V1B1,0,0.956,Pathway,Signaling Pathways
+PLCB1,0,NTRK2,1,0.956,Pathway,Signaling Pathways
+PLCB1,0,TRIO,1,0.956,Pathway,G alpha (q) signalling events
+PLCB1,0,TRIO,1,0.956,Pathway,GPCR downstream signaling
+PLCB1,0,TRIO,1,0.956,Pathway,Gastrin-CREB signalling pathway via PKC and MAPK
+PLCB1,0,TRIO,1,0.956,Pathway,Signaling Pathways
+PLCB1,0,TRIO,1,0.956,Pathway,Signaling by GPCR
+PLCB1,0,CDK9,0,0.956,Pathway,Signaling Pathways
+PLCB1,0,CRKL,0,0.955,Pathway,Signaling Pathways
+PLCB1,0,SMARCA4,1,0.955,Pathway,Signaling Pathways
+PLCB1,0,SMARCA4,1,0.955,Pathway,Signaling by Wnt
+PLCB1,0,ATP6V0A4,0,0.955,Pathway,Signaling Pathways
+PLCB1,0,TBL1XR1,1,0.955,Pathway,Metabolism
+PLCB1,0,TBL1XR1,1,0.955,Pathway,Signaling Pathways

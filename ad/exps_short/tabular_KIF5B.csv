@@ -1,0 +1,31 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+KIF5B,0,ADCY1,0,0.958,Pathway,Immune System
+KIF5B,0,MEF2C,1,0.958,Pathway,Immune System
+KIF5B,0,TSC2,0,0.957,Pathway,Adaptive Immune System
+KIF5B,0,TSC2,0,0.957,Pathway,Immune System
+KIF5B,0,TSC2,0,0.957,Pathway,Insulin Signaling
+KIF5B,0,EP300,0,0.956,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF5B,0,EP300,0,0.956,Pathway,Hemostasis
+KIF5B,0,EP300,0,0.956,Pathway,Immune System
+KIF5B,0,PHF21A,1,0.956,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF5B,0,PHF21A,1,0.956,Pathway,Hemostasis
+KIF5B,0,NUP98,0,0.956,Pathway,Immune System
+KIF5B,0,UBA5,0,0.956,Pathway,Adaptive Immune System
+KIF5B,0,UBA5,0,0.956,Pathway,Immune System
+KIF5B,0,DOCK2,0,0.956,Pathway,Factors involved in megakaryocyte development and platelet production
+KIF5B,0,DOCK2,0,0.956,Pathway,Hemostasis
+KIF5B,0,CRKL,0,0.956,Pathway,Immune System
+KIF5B,0,JUN,0,0.956,Pathway,Immune System
+KIF5B,0,JUN,0,0.956,Pathway,Insulin Signaling
+KIF5B,0,TUBB2A,1,0.956,Pathway,Metabolism of proteins
+KIF5B,0,ATP6V0D1,0,0.956,Pathway,Metabolism of proteins
+KIF5B,0,NCAM1,0,0.956,Pathway,Immune System
+KIF5B,0,UBE2A,0,0.955,Pathway,Adaptive Immune System
+KIF5B,0,UBE2A,0,0.955,Pathway,Immune System
+KIF5B,0,DHX36,0,0.955,Pathway,Immune System
+KIF5B,0,CD80,0,0.955,Pathway,Adaptive Immune System
+KIF5B,0,CD80,0,0.955,Pathway,Immune System
+KIF5B,0,ATP1B2,0,0.955,Pathway,Hemostasis
+KIF5B,0,TUBB2B,0,0.955,Pathway,Metabolism of proteins
+KIF5B,0,TUBB4A,0,0.955,Pathway,Metabolism of proteins
+KIF5B,0,PIGT,0,0.955,Pathway,Metabolism of proteins

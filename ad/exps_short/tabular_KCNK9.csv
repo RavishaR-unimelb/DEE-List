@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+KCNK9,0,ADCY1,0,0.976,Pathway,Neuronal System
+KCNK9,0,GABRB2,1,0.976,Pathway,Neuronal System
+KCNK9,0,CACNG2,0,0.975,Pathway,Neuronal System
+KCNK9,0,GABRB3,1,0.975,Pathway,Neuronal System
+KCNK9,0,GRIN2B,1,0.975,Pathway,Neuronal System
+KCNK9,0,SLC6A13,0,0.971,Pathway,Neuronal System
+KCNK9,0,GABRB1,1,0.971,Pathway,Neuronal System
+KCNK9,0,RAB3A,0,0.97,Pathway,Neuronal System
+KCNK9,0,SYN2,0,0.97,Pathway,Neuronal System
+KCNK9,0,BRAF,1,0.97,Pathway,Neuronal System
+KCNK9,0,CACNA1E,1,0.97,Pathway,Neuronal System
+KCNK9,0,GRIK2,1,0.969,Pathway,Neuronal System
+KCNK9,0,CALM2,0,0.969,Pathway,Neuronal System
+KCNK9,0,GNB1,1,0.968,Pathway,Neuronal System
+KCNK9,0,GNB1,1,0.968,Pathway,Potassium Channels
+KCNK9,0,GNB1,1,0.968,Pathway,Nicotine Activity on Dopaminergic Neurons
+KCNK9,0,GRIK3,0,0.968,Pathway,Neuronal System
+KCNK9,0,CACNB2,0,0.968,Pathway,Neuronal System
+KCNK9,0,CACNG4,0,0.968,Pathway,Neuronal System
+KCNK9,0,GABBR1,0,0.968,Pathway,Neuronal System
+KCNK9,0,GABBR1,0,0.968,Pathway,Potassium Channels
+KCNK9,0,KCNK10,0,0.967,Pathway,Neuronal System
+KCNK9,0,KCNK10,0,0.967,Pathway,Potassium Channels
+KCNK9,0,KCNK10,0,0.967,Pathway,Tandem pore domain potassium channels
+KCNK9,0,GRIN1,1,0.967,Pathway,Neuronal System

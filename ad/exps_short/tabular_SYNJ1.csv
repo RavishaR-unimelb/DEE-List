@@ -1,0 +1,28 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SYNJ1,0,RANBP2,1,0.956,Pathway,Metabolism
+SYNJ1,0,STXBP1,1,0.955,Pathway,Metabolism
+SYNJ1,0,STXBP1,1,0.955,Pathway,EGF/EGFR Signaling Pathway
+SYNJ1,0,NUP98,0,0.95,Pathway,Metabolism
+SYNJ1,0,MEF2C,1,0.95,Pathway,EGF/EGFR Signaling Pathway
+SYNJ1,0,ADCY1,0,0.949,Pathway,Metabolism
+SYNJ1,0,PPP2R5D,1,0.949,Pathway,Metabolism
+SYNJ1,0,NRAS,1,0.948,Pathway,EPHB forward signaling
+SYNJ1,0,NRAS,1,0.948,Pathway,Internalization of ErbB1
+SYNJ1,0,CHD9,0,0.946,Pathway,Metabolism
+SYNJ1,0,CHD9,0,0.946,Pathway,Metabolism of lipids and lipoproteins
+SYNJ1,0,MED18,0,0.945,Pathway,Metabolism
+SYNJ1,0,MED18,0,0.945,Pathway,Metabolism of lipids and lipoproteins
+SYNJ1,0,GCGR,0,0.944,Pathway,Metabolism
+SYNJ1,0,EP300,0,0.943,Pathway,Metabolism
+SYNJ1,0,EP300,0,0.943,Pathway,Metabolism of lipids and lipoproteins
+SYNJ1,0,GNAS,0,0.942,Pathway,Metabolism
+SYNJ1,0,PPP2CA,1,0.942,Pathway,Metabolism
+SYNJ1,0,CACNA1A,1,0.94,Pathway,Metabolism
+SYNJ1,0,NUP35,0,0.94,Pathway,Metabolism
+SYNJ1,0,CREBBP,1,0.939,Pathway,Metabolism
+SYNJ1,0,CREBBP,1,0.939,Pathway,Metabolism of lipids and lipoproteins
+SYNJ1,0,KCNB1,1,0.939,Pathway,Metabolism
+SYNJ1,0,BRAF,1,0.939,Pathway,EGF/EGFR Signaling Pathway
+SYNJ1,0,AKT1,1,0.938,Pathway,Metabolism
+SYNJ1,0,AKT1,1,0.938,Pathway,EGF/EGFR Signaling Pathway
+SYNJ1,0,SNAP25,1,0.938,Pathway,Metabolism

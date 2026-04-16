@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ATP6AP1,0,GABRB3,1,0.942,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ATP2B4,0,0.942,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,TSC2,0,0.942,Pathway,Signaling Pathways
+ATP6AP1,0,TSC2,0,0.942,Pathway,Signaling by Insulin receptor
+ATP6AP1,0,MEF2C,1,0.942,Pathway,Signaling Pathways
+ATP6AP1,0,ADCY1,0,0.942,Pathway,Signaling Pathways
+ATP6AP1,0,ADCY1,0,0.942,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,GABRB2,1,0.942,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,PRICKLE1,0,0.941,Pathway,Signaling Pathways
+ATP6AP1,0,NRAS,1,0.94,Pathway,Signaling Pathways
+ATP6AP1,0,NRAS,1,0.94,Pathway,Signaling by Insulin receptor
+ATP6AP1,0,TUBB2A,1,0.94,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,EP300,0,0.939,Pathway,Signaling Pathways
+ATP6AP1,0,TRRAP,1,0.939,Pathway,Signaling Pathways
+ATP6AP1,0,MAP2K1,1,0.938,Pathway,Signaling Pathways
+ATP6AP1,0,MAP2K1,1,0.938,Pathway,Signaling by Insulin receptor
+ATP6AP1,0,NUP98,0,0.937,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ATP2C2,0,0.936,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,USP34,0,0.934,Pathway,Signaling Pathways
+ATP6AP1,0,GNB1,1,0.934,Pathway,Signaling Pathways
+ATP6AP1,0,GNB1,1,0.934,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,WNK1,0,0.934,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,CHD9,0,0.934,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,ATP10D,0,0.934,Pathway,Transmembrane transport of small molecules
+ATP6AP1,0,CREBBP,1,0.933,Pathway,Signaling Pathways
+ATP6AP1,0,CREBBP,1,0.933,Pathway,Transmembrane transport of small molecules

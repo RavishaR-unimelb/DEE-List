@@ -1,0 +1,61 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBB4A,0,NUP98,0,0.974,Pathway,Cell Cycle
+TUBB4A,0,NUP98,0,0.974,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,NUP98,0,0.974,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,KIF23,0,0.974,Pathway,Cell Cycle
+TUBB4A,0,KIF23,0,0.974,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,ADCY1,0,0.973,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,GABRB3,1,0.973,Pathway,Orphan transporters
+TUBB4A,0,GABRB3,1,0.973,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Cell Cycle
+TUBB4A,0,TUBA1A,0,0.972,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Centrosome maturation
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Chaperonin-mediated protein folding
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Formation of tubulin folding intermediates by CCT/TriC
+TUBB4A,0,TUBA1A,0,0.972,Pathway,G2/M Transition
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Loss of Nlp from mitotic centrosomes
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Metabolism of proteins
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Mitotic G2-G2/M phases
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Post-chaperonin tubulin folding pathway
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Prefoldin mediated transfer of substrate to CCT/TriC
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Protein folding
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Regulation of PLK1 Activity at G2/M Transition
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Pathogenic Escherichia coli infection
+TUBB4A,0,TUBA1A,0,0.972,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBB4A,0,WNK1,0,0.972,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,GNB1,1,0.971,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,ARPC5L,0,0.97,Pathway,Pathogenic Escherichia coli infection
+TUBB4A,0,KIF2B,0,0.969,Pathway,Cell Cycle
+TUBB4A,0,KIF2B,0,0.969,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,UNC79,0,0.968,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,GABRB2,1,0.967,Pathway,Orphan transporters
+TUBB4A,0,GABRB2,1,0.967,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,CREBBP,1,0.967,Pathway,Orphan transporters
+TUBB4A,0,CREBBP,1,0.967,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,VRK1,0,0.966,Pathway,Cell Cycle
+TUBB4A,0,VRK1,0,0.966,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Chaperonin-mediated protein folding
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Formation of tubulin folding intermediates by CCT/TriC
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Metabolism of proteins
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Orphan transporters
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Post-chaperonin tubulin folding pathway
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Prefoldin mediated transfer of substrate to CCT/TriC
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Protein folding
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Pathogenic Escherichia coli infection
+TUBB4A,0,TUBB2A,1,0.966,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBB4A,0,SMC1A,0,0.966,Pathway,Cell Cycle
+TUBB4A,0,SMC1A,0,0.966,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,RANBP2,1,0.965,Pathway,Cell Cycle
+TUBB4A,0,RANBP2,1,0.965,Pathway,"Cell Cycle, Mitotic"
+TUBB4A,0,RANBP2,1,0.965,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,CHD9,0,0.965,Pathway,Orphan transporters
+TUBB4A,0,CHD9,0,0.965,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,NCOA2,0,0.965,Pathway,Orphan transporters
+TUBB4A,0,NCOA2,0,0.965,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,TRPM6,0,0.965,Pathway,Transmembrane transport of small molecules
+TUBB4A,0,FBXL3,0,0.964,Pathway,Chaperonin-mediated protein folding
+TUBB4A,0,FBXL3,0,0.964,Pathway,Metabolism of proteins
+TUBB4A,0,FBXL3,0,0.964,Pathway,Protein folding

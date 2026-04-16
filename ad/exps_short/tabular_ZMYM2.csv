@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ZMYM2,0,PACS1,1,0.961,Pathway,Disease
+ZMYM2,0,TSC2,0,0.944,Pathway,Disease
+ZMYM2,0,TSC2,0,0.944,Pathway,Signaling by FGFR in disease
+ZMYM2,0,NUP98,0,0.944,Pathway,Disease
+ZMYM2,0,SUPT5H,0,0.944,Pathway,Disease
+ZMYM2,0,ADCY1,0,0.942,Pathway,Disease
+ZMYM2,0,ADCY1,0,0.942,Pathway,Signaling by FGFR in disease
+ZMYM2,0,EP300,0,0.94,Pathway,Disease
+ZMYM2,0,TRRAP,1,0.939,Pathway,Disease
+ZMYM2,0,ATP6V0A1,1,0.938,Pathway,Disease
+ZMYM2,0,STX1B,1,0.938,Pathway,Disease
+ZMYM2,0,GNB1,1,0.938,Pathway,Disease
+ZMYM2,0,ATP6V0A4,0,0.936,Pathway,Disease
+ZMYM2,0,USP34,0,0.935,Pathway,Disease
+ZMYM2,0,CREBBP,1,0.935,Pathway,Disease
+ZMYM2,0,SMARCA4,1,0.934,Pathway,Disease
+ZMYM2,0,SYT1,0,0.934,Pathway,Disease
+ZMYM2,0,TBL1XR1,1,0.934,Pathway,Disease
+ZMYM2,0,NMNAT2,0,0.934,Pathway,Disease
+ZMYM2,0,SNAP25,1,0.934,Pathway,Disease
+ZMYM2,0,NRAS,1,0.933,Pathway,Disease
+ZMYM2,0,NRAS,1,0.933,Pathway,Signaling by FGFR in disease
+ZMYM2,0,NRAS,1,0.933,Pathway,Signaling by FGFR mutants
+ZMYM2,0,SLC26A2,0,0.933,Pathway,Disease

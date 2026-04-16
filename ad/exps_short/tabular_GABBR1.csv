@@ -1,0 +1,49 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GABBR1,0,GPRC5D,0,0.966,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+GABBR1,0,ARHGAP19,0,0.965,Pathway,Signaling Pathways
+GABBR1,0,CCL4,0,0.964,Pathway,GPCR ligand binding
+GABBR1,0,CCL4,0,0.964,Pathway,Signaling Pathways
+GABBR1,0,CCL4,0,0.964,Pathway,Signaling by GPCR
+GABBR1,0,OR6K3,0,0.964,Pathway,GPCR downstream signaling
+GABBR1,0,OR6K3,0,0.964,Pathway,Signaling Pathways
+GABBR1,0,OR6K3,0,0.964,Pathway,Signaling by GPCR
+GABBR1,0,ATP6V1B2,1,0.964,Pathway,Signaling Pathways
+GABBR1,0,CCL5,0,0.964,Pathway,G alpha (i) signalling events
+GABBR1,0,CCL5,0,0.964,Pathway,GPCR downstream signaling
+GABBR1,0,CCL5,0,0.964,Pathway,GPCR ligand binding
+GABBR1,0,CCL5,0,0.964,Pathway,Signaling Pathways
+GABBR1,0,CCL5,0,0.964,Pathway,Signaling by GPCR
+GABBR1,0,SFRP2,0,0.964,Pathway,Signaling Pathways
+GABBR1,0,CCL23,0,0.964,Pathway,G alpha (i) signalling events
+GABBR1,0,CCL23,0,0.964,Pathway,GPCR downstream signaling
+GABBR1,0,CCL23,0,0.964,Pathway,GPCR ligand binding
+GABBR1,0,CCL23,0,0.964,Pathway,Signaling Pathways
+GABBR1,0,CCL23,0,0.964,Pathway,Signaling by GPCR
+GABBR1,0,GPRC5A,0,0.964,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+GABBR1,0,GPRC5C,0,0.964,Pathway,"GPCRs, Class C Metabotropic glutamate, pheromone"
+GABBR1,0,ATP6V1G1,0,0.964,Pathway,Signaling Pathways
+GABBR1,0,ATP6V1C2,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,IL5RA,0,0.963,Pathway,GPCR downstream signaling
+GABBR1,0,IL5RA,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,IL5RA,0,0.963,Pathway,Signaling by GPCR
+GABBR1,0,CCR3,0,0.963,Pathway,G alpha (i) signalling events
+GABBR1,0,CCR3,0,0.963,Pathway,GPCR downstream signaling
+GABBR1,0,CCR3,0,0.963,Pathway,GPCR ligand binding
+GABBR1,0,CCR3,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,CCR3,0,0.963,Pathway,Signaling by GPCR
+GABBR1,0,OR51A2,0,0.963,Pathway,GPCR downstream signaling
+GABBR1,0,OR51A2,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,OR51A2,0,0.963,Pathway,Signaling by GPCR
+GABBR1,0,MOV10,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,RPS6KA6,0,0.963,Pathway,Neuronal System
+GABBR1,0,RPS6KA6,0,0.963,Pathway,Neurotransmitter Receptor Binding and Postsynaptic Signaling
+GABBR1,0,RPS6KA6,0,0.963,Pathway,Transmission across Chemical Synapses
+GABBR1,0,CCL7,0,0.963,Pathway,GPCR ligand binding
+GABBR1,0,CCL7,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,CCL7,0,0.963,Pathway,Signaling by GPCR
+GABBR1,0,FFAR3,0,0.963,Pathway,GPCR downstream signaling
+GABBR1,0,FFAR3,0,0.963,Pathway,GPCR ligand binding
+GABBR1,0,FFAR3,0,0.963,Pathway,Signaling Pathways
+GABBR1,0,FFAR3,0,0.963,Pathway,Signaling by GPCR
+GABBR1,0,CPLX1,0,0.963,Pathway,Neuronal System
+GABBR1,0,CPLX1,0,0.963,Pathway,Transmission across Chemical Synapses

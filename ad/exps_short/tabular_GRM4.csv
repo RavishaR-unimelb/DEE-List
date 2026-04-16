@@ -1,0 +1,51 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GRM4,0,SMARCA4,1,0.971,Pathway,Signaling Pathways
+GRM4,0,OR6K3,0,0.971,Pathway,GPCR downstream signaling
+GRM4,0,OR6K3,0,0.971,Pathway,Signaling Pathways
+GRM4,0,OR6K3,0,0.971,Pathway,Signaling by GPCR
+GRM4,0,TLE1,0,0.971,Pathway,Signaling Pathways
+GRM4,0,OR8D4,0,0.971,Pathway,GPCR downstream signaling
+GRM4,0,OR8D4,0,0.971,Pathway,Signaling Pathways
+GRM4,0,OR8D4,0,0.971,Pathway,Signaling by GPCR
+GRM4,0,OR4N5,0,0.971,Pathway,GPCR downstream signaling
+GRM4,0,OR4N5,0,0.971,Pathway,Signaling Pathways
+GRM4,0,OR4N5,0,0.971,Pathway,Signaling by GPCR
+GRM4,0,SKI,0,0.97,Pathway,Signaling Pathways
+GRM4,0,OR6Q1,0,0.97,Pathway,GPCR downstream signaling
+GRM4,0,OR6Q1,0,0.97,Pathway,Signaling Pathways
+GRM4,0,OR6Q1,0,0.97,Pathway,Signaling by GPCR
+GRM4,0,FCER2,0,0.97,Pathway,Signaling Pathways
+GRM4,0,OR9I1,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR9I1,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR9I1,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,PLCB4,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,PLCB4,0,0.969,Pathway,Signaling Pathways
+GRM4,0,PLCB4,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR4E2,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR4E2,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR4E2,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR8H2,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR8H2,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR8H2,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR2C3,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR2C3,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR2C3,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,TRRAP,1,0.969,Pathway,Signaling Pathways
+GRM4,0,OR52H1,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR52H1,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR52H1,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR4X2,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR4X2,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR4X2,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR5M9,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR5M9,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR5M9,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR52K2,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR52K2,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR52K2,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR8J3,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR8J3,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR8J3,0,0.969,Pathway,Signaling by GPCR
+GRM4,0,OR4D9,0,0.969,Pathway,GPCR downstream signaling
+GRM4,0,OR4D9,0,0.969,Pathway,Signaling Pathways
+GRM4,0,OR4D9,0,0.969,Pathway,Signaling by GPCR

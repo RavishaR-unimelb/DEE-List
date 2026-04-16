@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+AP3B2,0,BRCA1,0,0.94,Pathway,ATM Signaling Pathway
+AP3B2,0,TP53BP1,0,0.939,Pathway,ATM Signaling Pathway
+AP3B2,0,MDM4,0,0.938,Pathway,ATM Signaling Pathway
+AP3B2,0,SMC1A,0,0.936,Pathway,ATM Signaling Pathway
+AP3B2,0,FANCD2,0,0.936,Pathway,ATM Signaling Pathway
+AP3B2,0,CDC25C,0,0.935,Pathway,ATM Signaling Pathway
+AP3B2,0,CDK1,0,0.935,Pathway,ATM Signaling Pathway
+AP3B2,0,CRADD,0,0.934,Pathway,ATM Signaling Pathway
+AP3B2,0,CCNB1,0,0.934,Pathway,ATM Signaling Pathway
+AP3B2,0,RAD9A,0,0.934,Pathway,ATM Signaling Pathway
+AP3B2,0,CDC25A,0,0.933,Pathway,ATM Signaling Pathway
+AP3B2,0,IKBKG,0,0.93,Pathway,ATM Signaling Pathway
+AP3B2,0,JUN,0,0.928,Pathway,ATM Signaling Pathway
+AP3B2,0,TP53,0,0.928,Pathway,ATM Signaling Pathway
+AP3B2,0,MDC1,0,0.928,Pathway,ATM Signaling Pathway
+AP3B2,0,CHEK2,0,0.928,Pathway,ATM Signaling Pathway
+AP3B2,0,GADD45A,0,0.927,Pathway,ATM Signaling Pathway
+AP3B2,0,CCNE1,0,0.927,Pathway,ATM Signaling Pathway
+AP3B2,0,TLK1,0,0.926,Pathway,ATM Signaling Pathway
+AP3B2,0,TP73,0,0.926,Pathway,ATM Signaling Pathway

@@ -1,0 +1,24 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+MAP1B,0,GRIN2B,1,0.935,Pathway,Reelin signaling pathway
+MAP1B,0,RELN,0,0.931,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,RELN,0,0.931,Pathway,Reelin signaling pathway
+MAP1B,0,TRIO,1,0.93,Pathway,Netrin-mediated signaling events
+MAP1B,0,PPP2R5D,1,0.93,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,DCX,0,0.929,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,AKT1,1,0.927,Pathway,Reelin signaling pathway
+MAP1B,0,GRIN2A,1,0.926,Pathway,Reelin signaling pathway
+MAP1B,0,DAB1,0,0.925,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,DAB1,0,0.925,Pathway,Reelin signaling pathway
+MAP1B,0,PAFAH1B3,0,0.924,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,CDK5R2,0,0.924,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,CRKL,0,0.923,Pathway,Reelin signaling pathway
+MAP1B,0,AGAP2,0,0.92,Pathway,Netrin-mediated signaling events
+MAP1B,0,DYNLT1,0,0.919,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,PIK3CA,0,0.919,Pathway,Netrin-mediated signaling events
+MAP1B,0,PIK3CA,0,0.919,Pathway,Reelin signaling pathway
+MAP1B,0,ABL1,0,0.918,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,DAPK1,0,0.917,Pathway,Netrin-mediated signaling events
+MAP1B,0,DYNC1H1,1,0.917,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,KATNA1,0,0.917,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development
+MAP1B,0,PAK1,1,0.916,Pathway,Netrin-mediated signaling events
+MAP1B,0,CALM1,0,0.915,Pathway,Lissencephaly gene (LIS1) in neuronal migration and development

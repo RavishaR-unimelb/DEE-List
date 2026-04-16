@@ -1,0 +1,44 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBA1A,0,RAD51C,0,0.952,Pathway,Cell Cycle
+TUBA1A,0,ACE2,0,0.952,Pathway,Metabolism of proteins
+TUBA1A,0,POM121,0,0.95,Pathway,Cell Cycle
+TUBA1A,0,POM121,0,0.95,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,SNCAIP,0,0.949,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBA1A,0,FBXW5,0,0.949,Pathway,Chaperonin-mediated protein folding
+TUBA1A,0,FBXW5,0,0.949,Pathway,Metabolism of proteins
+TUBA1A,0,FBXW5,0,0.949,Pathway,Protein folding
+TUBA1A,0,CCNB2,0,0.949,Pathway,Cell Cycle
+TUBA1A,0,CCNB2,0,0.949,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,CCNB2,0,0.949,Pathway,G2/M Transition
+TUBA1A,0,CCNB2,0,0.949,Pathway,Mitotic G2-G2/M phases
+TUBA1A,0,CCNB2,0,0.949,Pathway,Regulation of PLK1 Activity at G2/M Transition
+TUBA1A,0,CHCHD4,0,0.949,Pathway,Metabolism of proteins
+TUBA1A,0,STAG3,0,0.949,Pathway,Cell Cycle
+TUBA1A,0,AURKB,0,0.949,Pathway,Cell Cycle
+TUBA1A,0,AURKB,0,0.949,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,RNF43,0,0.948,Pathway,p73 transcription factor network
+TUBA1A,0,RAB8A,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,RAB8A,0,0.948,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,RAB8A,0,0.948,Pathway,G2/M Transition
+TUBA1A,0,RAB8A,0,0.948,Pathway,Mitotic G2-G2/M phases
+TUBA1A,0,RAB8A,0,0.948,Pathway,Regulation of PLK1 Activity at G2/M Transition
+TUBA1A,0,MCM4,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,MCM4,0,0.948,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,SYCE1,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,TSHB,0,0.948,Pathway,Metabolism of proteins
+TUBA1A,0,VRK2,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,VRK2,0,0.948,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,NDE1,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,NDE1,0,0.948,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,NDE1,0,0.948,Pathway,Centrosome maturation
+TUBA1A,0,NDE1,0,0.948,Pathway,G2/M Transition
+TUBA1A,0,NDE1,0,0.948,Pathway,Loss of Nlp from mitotic centrosomes
+TUBA1A,0,NDE1,0,0.948,Pathway,Mitotic G2-G2/M phases
+TUBA1A,0,NDE1,0,0.948,Pathway,Regulation of PLK1 Activity at G2/M Transition
+TUBA1A,0,UBE4B,0,0.948,Pathway,p73 transcription factor network
+TUBA1A,0,RAD1,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,RBBP4,0,0.948,Pathway,Cell Cycle
+TUBA1A,0,RBBP4,0,0.948,Pathway,"Cell Cycle, Mitotic"
+TUBA1A,0,RBBP4,0,0.948,Pathway,G2/M Transition
+TUBA1A,0,RBBP4,0,0.948,Pathway,Mitotic G2-G2/M phases
+TUBA1A,0,SMC1B,0,0.948,Pathway,Cell Cycle

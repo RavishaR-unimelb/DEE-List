@@ -1,0 +1,26 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+MYO5A,0,UBA5,0,0.976,Pathway,Immune System
+MYO5A,0,MEF2C,1,0.976,Pathway,Immune System
+MYO5A,0,MEF2C,1,0.976,Pathway,Innate Immune System
+MYO5A,0,UBR4,0,0.976,Pathway,Immune System
+MYO5A,0,TRIP12,1,0.976,Pathway,Immune System
+MYO5A,0,GOSR2,0,0.975,Pathway,Metabolism of proteins
+MYO5A,0,UBE2A,0,0.975,Pathway,Immune System
+MYO5A,0,NUP98,0,0.975,Pathway,Immune System
+MYO5A,0,TSC2,0,0.975,Pathway,Immune System
+MYO5A,0,TSC2,0,0.975,Pathway,Innate Immune System
+MYO5A,0,RAB11A,1,0.975,Pathway,Membrane Trafficking
+MYO5A,0,RAB11A,1,0.975,Pathway,Translocation of GLUT4 to the plasma membrane
+MYO5A,0,CRKL,0,0.975,Pathway,Immune System
+MYO5A,0,SEC31A,0,0.975,Pathway,Immune System
+MYO5A,0,SEC31A,0,0.975,Pathway,Membrane Trafficking
+MYO5A,0,SEC31A,0,0.975,Pathway,Metabolism of proteins
+MYO5A,0,NEDD4L,0,0.975,Pathway,Immune System
+MYO5A,0,GBF1,0,0.974,Pathway,Membrane Trafficking
+MYO5A,0,WWP1,0,0.974,Pathway,Immune System
+MYO5A,0,DYNC1H1,1,0.974,Pathway,Immune System
+MYO5A,0,NAPA,0,0.974,Pathway,Membrane Trafficking
+MYO5A,0,TUBB2B,0,0.974,Pathway,Metabolism of proteins
+MYO5A,0,CD3D,0,0.974,Pathway,Immune System
+MYO5A,0,EIF2B4,0,0.974,Pathway,Metabolism of proteins
+MYO5A,0,RPL35,0,0.974,Pathway,Metabolism of proteins

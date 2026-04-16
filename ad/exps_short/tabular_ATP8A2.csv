@@ -1,0 +1,32 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ATP8A2,0,LCN9,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,ATP2B1,1,0.96,Pathway,Ion channel transport
+ATP8A2,0,ATP2B1,1,0.96,Pathway,Ion transport by P-type ATPases
+ATP8A2,0,ATP2B1,1,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC30A3,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,ATP9B,0,0.96,Pathway,Ion channel transport
+ATP8A2,0,ATP9B,0,0.96,Pathway,Ion transport by P-type ATPases
+ATP8A2,0,ATP9B,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC34A2,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,LCN15,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC9A2,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC34A1,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,AQP6,0,0.96,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,ATP11B,0,0.959,Pathway,Ion channel transport
+ATP8A2,0,ATP11B,0,0.959,Pathway,Ion transport by P-type ATPases
+ATP8A2,0,ATP11B,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC30A2,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,PEX3,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,ATP6V1C1,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,TRPV6,0,0.959,Pathway,Ion channel transport
+ATP8A2,0,TRPV6,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,PLN,0,0.959,Pathway,Ion channel transport
+ATP8A2,0,PLN,0,0.959,Pathway,Ion transport by P-type ATPases
+ATP8A2,0,PLN,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,ATP2B2,0,0.959,Pathway,Ion channel transport
+ATP8A2,0,ATP2B2,0,0.959,Pathway,Ion transport by P-type ATPases
+ATP8A2,0,ATP2B2,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC22A3,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,FABP6,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC24A3,0,0.959,Pathway,Transmembrane transport of small molecules
+ATP8A2,0,SLC6A19,0,0.959,Pathway,Transmembrane transport of small molecules

@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DOCK4,0,EP300,0,0.959,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK4,0,EP300,0,0.959,Pathway,Hemostasis
+DOCK4,0,PHF21A,1,0.958,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK4,0,PHF21A,1,0.958,Pathway,Hemostasis
+DOCK4,0,ABL1,0,0.956,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK4,0,ABL1,0,0.956,Pathway,Hemostasis
+DOCK4,0,ABL1,0,0.956,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,PPP2R1A,1,0.954,Pathway,Hemostasis
+DOCK4,0,PPP2R1A,1,0.954,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,AKT1,1,0.949,Pathway,Hemostasis
+DOCK4,0,SPARC,0,0.949,Pathway,Hemostasis
+DOCK4,0,BRAF,1,0.949,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,HDAC2,0,0.949,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK4,0,HDAC2,0,0.949,Pathway,Hemostasis
+DOCK4,0,ATP1B2,0,0.949,Pathway,Hemostasis
+DOCK4,0,KCNMB4,0,0.948,Pathway,Hemostasis
+DOCK4,0,PPP2R5D,1,0.948,Pathway,Hemostasis
+DOCK4,0,MYOCD,0,0.948,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,CREBBP,1,0.948,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK4,0,CREBBP,1,0.948,Pathway,Hemostasis
+DOCK4,0,NCKAP1,0,0.948,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,NRAS,1,0.948,Pathway,Hemostasis
+DOCK4,0,NRAS,1,0.948,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,GNB1,1,0.948,Pathway,Hemostasis
+DOCK4,0,CFL1,0,0.947,Pathway,Hemostasis
+DOCK4,0,MAP2K1,1,0.947,Pathway,PDGFR-beta signaling pathway
+DOCK4,0,RHOB,0,0.947,Pathway,Hemostasis
+DOCK4,0,JUN,0,0.947,Pathway,PDGFR-beta signaling pathway

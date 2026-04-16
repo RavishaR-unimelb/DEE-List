@@ -1,0 +1,46 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DAGLA,0,PHF21A,1,0.96,Pathway,Hemostasis
+DAGLA,0,TSC2,0,0.959,Pathway,Signaling Pathways
+DAGLA,0,MEF2C,1,0.959,Pathway,Signaling Pathways
+DAGLA,0,NTRK2,1,0.959,Pathway,Signaling Pathways
+DAGLA,0,TBL1XR1,1,0.959,Pathway,Signaling Pathways
+DAGLA,0,TRIO,1,0.958,Pathway,G alpha (q) signalling events
+DAGLA,0,TRIO,1,0.958,Pathway,GPCR downstream signaling
+DAGLA,0,TRIO,1,0.958,Pathway,Gastrin-CREB signalling pathway via PKC and MAPK
+DAGLA,0,TRIO,1,0.958,Pathway,Signaling Pathways
+DAGLA,0,TRIO,1,0.958,Pathway,Signaling by GPCR
+DAGLA,0,BRAF,1,0.958,Pathway,Signaling Pathways
+DAGLA,0,NEDD4L,0,0.957,Pathway,Signaling Pathways
+DAGLA,0,TLE1,0,0.957,Pathway,Signaling Pathways
+DAGLA,0,SMARCA4,1,0.956,Pathway,Signaling Pathways
+DAGLA,0,OR52K2,0,0.956,Pathway,GPCR downstream signaling
+DAGLA,0,OR52K2,0,0.956,Pathway,Signaling Pathways
+DAGLA,0,OR52K2,0,0.956,Pathway,Signaling by GPCR
+DAGLA,0,OR52A5,0,0.956,Pathway,GPCR downstream signaling
+DAGLA,0,OR52A5,0,0.956,Pathway,Signaling Pathways
+DAGLA,0,OR52A5,0,0.956,Pathway,Signaling by GPCR
+DAGLA,0,ATP6V0A4,0,0.956,Pathway,Signaling Pathways
+DAGLA,0,TAS2R50,0,0.956,Pathway,GPCR downstream signaling
+DAGLA,0,TAS2R50,0,0.956,Pathway,Signaling Pathways
+DAGLA,0,TAS2R50,0,0.956,Pathway,Signaling by GPCR
+DAGLA,0,OR6K3,0,0.955,Pathway,GPCR downstream signaling
+DAGLA,0,OR6K3,0,0.955,Pathway,Signaling Pathways
+DAGLA,0,OR6K3,0,0.955,Pathway,Signaling by GPCR
+DAGLA,0,CDC42,0,0.955,Pathway,GPCR downstream signaling
+DAGLA,0,CDC42,0,0.955,Pathway,Hemostasis
+DAGLA,0,CDC42,0,0.955,Pathway,N-cadherin signaling events
+DAGLA,0,CDC42,0,0.955,Pathway,"Platelet activation, signaling and aggregation"
+DAGLA,0,CDC42,0,0.955,Pathway,Signaling Pathways
+DAGLA,0,CDC42,0,0.955,Pathway,Signaling by GPCR
+DAGLA,0,TAAR9,0,0.955,Pathway,GPCR downstream signaling
+DAGLA,0,TAAR9,0,0.955,Pathway,Signaling Pathways
+DAGLA,0,TAAR9,0,0.955,Pathway,Signaling by GPCR
+DAGLA,0,OR8J3,0,0.955,Pathway,GPCR downstream signaling
+DAGLA,0,OR8J3,0,0.955,Pathway,Signaling Pathways
+DAGLA,0,OR8J3,0,0.955,Pathway,Signaling by GPCR
+DAGLA,0,TAAR6,0,0.955,Pathway,GPCR downstream signaling
+DAGLA,0,TAAR6,0,0.955,Pathway,Signaling Pathways
+DAGLA,0,TAAR6,0,0.955,Pathway,Signaling by GPCR
+DAGLA,0,OR51B6,0,0.954,Pathway,GPCR downstream signaling
+DAGLA,0,OR51B6,0,0.954,Pathway,Signaling Pathways
+DAGLA,0,OR51B6,0,0.954,Pathway,Signaling by GPCR

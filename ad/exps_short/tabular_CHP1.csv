@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CHP1,0,CUX1,0,0.973,Pathway,Disease
+CHP1,0,USP34,0,0.973,Pathway,Disease
+CHP1,0,NUP98,0,0.972,Pathway,Carbohydrate metabolism
+CHP1,0,NUP98,0,0.972,Pathway,Disease
+CHP1,0,NUP98,0,0.972,Pathway,Metabolism
+CHP1,0,SUPT5H,0,0.972,Pathway,Disease
+CHP1,0,IPO5,0,0.972,Pathway,Disease
+CHP1,0,TSC2,0,0.972,Pathway,Disease
+CHP1,0,SMARCA4,1,0.971,Pathway,Disease
+CHP1,0,CUL1,0,0.971,Pathway,Disease
+CHP1,0,ERBB4,0,0.971,Pathway,Disease
+CHP1,0,NEDD4L,0,0.971,Pathway,Disease
+CHP1,0,NCOR1,0,0.971,Pathway,Disease
+CHP1,0,NCOR1,0,0.971,Pathway,Metabolism
+CHP1,0,HDAC10,0,0.971,Pathway,Disease
+CHP1,0,PLCB4,0,0.97,Pathway,Metabolism
+CHP1,0,PLCB4,0,0.97,Pathway,Alzheimers Disease
+CHP1,0,TBL1XR1,1,0.97,Pathway,Disease
+CHP1,0,TBL1XR1,1,0.97,Pathway,Metabolism
+CHP1,0,CDK9,0,0.97,Pathway,Disease
+CHP1,0,RPL35,0,0.97,Pathway,Disease
+CHP1,0,CCNT1,0,0.97,Pathway,Disease
+CHP1,0,TLE1,0,0.97,Pathway,Disease
+CHP1,0,SLC23A1,0,0.97,Pathway,Disease
+CHP1,0,SLC23A1,0,0.97,Pathway,Metabolism
+CHP1,0,SKI,0,0.97,Pathway,Disease

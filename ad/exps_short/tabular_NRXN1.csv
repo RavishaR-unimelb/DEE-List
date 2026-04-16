@@ -1,0 +1,24 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NRXN1,0,ITGB6,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,LOXL4,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,LAMB3,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,LAMB3,0,0.952,Pathway,Non-integrin membrane-ECM interactions
+NRXN1,0,LOXL3,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,ICAM4,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,PLOD2,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,LOXL2,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,FN1,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,ITGAL,0,0.952,Pathway,Extracellular matrix organization
+NRXN1,0,ITGA9,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,ITGB4,1,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,ITGB4,1,0.951,Pathway,Non-integrin membrane-ECM interactions
+NRXN1,0,MATN3,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,COL4A2,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,ICAM1,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,MMP25,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,MMP15,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,CDH1,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,ITGB5,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,ITGB5,0,0.951,Pathway,Non-integrin membrane-ECM interactions
+NRXN1,0,MMP17,0,0.951,Pathway,Extracellular matrix organization
+NRXN1,0,CEACAM6,0,0.951,Pathway,Extracellular matrix organization

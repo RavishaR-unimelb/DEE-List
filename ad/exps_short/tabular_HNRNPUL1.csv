@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+HNRNPUL1,0,NUP98,0,0.943,Pathway,Gene Expression
+HNRNPUL1,0,NUP98,0,0.943,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,HNRNPU,1,0.943,Pathway,mRNA Splicing
+HNRNPUL1,0,HNRNPU,1,0.943,Pathway,Gene Expression
+HNRNPUL1,0,HNRNPU,1,0.943,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,NR2E1,0,0.943,Pathway,Gene Expression
+HNRNPUL1,0,CREBBP,1,0.943,Pathway,Gene Expression
+HNRNPUL1,0,CHD4,1,0.943,Pathway,Gene Expression
+HNRNPUL1,0,SUPT5H,0,0.942,Pathway,Gene Expression
+HNRNPUL1,0,EFTUD2,1,0.942,Pathway,mRNA Splicing
+HNRNPUL1,0,EFTUD2,1,0.942,Pathway,Gene Expression
+HNRNPUL1,0,EFTUD2,1,0.942,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,RANBP2,1,0.942,Pathway,Gene Expression
+HNRNPUL1,0,RANBP2,1,0.942,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,NFIX,0,0.942,Pathway,Gene Expression
+HNRNPUL1,0,EEF1A2,1,0.942,Pathway,Gene Expression
+HNRNPUL1,0,HNRNPM,0,0.941,Pathway,mRNA Splicing
+HNRNPUL1,0,HNRNPM,0,0.941,Pathway,Gene Expression
+HNRNPUL1,0,HNRNPM,0,0.941,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,SRSF3,0,0.941,Pathway,mRNA Splicing
+HNRNPUL1,0,SRSF3,0,0.941,Pathway,Gene Expression
+HNRNPUL1,0,SRSF3,0,0.941,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,GATAD2B,1,0.941,Pathway,Gene Expression
+HNRNPUL1,0,NR3C2,0,0.941,Pathway,Gene Expression
+HNRNPUL1,0,PRPF6,0,0.941,Pathway,mRNA Splicing
+HNRNPUL1,0,PRPF6,0,0.941,Pathway,Gene Expression
+HNRNPUL1,0,PRPF6,0,0.941,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPUL1,0,RORB,1,0.941,Pathway,Gene Expression
+HNRNPUL1,0,CHD3,1,0.94,Pathway,Gene Expression
+HNRNPUL1,0,AKT1,1,0.94,Pathway,Gene Expression
+HNRNPUL1,0,TNPO1,0,0.94,Pathway,Gene Expression
+HNRNPUL1,0,HDAC2,0,0.938,Pathway,Gene Expression

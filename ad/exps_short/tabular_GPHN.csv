@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+GPHN,0,TBL1XR1,1,0.957,Pathway,Disease
+GPHN,0,TBL1XR1,1,0.957,Pathway,Metabolism
+GPHN,0,MED18,0,0.956,Pathway,Metabolism
+GPHN,0,ADCY1,0,0.951,Pathway,Disease
+GPHN,0,ADCY1,0,0.951,Pathway,Metabolism
+GPHN,0,BRAF,1,0.95,Pathway,Disease
+GPHN,0,CDK9,0,0.95,Pathway,Disease
+GPHN,0,EP300,0,0.95,Pathway,Disease
+GPHN,0,EP300,0,0.95,Pathway,Metabolism
+GPHN,0,TRRAP,1,0.949,Pathway,Disease
+GPHN,0,ZMYM2,0,0.949,Pathway,Disease
+GPHN,0,SUPT5H,0,0.949,Pathway,Disease
+GPHN,0,RANBP2,1,0.949,Pathway,Disease
+GPHN,0,RANBP2,1,0.949,Pathway,Metabolism
+GPHN,0,CREBBP,1,0.949,Pathway,Disease
+GPHN,0,CREBBP,1,0.949,Pathway,Metabolism
+GPHN,0,TSC2,0,0.949,Pathway,Disease
+GPHN,0,GNAT1,0,0.949,Pathway,Disease
+GPHN,0,STX1B,1,0.949,Pathway,Disease
+GPHN,0,STXBP1,1,0.948,Pathway,Metabolism
+GPHN,0,CACNA1A,1,0.948,Pathway,Metabolism
+GPHN,0,GNAQ,0,0.948,Pathway,Metabolism
+GPHN,0,USP34,0,0.946,Pathway,Disease
+GPHN,0,CHD9,0,0.946,Pathway,Metabolism
+GPHN,0,NUP98,0,0.946,Pathway,Disease
+GPHN,0,NUP98,0,0.946,Pathway,Metabolism

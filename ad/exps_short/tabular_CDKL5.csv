@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CDKL5,0,GABRB3,1,0.929,Pathway,BDNF signaling pathway
+CDKL5,0,GRIN2B,1,0.927,Pathway,BDNF signaling pathway
+CDKL5,0,APC,0,0.914,Pathway,BDNF signaling pathway
+CDKL5,0,RAB3A,0,0.913,Pathway,BDNF signaling pathway
+CDKL5,0,GRIA2,1,0.911,Pathway,BDNF signaling pathway
+CDKL5,0,KCNN2,1,0.911,Pathway,BDNF signaling pathway
+CDKL5,0,AKT1,1,0.908,Pathway,BDNF signaling pathway
+CDKL5,0,GRIN1,1,0.908,Pathway,BDNF signaling pathway
+CDKL5,0,TSC2,0,0.908,Pathway,BDNF signaling pathway
+CDKL5,0,DOCK3,0,0.907,Pathway,BDNF signaling pathway
+CDKL5,0,MEF2C,1,0.907,Pathway,BDNF signaling pathway
+CDKL5,0,NSF,1,0.907,Pathway,BDNF signaling pathway
+CDKL5,0,NTRK2,1,0.906,Pathway,BDNF signaling pathway
+CDKL5,0,CSNK2A1,1,0.905,Pathway,BDNF signaling pathway
+CDKL5,0,MAP2K1,1,0.905,Pathway,BDNF signaling pathway
+CDKL5,0,GRIA3,0,0.905,Pathway,BDNF signaling pathway
+CDKL5,0,CNR1,0,0.905,Pathway,BDNF signaling pathway
+CDKL5,0,GRIA1,1,0.904,Pathway,BDNF signaling pathway
+CDKL5,0,MARCKS,0,0.904,Pathway,BDNF signaling pathway
+CDKL5,0,JUN,0,0.903,Pathway,BDNF signaling pathway

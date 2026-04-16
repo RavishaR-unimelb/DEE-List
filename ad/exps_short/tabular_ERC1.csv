@@ -1,0 +1,23 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ERC1,0,JUN,0,0.942,Pathway,IL1-mediated signaling events
+ERC1,0,BCL10,0,0.94,Pathway,Canonical NF-kappaB pathway
+ERC1,0,MAP3K3,0,0.94,Pathway,IL1-mediated signaling events
+ERC1,0,IL1R2,0,0.938,Pathway,IL1-mediated signaling events
+ERC1,0,TICAM2,0,0.938,Pathway,IL1-mediated signaling events
+ERC1,0,TNFRSF1A,0,0.935,Pathway,Canonical NF-kappaB pathway
+ERC1,0,TNFAIP3,0,0.935,Pathway,Canonical NF-kappaB pathway
+ERC1,0,TRAF6,0,0.934,Pathway,Canonical NF-kappaB pathway
+ERC1,0,TRAF6,0,0.934,Pathway,IL1-mediated signaling events
+ERC1,0,IL1R1,0,0.933,Pathway,IL1-mediated signaling events
+ERC1,0,MALT1,0,0.933,Pathway,Canonical NF-kappaB pathway
+ERC1,0,IL1A,0,0.933,Pathway,IL1-mediated signaling events
+ERC1,0,IL1RN,0,0.933,Pathway,IL1-mediated signaling events
+ERC1,0,BIRC2,0,0.932,Pathway,Canonical NF-kappaB pathway
+ERC1,0,PRKCI,0,0.932,Pathway,IL1-mediated signaling events
+ERC1,0,IKBKG,0,0.931,Pathway,Canonical NF-kappaB pathway
+ERC1,0,IKBKG,0,0.931,Pathway,IL1-mediated signaling events
+ERC1,0,PIK3CA,0,0.931,Pathway,IL1-mediated signaling events
+ERC1,0,UBE2N,0,0.931,Pathway,IL1-mediated signaling events
+ERC1,0,NOD2,0,0.93,Pathway,Canonical NF-kappaB pathway
+ERC1,0,ATM,0,0.929,Pathway,Canonical NF-kappaB pathway
+ERC1,0,IRAK3,0,0.929,Pathway,IL1-mediated signaling events

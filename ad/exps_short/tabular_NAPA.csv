@@ -1,0 +1,28 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NAPA,0,STXBP1,1,0.94,Pathway,Synaptic Vesicle Pathway
+NAPA,0,CACNA1A,1,0.923,Pathway,Synaptic Vesicle Pathway
+NAPA,0,SYN2,0,0.917,Pathway,Synaptic Vesicle Pathway
+NAPA,0,SNAP25,1,0.91,Pathway,Synaptic Vesicle Pathway
+NAPA,0,CPLX3,0,0.908,Pathway,Synaptic Vesicle Pathway
+NAPA,0,STX1B,1,0.907,Pathway,Synaptic Vesicle Pathway
+NAPA,0,CPLX1,0,0.905,Pathway,Synaptic Vesicle Pathway
+NAPA,0,CPLX2,0,0.904,Pathway,Synaptic Vesicle Pathway
+NAPA,0,SYP,0,0.903,Pathway,Synaptic Vesicle Pathway
+NAPA,0,CLN8,0,0.902,Pathway,Synaptic Vesicle Pathway
+NAPA,0,ATP1A2,1,0.902,Pathway,Synaptic Vesicle Pathway
+NAPA,0,DNM1L,1,0.902,Pathway,Synaptic Vesicle Pathway
+NAPA,0,RAB14,0,0.9,Pathway,Membrane Trafficking
+NAPA,0,PUM1,1,0.898,Pathway,Clathrin derived vesicle budding
+NAPA,0,PUM1,1,0.898,Pathway,Golgi Associated Vesicle Biogenesis
+NAPA,0,PUM1,1,0.898,Pathway,Membrane Trafficking
+NAPA,0,GBF1,0,0.898,Pathway,Clathrin derived vesicle budding
+NAPA,0,GBF1,0,0.898,Pathway,Membrane Trafficking
+NAPA,0,STX2,0,0.898,Pathway,Synaptic Vesicle Pathway
+NAPA,0,NECAP1,0,0.898,Pathway,Clathrin derived vesicle budding
+NAPA,0,NECAP1,0,0.898,Pathway,Golgi Associated Vesicle Biogenesis
+NAPA,0,NECAP1,0,0.898,Pathway,Membrane Trafficking
+NAPA,0,DNAJC6,0,0.896,Pathway,Clathrin derived vesicle budding
+NAPA,0,DNAJC6,0,0.896,Pathway,Golgi Associated Vesicle Biogenesis
+NAPA,0,DNAJC6,0,0.896,Pathway,Membrane Trafficking
+NAPA,0,RAB10,0,0.895,Pathway,Membrane Trafficking
+NAPA,0,SYN1,0,0.895,Pathway,Synaptic Vesicle Pathway

@@ -1,0 +1,29 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ATP2B2,0,ADCY1,0,0.955,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,ADCY1,0,0.955,Pathway,Calcium Regulation in the Cardiac Cell
+ATP2B2,0,TUBB2A,1,0.952,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,DOCK2,0,0.951,Pathway,Hemostasis
+ATP2B2,0,NUP98,0,0.95,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,EP300,0,0.95,Pathway,Hemostasis
+ATP2B2,0,ATP6V0E1,0,0.949,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,WNK1,0,0.949,Pathway,Ion channel transport
+ATP2B2,0,WNK1,0,0.949,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,GABRB3,1,0.949,Pathway,Ion channel transport
+ATP2B2,0,GABRB3,1,0.949,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,TRPV1,0,0.949,Pathway,Ion channel transport
+ATP2B2,0,TRPV1,0,0.949,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,MCOLN2,0,0.949,Pathway,Ion channel transport
+ATP2B2,0,MCOLN2,0,0.949,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,IL2,0,0.948,Pathway,Hemostasis
+ATP2B2,0,KIF2A,1,0.948,Pathway,Hemostasis
+ATP2B2,0,SLC5A3,0,0.948,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,POM121,0,0.948,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,CD9,0,0.948,Pathway,Hemostasis
+ATP2B2,0,GABRB2,1,0.948,Pathway,Ion channel transport
+ATP2B2,0,GABRB2,1,0.948,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,PHF21A,1,0.948,Pathway,Hemostasis
+ATP2B2,0,CLCN6,0,0.947,Pathway,Ion channel transport
+ATP2B2,0,CLCN6,0,0.947,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,TRPM5,0,0.947,Pathway,Ion channel transport
+ATP2B2,0,TRPM5,0,0.947,Pathway,Transmembrane transport of small molecules
+ATP2B2,0,ATP6V0D1,0,0.947,Pathway,Transmembrane transport of small molecules

@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+IDS,0,HACL1,0,0.973,Pathway,Metabolism
+IDS,0,MED25,0,0.973,Pathway,Metabolism
+IDS,0,F11R,0,0.972,Pathway,Disease
+IDS,0,PDPR,0,0.972,Pathway,Metabolism
+IDS,0,DOCK2,0,0.972,Pathway,Disease
+IDS,0,MED31,0,0.972,Pathway,Metabolism
+IDS,0,PCCA,0,0.972,Pathway,Disease
+IDS,0,PCCA,0,0.972,Pathway,Metabolism
+IDS,0,SLC37A4,0,0.972,Pathway,Carbohydrate metabolism
+IDS,0,SLC37A4,0,0.972,Pathway,Disease
+IDS,0,SLC37A4,0,0.972,Pathway,Metabolism
+IDS,0,GLS,0,0.972,Pathway,Metabolism
+IDS,0,GRSF1,0,0.972,Pathway,Disease
+IDS,0,POLR2C,0,0.972,Pathway,Disease
+IDS,0,PDCD6IP,0,0.972,Pathway,Disease
+IDS,0,MED10,0,0.972,Pathway,Metabolism
+IDS,0,GLCE,0,0.972,Pathway,Carbohydrate metabolism
+IDS,0,GLCE,0,0.972,Pathway,Defective B3GAT3 causes JDSSDHD
+IDS,0,GLCE,0,0.972,Pathway,Disease
+IDS,0,GLCE,0,0.972,Pathway,Heparan sulfate/heparin (HS-GAG) metabolism
+IDS,0,GLCE,0,0.972,Pathway,Metabolism
+IDS,0,PSMB3,0,0.972,Pathway,Disease
+IDS,0,PSMB3,0,0.972,Pathway,Metabolism
+IDS,0,HYAL2,0,0.972,Pathway,Carbohydrate metabolism
+IDS,0,HYAL2,0,0.972,Pathway,Defective B3GAT3 causes JDSSDHD
+IDS,0,HYAL2,0,0.972,Pathway,Disease
+IDS,0,HYAL2,0,0.972,Pathway,Metabolism
+IDS,0,POLR2L,0,0.972,Pathway,Disease
+IDS,0,FPGS,0,0.972,Pathway,Disease
+IDS,0,FPGS,0,0.972,Pathway,Metabolism
+IDS,0,FZD6,0,0.972,Pathway,Disease
+IDS,0,COX7A2L,0,0.972,Pathway,Metabolism

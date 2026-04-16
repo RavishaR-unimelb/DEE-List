@@ -1,0 +1,25 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TNR,0,NCAM1,0,0.959,Pathway,ECM proteoglycans
+TNR,0,NCAM1,0,0.959,Pathway,Extracellular matrix organization
+TNR,0,CASK,0,0.954,Pathway,Extracellular matrix organization
+TNR,0,ITGB4,1,0.953,Pathway,Extracellular matrix organization
+TNR,0,ITGB4,1,0.953,Pathway,Focal Adhesion
+TNR,0,LTBP4,0,0.953,Pathway,Extracellular matrix organization
+TNR,0,DDR2,0,0.953,Pathway,Extracellular matrix organization
+TNR,0,TNK2,0,0.952,Pathway,Focal Adhesion
+TNR,0,DIAPH1,0,0.952,Pathway,Focal Adhesion
+TNR,0,MMP20,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,ERBB2,0,0.952,Pathway,Focal Adhesion
+TNR,0,BIRC2,0,0.952,Pathway,Focal Adhesion
+TNR,0,FN1,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,FN1,0,0.952,Pathway,Focal Adhesion
+TNR,0,BGN,0,0.952,Pathway,ECM proteoglycans
+TNR,0,BGN,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,DDR1,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,SRC,0,0.952,Pathway,Focal Adhesion
+TNR,0,TIMP1,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,COL23A1,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,FLT1,0,0.952,Pathway,Focal Adhesion
+TNR,0,THBS2,0,0.952,Pathway,Focal Adhesion
+TNR,0,LTBP3,0,0.952,Pathway,Extracellular matrix organization
+TNR,0,PAK4,0,0.952,Pathway,Focal Adhesion

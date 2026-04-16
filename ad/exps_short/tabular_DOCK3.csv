@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+DOCK3,0,KIF2A,1,0.962,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK3,0,KIF2A,1,0.962,Pathway,Hemostasis
+DOCK3,0,CAMK1,0,0.959,Pathway,BDNF signaling pathway
+DOCK3,0,GATA2,0,0.958,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK3,0,GATA2,0,0.958,Pathway,Hemostasis
+DOCK3,0,CRTC1,0,0.958,Pathway,BDNF signaling pathway
+DOCK3,0,CBX5,0,0.958,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK3,0,CBX5,0,0.958,Pathway,Hemostasis
+DOCK3,0,KCNMB4,0,0.958,Pathway,Hemostasis
+DOCK3,0,IFNB1,0,0.958,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK3,0,IFNB1,0,0.958,Pathway,Hemostasis
+DOCK3,0,JAM3,0,0.958,Pathway,Hemostasis
+DOCK3,0,JUN,0,0.958,Pathway,BDNF signaling pathway
+DOCK3,0,NTRK3,0,0.958,Pathway,BDNF signaling pathway
+DOCK3,0,C1QBP,0,0.958,Pathway,Hemostasis
+DOCK3,0,SORT1,0,0.958,Pathway,BDNF signaling pathway
+DOCK3,0,TRPC7,0,0.958,Pathway,Hemostasis
+DOCK3,0,IL2,0,0.958,Pathway,Hemostasis
+DOCK3,0,RPS6KB1,0,0.957,Pathway,BDNF signaling pathway
+DOCK3,0,CYFIP1,0,0.957,Pathway,BDNF signaling pathway
+DOCK3,0,NRAS,1,0.957,Pathway,Hemostasis
+DOCK3,0,KDM1A,0,0.957,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK3,0,KDM1A,0,0.957,Pathway,Hemostasis
+DOCK3,0,ANGPT1,0,0.957,Pathway,Hemostasis
+DOCK3,0,AK3,0,0.957,Pathway,Factors involved in megakaryocyte development and platelet production
+DOCK3,0,AK3,0,0.957,Pathway,Hemostasis

@@ -1,0 +1,35 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+HUWE1,0,SMYD2,0,0.958,Pathway,p53 pathway
+HUWE1,0,TSC2,0,0.958,Pathway,Adaptive Immune System
+HUWE1,0,TSC2,0,0.958,Pathway,Immune System
+HUWE1,0,UBA5,0,0.957,Pathway,Adaptive Immune System
+HUWE1,0,UBA5,0,0.957,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+HUWE1,0,UBA5,0,0.957,Pathway,Class I MHC mediated antigen processing & presentation
+HUWE1,0,UBA5,0,0.957,Pathway,Immune System
+HUWE1,0,DDX18,0,0.955,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,PDCD1LG2,0,0.952,Pathway,Adaptive Immune System
+HUWE1,0,PDCD1LG2,0,0.952,Pathway,Immune System
+HUWE1,0,E4F1,0,0.952,Pathway,p53 pathway
+HUWE1,0,NDUFAF2,0,0.952,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,PTMA,0,0.948,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,NCL,0,0.948,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,MYCT1,0,0.946,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,ADCY1,0,0.946,Pathway,Immune System
+HUWE1,0,MEF2C,1,0.944,Pathway,Immune System
+HUWE1,0,CDCA7,0,0.944,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,KIF2A,1,0.943,Pathway,Adaptive Immune System
+HUWE1,0,KIF2A,1,0.943,Pathway,Immune System
+HUWE1,0,NUP98,0,0.943,Pathway,Immune System
+HUWE1,0,BLNK,0,0.94,Pathway,Adaptive Immune System
+HUWE1,0,BLNK,0,0.94,Pathway,Immune System
+HUWE1,0,UBE2A,0,0.94,Pathway,Adaptive Immune System
+HUWE1,0,UBE2A,0,0.94,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+HUWE1,0,UBE2A,0,0.94,Pathway,Class I MHC mediated antigen processing & presentation
+HUWE1,0,UBE2A,0,0.94,Pathway,Immune System
+HUWE1,0,SUPT7L,0,0.94,Pathway,Validated targets of C-MYC transcriptional activation
+HUWE1,0,SEC13,0,0.939,Pathway,Adaptive Immune System
+HUWE1,0,SEC13,0,0.939,Pathway,Class I MHC mediated antigen processing & presentation
+HUWE1,0,SEC13,0,0.939,Pathway,Immune System
+HUWE1,0,EP300,0,0.939,Pathway,p53 pathway
+HUWE1,0,EP300,0,0.939,Pathway,Immune System
+HUWE1,0,EP300,0,0.939,Pathway,Validated targets of C-MYC transcriptional activation

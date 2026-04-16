@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ACTG1,0,MYOM1,0,0.974,Pathway,Striated Muscle Contraction
+ACTG1,0,ARPC5L,0,0.974,Pathway,Pathogenic Escherichia coli infection
+ACTG1,0,CTNNA3,0,0.973,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+ACTG1,0,KRT18,0,0.973,Pathway,Pathogenic Escherichia coli infection
+ACTG1,0,MYBPC2,0,0.973,Pathway,Striated Muscle Contraction
+ACTG1,0,MYBPC3,0,0.973,Pathway,Striated Muscle Contraction
+ACTG1,0,TUBA3E,0,0.972,Pathway,Pathogenic Escherichia coli infection
+ACTG1,0,MYBPC1,0,0.972,Pathway,Striated Muscle Contraction
+ACTG1,0,GUCA2B,0,0.972,Pathway,Myometrial Relaxation and Contraction Pathways
+ACTG1,0,TCAP,0,0.972,Pathway,Striated Muscle Contraction
+ACTG1,0,CACNG6,0,0.971,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+ACTG1,0,SGCG,0,0.971,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+ACTG1,0,DSC2,0,0.971,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+ACTG1,0,CACNG1,0,0.971,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+ACTG1,0,TPM2,0,0.971,Pathway,Striated Muscle Contraction
+ACTG1,0,NEB,0,0.971,Pathway,Striated Muscle Contraction
+ACTG1,0,TNNT1,0,0.971,Pathway,Striated Muscle Contraction
+ACTG1,0,TUBAL3,0,0.971,Pathway,Pathogenic Escherichia coli infection
+ACTG1,0,SGCB,0,0.971,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+ACTG1,0,CACNG5,0,0.97,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy

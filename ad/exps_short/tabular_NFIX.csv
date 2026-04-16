@@ -1,0 +1,31 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+NFIX,0,HNRNPUL1,0,0.959,Pathway,Gene Expression
+NFIX,0,HNRNPU,1,0.959,Pathway,Gene Expression
+NFIX,0,CHD4,1,0.958,Pathway,Gene Expression
+NFIX,0,CHD4,1,0.958,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+NFIX,0,CHD4,1,0.958,Pathway,Transcription
+NFIX,0,SUPT5H,0,0.958,Pathway,Gene Expression
+NFIX,0,SUPT5H,0,0.958,Pathway,Transcription
+NFIX,0,NR2E1,0,0.958,Pathway,Gene Expression
+NFIX,0,CHD3,1,0.958,Pathway,Gene Expression
+NFIX,0,CHD3,1,0.958,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+NFIX,0,CHD3,1,0.958,Pathway,Transcription
+NFIX,0,SMC1A,0,0.958,Pathway,Gene Expression
+NFIX,0,NUP98,0,0.958,Pathway,Gene Expression
+NFIX,0,GATAD2B,1,0.958,Pathway,Gene Expression
+NFIX,0,GATAD2B,1,0.958,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+NFIX,0,GATAD2B,1,0.958,Pathway,Transcription
+NFIX,0,SRSF9,0,0.957,Pathway,Gene Expression
+NFIX,0,SRSF9,0,0.957,Pathway,Transcription
+NFIX,0,SNRNP70,0,0.957,Pathway,Gene Expression
+NFIX,0,TBL1XR1,1,0.957,Pathway,Gene Expression
+NFIX,0,SF3B1,0,0.957,Pathway,Gene Expression
+NFIX,0,TNPO1,0,0.957,Pathway,Gene Expression
+NFIX,0,EEF1A2,1,0.956,Pathway,Gene Expression
+NFIX,0,EFTUD2,1,0.956,Pathway,Gene Expression
+NFIX,0,NEDD4L,0,0.956,Pathway,Gene Expression
+NFIX,0,USP9X,0,0.955,Pathway,Gene Expression
+NFIX,0,NR3C2,0,0.955,Pathway,Gene Expression
+NFIX,0,HDAC2,0,0.954,Pathway,Gene Expression
+NFIX,0,HDAC2,0,0.954,Pathway,"RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+NFIX,0,HDAC2,0,0.954,Pathway,Transcription

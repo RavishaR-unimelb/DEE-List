@@ -1,0 +1,40 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+HNRNPM,0,DHX8,0,0.963,Pathway,mRNA Processing
+HNRNPM,0,SRSF3,0,0.962,Pathway,mRNA Splicing
+HNRNPM,0,SRSF3,0,0.962,Pathway,Gene Expression
+HNRNPM,0,SRSF3,0,0.962,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,SRSF3,0,0.962,Pathway,mRNA Processing
+HNRNPM,0,CREBBP,1,0.961,Pathway,Gene Expression
+HNRNPM,0,EFTUD2,1,0.961,Pathway,mRNA Splicing
+HNRNPM,0,EFTUD2,1,0.961,Pathway,Gene Expression
+HNRNPM,0,EFTUD2,1,0.961,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,EFTUD2,1,0.961,Pathway,mRNA Processing
+HNRNPM,0,SRPK1,0,0.961,Pathway,mRNA Processing
+HNRNPM,0,AKT1,1,0.961,Pathway,Gene Expression
+HNRNPM,0,SMC1A,0,0.961,Pathway,mRNA Splicing
+HNRNPM,0,SMC1A,0,0.961,Pathway,Gene Expression
+HNRNPM,0,SMC1A,0,0.961,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,SMC1A,0,0.961,Pathway,mRNA Processing
+HNRNPM,0,ZNF713,0,0.961,Pathway,Gene Expression
+HNRNPM,0,HNRNPH2,0,0.961,Pathway,mRNA Splicing
+HNRNPM,0,HNRNPH2,0,0.961,Pathway,Gene Expression
+HNRNPM,0,HNRNPH2,0,0.961,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,HNRNPH2,0,0.961,Pathway,mRNA Processing
+HNRNPM,0,RPL13,0,0.961,Pathway,Gene Expression
+HNRNPM,0,EED,1,0.961,Pathway,Gene Expression
+HNRNPM,0,SRRM1,0,0.96,Pathway,mRNA Splicing
+HNRNPM,0,SRRM1,0,0.96,Pathway,Gene Expression
+HNRNPM,0,SRRM1,0,0.96,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,SRRM1,0,0.96,Pathway,mRNA Processing
+HNRNPM,0,NR1I3,0,0.96,Pathway,Gene Expression
+HNRNPM,0,ZNF92,0,0.96,Pathway,Gene Expression
+HNRNPM,0,GATAD2B,1,0.96,Pathway,Gene Expression
+HNRNPM,0,U2AF1,0,0.96,Pathway,mRNA Splicing
+HNRNPM,0,U2AF1,0,0.96,Pathway,Gene Expression
+HNRNPM,0,U2AF1,0,0.96,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,U2AF1,0,0.96,Pathway,mRNA Processing
+HNRNPM,0,TARBP2,0,0.96,Pathway,Gene Expression
+HNRNPM,0,RANBP2,1,0.96,Pathway,Gene Expression
+HNRNPM,0,RANBP2,1,0.96,Pathway,Processing of Capped Intron-Containing Pre-mRNA
+HNRNPM,0,ZNF557,0,0.959,Pathway,Gene Expression
+HNRNPM,0,TET2,0,0.959,Pathway,Gene Expression

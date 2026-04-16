@@ -1,0 +1,30 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CACNB2,0,MED18,0,0.951,Pathway,Developmental Biology
+CACNB2,0,MED18,0,0.951,Pathway,Metabolism
+CACNB2,0,MED15,0,0.951,Pathway,Developmental Biology
+CACNB2,0,MED15,0,0.951,Pathway,Metabolism
+CACNB2,0,EP300,0,0.951,Pathway,Developmental Biology
+CACNB2,0,EP300,0,0.951,Pathway,Metabolism
+CACNB2,0,PPOX,0,0.951,Pathway,Metabolism
+CACNB2,0,TCF3,0,0.951,Pathway,Developmental Biology
+CACNB2,0,BRIP1,0,0.951,Pathway,Metabolism
+CACNB2,0,MED25,0,0.951,Pathway,Developmental Biology
+CACNB2,0,MED25,0,0.951,Pathway,Metabolism
+CACNB2,0,ARPC1A,0,0.95,Pathway,Axon guidance
+CACNB2,0,ARPC1A,0,0.95,Pathway,Developmental Biology
+CACNB2,0,NUP98,0,0.95,Pathway,Metabolism
+CACNB2,0,TCF7L2,0,0.95,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNB2,0,DPYSL5,0,0.95,Pathway,Axon guidance
+CACNB2,0,DPYSL5,0,0.95,Pathway,Developmental Biology
+CACNB2,0,POLD1,0,0.95,Pathway,Metabolism
+CACNB2,0,DCX,0,0.95,Pathway,Axon guidance
+CACNB2,0,DCX,0,0.95,Pathway,Developmental Biology
+CACNB2,0,STARD6,0,0.95,Pathway,Metabolism
+CACNB2,0,TBL1XR1,1,0.95,Pathway,Developmental Biology
+CACNB2,0,TBL1XR1,1,0.95,Pathway,Metabolism
+CACNB2,0,BRAF,1,0.949,Pathway,Neuronal System
+CACNB2,0,BRAF,1,0.949,Pathway,Transmission across Chemical Synapses
+CACNB2,0,ITGA3,0,0.949,Pathway,Arrhythmogenic Right Ventricular Cardiomyopathy
+CACNB2,0,POM121,0,0.949,Pathway,Metabolism
+CACNB2,0,CEBPD,0,0.949,Pathway,Developmental Biology
+CACNB2,0,INPP5E,0,0.949,Pathway,Metabolism

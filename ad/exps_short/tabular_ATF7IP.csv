@@ -1,0 +1,21 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+MPST,0,CTH,0,0.351,Pathway,Trans-sulfuration pathway
+SYTL2,0,MADD,0,0.317,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+MSRB2,0,MSRA,0,0.315,Pathway,Sulindac Metabolic Pathway
+MSRB3,0,CYP1A2,0,0.311,Pathway,Sulindac Metabolic Pathway
+MSRB3,0,CYP1B1,0,0.309,Pathway,Sulindac Metabolic Pathway
+LIPA,0,CES2,0,0.307,Pathway,"Phase I biotransformations, non P450"
+CREB5,0,ITGAV,0,0.307,Pathway,MFAP5-mediated ovarian cancer cell motility and invasiveness
+LSP1,0,SFN,0,0.305,Pathway,p38 signaling mediated by MAPKAP kinases
+MPST,0,CSAD,0,0.304,Pathway,Trans-sulfuration pathway
+MSRB3,0,MSRA,0,0.301,Pathway,Sulindac Metabolic Pathway
+PON3,0,PON1,0,0.3,Pathway,"Phase I biotransformations, non P450"
+TBC1D10A,0,MYRIP,0,0.3,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+MPST,0,DNMT1,0,0.299,Pathway,Trans-sulfuration pathway
+SYTL4,0,MADD,0,0.298,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+PON3,0,CES5A,0,0.297,Pathway,"Phase I biotransformations, non P450"
+SYTL2,0,RPH3A,0,0.297,Pathway,Deregulation of Rab and Rab Effector Genes in Bladder Cancer
+LSP1,0,MAPK11,0,0.296,Pathway,p38 signaling mediated by MAPKAP kinases
+B3GALNT1,0,FUT9,0,0.292,Pathway,Globo Sphingolipid Metabolism
+B3GALNT1,0,ST3GAL2,0,0.29,Pathway,Globo Sphingolipid Metabolism
+LIPA,0,ESD,0,0.29,Pathway,"Phase I biotransformations, non P450"

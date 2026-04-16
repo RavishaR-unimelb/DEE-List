@@ -1,0 +1,43 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+UBA5,0,EP300,0,0.953,Pathway,Immune System
+UBA5,0,NUP98,0,0.953,Pathway,Immune System
+UBA5,0,PPP3CA,1,0.951,Pathway,Immune System
+UBA5,0,CREBBP,1,0.951,Pathway,Immune System
+UBA5,0,AKT1,1,0.951,Pathway,Adaptive Immune System
+UBA5,0,AKT1,1,0.951,Pathway,Immune System
+UBA5,0,KIF2A,1,0.951,Pathway,Adaptive Immune System
+UBA5,0,KIF2A,1,0.951,Pathway,Immune System
+UBA5,0,RANBP2,1,0.95,Pathway,Immune System
+UBA5,0,CRKL,0,0.95,Pathway,Immune System
+UBA5,0,PPP2R5D,1,0.95,Pathway,Adaptive Immune System
+UBA5,0,PPP2R5D,1,0.95,Pathway,Immune System
+UBA5,0,PPP2R1A,1,0.949,Pathway,Adaptive Immune System
+UBA5,0,PPP2R1A,1,0.949,Pathway,Immune System
+UBA5,0,KIF2B,0,0.947,Pathway,Adaptive Immune System
+UBA5,0,KIF2B,0,0.947,Pathway,Immune System
+UBA5,0,ADCY1,0,0.945,Pathway,Immune System
+UBA5,0,TSC2,0,0.945,Pathway,Adaptive Immune System
+UBA5,0,TSC2,0,0.945,Pathway,Immune System
+UBA5,0,CALR,0,0.943,Pathway,Adaptive Immune System
+UBA5,0,CALR,0,0.943,Pathway,Class I MHC mediated antigen processing & presentation
+UBA5,0,CALR,0,0.943,Pathway,Immune System
+UBA5,0,UBE2A,0,0.942,Pathway,Adaptive Immune System
+UBA5,0,UBE2A,0,0.942,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBA5,0,UBE2A,0,0.942,Pathway,Class I MHC mediated antigen processing & presentation
+UBA5,0,UBE2A,0,0.942,Pathway,Immune System
+UBA5,0,NRAS,1,0.942,Pathway,Adaptive Immune System
+UBA5,0,NRAS,1,0.942,Pathway,Immune System
+UBA5,0,WWP1,0,0.941,Pathway,Adaptive Immune System
+UBA5,0,WWP1,0,0.941,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBA5,0,WWP1,0,0.941,Pathway,Class I MHC mediated antigen processing & presentation
+UBA5,0,WWP1,0,0.941,Pathway,Immune System
+UBA5,0,TRIP12,1,0.941,Pathway,Adaptive Immune System
+UBA5,0,TRIP12,1,0.941,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBA5,0,TRIP12,1,0.941,Pathway,Class I MHC mediated antigen processing & presentation
+UBA5,0,TRIP12,1,0.941,Pathway,Immune System
+UBA5,0,CD3D,0,0.941,Pathway,Adaptive Immune System
+UBA5,0,CD3D,0,0.941,Pathway,Immune System
+UBA5,0,FZR1,1,0.941,Pathway,Adaptive Immune System
+UBA5,0,FZR1,1,0.941,Pathway,Antigen processing: Ubiquitination & Proteasome degradation
+UBA5,0,FZR1,1,0.941,Pathway,Class I MHC mediated antigen processing & presentation
+UBA5,0,FZR1,1,0.941,Pathway,Immune System

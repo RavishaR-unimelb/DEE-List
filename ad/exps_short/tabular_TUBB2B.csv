@@ -1,0 +1,46 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+TUBB2B,0,RANBP2,1,0.963,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,ATP2C1,0,0.963,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,GABRB3,1,0.963,Pathway,Orphan transporters
+TUBB2B,0,GABRB3,1,0.963,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,KIF13A,0,0.962,Pathway,Chaperonin-mediated protein folding
+TUBB2B,0,KIF13A,0,0.962,Pathway,Metabolism of proteins
+TUBB2B,0,KIF13A,0,0.962,Pathway,Protein folding
+TUBB2B,0,ADCY1,0,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,CREBBP,1,0.962,Pathway,Orphan transporters
+TUBB2B,0,CREBBP,1,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,NUP98,0,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,GABRB2,1,0.962,Pathway,Orphan transporters
+TUBB2B,0,GABRB2,1,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,WNK1,0,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,GABRG2,1,0.962,Pathway,Orphan transporters
+TUBB2B,0,GABRG2,1,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,GNB1,1,0.962,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,GNAS,0,0.961,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Chaperonin-mediated protein folding
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Formation of tubulin folding intermediates by CCT/TriC
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Metabolism of proteins
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Orphan transporters
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Post-chaperonin tubulin folding pathway
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Prefoldin mediated transfer of substrate to CCT/TriC
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Protein folding
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Pathogenic Escherichia coli infection
+TUBB2B,0,TUBB2A,1,0.961,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBB2B,0,KIF5B,0,0.96,Pathway,Metabolism of proteins
+TUBB2B,0,ATP2B3,0,0.96,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Chaperonin-mediated protein folding
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Formation of tubulin folding intermediates by CCT/TriC
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Metabolism of proteins
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Post-chaperonin tubulin folding pathway
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Prefoldin mediated transfer of substrate to CCT/TriC
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Protein folding
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Pathogenic Escherichia coli infection
+TUBB2B,0,TUBA1A,0,0.96,Pathway,Parkin-Ubiquitin Proteasomal System pathway
+TUBB2B,0,NEDD4L,0,0.96,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,COX18,0,0.96,Pathway,Orphan transporters
+TUBB2B,0,COX18,0,0.96,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,RYR2,0,0.959,Pathway,Transmembrane transport of small molecules
+TUBB2B,0,CASK,0,0.959,Pathway,Parkin-Ubiquitin Proteasomal System pathway

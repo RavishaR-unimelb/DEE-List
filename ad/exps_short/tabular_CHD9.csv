@@ -1,0 +1,33 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+CHD9,0,MED18,0,0.945,Pathway,Developmental Biology
+CHD9,0,MED18,0,0.945,Pathway,"Fatty acid, triacylglycerol, and ketone body metabolism"
+CHD9,0,MED18,0,0.945,Pathway,Metabolism
+CHD9,0,MED18,0,0.945,Pathway,Metabolism of lipids and lipoproteins
+CHD9,0,MED18,0,0.945,Pathway,PPARA activates gene expression
+CHD9,0,MED18,0,0.945,Pathway,Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)
+CHD9,0,MED18,0,0.945,Pathway,Transcriptional regulation of white adipocyte differentiation
+CHD9,0,STXBP1,1,0.939,Pathway,Metabolism
+CHD9,0,SCN1A,1,0.939,Pathway,Developmental Biology
+CHD9,0,GABRB2,1,0.939,Pathway,Orphan transporters
+CHD9,0,GABRB2,1,0.939,Pathway,Transmembrane transport of small molecules
+CHD9,0,HNRNPUL1,0,0.938,Pathway,Gene Expression
+CHD9,0,ATP2B4,0,0.938,Pathway,Transmembrane transport of small molecules
+CHD9,0,KCNQ3,1,0.938,Pathway,Developmental Biology
+CHD9,0,GABRB3,1,0.938,Pathway,Orphan transporters
+CHD9,0,GABRB3,1,0.938,Pathway,Transmembrane transport of small molecules
+CHD9,0,GRHPR,0,0.938,Pathway,Metabolism
+CHD9,0,HNRNPU,1,0.937,Pathway,Gene Expression
+CHD9,0,WNK1,0,0.937,Pathway,Transmembrane transport of small molecules
+CHD9,0,GRIN1,1,0.934,Pathway,Developmental Biology
+CHD9,0,CHD4,1,0.934,Pathway,Gene Expression
+CHD9,0,TCF3,0,0.932,Pathway,Developmental Biology
+CHD9,0,SNAP25,1,0.931,Pathway,Metabolism
+CHD9,0,MEF2C,1,0.93,Pathway,Circadian Clock
+CHD9,0,MEF2C,1,0.93,Pathway,Developmental Biology
+CHD9,0,MEF2C,1,0.93,Pathway,Mitochondrial biogenesis
+CHD9,0,MEF2C,1,0.93,Pathway,Organelle biogenesis and maintenance
+CHD9,0,MEF2C,1,0.93,Pathway,Transcriptional activation of mitochondrial biogenesis
+CHD9,0,SCN5A,0,0.929,Pathway,Developmental Biology
+CHD9,0,LYPLA1,0,0.928,Pathway,Metabolism
+CHD9,0,SUPT5H,0,0.928,Pathway,Gene Expression
+CHD9,0,HNRNPM,0,0.928,Pathway,Gene Expression

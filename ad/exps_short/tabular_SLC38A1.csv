@@ -1,0 +1,34 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+SLC38A1,0,NUP98,0,0.958,Pathway,SLC-mediated transmembrane transport
+SLC38A1,0,NUP98,0,0.958,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,NAPA,0,0.957,Pathway,Synaptic Vesicle Pathway
+SLC38A1,0,ATP2B4,0,0.956,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GABRB3,1,0.956,Pathway,Neuronal System
+SLC38A1,0,GABRB3,1,0.956,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GABRB3,1,0.956,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,CREBBP,1,0.956,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GABRB2,1,0.955,Pathway,Neuronal System
+SLC38A1,0,GABRB2,1,0.955,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GABRB2,1,0.955,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,GRIN2B,1,0.955,Pathway,Neuronal System
+SLC38A1,0,GRIN2B,1,0.955,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,SLC5A6,0,0.955,Pathway,SLC-mediated transmembrane transport
+SLC38A1,0,SLC5A6,0,0.955,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,TUBB2A,1,0.955,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,CACNG4,0,0.955,Pathway,Neuronal System
+SLC38A1,0,CACNG4,0,0.955,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,ADCY1,0,0.955,Pathway,Neuronal System
+SLC38A1,0,ADCY1,0,0.955,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,ADCY1,0,0.955,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,WNK1,0,0.954,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,KCNQ3,1,0.954,Pathway,Neuronal System
+SLC38A1,0,NEDD4L,0,0.954,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GNB1,1,0.954,Pathway,Neuronal System
+SLC38A1,0,GNB1,1,0.954,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GNB1,1,0.954,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,BRAF,1,0.954,Pathway,Neuronal System
+SLC38A1,0,BRAF,1,0.954,Pathway,Transmission across Chemical Synapses
+SLC38A1,0,RAB11A,1,0.954,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,GNAS,0,0.953,Pathway,Transmembrane transport of small molecules
+SLC38A1,0,KCNQ2,1,0.953,Pathway,Neuronal System
+SLC38A1,0,KCNMB4,0,0.953,Pathway,Neuronal System

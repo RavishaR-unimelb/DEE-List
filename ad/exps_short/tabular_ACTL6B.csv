@@ -1,0 +1,27 @@
+Sender,Sender Label,Receiver,Receiver Label,Importance,Edge Type,Pathways
+ACTL6B,0,ING4,0,0.951,Pathway,Chromatin modifying enzymes
+ACTL6B,0,KAT8,1,0.95,Pathway,Chromatin modifying enzymes
+ACTL6B,0,KDM5B,0,0.95,Pathway,Chromatin modifying enzymes
+ACTL6B,0,KDM3B,0,0.95,Pathway,Chromatin modifying enzymes
+ACTL6B,0,ARID1A,1,0.949,Pathway,Chromatin modifying enzymes
+ACTL6B,0,ARID1A,1,0.949,Pathway,RMTs methylate histone arginines
+ACTL6B,0,EP300,0,0.949,Pathway,Chromatin modifying enzymes
+ACTL6B,0,SMARCB1,1,0.949,Pathway,Chromatin modifying enzymes
+ACTL6B,0,SMARCB1,1,0.949,Pathway,RMTs methylate histone arginines
+ACTL6B,0,ARID1B,1,0.949,Pathway,Chromatin modifying enzymes
+ACTL6B,0,ARID1B,1,0.949,Pathway,RMTs methylate histone arginines
+ACTL6B,0,CHD4,1,0.949,Pathway,Chromatin modifying enzymes
+ACTL6B,0,SMARCC2,1,0.949,Pathway,Chromatin modifying enzymes
+ACTL6B,0,SMARCC2,1,0.949,Pathway,RMTs methylate histone arginines
+ACTL6B,0,CREBBP,1,0.948,Pathway,Chromatin modifying enzymes
+ACTL6B,0,KAT6B,0,0.948,Pathway,Chromatin modifying enzymes
+ACTL6B,0,CHD3,1,0.948,Pathway,Chromatin modifying enzymes
+ACTL6B,0,GATAD2B,1,0.947,Pathway,Chromatin modifying enzymes
+ACTL6B,0,KAT6A,1,0.947,Pathway,Chromatin modifying enzymes
+ACTL6B,0,KANSL1,1,0.947,Pathway,Chromatin modifying enzymes
+ACTL6B,0,PHF8,0,0.943,Pathway,Chromatin modifying enzymes
+ACTL6B,0,SMARCD2,0,0.943,Pathway,Chromatin modifying enzymes
+ACTL6B,0,SMARCD2,0,0.943,Pathway,RMTs methylate histone arginines
+ACTL6B,0,KDM4D,0,0.943,Pathway,Chromatin modifying enzymes
+ACTL6B,0,PRMT6,0,0.943,Pathway,Chromatin modifying enzymes
+ACTL6B,0,PRMT6,0,0.943,Pathway,RMTs methylate histone arginines
